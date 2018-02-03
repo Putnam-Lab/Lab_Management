@@ -7,3 +7,4 @@
 |        3        | Max Zavell | Biomineralization |  20170908  |          |                    |
 |        4        |            |                   |            |          |                    |
 |        5        |            |                   |            |          |                    |
+|        6        | Erin Chille|                   | 20170201   |          |                    |
