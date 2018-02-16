@@ -45,7 +45,7 @@ Virtual Output Settings  ![](https://github.com/Putnam-Lab/Lab_Management/blob/m
 
 # 7) Send configuration to apex unit
 
-Send info to device  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/7_Set_Statements_Outlet.jpg?raw=true =500x)
+Send info to device  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/8_Settings.jpg?raw=true =500x)
 
 # 8) Link the real outputs to the virtual outputs
 
@@ -53,7 +53,17 @@ Navigate back to Outputs
 
 Click on name of real outlet
 
+Output List  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/9_real_outlet.jpg?raw=true =500x)
 
+
+Add statements linking to virtual output names
+
+Send configuration info to apex
+
+Real to Virtual Link  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/10_real_to_virtual.jpg?raw=true =500x)
+
+
+#Example code for setting a dirunal temperature flucation using a heater and a chiller
 
 ### Real Outlet Chill1
 Set OFF
