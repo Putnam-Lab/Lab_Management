@@ -10,7 +10,7 @@ Main Page ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Ima
 
 # Choose the "Gears" icon to expand settings options
 
-# Choose the "Outlet" icon
+# Choose the "Output" icon
 
 Outputs  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/2_Dashboard_Options.jpg?raw=true)
 
@@ -18,7 +18,7 @@ Outputs  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Imag
 
 # Add Virtual Outlets
 
-# First, choose the "outlet" icon
+# First, choose the "Output" icon
 
 # Second Choose "Add a Virtual Output"
 
