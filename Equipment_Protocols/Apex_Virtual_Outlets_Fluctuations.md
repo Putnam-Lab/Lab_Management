@@ -2,7 +2,7 @@
 
 Navigate to Main Page
 
-Main Page ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/1_Apex_dashboard.jpg?raw=true =400x300)
+Main Page ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/1_Apex_dashboard.jpg?raw=true)
 
 
 
@@ -12,7 +12,7 @@ Choose the "Gears" icon to expand settings options
 
 Choose the "Outlet" icon
 
-Outputs  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/2_Dashboard_Options.jpg?raw=true =500x)
+Outputs  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/2_Dashboard_Options.jpg?raw=true)
 
 
 
@@ -22,30 +22,30 @@ First Choose the "outlet" icon
 
 Second Choose "Add a Virtual Output"
 
-Virtual Output  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/3_Add_Virtual_Outlet.jpg?raw=true =500x)
+Virtual Output  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/3_Add_Virtual_Outlet.jpg?raw=true)
 
 Add a name to the Virtual Output
 
-Naming  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/4_Name_Virtual_Outlet.jpg?raw=true =500x)
+Naming  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/4_Name_Virtual_Outlet.jpg?raw=true)
 
 Set new Configuration
 
-Configuration  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/5_Send_Config_Outlet.jpg?raw=true =500x)
+Configuration  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/5_Send_Config_Outlet.jpg?raw=true)
 
 
 # 5) Navigate back to Outputs
 
 Click on name of new virtual outlet
 
-Virtual Output  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/6_Virtual_Outlets.jpg?raw=true =500x)
+Virtual Output  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/6_Virtual_Outlets.jpg?raw=true)
 # 6) Set control parameters
 
-Virtual Output Settings  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/7_Set_Statements_Outlet.jpg?raw=true =500x)
+Virtual Output Settings  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/7_Set_Statements_Outlet.jpg?raw=true)
 
 
 # 7) Send configuration to apex unit
 
-Send info to device  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/8_Settings.jpg?raw=true =500x)
+Send info to device  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/8_Settings.jpg?raw=true)
 
 # 8) Link the real outputs to the virtual outputs
 
@@ -53,14 +53,14 @@ Navigate back to Outputs
 
 Click on name of real outlet
 
-Output List  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/9_real_outlet.jpg?raw=true =500x)
+Output List  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/9_real_outlet.jpg?raw=true)
 
 
 Add statements linking to virtual output names
 
 Send configuration info to apex
 
-Real to Virtual Link  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/10_real_to_virtual.jpg?raw=true =500x)
+Real to Virtual Link  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/10_real_to_virtual.jpg?raw=true)
 
 
 #Example code for setting a dirunal temperature flucation using a heater and a chiller
