@@ -2,7 +2,7 @@
 
 Navigate to Main Page
 
-Main Page [[https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/10_real_to_virtual.jpg =500x)]]
+Main Page ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/1_Apex_dashboard.jpg?raw=true =500x)
 
 
 
