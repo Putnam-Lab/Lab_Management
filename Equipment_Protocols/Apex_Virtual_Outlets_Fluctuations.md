@@ -59,7 +59,7 @@ Output List  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_
 Real to Virtual Link  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/10_real_to_virtual.jpg?raw=true)
 
 
-# Example code for setting a dirunal temperature flucation using a heater and a chiller
+# Example code for setting a diurnal temperature flucation using a heater and a chiller
 
 ### Real Outlet Chill1
 Set OFF
