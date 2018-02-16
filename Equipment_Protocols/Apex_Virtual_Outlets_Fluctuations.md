@@ -2,7 +2,7 @@
 
 Navigate to Main Page
 
-Main Page ![](/This PC/Desktop/Github/Apex/Untitled-2.tiff =250x)
+Main Page ![](C:\Users\Max.DESKTOP-KPBM0FK\Desktop\Github\Apex\Untitiled-2.tiff=250x)
 
 
 
@@ -12,7 +12,7 @@ Choose the "Gears" icon
 
 Choose the "Thermometer" icon
 
-Outputs  ![](This PC/Desktop/Github/Apex/Untitled 3.tiff =250x)
+Outputs  ![](C:\Users\Max.DESKTOP-KPBM0FK\Desktop\Github\Apex\Untitiled-3.tiff=250x)
 
 
 
@@ -22,18 +22,18 @@ Choose the "outlet" icon
 
 Choose "Add a Virtual Output"
 
-Virtual Output  ![](This PC/Desktop/Github/Apex/Untitled 4.tiff =250x)
+Virtual Output  ![](C:\Users\Max.DESKTOP-KPBM0FK\Desktop\Github\Apex\Untitled-4.tiff=250x)
 
 Add a name to the Virtual Output
 
-Naming  ![](This PC/Desktop/Github/Apex/Untitled 5.tiff =250x)
+Naming  ![](C:\Users\Max.DESKTOP-KPBM0FK\Desktop\Github\Apex\Untitled-5.tiff=250x)
 
 Set new Configuration
 
-Configuration  ![](This PC/Desktop/Github/Apex/Untitled 7.tiff =250x)
+Configuration  ![](C:\Users\Max.DESKTOP-KPBM0FK\Desktop\Github\Apex\Untitled-7.tiff=250x)
 
 # 4) Send Configuration to Apex
 
 Choose "Sending Configuration"
 
-Push to Apex  ![](This PC/Desktop/Github/Apex/Untitled 6.tiff =250x)
+Push to Apex  ![](C:\Users\Max.DESKTOP-KPBM0FK\Desktop\Github\Apex\Untitled-6.tiff=250x)
