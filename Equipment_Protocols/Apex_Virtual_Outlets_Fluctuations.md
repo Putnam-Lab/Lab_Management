@@ -2,7 +2,7 @@
 
 Navigate to Main Page
 
-Main Page ![](C:\Users\Max.DESKTOP-KPBM0FK\Desktop\Github\Apex\Untitiled-2.tiff=250x)
+Main Page ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/1_Apex_dashboard.jpg?raw=true =500x)
 
 
 
@@ -12,7 +12,7 @@ Choose the "Gears" icon to expand settings options
 
 Choose the "Outlet" icon
 
-Outputs  ![](C:\Users\Max.DESKTOP-KPBM0FK\Desktop\Github\Apex\Untitiled-3.tiff=250x)
+Outputs  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/2_Dashboard_Options.jpg?raw=true =500x)
 
 
 
@@ -22,30 +22,37 @@ First Choose the "outlet" icon
 
 Second Choose "Add a Virtual Output"
 
-Virtual Output  ![](C:\Users\Max.DESKTOP-KPBM0FK\Desktop\Github\Apex\Untitled-4.tiff=250x)
+Virtual Output  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/3_Add_Virtual_Outlet.jpg?raw=true =500x)
 
 Add a name to the Virtual Output
 
-Naming  ![](C:\Users\Max.DESKTOP-KPBM0FK\Desktop\Github\Apex\Untitled-5.tiff=250x)
+Naming  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/4_Name_Virtual_Outlet.jpg?raw=true =500x)
 
 Set new Configuration
 
-Configuration  ![](C:\Users\Max.DESKTOP-KPBM0FK\Desktop\Github\Apex\Untitled-7.tiff=250x)
-
-# 4) Send Configuration to Apex
-
-Choose "Sending Configuration"
-
-Push to Apex  ![](C:\Users\Max.DESKTOP-KPBM0FK\Desktop\Github\Apex\Untitled-6.tiff=250x)
+Configuration  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/5_Send_Config_Outlet.jpg?raw=true =500x)
 
 
 # 5) Navigate back to Outputs
 
 Click on name of new virtual outlet
 
+Virtual Output  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/6_Virtual_Outlets.jpg?raw=true =500x)
 # 6) Set control parameters
 
+Virtual Output Settings  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/7_Set_Statements_Outlet.jpg?raw=true =500x)
+
+
 # 7) Send configuration to apex unit
+
+Send info to device  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/7_Set_Statements_Outlet.jpg?raw=true =500x)
+
+# 8) Link the real outputs to the virtual outputs
+
+Navigate back to Outputs
+
+Click on name of real outlet
+
 
 
 ### Real Outlet Chill1
