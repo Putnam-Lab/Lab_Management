@@ -16,6 +16,8 @@
 
 # <center> Open Up the Column File (Pathway) </center>
 
+[Link to Corel File](Lab_Management/Engraver_Files/ColumnFull.cdr)
+
 1. Desktop
 2. Documents
 3. Corel
@@ -92,4 +94,4 @@
 This protocol and the space, knowhow, and corel files would not habe been possible without:
  1. _Space.URI
  2. Robert L. Carothers Library and Learning Commons
- 3. Brian D. 
+ 3. Brian D.
