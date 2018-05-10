@@ -92,6 +92,6 @@
 
 # <center> Acknowledgements: </center>
 This protocol and the space, knowhow, and corel files would not habe been possible without:
- 1. _Space.URI
+ 1. _Space.URI and Angel Ferria
  2. Robert L. Carothers Library and Learning Commons
  3. Brian D.
