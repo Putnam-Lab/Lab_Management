@@ -14,7 +14,7 @@
 2. On your phone:
   1. In settings:
     1. Go to wifi
-      1. log into Thornber wifi
+      1. log into wifi
         1. Make sure that you are logged into this wifi network
     2. Go to wifi
       1. Connect to the Apex Setup wifi
@@ -23,7 +23,7 @@
     1. Type in:
       1. apex.local
 
-    2. Choose wifi (Thornber)
+    2. Choose wifi 
       1. Enter password
   3. Allow the Apex to connect to the "home" wifi
   4. Once connected:
