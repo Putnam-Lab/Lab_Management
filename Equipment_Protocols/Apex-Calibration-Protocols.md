@@ -57,13 +57,8 @@
 ## 1. Materials:
   A. 7.00 pH Calibration solution
 
-*7.01 solution*
-![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/7.01-Calibration.jpg?raw=true)
-
   B. 10.00 pH Calibration solution
 
-  *10.01 solution*
-  ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Equip_Images/10.01-Calibration.jpg?raw=true)
 ## 2. On the Apex Dashboard
 
 
