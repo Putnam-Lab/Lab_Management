@@ -1,4 +1,4 @@
-#1. Role(s) of the Mentor (Dr. Hollie Putnam)
+# 1. Role(s) of the Mentor (Dr. Hollie Putnam)
 
 I will provide the following for each student: 
 *	Technical support (statistical, logistical, and intellectual) for experiments and field-work (e.g., access to equipment supplies, protocols, training on techniques, writing, coding, etc…)
@@ -8,7 +8,7 @@ I will provide the following for each student:
 *	Bi-weekly lab meetings
 *	Tiered mentoring opportunities (e.g., postdocs, grad students, technicians)
 
-#2. Expectations of the Student
+# 2. Expectations of the Student
 *	Research assistants will work 20hr per week and summarize progress at individual meetings
 *	Maintenance of written notebook that remains in the lab
 *	Maintenance of electronic, reproducible online notebook and code repository
@@ -22,7 +22,7 @@ I will provide the following for each student:
 *	Following all rules for safe lab practices
 *	Academic integrity
 
-#3. Goals
+# 3. Goals
 
 Immediate - Current Semester
 
@@ -32,38 +32,38 @@ Mid Term - 2-5 years
 
 Long Term - 5+ years
 
-#4. Milestones and Plan of Attack
+# 4. Milestones and Plan of Attack
 
 
-#5. Clear Timeline for Deliverables
+# 5. Clear Timeline for Deliverables
 
 Immediate - Current Semester
 
 Short Term - 1-2 years
 
-#6. Writing plans
+# 6. Writing plans
 Review - Chapter 1
 
 Ongoing projects
 
-#7. Funding 
+# 7. Funding 
 Degree Funding Plan
 
 Research Trip Funding Plan
 
 Additional Funding Opportunities
 
-#8. Professional meetings
+# 8. Professional meetings
 
 Current Semester
 
 Academic Year
 
-#9. Courses and Workshops
+# 9. Courses and Workshops
 
 Academic Year
 
-#10. Plans for communicating/turning documents around
+# 10. Plans for communicating/turning documents around
 *	Student will summarize take home points from meetings in a written email to mentor within 2 days of meetings
 *	Writing will take place in shared electronic documents (i.e., Google Docs)
 *	Feedback from me should be ≤ 1week
