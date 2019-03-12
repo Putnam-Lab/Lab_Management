@@ -10,7 +10,7 @@ See Putnam and building lab manager for key card access to labs and key access t
 
 
 ### Lab Agreement
-
+https://github.com/Putnam-Lab/Lab_Management/blob/master/Onboarding/Annual_Putnam_Lab_Agreement.pdf
 
 
 ### Lab Safety
