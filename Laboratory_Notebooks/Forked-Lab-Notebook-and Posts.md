@@ -100,7 +100,7 @@ In the terminal
 
 27. To make a new post open a blank file in your text editor and save it to the _posts directory for your notebook. _Important: you have to use the specific Jeykll markdown file naming convention for the posts/blog to build on the site properly: YYYY-MM-DD-Post-Name.md_
 
-28. The first section of your file needs something called a YAML header
+28. The first section of your file needs something called a YAML header  
 `---`  
 `layout: post`  
 `title: Your title`    
