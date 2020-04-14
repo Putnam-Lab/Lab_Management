@@ -20,11 +20,11 @@
 |        16       |               |                   |            |          |                    |
 |        17       |       E5      |  Moorea E5        | 20201231   |          |                    |
 |        18       |               |                   |            |          |                    |
-|        19       |               |                   |            |          |                    |
+|        19       | Emma Strand | Holobiont Integration | 20190501  |          |                    |
 |        20       |               |                   |            |          |                    |
 |        21       |       E5      |  Moorea E5        | 20201231   |          |                    |
 |        22       |       E5      |  Moorea E5        | 20201231   |          |                    |
-|        23       |               |                   |            |          |                    |
+|        23       | Emma Strand | Holobiont Integration | 20191125 |          |                    |
 |        24       |               |                   |            |          |                    |
 |        25       |               |                   |            |          |                    |
 
