@@ -14,7 +14,7 @@
 |        10       |  Sam Gurr     |  Geoduck FFAR     |  20191009  |          |                    |
 |        11       |               |                   |            |          |                    |
 |        12       |               |                   |            |          |                    |
-|        13       |               |                   |            |          |                    |
+|        13       | Maggie Schedl |General Lab Notebook|20181201   |          |                    |
 |        14       |               |                   |            |          |                    |
 |        15       |               |                   |            |          |                    |
 |        16       |               |                   |            |          |                    |
