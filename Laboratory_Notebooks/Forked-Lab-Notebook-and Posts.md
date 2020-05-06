@@ -32,7 +32,7 @@ _Written by Maggie Schedl_
 
 7. Click the button in the top right corner that says Fork. It will take everything from Hollie's repository and create a copy in your account. Once that is done go into the settings of that repository and change the name. For example mine is MESPutnam_Open_Lab_Notebook. Just remember to not use spaces.
 
-8. Whenever you want to get back to the home of your repository just click the <>Code tab. In that tab click the green button on the right that says Clone or Download. If will give you a link, copy that link.
+8. Whenever you want to get back to the home of your repository just click the <>Code tab. In that tab click the green button on the right that says Clone or Download. It will give you a link, copy that link.
 
 9. You want to make a clone of this repository on your personal computer and have it connect to GitHub. This way you can change things on your computer, then send them to GitHub as a way of version control. In your command prompt or terminal you should still be in the directory you created for this notebook. You can always use the command `pwd` to check your working directory.
 
