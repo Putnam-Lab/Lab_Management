@@ -20,7 +20,7 @@ Formatting that will cause you analysis problems:
 ![](https://raw.githubusercontent.com/Putnam-Lab/Bioinformatic_Resources/master/images/bad-table.png)
 Good table format:
 ![](https://raw.githubusercontent.com/Putnam-Lab/Bioinformatic_Resources/master/images/good-table.png)
-You don't want to be trying to read the first table into a program like R
+You don't want to be trying to read the first table into a program like R  
 ![](https://raw.githubusercontent.com/Putnam-Lab/Bioinformatic_Resources/master/images/excel-fail.gif)  
 7. It's good to use abbreviations or shortened words in your datasheet. You just need to make sure the full information is contained in your **metadata** which is the data about the data. You can include a data dictionary that explains abbreviations in your metadata.
 8. Avoid highlighting cells (only readable in excel or google sheets) and making calculations in your raw data. If these are necessary only do this in separate copied datasheets.
