@@ -96,7 +96,7 @@ First, how would you make this file? You need to run the job script from inside 
 - `sbatch myscript.sh` will submit your job with whatever script you specify. Running this command will automatically give you a job number.
 - Once your job starts running it will make an output file. It gives you everything that would be printed to your terminal if you ran it there. It looks like slurm-######.out where the # are your job number.
 - To check on the progress of your job you can use the command `squeue --job ######` which will tell you if your job is running, for how long, and what script. If your job has stopped it will either give you an error saying invalid job number or give you a blank output
-![1](/images/squeue.png "1")
+![1](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Bioinformatic_Resources/images/squeue.png)
 - To check on all of your running jobs use `squeue -u username`
 - If you know you messed up your script, you can always cancel a job with `scancel #####` using the job number
 - If your job fails or you get any errors, they will be in the slurm-######.out file for that job number
