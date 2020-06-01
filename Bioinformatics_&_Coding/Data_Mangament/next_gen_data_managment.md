@@ -10,7 +10,7 @@ Metadata compilation should begin before sequencing and should be added to throu
 - Information about the sequencing company and from the company, instrument specifications and run information such as how many lanes or flow cells used (you might have to specifically ask for this)
 - File type generated, md5checksums
 - Renamed files after demultiplexing (separating out into samples), average coverage and amount of reads, general quality of sequencing
-![](https://raw.githubusercontent.com/Putnam-Lab/Bioinformatic_Resources/master/images/sequence-metadata.jpg)
+![](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Bioinformatics_%26_Coding/images/sequence-metadata.jpg)
 
 ## Data Storage, Archiving, and Monitoring
 
