@@ -26,7 +26,10 @@ If the data is on an external hard drive plugged into your computer you can stil
 ```
 scp -r /volumes/HardDriveName/folder/*.fq.gz  username@bluewaves.uri.edu:/data/putnamlab/username-directory/project/
 ```
-
-
+Copying data from KITT. First login to KITT and do these commands from your KITT logged in terminal. Use -r if you are recursively transferring files.
+```
+scp /home/username/directory/filename username@bluewaves.uri.edu:/data/putnamlab/username/projectdirectory/
+```
+It will say something like "the authenticity of the bluewaves host cannot be established" but you enter yes for connecting anyways. Then you will be asked to type your bluewaves password to complete transfer connection. 
 
 **If you have questions about Bluewaves first look on the URI webpage about it [here](https://web.uri.edu/hpc-research-computing/using-bluewaves/). You can also contact Kevin Byran bryank@uri.edu**
