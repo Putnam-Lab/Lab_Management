@@ -202,7 +202,7 @@ open ftp-private.ncbi.nlm.nih.gov
 ![33](/images/select-folder.png "33")
 - Then you copy the files from your directory into the remote FTP NCBI directory. You could use the `put` command to choose one file at a time, but using the `mput` command along with the `.` to specify "all files in this directory" is much easier. Simply type in and enter to start copying all files:
 ```
-mput .
+mput *
 ```
 - You will then see it start uploading the files. See example command line interface in the middle of uploading:
 - Create a new directory for your files with `mkdir` then `cd` into that new directory.
