@@ -48,14 +48,15 @@ Once you have gathered those, the next thing to do is **login to the [submission
 
 ![3](/images/new_sub.png "3")
 - Right **next** to the blue box that says **New Submission**, click the link that says **Download batch submission template**.
-- Choose the sample type that your samples fit under (most often invertebrate).
+- Choose the sample type that your samples fit under. **Most often it is invertebrate. However if you know these samples include/are for holobiont or microbiome or symbiont sequences you want to choose the MIMS Environmental/Metagenome host associated excel sheet**  
+![5](/images/MIMS.png.png "5")
 - Choose the **Download Excel** option for the template.
-- _All the examples in this workflow are going to be with the Invertebrate sample type_
+- _All the examples in this workflow are going to be with the Invertebrate sample type. If you're using the metagenome type most of these still apply, and other headings should be intuitive after looking through this._
 - Components of the downloaded spreadsheet to fill out (bold means mandatory):
   - **Sample Name** : unique name to identify your sample, can be abbreviated using consistent abbreviations from your data
   - Sample Title : not required, but you should write out a more descriptive name for your sample from your sample_name because these will be the link title when these samples are on NCBI
   - BioProject accession : you likely don't have this yet, so leave it blank if there isn't a project yet and it can be added in later
-  - **Organism** : full scientific name of species
+  - **Organism** : full scientific name of species. If you are using the metagenome file, say metagenome here.
   - **Isolate, Breed, Host, or Isolation source** : at least one of these is mandatory, if you don't have information on these you can say not applicable, missing, or not collected, whichever is appropriate.
   - **Collected date** : day the tissue/organism was taken
   - **Geo-loc name** : Word description of location; Country : State/Province : City/locality
@@ -113,7 +114,7 @@ Once you have gathered those, the next thing to do is **login to the [submission
 
 ![3](/images/new_sub.png "3")
 - Again the first section of the portal is submitter info. There should be nothing to change.
-- Choose **all types of data** that are applicable for this project. Usually raw sequence reads is one of them
+- Choose **all types of data** that are applicable for this project. Usually raw sequence reads is one of them. If you have metagenome or holobiont sequences then targeted loci environmental is they type of sequence for that (target loci as the amplicon).
 - Choose the sample scope of the **whole project**, so be mindful if it is actually multi-species even though you are uploading data from one species at the moment.
 ![15](/images/project-type.png "15")
 - The next section is target information. Add the species scientific name and add a description if there are specific limitations on that, ex. if there might be cryptic species, hybrid species, etc.
