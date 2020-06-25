@@ -49,7 +49,7 @@ Once you have gathered those, the next thing to do is **login to the [submission
 ![3](/images/new_sub.png "3")
 - Right **next** to the blue box that says **New Submission**, click the link that says **Download batch submission template**.
 - Choose the sample type that your samples fit under. **Most often it is invertebrate. However if you know these samples include/are for holobiont or microbiome or symbiont sequences you want to choose the MIMS Environmental/Metagenome host associated excel sheet**  
-![5](/images/MIMS.png.png "5")
+![5](/images/MIMS.png "5")
 - Choose the **Download Excel** option for the template.
 - _All the examples in this workflow are going to be with the Invertebrate sample type. If you're using the metagenome type most of these still apply, and other headings should be intuitive after looking through this._
 - Components of the downloaded spreadsheet to fill out (bold means mandatory):
