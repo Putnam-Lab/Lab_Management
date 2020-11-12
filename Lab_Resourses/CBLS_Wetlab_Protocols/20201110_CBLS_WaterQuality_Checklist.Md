@@ -8,7 +8,7 @@ tags: protocol, water quality, synthetic coral, CBLS Aquarium Room, pH, Salinity
 
 # CBLS Aquarium Room Water Quality Schedule and Protocols
 
-Date started: 20201110
+Date started: 20201110  
 Date last revised: 20201111 HGR
 Document adapted from [Sam Gurr's Whitney Point OA protocols](https://github.com/SamGurr/SamJGurr_Lab_Notebook/blob/master/_posts/2018-08-10-Daily-Wet-Lab-OA-at-Point-Whitney.md)
 
@@ -290,7 +290,7 @@ It is best to do this at least every 3 days. Both meter probes (used for daily d
 4. Cap and shake the test tube vigorously for 5 seconds.
 5. **Wait 3 minutes for the color to develop**
 6. Read the test results by comparing the color of the solution to the **SEAWATER PHOSPHATE COLOR CARD** The tube should be viewed in a well-lit area against the white area of the card. **The closest match indicates the ppm (mg/L) of total phosphate (PO4) in the water sample.**
--NOTE: DO NOT USE THE FRESHWATER PHOSPHATE COLOR CARD.
+- NOTE: DO NOT USE THE FRESHWATER PHOSPHATE COLOR CARD.
 7. Record phosphate value in lab notebook (units are ppm). Proceed to cleanup (below)
 
 ### Daily water chemistry care (after use)
