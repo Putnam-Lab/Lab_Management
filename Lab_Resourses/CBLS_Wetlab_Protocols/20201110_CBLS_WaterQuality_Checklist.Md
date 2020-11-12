@@ -38,7 +38,7 @@ Document adapted from [Sam Gurr's Whitney Point OA protocols](https://github.com
 
 <a name="Light"></a> **Light**
 
-## Daily light measurements protocol
+### Daily light measurements protocol
 1. The light probe - [Apogee Instruments Underwater Quantum Flux Model MQ-510, Serial 1444](https://www.apogeeinstruments.com/mq-510-full-spectrum-underwater-quantum-meter/) is near the microscope.
 2. Take blue rubber cap off of the probe. Put it near lab notebook where it won't get lost.
 3. Wipe off wire and metal portion of the probe with DI water using a kimwipe.
@@ -51,13 +51,14 @@ Document adapted from [Sam Gurr's Whitney Point OA protocols](https://github.com
 8. Record all light readings in the lab notebook!
 9. Press the power button to turn the probe off (and complete the daily light probe care checklist below)!
 
-## Daily light probe care (after use)
+### Daily light probe care (after use)
 1. Rinse the light probe with DI water.
 2. Wipe off the meter box with a kimwipe with 70% ethanol to remove any water or salt.
 3. Store the meter and probe dry in their hard-shelled box on the black Putnam Lab table.
 
 <a name="pH_Tris_Calibration"></a> **pH_Tris_Calibration**
 
+### tris calibration for pH probe
 *The goal of the Tris calibration is to measure pH (mV) across a range of temperatures lower and higher than currently experienced in the tanks. The temperature values and corresponding pH values must have a linear relationship and an R^2 value equal to or above 0.98 in order to calculate the pH values for the daily measurements from the calibration curve.*
 
 ***Measured with Orion Star A325 Thermoscientific pH/ conductivity meter and Mettler Toledo probe 51343101 and Control Company Certified traceable Temperature probe***
@@ -82,7 +83,17 @@ Document adapted from [Sam Gurr's Whitney Point OA protocols](https://github.com
 
 <a name="pH-measurements"></a> **pH-measurements**
 
-## Daily pH probe care (after use)
+### pH probe measurements
+1. If you turned the probe off after calibration, press the power button to turn the probe on
+2. Rinse the tip of the probe with DI water.
+3. Toggle the "channel" button (F3) to make sure you are viewing pH in **mV**
+4. Submerge the tip of the probe in the water table (near the Putnam Lab banner).
+5. When the probe settles (will say "ready") record the pH in the lab notebook
+- Repeat **steps 4 & 5** for the second water table, glass tank in water table 2, and the header tank (big black bucket).
+- NOTE: record all temperature measurements in **mV**. Press the "mode" button to reset as necessary
+Press the power button to turn the probe off (and complete the daily salinity probe care checklist below).
+
+### Daily pH probe care (after use)
 1. Rinse the pH probe with DI water.
 2. Store the pH probe in the pH electrode storage solution with the glass bulb covered in solution
 3. Wipe off the meter box with a kimwipe with 70% ethanol to remove any water or salt.
@@ -90,7 +101,7 @@ Document adapted from [Sam Gurr's Whitney Point OA protocols](https://github.com
 
 <a name="Salinity"></a> **Salinity**
 
-## Daily Salinity probe use
+### Daily Salinity probe use
 - NOTE: salinity and pH measurements can be done at the same time or separately
 1. The Orion Star A325 Thermoscientific pH/ conductivity meter is ear the white bin. The Thermo Orion 013005MD conductivity (salinity) probe is stored in DI water.
 2. Press the power button to turn the probe on
@@ -101,7 +112,7 @@ Document adapted from [Sam Gurr's Whitney Point OA protocols](https://github.com
 - NOTE: record all temperature measurements in **psu**. Press the "mode" button to reset as necessary
 6. Press the power button to turn the probe off (and complete the daily salinity probe care checklist below).
 
-## Daily salinity probe care (after use)
+### Daily salinity probe care (after use)
 1. Rinse the salinity probe with DI water.
 2. Store the salinity probe in DI water  with the conductivity cell covered in DI water
 3. Wipe off the meter box with a kimwipe with 70% ethanol to remove any water or salt.
@@ -109,7 +120,7 @@ Document adapted from [Sam Gurr's Whitney Point OA protocols](https://github.com
 
 <a name="Temperature"></a> **Temperature**
 
-## Daily temperature measurements protocol
+### Daily temperature measurements protocol
 1. The temperature probe - [Traceable 4000 Thermometer S/N 170318187](https://www.traceable.com/4000-traceable-digital-thermometer.html) is near the microscope.
 2. Wipe off the metal portion of the probe with DI water using a kimwipe
 3. Press the "ON/OFF" button to turn the probe on.
@@ -119,20 +130,20 @@ Document adapted from [Sam Gurr's Whitney Point OA protocols](https://github.com
 - NOTE: record all temperature measurements in Celsius. Press the F/C button to reset as necessary
 6. Press the "ON/OFF" button to turn the probe off (and complete the daily temperature probe care checklist below).
 
-## Daily temperature probe care (after use)
+### Daily temperature probe care (after use)
 1. Rinse only the metal portion with DI water and dry the metal probe.
 2. Wipe off the meter box with a kimwipe with 70% ethanol to remove any water or salt.
 3. Store the probe dry and in their hard-shelled box on the black Putnam Lab table.
 
 <a name="Probe-calibration"></a> **Probe-calibration**
 
-## The handheld pH probe, handheld salinity probe, apex pH probe, and apex salinity probe need to be calibrated every few days.
+### The handheld pH probe, handheld salinity probe, apex pH probe, and apex salinity probe need to be calibrated every few days.
 It is best to do this at least every 3 days. Both meter probes (used for daily discrete measurements) and APEX probes must be calibrated every three days with corresponding solutions (Apex uses solutions from Neptune Systems - handheld Mettler Toledo (pH) and Thermoscience (conductivity) probes use buffers from TA and probe-specific solutions, respectively).
 	- Update your notebook with the date and time of calibration.
 
 <a name="Hardness-KH"></a> **Hardness-KH**
 
-## Twice weekly KH (hardness) measurements with API product 59
+### Twice weekly KH (hardness) measurements with API product 59
 **NOTE: DO NOT MIX & MATCH CHEMICAL TEST TESTTUBES! EVERY TEST HAS IT'S OWN TESTTUBE IN THE CORRESPONDING BOX!**
 1. Use bulb pipette to add 5mL seawater to the test tube (to the white line)
 2. Add 1 drop at a time of the KH test solution to the test tube. **Hold the KH test solution vertically to ensure drops are of uniform volume**
@@ -157,7 +168,7 @@ It is best to do this at least every 3 days. Both meter probes (used for daily d
 | 11 | 196.9 |
 | 12 | 214.8 |
 
-## Daily water chemistry Proceed to cleanup (below) care (after use)
+### Daily water chemistry care (after use)
 1. Dispose of liquid in the corresponding 500mL waste bottle. **DO NOT DUMP TEST CONTENTS INTO THE WATER TABLES OR TANKS**
 2. Rinse out the test tube and cap in tap water 3 times
 3. Blot them dry with a clean paper towel
@@ -165,7 +176,7 @@ It is best to do this at least every 3 days. Both meter probes (used for daily d
 
 <a name="Calcium-Ca"></a> **Calcium-Ca**
 
-## Twice weekly Calcium (Ca) measurements with API product 69L
+### Twice weekly Calcium (Ca) measurements with API product 69L
 **NOTE: DO NOT MIX & MATCH CHEMICAL TEST TESTTUBES! EVERY TEST HAS IT'S OWN TESTTUBE IN THE CORRESPONDING BOX!**
 1. Use bulb pipette to add 5mL seawater to the test tube (to the white line)
 2. Add 10 drops of **Calcium test solution 1** to the test tube. **Hold the KH test solution vertically to ensure drops are of uniform volume**. Cap the test tube and shake vigorously for 10 seconds.
@@ -205,7 +216,7 @@ It is best to do this at least every 3 days. Both meter probes (used for daily d
 | 25 | 500 |
 | 26 | 520 |
 
-## Daily water chemistry Proceed to cleanup (below) care (after use)
+### Daily water chemistry care (after use)
 1. Dispose of liquid in the corresponding 500mL waste bottle. **DO NOT DUMP TEST CONTENTS INTO THE WATER TABLES OR TANKS**
 2. Rinse out the test tube and cap in tap water 3 times
 3. Blot them dry with a clean paper towel
@@ -213,7 +224,7 @@ It is best to do this at least every 3 days. Both meter probes (used for daily d
 
 <a name="Ammonium-NH4"></a> **Ammonium-NH4**
 
-## Twice weekly Ammonium (NH4) measurements with API product 401M
+### Twice weekly Ammonium (NH4) measurements with API product 401M
 
 **NOTE: DO NOT MIX & MATCH CHEMICAL TEST TESTTUBES! EVERY TEST HAS IT'S OWN TESTTUBE IN THE CORRESPONDING BOX! The nitrogen test tubes are labelled by N-type**
 1. Use bulb pipette to add 5mL seawater to the test tube (to the white line)
@@ -224,7 +235,7 @@ It is best to do this at least every 3 days. Both meter probes (used for daily d
 6. Read the rest results by comparing the color of the solution to the Ammonia Color chart. The Tube should be viewed in a well-lit area against the white area of the chart. The closest match indicates the ppm (mg/L) of ammonia in the water sample.
 7. Record the ammonia levels in the lab notebook in ppm. Proceed to cleanup (below)
 
-## Daily water chemistry care (after use)
+### Daily water chemistry care (after use)
 1. Dispose of liquid in the corresponding 500mL waste bottle. **DO NOT DUMP TEST CONTENTS INTO THE WATER TABLES OR TANKS**
 2. Rinse out the test tube and cap in tap water 3 times
 3. Blot them dry with a clean paper towel
@@ -232,7 +243,7 @@ It is best to do this at least every 3 days. Both meter probes (used for daily d
 
 <a name="Nitrate-NO3"></a> **Nitrate-NO3**
 
-## Twice weekly Nitrate (NO3) measurements with API product 401M
+### Twice weekly Nitrate (NO3) measurements with API product 401M
 
 **NOTE: DO NOT MIX & MATCH CHEMICAL TEST TESTTUBES! EVERY TEST HAS IT'S OWN TESTTUBE IN THE CORRESPONDING BOX! The nitrogen test tubes are labelled by N-type**
 1. Use bulb pipette to add 5mL seawater to the test tube (to the white line)
@@ -244,7 +255,7 @@ It is best to do this at least every 3 days. Both meter probes (used for daily d
 7. Read the rest results by comparing the color of the solution to the Nitrate (NO3) Color chart. The Tube should be viewed in a well-lit area against the white area of the chart. The closest match indicates the ppm (mg/L) of Nitrate (NO3) in the water sample.
 8. Record the Nitrate (NO3) levels in the lab notebook in ppm. Proceed to cleanup (below)
 
-## Daily water chemistry Proceed to cleanup (below) care (after use)
+### Daily water chemistry care (after use)
 1. Dispose of liquid in the corresponding 500mL waste bottle. **DO NOT DUMP TEST CONTENTS INTO THE WATER TABLES OR TANKS**
 2. Rinse out the test tube and cap in tap water 3 times
 3. Blot them dry with a clean paper towel
@@ -252,7 +263,7 @@ It is best to do this at least every 3 days. Both meter probes (used for daily d
 
 <a name="Nitrite-NO2"></a> **Nitrite-NO2**
 
-## Twice weekly Nitrite (NO2) measurements with API product 401M
+### Twice weekly Nitrite (NO2) measurements with API product 401M
 
 **NOTE: DO NOT MIX & MATCH CHEMICAL TEST TESTTUBES! EVERY TEST HAS IT'S OWN TESTTUBE IN THE CORRESPONDING BOX! The nitrogen test tubes are labelled by N-type**
 1. Use bulb pipette to add 5mL seawater to the test tube (to the white line)
@@ -262,7 +273,7 @@ It is best to do this at least every 3 days. Both meter probes (used for daily d
 6. Read the rest results by comparing the color of the solution to the Nitrite (NO2) Color chart. The Tube should be viewed in a well-lit area against the white area of the chart. The closest match indicates the ppm (mg/L) of Nitrite (NO2) in the water sample.
 7. Record the Nitrite (NO2) levels in the lab notebook in ppm. Proceed to cleanup (below)
 
-## Daily water chemistry Proceed to cleanup (below) care (after use)
+### Daily water chemistry care (after use)
 1. Dispose of liquid in the corresponding 500mL waste bottle. **DO NOT DUMP TEST CONTENTS INTO THE WATER TABLES OR TANKS**
 2. Rinse out the test tube and cap in tap water 3 times
 3. Blot them dry with a clean paper towel
@@ -270,7 +281,7 @@ It is best to do this at least every 3 days. Both meter probes (used for daily d
 
 <a name="Phosphate-PO4"></a> **Phosphate-PO4**
 
-## Twice weekly Phosphate (PO4) measurements with API product 63L
+### Twice weekly Phosphate (PO4) measurements with API product 63L
 **NOTE: DO NOT MIX & MATCH CHEMICAL TEST TESTTUBES! EVERY TEST HAS IT'S OWN TESTTUBE IN THE CORRESPONDING BOX!**
 1. Use bulb pipette to add 5mL seawater to the test tube (to the white line)
 2. Holding the bottle vertically, add **6 drops from Phosphate Test solution 1**. Cap the test tube and shake **vigorously for 5 seconds.**
@@ -282,7 +293,7 @@ It is best to do this at least every 3 days. Both meter probes (used for daily d
 -NOTE: DO NOT USE THE FRESHWATER PHOSPHATE COLOR CARD.
 7. Record phosphate value in lab notebook (units are ppm). Proceed to cleanup (below)
 
-## Daily water chemistry care (after use)
+### Daily water chemistry care (after use)
 1. Dispose of liquid in the corresponding 500mL waste bottle. **DO NOT DUMP TEST CONTENTS INTO THE WATER TABLES OR TANKS**
 2. Rinse out the test tube and cap in tap water 3 times
 3. Blot them dry with a clean paper towel
