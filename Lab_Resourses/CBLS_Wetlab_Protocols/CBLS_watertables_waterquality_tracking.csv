@@ -1,0 +1,112 @@
+Date,Time,Putnam_Labber,Treatment_ID,Tank_ID,Light,Temperature_C,Salinity_psu,pH,pH_mv,Ca_ppm,KH_ppm,PO4_ppm,NH4_ppm,NO3_ppm,NO2_ppm,Notes
+20201016,,Hreich,WaterTables,WaterTables,,25.17,33.5,8.3,-66.3,,,,,,,
+20201016,,Hreich,10galtank,10galtank,,25.6,30.5,8.45,-75,,,,,,,
+20201021,,Hreich,WaterTables,WaterTables,,24.2,37,8.19,-59.2,,,,,,,
+20201021,,Hreich,10galtank,10galtank,,26,33,7.79,-35.9,,,,,,,
+20201023,,Hreich,WaterTables,WaterTables,,24.5,27.34,8.22,-64.6,,,,,,,
+20201023,,Hreich,10galtank,10galtank,,26.1,33,7.8,-40.1,,,,,,,
+20201028,,Sgray,WaterTables,WaterTables,,24.57,32.81,,,,,,,,,
+20201104,1215,Hputnam,header,header,,23.89,33.9,,-65.7,,,,,,,
+20201104,,Hputnam,10galtank,10galtank,,26,40.43,,-51.3,,,,,,,
+20201104,,Hputnam,WaterTables,Water_Table_1,,23.89,33.83,,-65,,,,,,,
+20201104,,Hputnam,WaterTables,Water_Table_2,,23.9,33.85,,-65.4,,,,,,,
+20201106,1400,Hreich,WaterTables,Water_Table_1,,24.56,33.99,,-65.3,400,232.7,2,0.25,5,0.125,Lights installed today!
+20201106,1400,Hreich,WaterTables,Water_Table_2,,24.56,34.19,,-64.3,,,,,,,Lights installed today!
+20201110,,Hreich,WaterTables,Water_Table_1,,24.85,35.35,,-61.8,,,,,,,
+20201110,,Hreich,WaterTables,Water_Table_2,,24.83,35.27,,-62.7,,,,,,,
+20201110,,Hreich,10galtank,10galtank_1,,24.87,41.54,,-64,,,,,,,water replaced in glass tank and heater removed
+20201110,,Hreich,header,header,,24.83,35.27,,-43.5,,,,,,,
+20201111,,Hreich,WaterTables,Water_Table_1,,24.03,35.29,,-64.5,500,179,2,0.25,5,0.125,
+20201111,,Hreich,WaterTables,Water_Table_2,,24.02,35.15,,-65.3,,,,,,,
+20201111,,Hreich,10galtank,10galtank_1,,24.1,39.02,,-58.7,,,,,,,
+20201111,,Hreich,header,header,,24,35.17,,-65.9,,,,,,,
+20201112,1530,Hreich,WaterTables,Water_Table_1,,24.62,36.15,,-64.8,,,,,,,
+20201112,1530,Hreich,WaterTables,Water_Table_2,,24.62,3.99,,-62.5,,,,,,,
+20201112,1530,Hreich,10galtank,10galtank_1,,24.61,50.92,,-51.3,,,,,,,
+20201112,1530,Hreich,10galtank,10galtank_2,,24.61,38.98,,-59.3,,,,,,,
+20201112,1530,Hreich,header,header,,24.61,36.12,,-64.8,,,,,,,
+20201113,940,Hreich,10galtank,10galtank_1,,25.33,51.51,,-54.5,,,,,,,hyperosmotic stress salinity ramp started 20201111
+20201113,1040,Hreich,10galtank,10galtank_1,,25.42,51.55,,-55.3,,,,,,,hyperosmotic stress salinity ramp started 20201111
+20201113,1140,Hreich,10galtank,10galtank_1,,25.5,51.59,,-55.3,,,,,,,hyperosmotic stress salinity ramp started 20201111
+20201113,1240,Hreich,10galtank,10galtank_1,,25.56,51.62,,-55.4,,,,,,,hyperosmotic stress salinity ramp started 20201111
+20201113,1440,Hreich,10galtank,10galtank_1,,25.75,51.68,,-55.1,,,,,,,hyperosmotic stress salinity ramp started 20201111
+20201113,1740,Hreich,10galtank,10galtank_1,,25.9,51.76,,-54.1,,,,,,,hyperosmotic stress salinity ramp started 20201111
+20201113,940,Hreich,10galtank,10galtank_2,,25.36,50.7,,-50.37,,,,,,,hyperosmotic stress salinity ramp started 20201112. chambers moved into glass tank 1 at 1445 on 20201113
+20201113,1040,Hreich,10galtank,10galtank_2,,25.44,53.6,,-50.44,,,,,,,hyperosmotic stress salinity ramp started 20201112. chambers moved into glass tank 1 at 1445 on 20201113
+20201113,1140,Hreich,10galtank,10galtank_2,,25.54,53.7,,-50.46,,,,,,,hyperosmotic stress salinity ramp started 20201112. chambers moved into glass tank 1 at 1445 on 20201113
+20201113,1240,Hreich,10galtank,10galtank_2,,25.6,53.7,,-50.47,,,,,,,hyperosmotic stress salinity ramp started 20201112. chambers moved into glass tank 1 at 1445 on 20201113
+20201113,1800,Hreich,header,header,,25.85,36.15,,-65.7,,,,,,,
+20201113,1800,Hreich,waterTables,Water_Table_1,,25.86,36.87,,-66.1,,,,,,,
+20201113,1800,Hreich,waterTables,Water_Table_2,,25.87,35.92,,-65.8,,,,,,,
+20201113,1800,Hreich,mini,mini_20201113,,26.17,37.41,,-54.1,,,,,,,mini tank 1 started 1651 on 20201113
+20201113,1800,Hreich,mixing,mixing,,25.02,36.67,,-43.3,,,,,,,
+20201116,1515,Hreich,header,header,,26.98,35.65,,-65.8,,,,,,,
+20201116,1515,Hreich,waterTables,Water_Table_1,,27,35.68,,-66.3,,,,,,,
+20201116,1515,Hreich,waterTables,Water_Table_2,,27,35.66,,-66.5,,,,,,,
+20201116,1515,Hreich,mini,mini_20201113,,27.75,48.88,,-53.6,,,,,,,mini tank 1 started 1651 on 20201113
+20201116,1515,Hreich,mixing,mixing,,24.54,35.01,,-45.7,,,,,,,
+20201116,1515,Hreich,mini,mini_tank1,,27.75,53.98,,-55.1,,,,,,,mini tank with 20201111 and 20201112 corals
+20201117,1550,Hreich,header,header,,26.62,36.01,,-64.6,,,,,,,
+20201117,1550,Hreich,waterTables,Water_Table_1,,26.62,35.91,,-66.4,,,,,,,
+20201117,1550,Hreich,waterTables,Water_Table_2,,26.63,35.83,,-66.3,,,,,,,
+20201117,1550,Hreich,mini,mini_20201113,,27.32,49.34,,-54.9,,,,,,,no bailout in tank. Moved chamber into mini_tank1 so fraf is exposed to higher salinity
+20201117,1550,Hreich,mixing,mixing,,24.47,35,,-47,,,,,,,
+20201117,1550,Hreich,mini,mini_tank1,,27.63,54.45,,-53.7,,,,,,,mini tank with 20201111 and 20201112 corals
+20201117,1550,Hreich,mini,mini_control_1,,27.18,36.01,,-64.6,,,,,,,mini tank set up 1500 20201117.
+20201117,1550,Hreich,mini,mini_salinity_ramp_1,,27.63,36.1,,-63.2,,,,,,,mini tank set up 1500 20201117.
+20201118,949,Hreich,mini,mini_control_1,,26.28,36.8,,-63.2,,,,,,,mini tank set up 1500 20201117.
+20201118,949,Hreich,mini,mini_salinity_ramp_1,,26.71,48.5,,-52.8,,,,,,,mini tank set up 1500 20201117.
+20201118,951,Hreich,mini,mini_tank1,,26.65,55.51,,-53,,,,,,,"20201111, 20201112, 20201113 frags"
+20201118,1216,Hreich,mini,mini_control_1,,,37.2,,,,,,,,,mini tank set up 1500 20201117.
+20201118,1216,Hreich,mini,mini_salinity_ramp_1,,,49.4,,,,,,,,,mini tank set up 1500 20201117.
+20201118,1640,Hreich,mini,mini_control_1,,25.96,37.07,,-62.5,,,,,,,mini tank set up 1500 20201117.
+20201118,1640,Hreich,mini,mini_salinity_ramp_1,,26.71,52.58,,-50.3,,,,,,,mini tank set up 1500 20201117.
+20201118,1640,Hreich,mini,mini_tank1,,26.86,55.2,,-51.5,,,,,,,"20201111, 20201112, 20201113 frags"
+20201118,1640,Hreich,waterTables,Water_Table_1,,25.84,36.45,,-62.7,,,,,,,
+20201119,1000,Hreich,mini,mini_control_1,,26.03,37.31,,-61.8,,,,,,,mini tank set up 1500 20201117.
+20201119,1000,Hreich,mini,mini_salinity_ramp_1,,26.38,57.22,,-50.7,,,,,,,mini tank set up 1500 20201117.
+20201119,1000,Hreich,mini,mini_tank1,,26.11,55.64,,-56,,,,,,,"20201111, 20201112, 20201113 frags"
+20201119,1520,Hreich,mini,mini_control_1,,26.17,37.55,,-62.4,,,,,,,mini tank set up 1500 20201117.
+20201119,1520,Hreich,mini,mini_salinity_ramp_1,,26.61,55.95,,-56.4,,,,,,,mini tank set up 1500 20201117.
+20201119,1520,Hreich,mini,mini_tank1,,26.35,57.4,,-51.7,,,,,,,"20201111, 20201112, 20201113 frags"
+20201119,1520,Hreich,waterTables,Water_Table_1,,25.38,36.79,,-65,,,,,,,
+20201119,1520,Hreich,waterTables,Water_Table_2,,25.38,36.77,,-65.1,,,,,,,
+20201119,1520,Hreich,mixing,mixing,,23.88,35.32,,-45.6,,,,,,,
+20201119,1520,Hreich,header,header,,25.37,36.85,,-64.7,,,,,,,
+20201123,1700,Hreich,mini,mini_20201123,,25.82,35.29,,-65.9,,,,,,,mini tank set up 1700 20201123
+20201123,1700,Hreich,WaterTables,Water_Table_1,,25.71,35.21,,-67,,,,,,,
+20201123,1700,Hreich,WaterTables,Water_Table_2,,25.71,35.37,,-66.9,,,,,,,
+20201123,1700,Hreich,header,header,,25.68,35.25,,-66.9,,,,,,,
+20201123,1700,Hreich,mixing,mixing,,23.92,35.22,,-48.8,,,,,,,
+20201124,1000,Hreich,mini,mini_20201123,,25.62,49.3,,-50.5,,,,,,,mini tank set up 1700 20201123
+20201124,1000,Hreich,WaterTables,Water_Table_1,,24.53,35.31,,-64,,,,,,,
+20201124,1000,Hreich,WaterTables,Water_Table_2,,24.53,35.3,,-63.8,,,,,,,
+20201124,1000,Hreich,header,header,,24.51,35.27,,-64.2,,,,,,,
+20201201,1220,Hreich,mini,mini_control_2,,26.71,35.51,,-63,,,,,,,control treatment set up 1200 20201201 with 4 frags
+20201201,1220,Hreich,mini,mini_20201201,,27.03,35.66,,-63.3,,,,,,,hyperosmotic stress treatment set up 1200 20201201 with 4 frags
+20201201,1220,Hreich,waterTables,Water_Table_1,,26.34,35.39,,-64.3,,,,,,,
+20201201,1220,Hreich,waterTables,Water_Table_2,,26.34,35.47,,-64.4,,,,,,,
+20201201,1220,Hreich,header,header,,26.32,35.44,,-64.3,,,,,,,
+20201201,1250,Hreich,mini,mini_control_2,,,35.65,,,,,,,,,control treatment set up 1200 20201201 with 4 frags
+20201201,1250,Hreich,mini,mini_20201201,,,36.25,,,,,,,,,hyperosmotic stress treatment set up 1200 20201201 with 4 frags
+20201208,1900,Hreich,header,header,,23.29,36.53,,-58.8,,,,,,,
+20201208,1900,Hreich,waterTables,Water_Table_1,,23.3,36.31,,-60.7,,,,,,,
+20201208,1900,Hreich,waterTables,Water_Table_2,,23.29,36.31,,-60.7,,,,,,,
+20201208,1900,Hreich,mini,mini_control_20201208,,23.28,36.42,,-60.5,,,,,,,control treatment set up 1900 20201208 with 4 frags
+20201208,1900,Hreich,mini,mini_salinity_20201208,,23.68,36.48,,-59.9,,,,,,,hyperosmotic stress treatment set up 1900 20201208 with 4 frags
+20201209,1500,Hreich,header,header,,23.97,36.43,,-64.9,,,,,,,
+20201209,1500,Hreich,waterTables,Water_Table_1,,23.98,36.51,,-63.6,,,,,,,
+20201209,1500,Hreich,waterTables,Water_Table_2,,23.96,36.4,,-64.1,,,,,,,
+20201209,1500,Hreich,mini,mini_control_20201208,,24.72,36.63,,-59.2,,,,,,,control treatment set up 1900 20201208 with 4 frags
+20201209,1500,Hreich,mini,mini_salinity_20201208,,24.67,49.41,,-51.5,,,,,,,hyperosmotic stress treatment set up 1900 20201208 with 4 frags
+20201210,1530,Hreich,header,header,,24.58,36.52,,-65.3,,,,,,,
+20201210,1530,Hreich,waterTables,Water_Table_1,,24.6,36.54,,-66.5,,,,,,,
+20201210,1530,Hreich,waterTables,Water_Table_2,,24.58,36.56,,-66.7,,,,,,,
+20201210,1530,Hreich,mini,mini_control_20201208,,25.05,37.5,,-59.2,,,,,,,"control treatment set up 1900 20201208 with 4 frags, ENDED 20201210"
+20201210,1530,Hreich,mini,mini_salinity_20201208,,25.12,60.05,,-49.2,,,,,,,"hyperosmotic stress treatment set up 1900 20201208 with 4 frags, ENDED 20201210"
+20201211,1600,Hreich,header,header,,25.17,36.74,,-64.6,,,,,,,
+20201211,1600,Hreich,waterTables,Water_Table_1,,25.18,36.67,,-65.7,,,,,,,
+20201211,1600,Hreich,waterTables,Water_Table_2,,25.18,36.62,,-65.9,,,,,,,
+20201215,1245,Hreich,header,header,,25.5,37.58,,-65.6,,,,,,,added ~5gal DI water after WQ measurements
+20201215,1245,Hreich,waterTables,Water_Table_1,,25.64,37.32,,-66,,,,,,,
+20201215,1245,Hreich,waterTables,Water_Table_2,,25.63,37.39,,-66.2,,,,,,,
