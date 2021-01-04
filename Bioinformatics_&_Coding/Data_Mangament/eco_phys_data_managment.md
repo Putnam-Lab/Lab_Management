@@ -1,6 +1,6 @@
 For Eco-Phys data, you want to be mindful and be managing your data at all stages of it's life. This is during the gathering process, analysis, and ultimately archival. Eco-phys data includes data such as shell size, ash-free dry weight, symbiont cell counts, bleaching score, total protein, and many others. Basically all data we generate/gather that is not DNA/RNA sequence based. Images are slightly different, although eco-phys data may come from them (ie. bleaching score) _wiki on image data management in process_
 ### Main steps for data management and gathering are depicted graphically below:
-![](https://raw.githubusercontent.com/Putnam-Lab/Bioinformatic_and_Data_Resources/master/images/ecophys-data-preprocess-5.jpg)
+![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Bioinformatics_%26_Coding/images/ecophys-data-preprocess-5.jpg)
 
 **Stage 1** You will always have a raw data stage, although some data will be more "raw" than others. This is most likely written data, either in your notebook or on printed spread sheets. This could also be an original excel/csv file if data gathering came from imgageJ. This can also be data exported directly from equipment, such as the plate reader.
 To the best of your ability, collect all the data you mean to collect! If you do fail to collect data for whatever reason, do not leave that observation or omit that sample in your data. Include that individual in your dataset and say NA in the cell for the value.
