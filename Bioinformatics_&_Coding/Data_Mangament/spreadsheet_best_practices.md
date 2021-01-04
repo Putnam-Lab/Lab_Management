@@ -15,7 +15,7 @@
 ![text cells ex2](https://github.com/Putnam-Lab/Lab_Management/blob/master/Bioinformatics_%26_Coding/images/text-cells2.png)
 4. Do not ever leave a cell blank. If there is no data for that instance put in NA. If there is a reason for an NA make a column for comments and put the description there, not in the actual cell.
 5. Put only one piece of information in a cell. If things can be separated out into two columns, do it! This goes for units, don't put grams or ng/ul in the cell. Either put it in the column name or in a separate column just for units.
-6. Try to keep datasheets in rectangular format as much as possible, this will help remove blank cells because of formatting. It's easiest to think about formatting your sheet so that it would nicely be read into R. Look at this paper by Hadley Wickham about [Tidy Data formats](https://github.com/Putnam-Lab/Bioinformatic_Resources/blob/master/Papers/Tidy_Data.pdf). In short, **each variable is a column and each observation is a row.** See these examples:
+6. Try to keep datasheets in rectangular format as much as possible, this will help remove blank cells because of formatting. It's easiest to think about formatting your sheet so that it would nicely be read into R. Look at this paper by Hadley Wickham about [Tidy Data formats](https://github.com/Putnam-Lab/Lab_Management/blob/master/Bioinformatics_%26_Coding/Papers/Tidy_Data.pdf). In short, **each variable is a column and each observation is a row.** See these examples:
 Formatting that will cause you analysis problems:
 ![Bad Table Format](https://github.com/Putnam-Lab/Lab_Management/blob/master/Bioinformatics_%26_Coding/images/bad-table.png)
 Good table format:
