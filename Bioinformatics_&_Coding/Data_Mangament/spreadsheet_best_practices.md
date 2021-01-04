@@ -19,7 +19,7 @@
 Formatting that will cause you analysis problems:
 ![Bad Table Format](https://github.com/Putnam-Lab/Lab_Management/blob/master/Bioinformatics_%26_Coding/images/bad-table.png)
 Good table format:
-![Good Table Format](https://github.com/Putnam-Lab/Lab_Management/blob/master/Bioinformatics_%26_Coding/images/good-table.png)
+![Good Table Format](https://github.com/Putnam-Lab/Lab_Management/blob/master/Bioinformatics_%26_Coding/images/good-table.png)  
 You don't want to be trying to read the first table into a program like R  
 ![read fail](https://github.com/Putnam-Lab/Lab_Management/blob/master/Bioinformatics_%26_Coding/images/excel-fail.gif)  
 7. It's good to use abbreviations or shortened words in your datasheet. You just need to make sure the full information is contained in your **metadata** which is the data about the data. You can include a data dictionary that explains abbreviations in your metadata.
