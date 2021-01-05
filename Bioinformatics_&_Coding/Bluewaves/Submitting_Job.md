@@ -4,7 +4,7 @@
 To run a command that will take longer than 10 minutes to compute, you have to submit a "job". This is because when you login to Bluewaves you are on a basic login node with not much computing power and is used by all other users who are logged in at that time.  
 Think of a node as a separate computer, and because Bluewaves is a HPC, or high processing computer, it is basically many computers all connected together. And inside each node there are many CPUs, or processing units. Each node in Bluewaves has 20 CPUs. You do not want to take up all of the computing power on the base node so you create a "job" and submit it to the SLURM scheduler.  
 SLURM stands for Simple Linux Utility for Resource Management. It is basically a framework that takes care of the organization and management of the HPC. It decides what node to put your job on based on parameters you give it. It also will schedule your job to start running at a certain time. This is especially important it a lot of people are running things at once and all nodes are taken, then based off of run-times it will schedule your job for the next spot open that fulfills your computing requirements.  
-However because you need to tell the SLURM certain parameters and specifications, when you submit a job it is not just a simple script with your commands. There are certain headers you need to include. Because this is a coding language, they have to be exact in their syntax to be understood by the computer.  
+However because you need to tell the SLURM certain parameters and specifications, when you submit a job it is not just a simple script with your commands. There are certain headers you need to include. These are the SBATCH parameters. Because this is a coding language, they have to be exact in their syntax to be understood by the computer.  
 
 While you write job scripts, and really while you are getting used to using Bluewaves it is best to consult the [Bluewaves help page](https://web.uri.edu/hpc-research-computing/using-bluewaves/) **as well as** this page and all resources on the Putnam Lab page about Bluewaves.
 
@@ -44,7 +44,7 @@ EL_EGGS_2_S9_L001_R1_001.fastq.gz.trim.fq.gz \
 --CPU 20 --full_cleanup
 ```
 
-First, how would you make this file? You need to run the job script from inside the cluster so it is easiest to make a job script inside the cluster instead of making it on your text editor and copying it to Bluewaves. Thankfully you can use the program `nano` to do this. If you are in Bluewaves, or your personal computer in the terminal, and run the command `nano myscript.sh` a blank file will come up for you to type into. **If you want to write a shell script it needs to have the .sh file ending.** You can also paste into a nano file, but you cannot select and modify things with your curser.
+First, how would you make this file? You need to run the job script from inside the cluster so it is easiest to make a job script inside the cluster instead of making it on your text editor and secure copying it to Bluewaves. Thankfully you can use the program `nano` to do this. If you are in Bluewaves, or your personal computer in the terminal, and run the command `nano myscript.sh` a blank file will come up for you to type into. **If you want to write a shell script it needs to have the .sh file ending.** You can also paste into a nano file, but you cannot select and modify things with your curser while using the command line.
 
 ## Job Script Components
 
