@@ -27,8 +27,11 @@ Protocol for set-up and take-down of the respirometer in conjunction with the Ox
 ![Oxy10 Data Traces](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_datatraces.JPG?raw=true)
 ![Oxy10 Fiber Optic Probe Connections](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_fiberopticprobes.JPG?raw=true)
 ![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_front.JPG?raw=true)
-![Oxy10 Instrument Setup](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_setinstrument.JPG?raw=true)
-![Oxy10 Temperature Probe Connections](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_tempprobes.JPG?raw=true)
+![Oxy10 Instrument Setup](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_setinstrument.png?raw=true)
+![Oxy10 Temperature Probe Connections](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_tempprobes.png?raw=true)
+![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_chamberbase.JPG?raw=true)
+![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_chambers_stirsystem.JPG?raw=true)
+
 
 
 <a name="Supplies"></a> **Supplies**
