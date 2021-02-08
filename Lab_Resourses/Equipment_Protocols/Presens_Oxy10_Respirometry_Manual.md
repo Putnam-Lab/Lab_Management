@@ -19,6 +19,18 @@ Protocol for set-up and take-down of the respirometer in conjunction with the Ox
 - [**Troubleshooting**](#Troubleshooting)  
 
 
+![Oxy10 Back](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10-back.JPG?raw=true)
+![Oxy10 Adding sensors](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_addsensor.png?raw=true)
+![Oxy10 Sensor Box](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_box.JPG?raw=true)
+![Oxy10 Chambers with Probes](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_chambers.JPG?raw=true)
+![Oxy10 Channel Setup](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_channelsetup.JPG?raw=true)
+![Oxy10 Data Traces](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_datatraces.JPG?raw=true)
+![Oxy10 Fiber Optic Probe Connections](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_fiberopticprobes.JPG?raw=true)
+![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_front.JPG?raw=true)
+![Oxy10 Instrument Setup](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_setinstrument.JPG?raw=true)
+![Oxy10 Temperature Probe Connections](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_tempprobes.JPG?raw=true)
+
+
 <a name="Supplies"></a> **Supplies**
 
 - Respirometer stand (with 4 screw-on legs) or underwater stirring plate
@@ -37,8 +49,8 @@ Protocol for set-up and take-down of the respirometer in conjunction with the Ox
 - Second set of heater(s) (for second bin)
 - Apex controller (for cooler)
 - Apex temperature probe
-- InkBird controller (for second bin)
-- (optional) PVC stand for draping wires
+- Temperature probe and meter
+- Light sensor and meter if measuring photosynthesis  
 
 
 <a name="Bath"></a> **Water Bath Setup**
