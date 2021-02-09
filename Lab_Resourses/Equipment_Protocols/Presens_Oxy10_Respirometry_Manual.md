@@ -82,8 +82,11 @@ ADD PHOTO HERE
 1. While you wait for the bath and source water to reach the desired temperature, set up the Oxy10 and prepare the stirring system and chambers.  
 
 # <a name="Oxy10"></a> **Oxy10 Setup**
-ADD PICTURE OF ALL COMPONENTS LAID OUT ON A BENCHTOP WITH LABELS ON EACH ONE  
-ADD SECTION HERE ON SETUP AWAY FROM WATER AND ADDING ALL THE PROBES  
+
+Below is an example of the entire set-up. This can be modified to be specific to whatever lab or space you are in, but the **electronics need to be completely dry and far above/away from any potential water leak or water source**.  
+
+![labeledoxysetup](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Equip_Images/resp-setup-total.jpg?raw=true)
+
 ADD CONTENT FROM HERE  
  https://github.com/SilbigerLab/Protocols/blob/master/Physiological_Parameter_Protocols/Protocols/Respirometry_Protocol/PreSens_SOP.md
 
