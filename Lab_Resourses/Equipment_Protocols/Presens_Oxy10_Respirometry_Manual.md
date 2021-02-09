@@ -25,22 +25,6 @@ Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy
 - [**Stir System Oring Replacemen**](#StirSystemOrings)   
 
 
-![Oxy10 Back](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10-back.JPG?raw=true)
-![Oxy10 Adding sensors](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_addsensor.png?raw=true)
-![Oxy10 Sensor Box](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_box.JPG?raw=true)
-![Oxy10 Chambers with Probes](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_chambers.JPG?raw=true)
-![Oxy10 Channel Setup](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_channelsetup.JPG?raw=true)
-![Oxy10 Data Traces](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_datatraces.JPG?raw=true)
-![Oxy10 Fiber Optic Probe Connections](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_fiberopticprobes.JPG?raw=true)
-![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_front.JPG?raw=true)
-![Oxy10 Instrument Setup](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_setinstrument.png?raw=true)
-![Oxy10 Temperature Probe Connections](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_tempprobes.png?raw=true)
-![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_chamberbase.JPG?raw=true)
-![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_base.JPG?raw=true)
-![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_singlechamber.JPG?raw=true)
-
-
-
 
 <a name="Supplies"></a> **Supplies**
 
@@ -100,6 +84,8 @@ ADD PHOTO HERE
 ADD SECTION HERE ON SETUP AWAY FROM WATER AND ADDING ALL THE PROBES
 ADD CONTENT FROM HERE https://github.com/SilbigerLab/Protocols/blob/master/Physiological_Parameter_Protocols/Protocols/Respirometry_Protocol/PreSens_SOP.md
 
+![Oxy10 Back](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10-back.JPG?raw=true)
+
 <a name="Software Setup"></a> **Software Setup**
 
 ### PreSens Measurement Studio 2 Software Setup
@@ -107,7 +93,8 @@ ADD CONTENT FROM HERE https://github.com/SilbigerLab/Protocols/blob/master/Physi
 Perform instructions in the correct order!!
 
 Set up
-Connect OXY10 to a power source - ADD PHOTO HERE
+Connect OXY10 to a power source 
+![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_front.JPG?raw=true)
 Close all applications on the computer (PC ONLY) 
 Connect OXY10 to the computer - ADD PHOTO HERE
 Launch the PreSens Measurement Studio 2 Program on the computer - ADD PHOTO HERE
@@ -127,9 +114,14 @@ When Software Opens
 Check side of screen for device name text indicating the device is connected:
 OXY-10 ST, 02
 SABD0000000001
-- ADD PHOTO HERE
+![Oxy10 Instrument Setup](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_setinstrument.png?raw=true)
 Click on device name and it will open the following screen
 
+![Oxy10 Adding sensors](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_addsensor.png?raw=true)
+![Oxy10 Channel Setup](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_channelsetup.JPG?raw=true)
+![Oxy10 Data Traces](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_datatraces.JPG?raw=true)
+![Oxy10 Fiber Optic Probe Connections](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_fiberopticprobes.png?raw=true)
+![Oxy10 Temperature Probe Connections](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_tempprobes.png?raw=true)
 
 Setting up channels
 Each Channel will run an individual sensor. Each Channel requires the following 3 things to be set:
@@ -198,7 +190,7 @@ ADD TEXT HERE
 - ADD PHOTO HERE
 
 <a name="Stir"></a> **Stirring System Setup**
-
+![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_base.JPG?raw=true)
 Check all orings connecting the drive motor to the stirplate for cracks. Lubricate with silicon before each run as needed
 
 1. Unscrew the cap of the sealed battery compartment on the underside of the respirometer and locate the red and black cables.  ADD PHOTO HERE Attach the red clip to the positive terminal (marked in red) on the battery and the black clip to the negative terminal (marked in black).  
@@ -218,6 +210,10 @@ Check all orings connecting the drive motor to the stirplate for cracks. Lubrica
 
 <a name="Chambers"></a> **Filling and Securing Chambers**
 
+![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_singlechamber.JPG?raw=true)
+![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_chamberbase.JPG?raw=true)
+
+
 1. Unscrew the bottom from a chamber and place a magnetic stir bar in the center divet. Once the source water is at the desired temperature, submerge the chamber top and bottom and shake off or wipe away any air bubbles.   - ADD PHOTO HERE
     1. If including organisms, secure them in the bottom of the chamber before screwing the top and bottom together until **hand tight**.  Check again for bubbles and remove any as necessary.  **Record the time of when you seal each chamber** and leave submerged to maintain temperature until ready to secure on the respirometer.  ADD PHOTO HERE
     1. The probes will need to reach the submerged chamber without straining the wire, [insert the probes into the chamber](#Probes) at this time before placing the chambers onto the respirometer.
@@ -226,7 +222,8 @@ Check all orings connecting the drive motor to the stirplate for cracks. Lubrica
 1. Use the screw key to loosen the bolts of the holding plates on the respirometer just until the plates are moveable but not detached.  
 - ADD PHOTO HERE
 
-1. Place the chamber in a chamber slot and then <a name="Probes"></a> insert the Oxy-10 probes. - ADD PHOTO HERE
+1. Place the chamber in a chamber slot and then <a name="Probes"></a> insert the Oxy-10 probes. 
+![Oxy10 Chambers with Probes](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_chambers.JPG?raw=true)
     1. Careful to not damage the probes or introduce bubbles to the chamber, insert the temperature probe into the larger probe port and gently guide it down until it fits snuggly and securely.
     1. Once the temperature probe is in place, gently guide the oxygen probe into its port, being careful to not scratch the probe tip.  The probe tip should be at least 2 cm into the chamber, but can be inserted farther, as long as the probe isn't touching any organisms or objects in the chamber. 
     - ADD PHOTO HERE 
