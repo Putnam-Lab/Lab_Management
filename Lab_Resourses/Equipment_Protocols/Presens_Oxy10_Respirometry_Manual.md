@@ -2,6 +2,7 @@
 	 - last updated 20210209
 
 [PreSens Oxy-10 ST](https://www.presens.de/products/detail/oxy-10-st-g2)
+[Sirring System](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Stirplate_chamber_Drawings_AIMS.pdf)
 
 Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy10 sensor, probes and software in a temperatuer controlled setting. This includes Apex controller for temperature manipulation and control of the respirometry water baths.
 
