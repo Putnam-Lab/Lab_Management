@@ -38,41 +38,47 @@ Protocol for set-up and take-down of the respirometer in conjunction with the Ox
 
 <a name="Supplies"></a> **Supplies**
 
-- Respirometer stand (with 4 screw-on legs) or underwater stirring plate
-![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_chambers_stirsystem.JPG?raw=true)
-- Chambers (10 can be measured at any one time)
-- 
-- Magnetic stir bars x10
+- [Oxygen meter and Sensors PreSens Oxy10](https://www.presens.de/products/detail/oxy-10-st-g2)
+- [Respirometer stand (with 4 screw-on legs) or underwater stirring plate](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_base.JPG?raw=true)
+- [Chambers](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_singlechamber.JPG?raw=true) (10 can be measured at any one time with the Presens)
+- [Magnetic stir bars x10](https://www.mcmaster.com/5678K155/)
 - Chamber screw key
-- Powersonic 6 Volt, 3.5 Amp rechargeable battery
-- Powersonic Battery charger with cable
-- Boa grip
-- Parafilm
-- Large cooler
-- Second bin (for source water to fill chambers)
-- Chiller x2 (for cooler and second bin)
-- Chiller tubing (x2 smaller ID, x2 larger ID for cooler and second bin)
-- Heater(s)
-- Second set of heater(s) (for second bin)
-- Apex controller (for cooler)
-- Apex temperature probe
-- Temperature probe and meter
-- Light sensor and meter if measuring photosynthesis  
+- [Battery](https://www.mcmaster.com/7448K13/) 
+	- Height	2.4" Width	5.3" Depth	1.3"
+- [Battery Charger](https://www.mcmaster.com/76025K15/)
+- [strap wrench](https://www.mcmaster.com/54325A63/)
+- [Parafilm](https://www.fishersci.com/shop/products/parafilm-parafilm-m-2/501899425#?keyword=Parafilm)
+- [Large cooler](https://smile.amazon.com/gp/product/B004QILD6W/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1)
+	- Lenght 38.19 x width 17.32 x height 17.72 inches 
+- [Chiller x2](https://www.petco.com/shop/en/petcostore/product/aqua-euro-usa-max-chill-aquarium-chiller-110-hp)
+	- e.g., AquaEuro 1/10 HP SKU 1457110 
+- [Chiller Tubing](https://www.mcmaster.com/5233K68/)
+	- ID	1/2" and OD	3/4"
+- [Chiller Pump - Hydor Centrifical Pump 300 All-Purpose Pump, 300 GPH](https://smile.amazon.com/gp/product/B003SNG9I8/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+- [Aqueon Pro 300 Submersible Aquarium Heater, 300 Watts](https://www.petco.com/shop/en/petcostore/product/aqueon-pro-300-submersible-aquarium-heater)
+- [Apex controller](https://shop.neptunesystems.com/collections/systems/products/apex-controller-system)
+- [Apex temperature probe](https://shop.neptunesystems.com/products/temperature-probe)
+- [Digital Thermometer Cat 150778](https://www.fishersci.com/shop/products/fisher-scientific-traceable-digital-thermometers-11/150778#?keyword=digital%20thermometer)
+- [Light sensor and meter if measuring photosynthesis](https://www.apogeeinstruments.com/mq-510-full-spectrum-underwater-quantum-meter/)  
 
 
 <a name="Bath"></a> **Water Bath Setup**
 
-1. Place the cooler and second bin in close proximity to their respective chillers and within reach of the heaters and probes connected to the temperature controllers.  Fill the second bin with the water you'll use to fill the chambers (here called "source water") and set up an InkBird controller (or second Apex) to control the temperature of that water.  
-1. Fill the cooler with source water, enough to just fully submerge the chambers once the respirometer and chambers are placed inside, and set up an Apex controller to control the temperature of that water.
+1. Place the coolers in close proximity to their respective chillers and within reach of the heaters and probes connected to the temperature controllers.  Fill the second bin with the water you'll use to fill the chambers (here called "source water") and set up an Apex controller to control the temperature of that water.  ADD LINK TO APEX SETUP AND CODE HERE
+1. Fill the cooler with source water, enough to fully submerge the chambers once the stirring rack and chambers are placed inside, and set up the Apex controller to control the temperature of that water.
 
-1. Connect tubing to the inflow (larger ID) and outflow (smaller ID) ports on your chillers.  At the free end of the inflow tube, attach an aquarium pump.  Place the pump and the free end of the outflow tube in the cooler (repeat for the second bin).  Plug the pump into a any free wall outlet (not a temperature controller outlet).
+1. Connect tubing to the inflow and outflow ports on your chillers.  At the free end of the inflow tube, attach an aquarium pump.  Place the pump and the free end of the outflow tube in the cooler (repeat for the second bin).  Power on the pump and check for water flow.
+ADD PHOTO HERE
 
-1. Place the Apex or InkBird temperature probe in the water and check that the display (or apex.local dashboard on your computer) is showing an accurate current temperature reading.  
+1. Add the heater to the cooler **The heater(s) must be fully submerged to the indicated locations for your brand of heater before powering on or they can melt or crack**  
+
+1. Place the Apex temperature probe in the water and check that the display (or apex.local dashboard on your computer) is showing an accurate current temperature reading.  
+ADD PHOTO HERE
   
-1. Before plugging the chiller and heater into the Apex EnergyBar, make sure the outlets are manually OFF.  Set these outlets to AUTO only once you've programmed the outlets for your desired temperature.  Pre-set the InkBird temperature before plugging in the chiller and heater.
-    1. **The heater(s) must be fully submerged before powering on**  
+1. Before plugging the chiller and heater into the Apex EnergyBar, make sure the EnergyBar outlets are manually OFF.  Set these outlets to AUTO only once you've programmed the outlets for your desired temperature. 
+ADD PHOTO HERE 
 
-1. While you wait for the bath and source water to reach the desired temperature, set up the respirometer and prepare the chambers.  
+1. While you wait for the bath and source water to reach the desired temperature, set up the Oxy10 and prepare the chambers.  
 
 <a name="Battery"></a> **Connecting the Battery**
 
