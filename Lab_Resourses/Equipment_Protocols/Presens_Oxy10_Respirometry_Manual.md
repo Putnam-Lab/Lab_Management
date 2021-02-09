@@ -38,20 +38,20 @@ Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy
 3 mm Wide, 165 mm ID](https://www.mcmaster.com/1302N209/)
 - [Stir system small orings - Oil-Resistant Buna-N O-Ring
 3 mm Wide, 125 mm ID](https://www.mcmaster.com/1302N183/)
-- [Chamber orings]() 
+- [Chamber orings]()
 - [Chambers](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_singlechamber.JPG?raw=true) (10 can be measured at any one time with the Presens Oxy10)
-	- MAKE SURE BOTH TOP AND BOTTOM OF THE CHAMBERS ARE LABELLED 
+	- MAKE SURE BOTH TOP AND BOTTOM OF THE CHAMBERS ARE LABELLED
 - [Magnetic stir bars x10](https://www.mcmaster.com/5678K155/)
 - Chamber screw key - ADD PHOTO HERE
-- [Battery](https://www.mcmaster.com/7448K13/) 
+- [Battery](https://www.mcmaster.com/7448K13/)
 	- Height	2.4" Width	5.3" Depth	1.3"
 - [Battery Charger](https://www.mcmaster.com/76025K15/)
 - [strap wrench](https://www.mcmaster.com/54325A63/)
 - [Parafilm](https://www.fishersci.com/shop/products/parafilm-parafilm-m-2/501899425#?keyword=Parafilm)
 - [Large cooler](https://smile.amazon.com/gp/product/B004QILD6W/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1)
-	- Lenght 38.19 x width 17.32 x height 17.72 inches 
+	- Lenght 38.19 x width 17.32 x height 17.72 inches
 - [Chiller x2](https://www.petco.com/shop/en/petcostore/product/aqua-euro-usa-max-chill-aquarium-chiller-110-hp)
-	- e.g., AquaEuro 1/10 HP SKU 1457110 
+	- e.g., AquaEuro 1/10 HP SKU 1457110
 - [Chiller Tubing](https://www.mcmaster.com/5233K68/)
 	- ID	1/2" and OD	3/4"
 - [Chiller Pump - Hydor Centrifical Pump 300 All-Purpose Pump, 300 GPH](https://smile.amazon.com/gp/product/B003SNG9I8/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
@@ -70,21 +70,22 @@ Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy
 1. Connect tubing to the inflow and outflow ports on your chillers.  At the free end of the inflow tube, attach an aquarium pump.  Place the pump and the free end of the outflow tube in the cooler (repeat for the second bin).  Power on the pump and check for water flow.
 ADD PHOTO HERE
 
-1. Add the heater to the cooler **The heater(s) must be fully submerged to the indicated locations for your brand of heater before powering on, or they can melt or crack** 
-ADD PHOTO HERE 
+1. Add the heater to the cooler **The heater(s) must be fully submerged to the indicated locations for your brand of heater before powering on, or they can melt or crack**
+ADD PHOTO HERE
 
 1. Place the Apex temperature probe in the water and check that the display (or apex.local dashboard on your computer) is showing an accurate current temperature reading.  
 ADD PHOTO HERE
-  
-1. Before plugging the chiller and heater into the Apex EnergyBar, make sure the EnergyBar outlets are manually OFF.  Set these outlets to AUTO only once you've programmed the outlets for your desired temperature. 
-ADD PHOTO HERE 
+
+1. Before plugging the chiller and heater into the Apex EnergyBar, make sure the EnergyBar outlets are manually OFF.  Set these outlets to AUTO only once you've programmed the outlets for your desired temperature.
+ADD PHOTO HERE
 
 1. While you wait for the bath and source water to reach the desired temperature, set up the Oxy10 and prepare the stirring system and chambers.  
 
 # <a name="Oxy10"></a> **Oxy10 Setup**
-ADD PICTURE OF ALL COMPONENTS LAID OUT ON A BENCHTOP WITH LABELS ON EACH ONE
-ADD SECTION HERE ON SETUP AWAY FROM WATER AND ADDING ALL THE PROBES
-ADD CONTENT FROM HERE https://github.com/SilbigerLab/Protocols/blob/master/Physiological_Parameter_Protocols/Protocols/Respirometry_Protocol/PreSens_SOP.md
+ADD PICTURE OF ALL COMPONENTS LAID OUT ON A BENCHTOP WITH LABELS ON EACH ONE  
+ADD SECTION HERE ON SETUP AWAY FROM WATER AND ADDING ALL THE PROBES  
+ADD CONTENT FROM HERE  
+ https://github.com/SilbigerLab/Protocols/blob/master/Physiological_Parameter_Protocols/Protocols/Respirometry_Protocol/PreSens_SOP.md
 
 ![Oxy10 Back](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10-back.JPG?raw=true)
 
@@ -94,17 +95,17 @@ ADD CONTENT FROM HERE https://github.com/SilbigerLab/Protocols/blob/master/Physi
 
 Perform instructions in the correct order!!
 
-Set up
-Connect OXY10 to a power source 
+Set up  
+Connect OXY10 to a power source   
 ![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_front.JPG?raw=true)
-Close all applications on the computer (PC ONLY) 
-Connect OXY10 to the computer - ADD PHOTO HERE
-Launch the PreSens Measurement Studio 2 Program on the computer - ADD PHOTO HERE
-Remove sensor covers and connect to OXY10 - ADD PHOTO HERE
+Close all applications on the computer (PC ONLY)   
+Connect OXY10 to the computer - ADD PHOTO HERE  
+Launch the PreSens Measurement Studio 2 Program on the computer - ADD PHOTO HERE  
+Remove sensor covers and connect to OXY10 - ADD PHOTO HERE  
 
-Oxygen sensor installation - ADD PHOTO HERE
-	- Line up notch on the side of the cable to the opening in the port
-	- Push in the metal part on the cord and guide the notch through the grooves
+Oxygen sensor installation - ADD PHOTO HERE  
+	- Line up notch on the side of the cable to the opening in the port  
+	- Push in the metal part on the cord and guide the notch through the grooves  
 
 
 Temperature sensor installation - ADD PHOTO HERE
@@ -116,7 +117,7 @@ When Software Opens
 Check side of screen for device name text indicating the device is connected:
 OXY-10 ST, 02
 SABD0000000001
-![Oxy10 Instrument Setup](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_setinstrument.png?raw=true)
+![Oxy10 Instrument Setup](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_setinstrument.png?raw=true)  
 Click on device name and it will open the following screen
 
 ![Oxy10 Adding sensors](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_addsensor.png?raw=true)
@@ -173,7 +174,7 @@ Click Assign - ADD PHOTO HERE
 Your new Sensor should be paired with the desired channel
 
 3. How to set a user
-Click Users on the tool bar 
+Click Users on the tool bar
 Choose default user with default parameters
 
 How to Launch and Record Measurements:
@@ -224,11 +225,11 @@ Check all orings connecting the drive motor to the stirplate for cracks. Lubrica
 1. Use the screw key to loosen the bolts of the holding plates on the respirometer just until the plates are moveable but not detached.  
 - ADD PHOTO HERE
 
-1. Place the chamber in a chamber slot and then <a name="Probes"></a> insert the Oxy-10 probes. 
+1. Place the chamber in a chamber slot and then <a name="Probes"></a> insert the Oxy-10 probes.
 ![Oxy10 Chambers with Probes](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_chambers.JPG?raw=true)
     1. Careful to not damage the probes or introduce bubbles to the chamber, insert the temperature probe into the larger probe port and gently guide it down until it fits snuggly and securely.
-    1. Once the temperature probe is in place, gently guide the oxygen probe into its port, being careful to not scratch the probe tip.  The probe tip should be at least 2 cm into the chamber, but can be inserted farther, as long as the probe isn't touching any organisms or objects in the chamber. 
-    - ADD PHOTO HERE 
+    1. Once the temperature probe is in place, gently guide the oxygen probe into its port, being careful to not scratch the probe tip.  The probe tip should be at least 2 cm into the chamber, but can be inserted farther, as long as the probe isn't touching any organisms or objects in the chamber.
+    - ADD PHOTO HERE
     1. Check for bubbles inside the chamber.  If any bubbles are present, remove them at this time.  
         1. You may be able to guide small bubbles out of the airlock seal on the chamber lid by unscrewing the airlock seal and guiding the bubbles out, then rescrewing on the airlock finger tight.
         2.- ADD PHOTO HERE  
@@ -284,11 +285,11 @@ If using the respirometer at more than one temperature
 1. Keep the chamber lid very near or loosely on top of the chamber bottom, unscrewed, to not confuse which organism goes in which numbered chamber, while still allowing for water flow until you're ready to move the chambers to the water bath.
 
 1. Once the source water and water bath are at the desired temperature, follow the same steps to [fill and secure the chambers](#Chambers) to prepare for your next run.  
-    
+
 
 # <a name="Take-Down"></a> **Respirometer Take-Down and CleanUp**
 
-1. Turn off the Apex and 
+1. Turn off the Apex and
 2. Turn off the power to the respirometer battery by turning the switch **counter-clockwise**.
 
 1. Remove the probes and carefully place or drape them in a secure location.
