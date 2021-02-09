@@ -1,8 +1,9 @@
-# Respirometer Manual
+# Respirometer Manual - IN PROGRESS
+	 - last updated 20210209
 
 [PreSens Oxy-10 ST](https://www.presens.de/products/detail/oxy-10-st-g2)
 
-Protocol for set-up and take-down of the respirometer in conjunction with the Oxy-10 probes and PreSens program ([manual found here](/PreSens_SOP.md)), and using an Apex controller for temperature manipulation and control (separate manual).
+Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy10 sensor, probes and software in a temperatuer controlled setting. This includes Apex controller for temperature manipulation and control of the respirometry water baths.
 
 
 **Contents**  
@@ -15,7 +16,8 @@ Protocol for set-up and take-down of the respirometer in conjunction with the Ox
 - [**Filling and Securing Chambers**](#Chambers)  
 - [**Inserting Oxy-10 Probes**](#Probes)  
 - [**Final Chamber Checks**](#Final_Checks)  
-- [**Water Changeover for Additional Runs**](#Water_Change)  
+- [**Water Changeover for Additional Runs**](#Water_Change)
+- [**Exporting Data**](#Data_Export)  
 - [**Removing Chambers from Respirometer**](#Removing)  
 - [**Take-Down and Clean Up**](#Take-Down)  
 - [**Troubleshooting**](#Troubleshooting)
@@ -43,6 +45,8 @@ Protocol for set-up and take-down of the respirometer in conjunction with the Ox
 <a name="Supplies"></a> **Supplies**
 
 - [Oxygen meter and Sensors PreSens Oxy10](https://www.presens.de/products/detail/oxy-10-st-g2)
+- [Oxy10 Oxygen Dipping Probes](https://www.presens.de/products/detail/oxygen-dipping-probe-dp-pst7)
+- [Oxy10 Temperature Probes](https://www.presens.de/products/detail/pt100-temperature-sensor)
 - [Respirometer stand (with 4 screw-on legs) or underwater stirring plate](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_base.JPG?raw=true)
 - [Silicon - DuPont Molykote 112 High Performance Silicon Food Grade](https://www.mcmaster.com/1204K42/)
 - [Stir system large orings - Oil-Resistant Buna-N O-Ring
@@ -50,9 +54,10 @@ Protocol for set-up and take-down of the respirometer in conjunction with the Ox
 - [Stir system small orings - Oil-Resistant Buna-N O-Ring
 3 mm Wide, 125 mm ID](https://www.mcmaster.com/1302N183/)
 - [Chamber orings]() 
-- [Chambers](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_singlechamber.JPG?raw=true) (10 can be measured at any one time with the Presens)
+- [Chambers](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_singlechamber.JPG?raw=true) (10 can be measured at any one time with the Presens Oxy10)
+	- MAKE SURE BOTH TOP AND BOTTOM OF THE CHAMBERS ARE LABELLED 
 - [Magnetic stir bars x10](https://www.mcmaster.com/5678K155/)
-- Chamber screw key
+- Chamber screw key - ADD PHOTO HERE
 - [Battery](https://www.mcmaster.com/7448K13/) 
 	- Height	2.4" Width	5.3" Depth	1.3"
 - [Battery Charger](https://www.mcmaster.com/76025K15/)
@@ -69,7 +74,8 @@ Protocol for set-up and take-down of the respirometer in conjunction with the Ox
 - [Apex controller](https://shop.neptunesystems.com/collections/systems/products/apex-controller-system)
 - [Apex temperature probe](https://shop.neptunesystems.com/products/temperature-probe)
 - [Digital Thermometer Cat 150778](https://www.fishersci.com/shop/products/fisher-scientific-traceable-digital-thermometers-11/150778#?keyword=digital%20thermometer)
-- [Light sensor and meter if measuring photosynthesis](https://www.apogeeinstruments.com/mq-510-full-spectrum-underwater-quantum-meter/)  
+- [Light sensor and meter if measuring photosynthesis](https://www.apogeeinstruments.com/mq-510-full-spectrum-underwater-quantum-meter/)
+- [Minimum Data Sheet]()  
 
 <a name="Bath"></a> **Water Bath Setup**
 
@@ -92,6 +98,7 @@ ADD PHOTO HERE
 
 <a name="Oxy10"></a> **Oxy10 Setup**
 ADD SECTION HERE ON SETUP AWAY FROM WATER AND ADDING ALL THE PROBES
+ADD CONTENT FROM HERE https://github.com/SilbigerLab/Protocols/blob/master/Physiological_Parameter_Protocols/Protocols/Respirometry_Protocol/PreSens_SOP.md
 
 <a name="Software Setup"></a> **Software Setup**
 
@@ -100,31 +107,33 @@ ADD SECTION HERE ON SETUP AWAY FROM WATER AND ADDING ALL THE PROBES
 Perform instructions in the correct order!!
 
 Set up
-Connect OXY10 to a power source
-Close all applications on the computer (PC ONLY)
-Connect OXY10 to the computer
-Launch the PreSens Measurement Studio 2 Program on the computer
-Remove sensor covers and connect to OXY10
-Oxygen sensor installation
-Line up notch on the side of the cable to the opening in the port
-Push in the metal part on the cord and guide the notch through the grooves
+Connect OXY10 to a power source - ADD PHOTO HERE
+Close all applications on the computer (PC ONLY) 
+Connect OXY10 to the computer - ADD PHOTO HERE
+Launch the PreSens Measurement Studio 2 Program on the computer - ADD PHOTO HERE
+Remove sensor covers and connect to OXY10 - ADD PHOTO HERE
+
+Oxygen sensor installation - ADD PHOTO HERE
+	- Line up notch on the side of the cable to the opening in the port
+	- Push in the metal part on the cord and guide the notch through the grooves
 
 
-Temperature sensor installation
-Line up red dots on the cable and the port
-Make sure to slide into the port straight
+Temperature sensor installation - ADD PHOTO HERE
+	- Line up red dots on the cable and the port
+	- Make sure to slide into the port straight
 
 
 When Software Opens
 Check side of screen for device name text indicating the device is connected:
 OXY-10 ST, 02
 SABD0000000001
+- ADD PHOTO HERE
 Click on device name and it will open the following screen
 
 
 Setting up channels
 Each Channel will run an individual sensor. Each Channel requires the following 3 things to be set:
-
+- ADD PHOTO HERE
 Measurement
 Sensor
 User
@@ -135,7 +144,8 @@ Assign a new name and click Save
 Make sure the new Measurement is highlighted and click the desired channel you want to pair with
 Click Assign
 Your new Measurement should be paired with the desired channel
-2. How to change a sensor:
+
+2. How to change a sensor: - ADD PHOTO HERE
 Locate the correct calibration information to the specific sensor
 Click Sensors on the tool bar
 Then click New
@@ -165,26 +175,31 @@ dKSV2: fill with value on calibration sheet
 
 Click Save
 Make sure the new sensor is highlighted and click the desired channel you want to pair with
-Click Assign
+Click Assign - ADD PHOTO HERE
 Your new Sensor should be paired with the desired channel
+
 3. How to set a user
-Click Users on the tool bar
+Click Users on the tool bar 
 Choose default user with default parameters
+
 How to Launch and Record Measurements:
-Ensure the channel has a measurement, sensor, and user (default)
+Ensure the channel has a measurement, sensor, and user (default) - ADD PHOTO HERE
 Click on the channel and click Live View
-Make sure to change:
+Make sure to change: - ADD PHOTO HERE
 Units to μmol/L
 Set Salinity to the value of the seawater you are measuring (e.g. 36%)
 The click Start
 
+repeat for each sensor you are using
 
 <a name="Calibrate"></a> **Probe Calibration**
-
+ADD CONTENT FROM HERE https://github.com/SilbigerLab/Protocols/blob/master/Physiological_Parameter_Protocols/Protocols/Respirometry_Protocol/PreSens_SOP.md
+ADD TEXT HERE
+- ADD PHOTO HERE
 
 <a name="Stir"></a> **Stirring System Setup**
 
-Check all orings connecting the drive motor to the stirplate for cracks. Lubricate with X silicon
+Check all orings connecting the drive motor to the stirplate for cracks. Lubricate with silicon before each run as needed
 
 1. Unscrew the cap of the sealed battery compartment on the underside of the respirometer and locate the red and black cables.  ADD PHOTO HERE Attach the red clip to the positive terminal (marked in red) on the battery and the black clip to the negative terminal (marked in black).  
 	1. The connection point of the black wire is very delicate.  Rough handing or too much tension on the wires from twisting may disconnect the wire from its base, requiring soldering to reattach the the metal foot of the wire to the metal point on the base.  If this disconnectin occurs, see [**Troubleshooting**](/Coral_Physiological_Parameter_Protocols/Protocols/Respirometry_Protocol/Troubleshooting_Guide.md).  
@@ -203,25 +218,29 @@ Check all orings connecting the drive motor to the stirplate for cracks. Lubrica
 
 <a name="Chambers"></a> **Filling and Securing Chambers**
 
-1. Unscrew the bottom from a chamber and place a magnetic stir bar in the center divet. Once the source water is at the desired temperature, submerge the chamber top and bottom and shake off or wipe away any air bubbles.  
+1. Unscrew the bottom from a chamber and place a magnetic stir bar in the center divet. Once the source water is at the desired temperature, submerge the chamber top and bottom and shake off or wipe away any air bubbles.   - ADD PHOTO HERE
     1. If including organisms, secure them in the bottom of the chamber before screwing the top and bottom together until **hand tight**.  Check again for bubbles and remove any as necessary.  **Record the time of when you seal each chamber** and leave submerged to maintain temperature until ready to secure on the respirometer.  ADD PHOTO HERE
     1. The probes will need to reach the submerged chamber without straining the wire, [insert the probes into the chamber](#Probes) at this time before placing the chambers onto the respirometer.
+- ADD PHOTO HERE
 
 1. Use the screw key to loosen the bolts of the holding plates on the respirometer just until the plates are moveable but not detached.  
+- ADD PHOTO HERE
 
-1. Place the chamber in a chamber slot and then <a name="Probes"></a> insert the Oxy-10 probes.
+1. Place the chamber in a chamber slot and then <a name="Probes"></a> insert the Oxy-10 probes. - ADD PHOTO HERE
     1. Careful to not damage the probes or introduce bubbles to the chamber, insert the temperature probe into the larger probe port and gently guide it down until it fits snuggly and securely.
-    1. Once the temperature probe is in place, gently guide the oxygen probe into its port, being careful to not scratch the probe tip.  The probe tip should be at least 2 cm into the chamber, but can be inserted farther, as long as the probe isn't touching any organisms or objects in the chamber.  
+    1. Once the temperature probe is in place, gently guide the oxygen probe into its port, being careful to not scratch the probe tip.  The probe tip should be at least 2 cm into the chamber, but can be inserted farther, as long as the probe isn't touching any organisms or objects in the chamber. 
+    - ADD PHOTO HERE 
     1. Check for bubbles inside the chamber.  If any bubbles are present, remove them at this time.  
-        1. You may be able to guide small bubbles out of the airlock seal on the chamber lid by unscrewing the airlock seal and guiding the bubbles out, then rescrewing on the airlock finger tight.  
+        1. You may be able to guide small bubbles out of the airlock seal on the chamber lid by unscrewing the airlock seal and guiding the bubbles out, then rescrewing on the airlock finger tight.
+        2.- ADD PHOTO HERE  
         1. Note that if cooler water is not from the same source as your second bin water (used to fill the chambers), you must remove air bubbles only while submerging the chamber in the second bin's water.
     1. If there are large bubbles or a large quantity of bubbles after moving the chamber, remove the chamber from the respirometer, place back into the source water, unscrew the bottom to wipe or shake away any bubbles, then close and re-secure the chamber.  Note the new time of when you sealed the chamber.  
 
-1. Repeat for all 10 chambers, filling at least one chamber with only water, without any organisms, for a "background" dataset.
+1. Repeat for all 10 chambers, filling at least one chamber with only water, without any organisms, for a "BLANK" dataset to account for background oxygen flux.
 
-1. Once all chambers are in place, with probes and no bubbles, tighten the screws on the respirometer, making sure the holding plates are over the chamber bottoms.  Test if the chambers are secure by attempting to gently jiggle the chambers.  There should be no movement.  
+1. Once all chambers are in place, with probes and no bubbles, tighten the screws on the respirometer finger tight, making sure the holding plates are over the chamber bottoms.  - ADD PHOTO HERE Test if the chambers are secure by attempting to gently move the chambers.  There should be no movement.  
 
-1. Once all chambers are secure, turn the power switch **clockwise** to turn on, and check for proper stir bar placement.  If any stir bars are not spinning or are out of place, loosen the bolt and gently jiggle the chamber until the bar is reset.
+1. Once all chambers are secure, turn the stir system power switch **clockwise** to on, and check for proper stir bar placement.  If any stir bars are not spinning or are out of place, loosen the bolt and gently jiggle the chamber until the bar is reset in the center of the divot.
     1. If necessary, remove the chamber, place back into the source water, unscrew the bottom to move the stir bar into place, then close and re-secure the chamber.  Note the new time of when you seal the chamber.  
 
 <a name="Final_Checks"></a> **Final Chamber Checks**
@@ -234,7 +253,7 @@ Last checks before starting to record data using the PreSens program:
 
 1. No bubbles are present inside the chambers  
 
-1. The correct probes are in the correct chambers (Every numbered temperature probe is with its corresponding numbered oxygen probe and in the numbered chamber you've assigned to the probe pair)  
+1. The correct probes are in the correct chambers (Every numbered temperature probe is with its corresponding numbered oxygen probe and in the numbered chamber you've assigned to the probe pair). Make sure you have recorded this on your datasheet.  
 
 1. The probes are snug and secure in the chambers  
 
@@ -256,8 +275,9 @@ If using the respirometer at more than one temperature
 1. Remove the probes and carefully place or drape them in a secure location.  
 
 1. Unscrew the holding plates and remove the chambers.  
+1. **YOU MUST MEASURE THE TOTAL VOLUME OF WATER IN THE CHAMBER IN ORDER TO CALCULATE THE RATE TAKING INTO ACCOUNT THE SAMPLE WATER DISPLACEMENT**
 
-1. If collecting water samples, note the time when you either unscrew the airlock seal on the lid (best method for pouring the water into another container) or unscrew the bottom (keep the chamber upside down for this method).  
+1. If saving water samples, note the time when you either unscrew the airlock seal on the lid (best method for pouring the water into another container) or unscrew the bottom (keep the chamber upside down for this method).  
 
 1. Unscrew the bottom of the chamber to fully drain the water, then place the two chamber parts in the source water.  
     1. If you have any organisms secured in the bottom of the chamber, be as swift as possible to minimize time spent out of the water.  
@@ -269,7 +289,8 @@ If using the respirometer at more than one temperature
 
 <a name="Take-Down"></a> **Respirometer Take-Down and CleanUp**
 
-1. Turn off the Apex's and respirometer battery by turning the switch **counter-clockwise**.
+1. Turn off the Apex and 
+2. Turn off the power to the respirometer battery by turning the switch **counter-clockwise**.
 
 1. Remove the probes and carefully place or drape them in a secure location.
 
@@ -288,7 +309,7 @@ If using the respirometer at more than one temperature
     1. If any water seeped into the battery compartment, this will force the water away from other electrical components of the compartment.  
     1. Drain the water bath and refill with fresh water.  Place the respirometer in the fresh water to soak.  
 
-1. While letting everything soak, collect and organize the Oxy-10 probes so the Oxygen probes are together and the temperature probes are together  
+1. While letting everything soak, collect and organize the Oxy10 probes so the Oxygen probes are together and the temperature probes are together  
     1. Fill two beakers with DI water and gently drape the probes over a line or surface so the probe tips (any portion exposed to the water) are submerged in DI, with O2 probes in one beaker and temp probes in another.  
 
 1. Breaking down the respirometer after soaking  
@@ -298,7 +319,7 @@ If using the respirometer at more than one temperature
     1. Check for any leaked water by wiping a towel, cloth, or chemwipe around the inside of the compartment.  
     1. Place the respirometer on a stable surface to dry overnight (with the battery compartment opening-side down).  
 
-1. Using a clean rag or chemwipe with ethanol, wipe down the cord of each Oxy-10 probe to remove any remaining salt deposits or particulates, then recoil the probes and store in their original labeled bags.  
+1. Using a clean rag or chemwipe with ethanol, wipe down the cord of each Oxy10 probe to remove any remaining salt deposits or particulates, then recoil the probes and store in their original labeled bags.  
     1. Refer to the [**PreSens SOP**](/Coral_Physiological_Parameter_Protocols/Protocols/Respirometry_Protocol/PreSens_SOP.md) for proper handling and storage of the probes.  
 
 1. Leave items to soak overnight if possible, then remove from the fresh water and place on a clean surface to dry.  
