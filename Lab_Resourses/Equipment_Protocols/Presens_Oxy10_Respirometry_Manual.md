@@ -30,13 +30,14 @@ Protocol for set-up and take-down of the respirometer in conjunction with the Ox
 ![Oxy10 Instrument Setup](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_setinstrument.png?raw=true)
 ![Oxy10 Temperature Probe Connections](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_tempprobes.png?raw=true)
 ![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_chamberbase.JPG?raw=true)
-![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_chambers_stirsystem.JPG?raw=true)
+![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_chambers_stirsystem.JPG?raw=true =100x100)
 
 
 
 <a name="Supplies"></a> **Supplies**
 
 - Respirometer stand (with 4 screw-on legs) or underwater stirring plate
+![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_chambers_stirsystem.JPG?raw=true)
 - Chambers (10 can be measured at any one time)
 - Magnetic stir bars x10
 - Chamber screw key
