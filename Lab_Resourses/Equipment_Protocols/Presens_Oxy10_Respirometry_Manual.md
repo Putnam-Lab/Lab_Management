@@ -6,7 +6,7 @@
 Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy10 sensor, probes and software in a temperatuer controlled setting. This includes Apex controller for temperature manipulation and control of the respirometry water baths.
 
 
-**Contents**  
+# **Contents**  
 - [**Supplies**](#Supplies)
 - [**Water Bath Setup**](#Bath)    
 - [**Oxy10 Setup**](#Oxy10)
@@ -16,17 +16,17 @@ Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy
 - [**Filling and Securing Chambers**](#Chambers)  
 - [**Inserting Oxy-10 Probes**](#Probes)  
 - [**Final Chamber Checks**](#Final_Checks)  
-- [**Water Changeover for Additional Runs**](#Water_Change)
+- [**Water Changeover for Additional Runs**](#Water_Change)  
 - [**Exporting Data**](#Data_Export)  
 - [**Removing Chambers from Respirometer**](#Removing)  
 - [**Take-Down and Clean Up**](#Take-Down)  
-- [**Troubleshooting**](#Troubleshooting)
-- [**Chamber Oring Replacement**](#ChamberOring)
-- [**Stir System Oring Replacemen**](#StirSystemOrings)   
+- [**Troubleshooting**](#Troubleshooting)  
+- [**Chamber Oring Replacement**](#ChamberOring)  
+- [**Stir System Oring Replacement**](#StirSystemOrings)   
 
 
 
-<a name="Supplies"></a> **Supplies**
+# <a name="Supplies"></a> **Supplies**
 
 - [Oxygen meter and Sensors PreSens Oxy10](https://www.presens.de/products/detail/oxy-10-st-g2)
 - [Oxy10 Oxygen Dipping Probes](https://www.presens.de/products/detail/oxygen-dipping-probe-dp-pst7)
@@ -61,7 +61,7 @@ Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy
 - [Light sensor and meter if measuring photosynthesis](https://www.apogeeinstruments.com/mq-510-full-spectrum-underwater-quantum-meter/)
 - [Minimum Data Sheet]()  
 
-<a name="Bath"></a> **Water Bath Setup**
+# <a name="Bath"></a> **Water Bath Setup**
 
 1. Place the coolers in close proximity to their respective chillers and within reach of the heaters and probes connected to the temperature controllers.  ADD PHOTO HERE Here Fill the second bin with the water you'll use to fill the chambers (here called "source water") and set up an Apex controller to control the temperature of that water.  ADD LINK TO APEX SETUP AND CODE HERE
 1. Fill the cooler with source water, enough to fully submerge the chambers once the stirring rack and chambers are placed inside, and set up the Apex controller to control the temperature of that water.
@@ -80,13 +80,14 @@ ADD PHOTO HERE
 
 1. While you wait for the bath and source water to reach the desired temperature, set up the Oxy10 and prepare the stirring system and chambers.  
 
-<a name="Oxy10"></a> **Oxy10 Setup**
+# <a name="Oxy10"></a> **Oxy10 Setup**
+ADD PICTURE OF ALL COMPONENTS LAID OUT ON A BENCHTOP WITH LABELS ON EACH ONE
 ADD SECTION HERE ON SETUP AWAY FROM WATER AND ADDING ALL THE PROBES
 ADD CONTENT FROM HERE https://github.com/SilbigerLab/Protocols/blob/master/Physiological_Parameter_Protocols/Protocols/Respirometry_Protocol/PreSens_SOP.md
 
 ![Oxy10 Back](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10-back.JPG?raw=true)
 
-<a name="Software Setup"></a> **Software Setup**
+# <a name="Software Setup"></a> **Software Setup**
 
 ### PreSens Measurement Studio 2 Software Setup
 
@@ -184,12 +185,12 @@ The click Start
 
 repeat for each sensor you are using
 
-<a name="Calibrate"></a> **Probe Calibration**
+# <a name="Calibrate"></a> **Probe Calibration**
 ADD CONTENT FROM HERE https://github.com/SilbigerLab/Protocols/blob/master/Physiological_Parameter_Protocols/Protocols/Respirometry_Protocol/PreSens_SOP.md
 ADD TEXT HERE
 - ADD PHOTO HERE
 
-<a name="Stir"></a> **Stirring System Setup**
+# <a name="Stir"></a> **Stirring System Setup**
 ![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_base.JPG?raw=true)
 Check all orings connecting the drive motor to the stirplate for cracks. Lubricate with silicon before each run as needed
 
@@ -208,7 +209,7 @@ Check all orings connecting the drive motor to the stirplate for cracks. Lubrica
 1. Situate the heater so it is fully submerged but not touching the respirometer stand or the Apex temp probe, and away from the battery compartment if possible.  
     1. Consider the best placement of the temp probe, heater, and chiller outflow for adequate water monitoring and circulation.  Ex. Temp probe along the back of the cooler, centered.  The heater suction cupped on one far side of the cooler.  The chiller inflow and outflow placed on the opposide far side of the cooler. ADD PHOTO HERE
 
-<a name="Chambers"></a> **Filling and Securing Chambers**
+# <a name="Chambers"></a> **Filling and Securing Chambers**
 
 ![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_singlechamber.JPG?raw=true)
 ![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_chamberbase.JPG?raw=true)
@@ -240,7 +241,7 @@ Check all orings connecting the drive motor to the stirplate for cracks. Lubrica
 1. Once all chambers are secure, turn the stir system power switch **clockwise** to on, and check for proper stir bar placement.  If any stir bars are not spinning or are out of place, loosen the bolt and gently jiggle the chamber until the bar is reset in the center of the divot.
     1. If necessary, remove the chamber, place back into the source water, unscrew the bottom to move the stir bar into place, then close and re-secure the chamber.  Note the new time of when you seal the chamber.  
 
-<a name="Final_Checks"></a> **Final Chamber Checks**
+# <a name="Final_Checks"></a> **Final Chamber Checks**
 
 Last checks before starting to record data using the PreSens program:  
 
@@ -255,7 +256,7 @@ Last checks before starting to record data using the PreSens program:
 1. The probes are snug and secure in the chambers  
 
 
-<a name="Water_Change"></a> **Water Changeover for Additional Runs**
+# <a name="Water_Change"></a> **Water Changeover for Additional Runs**
 
 If using the respirometer at more than one temperature  
 
@@ -265,7 +266,7 @@ If using the respirometer at more than one temperature
 
 1. While you wait for the temperature in your bath water to stabilize, collect water samples, if needed for your data set, or start [preparing the chambers](#Chambers) with the new source water using the same steps above.
 
-<a name="Removing"></a> **Removing Chambers from Respirometer**
+# <a name="Removing"></a> **Removing Chambers from Respirometer**
 
 1. Turn off the battery by turning the switch **counter-clockwise**.  
 
@@ -284,7 +285,7 @@ If using the respirometer at more than one temperature
 1. Once the source water and water bath are at the desired temperature, follow the same steps to [fill and secure the chambers](#Chambers) to prepare for your next run.  
     
 
-<a name="Take-Down"></a> **Respirometer Take-Down and CleanUp**
+# <a name="Take-Down"></a> **Respirometer Take-Down and CleanUp**
 
 1. Turn off the Apex and 
 2. Turn off the power to the respirometer battery by turning the switch **counter-clockwise**.
@@ -320,3 +321,10 @@ If using the respirometer at more than one temperature
     1. Refer to the [**PreSens SOP**](/Coral_Physiological_Parameter_Protocols/Protocols/Respirometry_Protocol/PreSens_SOP.md) for proper handling and storage of the probes.  
 
 1. Leave items to soak overnight if possible, then remove from the fresh water and place on a clean surface to dry.  
+
+
+# <a name="Troubleshooting"></a> **Troubleshooting**
+
+# <a name="Chamber Oring Replacement"></a> **ChamberOring**
+
+# <a name="Stir System Oring Replacement"></a> **StirSystemOrings**
