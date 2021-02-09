@@ -108,92 +108,92 @@ Oxygen sensor installation - ADD PHOTO HERE
 	- Push in the metal part on the cord and guide the notch through the grooves  
 
 
-Temperature sensor installation - ADD PHOTO HERE
-	- Line up red dots on the cable and the port
-	- Make sure to slide into the port straight
+Temperature sensor installation - ADD PHOTO HERE  
+	- Line up red dots on the cable and the port  
+	- Make sure to slide into the port straight  
 
 
-When Software Opens
-Check side of screen for device name text indicating the device is connected:
-OXY-10 ST, 02
-SABD0000000001
-![Oxy10 Instrument Setup](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_setinstrument.png?raw=true)  
-Click on device name and it will open the following screen
+When Software Opens  
+Check side of screen for device name text indicating the device is connected:  
+OXY-10 ST, 02  
+SABD0000000001  
+![Oxy10 Instrument Setup](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_setinstrument.png?raw=true)    
+Click on device name and it will open the following screen  
 
-![Oxy10 Adding sensors](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_addsensor.png?raw=true)
-![Oxy10 Channel Setup](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_channelsetup.JPG?raw=true)
-![Oxy10 Data Traces](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_datatraces.JPG?raw=true)
-![Oxy10 Fiber Optic Probe Connections](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_fiberopticprobes.png?raw=true)
-![Oxy10 Temperature Probe Connections](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_tempprobes.png?raw=true)
+![Oxy10 Adding sensors](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_addsensor.png?raw=true)  
+![Oxy10 Channel Setup](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_channelsetup.JPG?raw=true)  
+![Oxy10 Data Traces](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_datatraces.JPG?raw=true)  
+![Oxy10 Fiber Optic Probe Connections](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_fiberopticprobes.png?raw=true)  
+![Oxy10 Temperature Probe Connections](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_tempprobes.png?raw=true)  
 
-Setting up channels
-Each Channel will run an individual sensor. Each Channel requires the following 3 things to be set:
-- ADD PHOTO HERE
-Measurement
-Sensor
-User
-1. How to make a new Measurement:
-Click Measurements on the top tool bar
-Then click New
-Assign a new name and click Save
-Make sure the new Measurement is highlighted and click the desired channel you want to pair with
-Click Assign
-Your new Measurement should be paired with the desired channel
+Setting up channels  
+Each Channel will run an individual sensor. Each Channel requires the following 3 things to be set:  
+- ADD PHOTO HERE  
+Measurement  
+Sensor  
+User  
+1. How to make a new Measurement:  
+Click Measurements on the top tool bar  
+Then click New  
+Assign a new name and click Save  
+Make sure the new Measurement is highlighted and click the desired channel you want to pair with  
+Click Assign  
+Your new Measurement should be paired with the desired channel  
 
-2. How to change a sensor: - ADD PHOTO HERE
-Locate the correct calibration information to the specific sensor
-Click Sensors on the tool bar
-Then click New
-Fill out the correct calibration information as on the sheet
-Sensor Name: OXY_CHX, where x = channel name
-Sensor type: Pst7-10
-Batch ID: Found on the barcode and under Batch number at the top of the calibration sheet
-Lot Nr: Leave this empty
-Calibration Data
-pATM: Atmospheric Pressure from calibration sheet
-pATM Unit: hPA
-Mode: Humid
-Cal0
-T0
-Cal2nd
-T2nd
-O2-Cal2nd: Add the value of oxygen solubility for the temperature and salinity of the water you are using (e.g., 203.2 µmol L-1 for 36 ppt at 27°C) - Measure seawater temperature and salinity prior to setting this and input those values.
-Oxygen unit: μmol/L
-Sensor Constants
-f1: fill with value on calibration sheet
-dPhi1: fill with value on calibration sheet
-dKSV1: fill with value on calibration sheet
-m: fill with value on calibration sheet
-dPhi2: fill with value on calibration sheet
-dKSV2: fill with value on calibration sheet
+2. How to change a sensor: - ADD PHOTO HERE  
+Locate the correct calibration information to the specific sensor  
+Click Sensors on the tool bar  
+Then click New  
+Fill out the correct calibration information as on the sheet  
+Sensor Name: OXY_CHX, where x = channel name  
+Sensor type: Pst7-10  
+Batch ID: Found on the barcode and under Batch number at the top of the calibration sheet  
+Lot Nr: Leave this empty  
+Calibration Data    
+pATM: Atmospheric Pressure from calibration sheet  
+pATM Unit: hPA  
+Mode: Humid  
+Cal0  
+T0  
+Cal2nd  
+T2nd  
+O2-Cal2nd: Add the value of oxygen solubility for the temperature and salinity of the water you are using (e.g., 203.2 µmol L-1 for 36 ppt at 27°C) - Measure seawater temperature and salinity prior to setting this and input those values.  
+Oxygen unit: μmol/L  
+Sensor Constants  
+f1: fill with value on calibration sheet  
+dPhi1: fill with value on calibration sheet  
+dKSV1: fill with value on calibration sheet  
+m: fill with value on calibration sheet  
+dPhi2: fill with value on calibration sheet  
+dKSV2: fill with value on calibration sheet  
 
 
-Click Save
-Make sure the new sensor is highlighted and click the desired channel you want to pair with
-Click Assign - ADD PHOTO HERE
-Your new Sensor should be paired with the desired channel
+Click Save  
+Make sure the new sensor is highlighted and click the desired channel you want to pair with  
+Click Assign - ADD PHOTO HERE  
+Your new Sensor should be paired with the desired channel  
 
-3. How to set a user
-Click Users on the tool bar
-Choose default user with default parameters
+3. How to set a user  
+Click Users on the tool bar  
+Choose default user with default parameters  
 
-How to Launch and Record Measurements:
-Ensure the channel has a measurement, sensor, and user (default) - ADD PHOTO HERE
-Click on the channel and click Live View
-Make sure to change: - ADD PHOTO HERE
-Units to μmol/L
-Set Salinity to the value of the seawater you are measuring (e.g. 36%)
-The click Start
+How to Launch and Record Measurements:  
+Ensure the channel has a measurement, sensor, and user (default) - ADD PHOTO HERE  
+Click on the channel and click Live View  
+Make sure to change: - ADD PHOTO HERE  
+Units to μmol/L  
+Set Salinity to the value of the seawater you are measuring (e.g. 36%)  
+The click Start  
 
 repeat for each sensor you are using
 
 # <a name="Calibrate"></a> **Probe Calibration**
-ADD CONTENT FROM HERE https://github.com/SilbigerLab/Protocols/blob/master/Physiological_Parameter_Protocols/Protocols/Respirometry_Protocol/PreSens_SOP.md
-ADD TEXT HERE
+ADD CONTENT FROM HERE https://github.com/SilbigerLab/Protocols/blob/master/Physiological_Parameter_Protocols/Protocols/Respirometry_Protocol/PreSens_SOP.md  
+ADD TEXT HERE  
 - ADD PHOTO HERE
 
 # <a name="Stir"></a> **Stirring System Setup**
-![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_base.JPG?raw=true)
+![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_base.JPG?raw=true)  
 Check all orings connecting the drive motor to the stirplate for cracks. Lubricate with silicon before each run as needed
 
 1. Unscrew the cap of the sealed battery compartment on the underside of the respirometer and locate the red and black cables.  ADD PHOTO HERE Attach the red clip to the positive terminal (marked in red) on the battery and the black clip to the negative terminal (marked in black).  
