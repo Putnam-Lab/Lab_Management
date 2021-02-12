@@ -135,7 +135,7 @@ Click on device name and it will open the following screen
 
 Setting up channels and calibrating new oxygen probes:
 
-[Oxygen Probe Calibration](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Respirometry_Protocol/Presens_Protocol.md)  
+[Oxygen Probe Calibration](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Respirometry_Protocol/PreSens_Software_Protocol.md)  
 
 
 
