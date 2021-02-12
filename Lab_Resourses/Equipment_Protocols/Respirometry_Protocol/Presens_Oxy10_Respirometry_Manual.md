@@ -129,66 +129,10 @@ Click on device name and it will open the following screen
 ![Oxy10 Fiber Optic Probe Connections](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_fiberopticprobes.png?raw=true)  
 ![Oxy10 Temperature Probe Connections](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_tempprobes.png?raw=true)  
 
-Setting up channels  
-Each Channel will run an individual sensor. Each Channel requires the following 3 things to be set:  
-- ADD PHOTO HERE  
-Measurement  
-Sensor  
-User  
-1. How to make a new Measurement:  
-Click Measurements on the top tool bar  
-Then click New  
-Assign a new name and click Save  
-Make sure the new Measurement is highlighted and click the desired channel you want to pair with  
-Click Assign  
-Your new Measurement should be paired with the desired channel  
-
-2. How to change a sensor: - ADD PHOTO HERE  
-Locate the correct calibration information to the specific sensor  
-Click Sensors on the tool bar  
-Then click New  
-Fill out the correct calibration information as on the sheet  
-Sensor Name: OXY_CHX, where x = channel name  
-Sensor type: Pst7-10  
-Batch ID: Found on the barcode and under Batch number at the top of the calibration sheet  
-Lot Nr: Leave this empty  
-Calibration Data    
-pATM: Atmospheric Pressure from calibration sheet  
-pATM Unit: hPA  
-Mode: Humid  
-Cal0  
-T0  
-Cal2nd  
-T2nd  
-O2-Cal2nd: Add the value of oxygen solubility for the temperature and salinity of the water you are using (e.g., 203.2 µmol L-1 for 36 ppt at 27°C) - Measure seawater temperature and salinity prior to setting this and input those values.  
-Oxygen unit: μmol/L  
-Sensor Constants  
-f1: fill with value on calibration sheet  
-dPhi1: fill with value on calibration sheet  
-dKSV1: fill with value on calibration sheet  
-m: fill with value on calibration sheet  
-dPhi2: fill with value on calibration sheet  
-dKSV2: fill with value on calibration sheet  
+Setting up channels and calibrating new oxygen probes:
 
 
-Click Save  
-Make sure the new sensor is highlighted and click the desired channel you want to pair with  
-Click Assign - ADD PHOTO HERE  
-Your new Sensor should be paired with the desired channel  
 
-3. How to set a user  
-Click Users on the tool bar  
-Choose default user with default parameters  
-
-How to Launch and Record Measurements:  
-Ensure the channel has a measurement, sensor, and user (default) - ADD PHOTO HERE  
-Click on the channel and click Live View  
-Make sure to change: - ADD PHOTO HERE  
-Units to μmol/L  
-Set Salinity to the value of the seawater you are measuring (e.g. 36%)  
-The click Start  
-
-repeat for each sensor you are using
 
 # <a name="Calibrate"></a> **Probe Calibration**
 ADD CONTENT FROM HERE https://github.com/SilbigerLab/Protocols/blob/master/Physiological_Parameter_Protocols/Protocols/Respirometry_Protocol/PreSens_SOP.md  
