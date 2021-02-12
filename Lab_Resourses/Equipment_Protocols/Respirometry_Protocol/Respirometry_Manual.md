@@ -8,7 +8,8 @@ Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy
 
 # **Contents**  
 - [**Supplies**](#Supplies)
-- [**Water Bath Setup**](#Bath)    
+- [**Water Bath Setup**](#Bath)   
+- [**Connecting the Battery**](#Battery)   
 - [**Oxy10 Setup**](#Oxy10)
 - [**Software Setup**](#Software_Setup)    
 - [**Probe Calibration**](#Calibrate)       
@@ -76,6 +77,21 @@ Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy
 1. Before plugging the chiller and heater into the Apex EnergyBar, make sure the EnergyBar outlets are manually OFF.  Set these outlets to AUTO only once you've programmed the outlets for your desired temperature.  [Apex Protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Respirometry_Protocol/Apex_SOP.md)
 
 1. While you wait for the bath and source water to reach the desired temperature, set up the Oxy10 and prepare the stirring system and chambers.  
+
+# <a name="Battery"></a> **Connecting the Battery**
+
+1. Unscrew the cap of the sealed battery compartment on the underside of the respirometer and locate the red and black cables.  Attach the red clip to the positive terminal (marked in red) on the battery and the black clip to the negative terminal (marked in black).  Test your connection and battery power by turning the switch on the other side of battery compartment **clockwise**.  The conveyor belt should start moving at a quick pace.  Turn the switch off.  
+1. If the belt does not move or moves slowly, the battery needs to be switched out and recharged.  
+1. As an additional check, you can unscrew a chamber base, insert a stir bar in the center divet of the base, then reseal the chamber.  Place the chamber in one of the chamber slots and note the rotation speed of the stir bar.  If the stir bar is spinning slowly or not at all, the battery needs to be switched out and recharged.  
+
+1. Place the connected battery inside the compartment **gently** and screw the lid on tightly, making sure the o-ring is properly positioned.  Use a boa grip to tighten the lid with 1-2 quarter turns, then wrap with parafilm around the lid to seal the cap.
+1. The connection point of the black wire is very delicate.  Rough handing or too much tension on the wires from twisting may disconnect the wire from its base, requiring soldering to reattach the the metal foot of the wire to the metal point on the base.  If this disconnectin occurs, see [**Troubleshooting**](/Coral_Physiological_Parameter_Protocols/Protocols/Respirometry_Protocol/Troubleshooting_Guide.md).  
+1.  Once the battery is placed inside, and everything is sealed, do one last check of power to make sure the motor is running (observe the black bands moving along their tracks at quick speed), then turn it off to conserve the battery until you're ready to start your runs.
+
+1. Once you are sure the battery compartment is water tight, submerge the respirometer in the cooler's water bath.  
+
+1. Situate the heater so it's fully submerged but not touching the respirometer stand or the Apex temp probe, and away from the battery compartment if possible.  
+1. Consider the best placement of the temp probe, heater, and chiller outflow for adequate water monitoring and circulation.  Ex. Temp probe along the back of the cooler, centered.  The heater suction cupped on one far side of the cooler.  The chiller inflow and outflow placed on the opposide far side of the cooler.
 
 # <a name="Oxy10"></a> **Oxy10 Setup**
 
