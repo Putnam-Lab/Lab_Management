@@ -1,5 +1,4 @@
 # Respirometer Manual - IN PROGRESS
-	 - last updated 20210209
 
 [PreSens Oxy-10 ST](https://www.presens.de/products/detail/oxy-10-st-g2)
 [Sirring System](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Stirplate_chamber_Drawings_AIMS.pdf)
@@ -64,20 +63,17 @@ Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy
 
 # <a name="Bath"></a> **Water Bath Setup**
 
-1. Place the coolers in close proximity to their respective chillers and within reach of the heaters and probes connected to the temperature controllers.  ADD PHOTO HERE Here Fill the second bin with the water you'll use to fill the chambers (here called "source water") and set up an Apex controller to control the temperature of that water.  ADD LINK TO APEX SETUP AND CODE HERE
-1. Fill the cooler with source water, enough to fully submerge the chambers once the stirring rack and chambers are placed inside, and set up the Apex controller to control the temperature of that water.
+1. Place the coolers in close proximity to their respective chillers and within reach of the heaters and probes connected to the temperature controllers. Fill the second bin with the water you'll use to fill the chambers (here called "source water") and set up an Apex controller to control the temperature of that water.  [Apex Protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Respirometry_Protocol/Apex_SOP.md)
+
+1. Fill the cooler with source water, enough to fully submerge the chambers once the stirring rack and chambers are placed inside, and set up the Apex controller to control the temperature of that water. 
 
 1. Connect tubing to the inflow and outflow ports on your chillers.  At the free end of the inflow tube, attach an aquarium pump.  Place the pump and the free end of the outflow tube in the cooler (repeat for the second bin).  Power on the pump and check for water flow.
-ADD PHOTO HERE
 
 1. Add the heater to the cooler **The heater(s) must be fully submerged to the indicated locations for your brand of heater before powering on, or they can melt or crack**
-ADD PHOTO HERE
 
-1. Place the Apex temperature probe in the water and check that the display (or apex.local dashboard on your computer) is showing an accurate current temperature reading.  
-ADD PHOTO HERE
+1. Place the Apex temperature probe in the water and check that the display (or apex.local dashboard on your computer) is showing an accurate current temperature reading.   [Apex Protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Respirometry_Protocol/Apex_SOP.md)
 
-1. Before plugging the chiller and heater into the Apex EnergyBar, make sure the EnergyBar outlets are manually OFF.  Set these outlets to AUTO only once you've programmed the outlets for your desired temperature.
-ADD PHOTO HERE
+1. Before plugging the chiller and heater into the Apex EnergyBar, make sure the EnergyBar outlets are manually OFF.  Set these outlets to AUTO only once you've programmed the outlets for your desired temperature.  [Apex Protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Respirometry_Protocol/Apex_SOP.md)
 
 1. While you wait for the bath and source water to reach the desired temperature, set up the Oxy10 and prepare the stirring system and chambers.  
 
@@ -87,8 +83,16 @@ Below is an example of the entire set-up. This can be modified to be specific to
 
 ![labeledoxysetup](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Equip_Images/resp-setup-total.jpg?raw=true)
 
-ADD CONTENT FROM HERE  
- https://github.com/SilbigerLab/Protocols/blob/master/Physiological_Parameter_Protocols/Protocols/Respirometry_Protocol/PreSens_SOP.md
+Be very delicate with the oxygen probes.  Leave the cap on the end when not in use and do not scratch the tip.  The oxygen cord should never be coiled too tightly or bent, or the sensor will break.
+
+1.    Insert each numbered Temp probe into the corresponding Temp port (lower ports) on the Oxy-10 by aligning the red dots and pushing gently until the dots meet.
+1.    Remove the **black caps on the Oxy-10 Oxygen ports**, and the **red caps on the O2 probes** and place all caps in the bag labeled “Oxy-10 ST Caps”.
+1.    Insert each numbered O2 probe into the corresponding O2 port (upper ports) on the Oxy-10 by aligning the metal pin on the port with the opening on the probe end.  Push in and turn the probe clockwise to catch the pin.
+1.    Leave the black cap on the O2 probe until you’re ready to use the probe, then place these caps in the bag labeled “Oxygen Sensor Caps”.
+1.    Attach the power supply to the lower port on the back of the Oxy-10 by inserting the connector and screwing until finger tight.
+1.    Connect the domestic or appropriate international plug to the power supply and then plug into an electrical outlet.
+1.    Plug the USB connector cord into your computer and the other end into the Oxy-10
+
 
 ![Oxy10 Back](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10-back.JPG?raw=true)
 
@@ -136,9 +140,16 @@ Setting up channels and calibrating new oxygen probes:
 
 
 # <a name="Calibrate"></a> **Probe Calibration**
-ADD CONTENT FROM HERE https://github.com/SilbigerLab/Protocols/blob/master/Physiological_Parameter_Protocols/Protocols/Respirometry_Protocol/PreSens_SOP.md  
-ADD TEXT HERE  
-- ADD PHOTO HERE
+
+1.  In the Sensors tab, select "New".
+1.  Type in the name for your sensor (Ex. OXY_CH1) and select the probe type listed on your probe description sheet (Ex. PSt7_10)
+1.  Fill in the information as provided by the data sheet for the specific sensor you're calibrating.
+1. Only use the information in the gray boxes for Phase Signal and Temperature.
+1. Be sure to select the correct units for Temperature (Celcius) and Oxygen (umol/L or your preferrered units).
+1. Note the User Signal Intensity: this value may be 0 or 1 depending on the specific sensor.
+1. Batch ID breaks down into 4 number groups: first two digits are the Year, second two digits are the Month, third two digits are the Day, and the three digits after the dash are the Sequence.
+1. Leave Lot Nr blank.
+1.    Select the appropriate OXY_CH# probe and Channel #, then click “Assign to” to link the coupled O2 and Temp probes to each Channel.
 
 # <a name="Stir"></a> **Stirring System Setup**
 ![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_base.JPG?raw=true)  
@@ -268,13 +279,46 @@ If using the respirometer at more than one temperature
     1. Place the respirometer on a stable surface to dry overnight (with the battery compartment opening-side down).  
 
 1. Using a clean rag or chemwipe with ethanol, wipe down the cord of each Oxy10 probe to remove any remaining salt deposits or particulates, then recoil the probes and store in their original labeled bags.  
-    1. Refer to the [**PreSens SOP**](/Coral_Physiological_Parameter_Protocols/Protocols/Respirometry_Protocol/PreSens_SOP.md) for proper handling and storage of the probes.  
+    1. Refer to the [**PreSens SOP**](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Respirometry_Protocol/PreSens_SOP.md) for proper handling and storage of the probes.  
 
 1. Leave items to soak overnight if possible, then remove from the fresh water and place on a clean surface to dry.  
 
 
 # <a name="Troubleshooting"></a> **Troubleshooting**
 
+**If PreSens Measurement Studio 2 crashes after plugging in the Oy10, or PreSens shows this error message after plugging in the Oxy10 first: "Error while loading the sensors.  The application will now terminate."**  
+- First, Shut down the program and reload it.
+- If that doesn't work, shut down the computer and reboot, then open the program.
+- If a connection still cannot be made, update the PreSens Measurement 2 software [here](https://www.presens.de/support-services/download-center/software.html)
+- Uninstall the PreSens Software from your computer (once reinstalled, you will likely have to recalibrate the O2 probes)
+- On the webpage, under O~2~, click the topmost link
+- Login (or Register, if you prefer your own user login) with email: danielle.barnas@csun.edu pw: SilbigerLab
+- The download should begin automatically, and once it's loaded, open the file and run through the guided download steps
+- Open PreSens on your computer and plug in the Oxy10.  The sensors should now display on the left sidebar
+- Follow steps for [Probe Calibration](#Probe_Cal)
+
+**If probe readings seem incorrect**  
+- Basic test of the Temperature probes
+- Make a dummy Measurement file and assign it to the probe you want to check
+- Run the channel assigned to that probe
+- Hold the probe tip and watch the measurement curve.  The curve should begin leveling off at your body temp (can note a change in the curve either up or down depending on your environment's temperature relative to your body to verify the probe is not malfunctioning)
+- If the reading still seems off, disconnect and reconnect the probe, and try the above steps again
+- To check accuracy of the readings, place the probe in a beaker of water and use a secondary thermometer to check the probe's readings against the thermometer's
+- If the reading still seems off, check the probe tip and wire for any tears and deep scratches.  If any are present, the probe may be damaged and need replacing
+- Basic test the O~2~ probes
+- Make a dummy Measurement file and assign it to the probe you want to check
+- Run the channel assigned to that probe
+- Breath out close to the probe tip and watch the measurement curve.  The curve should begin dropping, indicating a drop in Oxygen
+- If the reading still seems off, disconnect and reconnect the probe, and try the above steps again
+- If the reading still seems off, check the probe tip and wire for any tears, crimps, and deep scratches.  If any are present, the probe may be damaged and need replacing
+
 # <a name="Chamber Oring Replacement"></a> **ChamberOring**
 
 # <a name="Stir System Oring Replacement"></a> **StirSystemOrings**
+
+<a name="references"></a> **References**  
+* [Oxygen Dipping Probe DP-PSt7 specifications](https://www.presens.de/products/detail/oxygen-dipping-probe-dp-pst7)
+* [Pt100 Temperature Sensor specifications](https://www.presens.de/products/detail/pt100-temperature-sensor)
+* [Specification Brochure](#Images/Presens_O2_and_Temp_specs)
+* [Oxygen Optical Sensors and Meters Brochure](https://www.presens.de/fileadmin/user_upload/brochures/190731_cawe_Presens_O2_Broschuere_07-19_dv3_web.pdf)
+* [Silbiger Lab Protocol](https://github.com/SilbigerLab/Protocols/tree/master/Physiological_Parameter_Protocols/Protocols/Respirometry_Protocol)
