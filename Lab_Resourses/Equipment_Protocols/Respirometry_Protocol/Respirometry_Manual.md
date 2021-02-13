@@ -76,11 +76,13 @@ Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy
 
 1. Place the Apex temperature probe in the water and check that the display (or apex.local dashboard on your computer) is showing an accurate current temperature reading. [Temperature Control](Temperature)
 
-1. Before plugging the chiller and heater into the Apex EnergyBar, make sure the EnergyBar outlets are manually OFF.  Set these outlets to AUTO only once you've programmed the outlets for your desired temperature.  [Apex Protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Respirometry_Protocol/Apex_SOP.md)
+1. Before plugging the chiller and heater into the Apex EnergyBar, make sure the EnergyBar outlets are manually OFF.  Set these outlets to AUTO only once you've programmed the outlets for your desired temperature.  [Temperature Control](Temperature)
 
 1. While you wait for the bath and source water to reach the desired temperature, set up the Oxy10 and prepare the stirring system and chambers.  
 
-# <a name="Temperature"></a> **Temperature Control** (add photos)
+# <a name="Temperature"></a> **Temperature Control** 
+
+(ADD PHOTOS)
 
 Further information on the [Apex_SOP](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Respirometry_Protocol/Apex_SOP.md) for if you need to connect without internet or need to use the Apex Jr. or Apex El counsel controls.
 
