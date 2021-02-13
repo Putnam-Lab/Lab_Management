@@ -66,7 +66,7 @@ Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy
 
 # <a name="Bath"></a> **Water Bath Setup**
 
-1. Place the coolers in close proximity to their respective chillers and within reach of the heaters and probes connected to the temperature controllers. Fill the second bin with the water you'll use to fill the chambers (here called "source water") and set up an Apex controller to control the temperature of that water. [Temperature Control](Temperature)
+1. Place the coolers in close proximity to their respective chillers and within reach of the heaters and probes connected to the temperature controllers. Fill the second bin with the water you'll use to fill the chambers (here called "source water") and set up an Apex controller to control the temperature of that water. [Temperature Control](#Temperature)
 
 1. Fill the cooler with source water, enough to fully submerge the chambers once the stirring rack and chambers are placed inside, and set up the Apex controller to control the temperature of that water.
 
@@ -74,9 +74,9 @@ Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy
 
 1. Add the heater to the cooler **The heater(s) must be fully submerged to the indicated locations for your brand of heater before powering on, or they can melt or crack**
 
-1. Place the Apex temperature probe in the water and check that the display (or apex.local dashboard on your computer) is showing an accurate current temperature reading. [Temperature Control](Temperature)
+1. Place the Apex temperature probe in the water and check that the display (or apex.local dashboard on your computer) is showing an accurate current temperature reading. [Temperature Control](#Temperature)
 
-1. Before plugging the chiller and heater into the Apex EnergyBar, make sure the EnergyBar outlets are manually OFF.  Set these outlets to AUTO only once you've programmed the outlets for your desired temperature.  [Temperature Control](Temperature)
+1. Before plugging the chiller and heater into the Apex EnergyBar, make sure the EnergyBar outlets are manually OFF.  Set these outlets to AUTO only once you've programmed the outlets for your desired temperature.  [Temperature Control](#Temperature)
 
 1. While you wait for the bath and source water to reach the desired temperature, set up the Oxy10 and prepare the stirring system and chambers.  
 
