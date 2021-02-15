@@ -602,11 +602,11 @@ If using the respirometer at more than one temperature (i.e. Thermal Performance
 
 **Disconnected battery wire**
 
-Access the battery compartment by simply unscrewing (rotating counterclockwise) the PVC tubing which holds the battery and connections. No screwdrivers are required.
-A temporary hold may be aquired using electrical tape until you can solder the affected wire.
-A soldering iron with a fine tip is needed to reconnect the end of the wire to a small square attachment point inside the battery compartment. Before soldering, test the appropriate connection point by holding the end of the wire to the metal connection point and turning the motor ON.
-Do NOT touch any metal while the motor is on.
-Once a connection point is found, use a heated soldering iron and solder to seal that connection. Let rest for a few minutes, then test the motor by turning it ON again.
+- Access the battery compartment by simply unscrewing (rotating counterclockwise) the PVC tubing which holds the battery and connections. No screwdrivers are required.
+- A temporary hold may be aquired using electrical tape until you can solder the affected wire.
+- A soldering iron with a fine tip is needed to reconnect the end of the wire to a small square attachment point inside the battery compartment. Before soldering, test the appropriate connection point by holding the end of the wire to the metal connection point and turning the motor ON.
+- Do NOT touch any metal while the motor is on.
+- Once a connection point is found, use a heated soldering iron and solder to seal that connection. Let rest for a few minutes, then test the motor by turning it ON again.
 
 # <a name="Chamber Oring Replacement"></a> **ChamberOring** (make video)
 
