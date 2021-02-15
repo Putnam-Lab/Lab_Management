@@ -171,9 +171,9 @@ Once the above settings are preset for the computer and apex, any future connect
 1. Enter the default Username: admin and Password: 1234
 1. Begin controlling your Apex from your computer
 
-<a name="setup_and_sop"></a> **Apex set up and operating procedures**
-
 <a name="apex_display_configuration"></a> **Apex Display Configuration**
+
+##Only need to use this handheld display if you cannot connect to the Apex Dashboard through your computer for some reason (i.e. power outage)
 
 1. Using Apex Display
     1. Plug the temperature probe, the Apex Display, and any other AquaBus modules into the available ports of the AquaBus (the base module).
@@ -424,6 +424,7 @@ Ensure the channel has a measurement, sensor, and user (default)
 
 
 # <a name="Calibrate"></a> **Probe Calibration**
+
 
 1.  In the Sensors tab, select "New".
 2.  Type in the name for your sensor (Ex. OXY_CH1) and select the probe type listed on your probe description sheet (Ex. PSt7_10)
