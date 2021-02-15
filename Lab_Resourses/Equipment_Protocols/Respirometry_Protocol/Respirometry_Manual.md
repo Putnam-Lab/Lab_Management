@@ -427,13 +427,17 @@ Ensure the channel has a measurement, sensor, and user (default)
 
 1.  In the Sensors tab, select "New".
 2.  Type in the name for your sensor (Ex. OXY_CH1) and select the probe type listed on your probe description sheet (Ex. PSt7_10)
-3.  Fill in the information as provided by the data sheet for the specific sensor you're calibrating.
+3. Fill in the information as provided by the data sheet for the specific sensor you're calibrating.
 4. Only use the information in the gray boxes for Phase Signal and Temperature.
 5. Be sure to select the correct units for Temperature (Celcius) and Oxygen (umol/L or your preferrered units).
 6. Note the User Signal Intensity: this value may be 0 or 1 depending on the specific sensor.
 7. Batch ID breaks down into 4 number groups: first two digits are the Year, second two digits are the Month, third two digits are the Day, and the three digits after the dash are the Sequence.
 8. Leave Lot Nr blank.
 9.    Select the appropriate OXY_CH# probe and Channel #, then click “Assign to” to link the coupled O2 and Temp probes to each Channel.
+
+##To manually calibrate the probes for 100% saturated and 0% O2, follow page 13 - 18 in the detailed [PreSens Oxygen Calibration Protocol](https://www.presens.de/index.php?eID=dumpFile&t=f&f=1082&token=26a98c0985a772ed2db5c7801adf8ff454c29979)
+
+
 
 # <a name="Stir"></a> **Stirring System Setup**
 ![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_base.JPG?raw=true)  
