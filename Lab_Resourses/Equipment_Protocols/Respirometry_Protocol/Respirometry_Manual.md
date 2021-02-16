@@ -615,7 +615,12 @@ If using the respirometer at more than one temperature (i.e. Thermal Performance
 
 # <a name="Chamber Oring Replacement"></a> **ChamberOring** (make video)
 
-# <a name="Stir System Oring Replacement"></a> **StirSystemOrings** (make video)
+# <a name="Stir System Oring Replacement"></a> **StirSystemOrings** 
+
+[Stirring O-ring Replacement](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Stand_Oring_replacement.mov)
+![Central Orings](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Stand_Oring_replacement.mov)
+![Outer Orings](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Stand_Oring_replacement.mov)
+
 
 <a name="references"></a> **References**  
 * [Oxygen Dipping Probe DP-PSt7 specifications](https://www.presens.de/products/detail/oxygen-dipping-probe-dp-pst7)
