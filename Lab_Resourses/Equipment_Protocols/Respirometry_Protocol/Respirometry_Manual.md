@@ -618,11 +618,30 @@ If using the respirometer at more than one temperature (i.e. Thermal Performance
 # <a name="Stir System Oring Replacement"></a> **StirSystemOrings** 
 
 [Stirring O-ring Replacement](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Stand_Oring_replacement.mov)
-![Central Orings](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Stand_Oring_replacement.mov)
-![Outer Orings](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Stand_Oring_replacement.mov)
+
+Remove bolts holding top and bottom plates together
+
+Save all bolts and plastic spacers
+
+Remove old orings
+
+Replace center orings with 2 of the longer 165mm orings  
+![Central Orings](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/stand_oring2.png?raw=true)  
+
+Replace the outer 4 with the shorter 125mm orings   
+![Outer Orings](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/stand_oring4.png?raw=true)  
+
+Connect to center motor hub  
+
+Replace plastic spacers  
+
+Replace top plate  
+
+Replace and tighten bolts  
 
 
-<a name="references"></a> **References**  
+
+# <a name="references"></a> **References**  
 * [Oxygen Dipping Probe DP-PSt7 specifications](https://www.presens.de/products/detail/oxygen-dipping-probe-dp-pst7)
 * [Pt100 Temperature Sensor specifications](https://www.presens.de/products/detail/pt100-temperature-sensor)
 * [Specification Brochure](#Images/Presens_O2_and_Temp_specs)
