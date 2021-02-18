@@ -1,4 +1,4 @@
-# Welcome to the Putnam Lab Repo for our Titrator
+# Welcome to the PPP Lab group folder for our Titrator
 
 We have a Mettler Toledo T5 automatic titrator and an InMotion Pro sample carousel.
 
