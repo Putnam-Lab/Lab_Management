@@ -3,6 +3,7 @@
 This protocol yields a 200mL solution of 50% saturated Mercuric Chloride (HgCl2) in DI Water.  Scale water volume and HgCl2 dry weight up or down as needed.
 
 Created By: Silbiger Lab - 20190227
+
 Last Revised: Putnam Lab - DM Becker - 20210218
 
 Contents

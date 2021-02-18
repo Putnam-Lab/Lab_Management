@@ -1,6 +1,7 @@
 # Standard Protocol Procedure for Balancing and Recording Weight
 
 Created By: Silbiger Lab - 20190227
+
 Last Revised: Putnam Lab - DM Becker - 20210218
 
 1. **Setting up the Balance**
