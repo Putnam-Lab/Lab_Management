@@ -84,7 +84,7 @@ Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy
 
 (ADD PHOTOS)
 
-Further information on the [Apex_SOP](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Respirometry_Protocol/Apex_SOP.md) for if you need to connect without internet or need to use the Apex Jr. or Apex El counsel controls.
+Further information on the [Apex_Protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Respirometry_Protocol/Apex_Protocol.md) for if you need to connect without internet or need to use the Apex Jr. or Apex El counsel controls.
 
 <a name="initial"></a> **Initial Set-Up**  
 
