@@ -4,6 +4,6 @@ Coprehensive respirometry protocol and supporting information that provides deta
 
 * [Respirometer Manual](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Respirometry_Protocol/Respirometry_Manual.md)
 
-* [Apex Protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Respirometry_Protocol/Apex_SOP.md)
+* [Apex Protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Respirometry_Protocol/Apex_Protocol.md)
 
 
