@@ -20,10 +20,7 @@ Last Revised: Putnam Lab - DM Becker - 20210218
 
 <a name="Returning"></a> **Returning Bottles**
 1. Gather all empty bottles and their original packages (including box, styrofoam dividers, and bottle top clips and bands).  Place all bottles in their original boxes, making sure the bottles are completely empty and sealed, ready for shipment.
-1. If one is not already set up, start a Chargeback account for Nyssa for FedEx shipments on campus.
-    1. Email Sarah Cohen (sarah.cohen@csun.edu) and CC Nyssa (nyssa.silbiger@csun.edu) to set up the chargeback and establish the cash amount.
-1. Retrieve a printout of the chargeback from Vickie and tape this printout to the side of the box (one printout per box).
-    1. Somewhere on the chargeback slip, write "Please send tracking information to:" and include both Nyssa's email (nyssa.silbiger@csun.edu) and the CRM Lab email (co2crms@ucsd.edu).
+1. Contact a lab manager or PI to arrange a chargeback if necessary for shipping at URI.
 1. Create a printout for the Recipient Address and Return Address.
     * **Recipient Address:**  
     Certified Reference Materials Laboratory  
