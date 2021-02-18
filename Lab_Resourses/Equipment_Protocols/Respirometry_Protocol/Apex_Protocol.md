@@ -14,7 +14,6 @@
   - [Materials](#materials)
   - [Apex Display Configuration](#apex_display_configuration)
   - [Apex Classic Dashboard (no internet needed)](#classic_dashboard)
-  
 - [References](#references)  
 
 <a name="connect_apex_jr"></a> **Connecting to Apex Jr**  
@@ -67,7 +66,7 @@ Optional: If you think the computer may not be recognizing the Apex, check conne
   IP Address: 192.168.2.75  
   Subnet Mask: 255.255.255.0  
   Router: 192.168.2.1  
-1. Click Apply 
+1. Click Apply
 
 <a name="connect_apex_el"></a> **Connecting to Apex El**
 
