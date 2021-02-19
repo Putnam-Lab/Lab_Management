@@ -10,9 +10,9 @@ Contents
 - [**Materials**](#Materials)  
 - [**Set_Up**](#Set_Up)
 - [**Protocol**](#Protocol)
-- [NBS Calibration](#NBS)
-- [Tris Calibration](#Tris)
-- [Conductivity Calibration](#Conductivity)
+    - [NBS Calibration](#NBS)
+    - [Tris Calibration](#Tris)
+    - [Conductivity Calibration](#Conductivity)
 - [**Cleaning and Storage**](#Cleaning_and_Storage)
 - [**References**](#References)
 
