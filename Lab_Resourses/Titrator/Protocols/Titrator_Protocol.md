@@ -43,6 +43,8 @@ Contents
 - RStudio software
 - Dickson Lab HCl 0.1 N
 
+---
+
 1. <a name="Pre-Setup"></a> **Pre-Setup**
     1. Since you are working with acid. You must wear a Lab Coat and Examination Gloves always, before starting the experiment. Safety Goggles is optional. No food or drink.
     2. Do not remove from the lab bench or move materials between rooms. The PPP lab is specifically set-up for safety and efficiency.
@@ -138,7 +140,7 @@ Contents
 
 6. <a name="SAMPLE_Titration"></a> **SAMPLE_Titration**
 
-    1. Repeat step **[4.]**. However, in step **[4.4]**, replace to [the sample name given on the sample bottle].
+    1. Repeat step **[4.]**. However, in step **[4.iv]**, replace to [the sample name given on the sample bottle].
 
 
 7. <a name="Measure_Salinity"></a> **Measure_Salinity**
