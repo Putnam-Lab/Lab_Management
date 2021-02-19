@@ -110,25 +110,24 @@ Contents
 
 4. <a name="Running_a_titration"></a> **Running_a_titration**
 
-  **Titration set-up**
-        1. You should start each day by running a Certified Reference Material (CRM) from the Dickson Lab. These are the standards. The procedure for running any titration, whether a CRM or unknowns are as follows. It is also advisable to start with a “junk” sample (filtered seawater that you don’t care about) at the beginning of each run to ensure there are no air bubbles in the acid line.
-        2. On the LabX window, similarly to calibration, click on Putnam Lab > Start > Titration
-        3. A window should pop up. Depending on the number of the sample measured, click on “Number of Samples” then apply the specific number of samples used in the titration, then press enter on the keyboard.
-        4. On the left, look for the “ID 1” column and label the sample. Put in all your sample IDs into this column.
+    1. You should start each day by running a Certified Reference Material (CRM) from the Dickson Lab. These are the standards. The procedure for running any titration, whether a CRM or unknowns are as follows. It is also advisable to start with a “junk” sample (filtered seawater that you don’t care about) at the beginning of each run to ensure there are no air bubbles in the acid line.
+    2. On the LabX window, similarly to calibration, click on Putnam Lab > Start > Titration
+    3. A window should pop up. Depending on the number of the sample measured, click on “Number of Samples” then apply the specific number of samples used in the titration, then press enter on the keyboard.
+    4. On the left, look for the “ID 1” column and label the sample. Put in all your sample IDs into this column.
             1. Label ID Ex: "20210218_JUNK1"
-        5. Next to the “ID 1” column, there should be a column named “Weight [g].”
-        6. Click on the first row and then proceed to the analytical balance.
-        7. Weigh the sample from the Analytical Balance.
-        8. See [“Protocol Procedure for Using the Balance”](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Titrator/Protocols/Balance_Protocol.md)
-        9. In this step, carefully add the sample into the 80ml cup until the scale reads 60g ± .5g or instructed otherwise.
-        10. Use a serological pipette for the CRM sample only until the weight reaches 60g ± .5g or instructed otherwise.
-        11. For other samples use a beaker to pour in the sample. (PROCEDE WITH EXTREME CAUTION!)
-        12. If any spillage ever occurs, Report it immediately. Don’t attempt to clean it yourself. All poisoned samples and CRM's contain HgCl2.
-        13. Record all sample IDs and corresponding weights in your notebook before you report them and set the weight manually into the “Weight [g]” column in the LabX program.
-        14. Place the measured cups in the Autosampler, starting from position 1, then position 2, 3, etc. If more than one samples are used.
-        15. Begin Titration
-        16. After the data are set into the system, and all cups are placed in their slots in the autosampler, press Start on the bottom right of the “Task Editor” window.
-        17. Once started, each titration will take ~10.5 minutes, unless there is a change of the method from the instructor.
+    5. Next to the “ID 1” column, there should be a column named “Weight [g].”
+    6. Click on the first row and then proceed to the analytical balance.
+    7. Weigh the sample from the Analytical Balance.
+    8. See [“Protocol Procedure for Using the Balance”](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Titrator/Protocols/Balance_Protocol.md)
+    9. In this step, carefully add the sample into the 80ml cup until the scale reads 60g ± .5g or instructed otherwise.
+    10. Use a serological pipette for the CRM sample only until the weight reaches 60g ± .5g or instructed otherwise.
+    11. For other samples use a beaker to pour in the sample. (PROCEDE WITH EXTREME CAUTION!)
+    12. If any spillage ever occurs, Report it immediately. Don’t attempt to clean it yourself. All poisoned samples and CRM's contain HgCl2.
+    13. Record all sample IDs and corresponding weights in your notebook before you report them and set the weight manually into the “Weight [g]” column in the LabX program.
+    14. Place the measured cups in the Autosampler, starting from position 1, then position 2, 3, etc. If more than one samples are used.
+    15. Begin Titration
+    16. After the data are set into the system, and all cups are placed in their slots in the autosampler, press Start on the bottom right of the “Task Editor” window.
+    17. Once started, each titration will take ~10.5 minutes, unless there is a change of the method from the instructor.
 
 5. <a name="CRM_Titration"></a> **CRM_Titration**
 
