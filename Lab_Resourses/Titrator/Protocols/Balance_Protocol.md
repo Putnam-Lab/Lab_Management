@@ -5,9 +5,7 @@ Created By: Silbiger Lab - 20190227
 Last Revised: Putnam Lab - DM Becker - 20210218
 
 1. **Setting up the Balance**
-	1. Turn on Analytical Balance by pressing on the “On/Off” Button on the bottom left corner
-	2. On the screen, connect the balance the computer by pressing on the “Lab X Online” Widget
-	3. Wait until it fully connects and shows a new interface 
+	1. Turn on Analytical Balance by plugging in the black cord into the small circular slot at the back of the balance. The balance "ON/OFF" button is currently not working.
 
 2. **Measuring with the Balance**
 	1. Using an empty 80 ml Cup place the cup in the balance and wait until the weight stabilizes 
@@ -21,7 +19,7 @@ Last Revised: Putnam Lab - DM Becker - 20210218
 
 3. **Clean up**
 	1. Discard liquid into sink, unless it has an acid or CRM inside. Place the waste into the correctly labeled waste bottle in the cabniet to the left of the titrator.
-	2. Rinse cup with Type I DI water
+	2. Rinse cup with Type I DI water.
 	3. Place cups on a kimwipe next to the titrator. 
 	4. Save the data from Excel to the “Documents” folder.
-	5. Shut off the Balance by holding “On/Off” for a couple of seconds
+	5. Shut off the Balance by unplugging the balancer.
