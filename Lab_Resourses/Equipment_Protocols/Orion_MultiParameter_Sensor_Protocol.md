@@ -118,6 +118,29 @@ Contents
 1. Press the f1 (meas) key to proceed to the measurement mode. 
 
 ***
+
+<a name="Cleaning_and_Storage"></a> **Cleaning and Storage** 
+
+1. After use of any of the meters, gently wipe the meters and accompanying wires with a kimwipe and DI water (avoid electrical connections).
+        - If storing for a long period of time, use a diluted ethanol solution and kimwipe to wipe down wires and Orion Star meter to remove any salt that may have accumulated (avoid electrical connections).
+        
+1. pH meter storage
+        - Always store the pH meter submerged in a solution, the special conductive glass coating shouldn’t be left to dry out.
+        - After each use store the pH meter in its accompanying sealed tight tube or a falcon tube if necessary that is filled with KCl solution or pH buffer 4.0 if KCl solution is unavailable.
+        - **never use distilled or deionized water, as prolonged submersion in water can encourage diffusion out of the electrode, which will affect its sensitivity**
+        
+1. Conductivity meter storage
+        - In between uses, store the conductivity meter in a falcon tube with Type I DI water.  
+        - When packing away for long-term storage, the conductivity meter can be stored dry in the Orion Star Meter plastic black case.
+        
+1. Long-term storage
+- After properly cleaning all meters and following the above storage solution methods, store all materials into the Orion Star Meter plastic black case as seen below:
+
+![Orion Case](https://github.com/SilbigerLab/Protocols/blob/master/Probe_and_Logger_Protocols/Orion_Multiparameter_Sensor/Scripts/Tris_pH_Slope.R)
+
+
+***
+
 <a name="References"></a> **References**
 
 *  [Orion Star User Manual](https://www.thermofisher.com/document-connect/document-connect.html?url=https%3A%2F%2Fassets.thermofisher.com%2FTFS-Assets%2FLED%2Fmanuals%2FOrion-Star-A220-Series-Portable-Meter-User-Manual-EN.pdf&title=T3Jpb24gU3RhciBBMjIwIFNlcmllcyBQb3J0YWJsZSBNZXRlciBVc2VyIE1hbnVhbCBbRU5d)
