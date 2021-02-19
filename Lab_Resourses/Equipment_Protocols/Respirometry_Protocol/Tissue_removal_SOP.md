@@ -1,7 +1,9 @@
 # Standard protocol for coral tissue removal 
 
-Original: 20190131
-Last Revised: 20180131
+Created By: Silbiger Lab - 20190227
+
+Last Revised: Putnam Lab - DM Becker - 20210218
+
 
 Contents
 - [**Materials**](#Materials) 

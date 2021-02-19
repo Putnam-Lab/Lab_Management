@@ -1,5 +1,10 @@
 # Connecting the Apex Jr. and Apex El to a PC/Mac computer
 
+Created By: Silbiger Lab - 20190227
+
+Last Revised: Putnam Lab - DM Becker - 20210218
+
+
 **Contents:**  
 - [Connecting to Apex Jr.](#connect_apex_jr)  
   - [Changing computer network settings](#network_settings)  

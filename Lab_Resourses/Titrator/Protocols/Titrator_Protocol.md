@@ -1,4 +1,4 @@
-# Standard Protocol Procedure for Using the HIMB Titrator (Gates Lab)
+# Standard Protocol Procedure for Using the PPP Lab Titrator
 
 Created By: Silbiger Lab - 20190227
 
