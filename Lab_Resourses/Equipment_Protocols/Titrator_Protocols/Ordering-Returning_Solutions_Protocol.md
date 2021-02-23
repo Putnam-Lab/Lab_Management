@@ -17,6 +17,8 @@ Last Revised: Putnam Lab - DM Becker - 20210218
 <a name="Ordering"></a> **Ordering Bottles**
 
 1. Complete order request in the Putnam Lab [ordering form](https://forms.gle/s7FgMPrTS5yeuSnf6). 
+2. Complete the UCSD [Dickson Lab order form](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Updated%20Request%20CRM%20order%20form.docx?raw=true)  
+		- See additional [bottle fee information](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/BottleFee.docx?raw=true)
 
 
 <a name="Returning"></a> **Returning Bottles**
