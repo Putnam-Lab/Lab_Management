@@ -122,7 +122,7 @@ Contents
     5. Next to the “ID 1” column, there should be a column named “Weight [g].”
     6. Click on the first row and then proceed to the analytical balance.
     7. Weigh the sample from the Analytical Balance.
-    8. See [“Protocol Procedure for Using the Balance”](https://github.com/Putnam-Lab/Titrator/blob/main/Protocols/Balance_Protocol.md)
+    8. See [“Protocol Procedure for Using the Balance”](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Titrator_Protocols/Balance_Protocol.md)
     9. In this step, carefully add the sample into the 80ml cup until the scale reads 60g ± .5g or instructed otherwise.
     10. Use a serological pipette for the CRM sample only until the weight reaches 60g ± .5g or instructed otherwise.
     11. For other samples use a beaker to pour in the sample. (PROCEDE WITH EXTREME CAUTION!)
