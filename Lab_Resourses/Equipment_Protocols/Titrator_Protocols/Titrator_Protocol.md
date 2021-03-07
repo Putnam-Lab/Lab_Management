@@ -88,6 +88,9 @@ Contents
 **Things to check and know about the pH probe to ensure proper handling, usage, and storage:**
 
   1. Always check to make sure the pH probe is in KCl electrolyte solution in its holding tube when stored and the internal buffer solution (3) is covering the inside of the glass membrane (1). If you see bubbles in the membrane, gently shake the probe in a vertical direction.
+
+![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Equip_Images/pH_probe.jpg)
+
   2. Also always check if the reference electrolyte (6) is filled to the aperature (8).
   3. The zero point of the electrode (pH value E = 0 mV) is approximately pH 7. The electrode potential, measured in a buffer solution of pH 7, must be within -30 mV and +30 mV.
   4. The electrode slope (potential change per pH unit) at the pH range 4-9 must be greater than -55 mV/pH (at 25°C).
