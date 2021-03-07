@@ -85,44 +85,45 @@ Contents
 
 3. <a name="pH_Calibration"></a> **pH_Calibration**
 
-**Things to check and know about the pH probe to ensure proper handling, usage, and storage: **
-    - Always check to make sure the pH probe is in KCl electrolyte solution in its holding tube when stored and the internal buffer solution (3) is covering the inside of the glass membrane (1). If you see bubbles in the membrane, gently shake the probe in a vertical direction. 
-    - Also always check if the reference electrolyte (6) is filled to the aperature (8). 
-    - The zero point of the electrode (pH value E = 0 mV) is approximately pH 7. The electrode potential, measured in a buffer solution of pH 7, must be within -30 mV and +30 mV.
-    - The electrode slope (potential change per pH unit) at the pH range 4-9 must be greater than -55 mV/pH (at 25°C).
-    - The zero point should be within pH 6 and 8, the slope not less than -52 mV/pH, and the potential change after 60s should not exceed 3 mV/30s.
+**Things to check and know about the pH probe to ensure proper handling, usage, and storage:**
+
+  - Always check to make sure the pH probe is in KCl electrolyte solution in its holding tube when stored and the internal buffer solution (3) is covering the inside of the glass membrane (1). If you see bubbles in the membrane, gently shake the probe in a vertical direction.
+  - Also always check if the reference electrolyte (6) is filled to the aperature (8).
+  - The zero point of the electrode (pH value E = 0 mV) is approximately pH 7. The electrode potential, measured in a buffer solution of pH 7, must be within -30 mV and +30 mV.
+  - The electrode slope (potential change per pH unit) at the pH range 4-9 must be greater than -55 mV/pH (at 25°C).
+  - The zero point should be within pH 6 and 8, the slope not less than -52 mV/pH, and the potential change after 60s should not exceed 3 mV/30s.
 
 1. Use the three 80ml cups labeled "pH 4.0", "pH 7.0", and "pH 10.0". Add the appropriate pH buffer to each of the cups until filled halfway. Or the amount kept in the 50 mL tube.
 2. Every week pour new pH solution into each 50 mL tube from the original bottle (2nd shelf on the right next to the Certified Reference Material). Mark date in the pHcalibration.csv file.
 3. If a new buffer bottle is opened, write the date opened, your initials, and your lab on the bottle (ex: Opened 20180602 ES (Putnam)).
 4. Place the three cups in the Autosampler: Position 01 - pH 4.0, Position 02 - pH 7.0, Position 03 - pH 10.0.
 5. Place a 80 mL cup filled halfway with DI water into Position 00.
-6. Using LabX, click "Analysis" on the bottom left-hand side then look for the Released Methods and click on “Calibration”, in the calibration method editor, make sure you select which export template you would like the output plot to go to. This is found in the export templates section on the right hand side of this window. Select "Save and Close" after making your selection. 
+6. Using LabX, click "Analysis" on the bottom left-hand side then look for the Released Methods and click on “Calibration”, in the calibration method editor, make sure you select which export template you would like the output plot to go to. This is found in the export templates section on the right hand side of this window. Select "Save and Close" after making your selection.
 7. Click Start > Titrator > Start to start the Calibration.
 8. You can either Right click on the Calibration group or look for the tab named “Recurrence” (It’s on top of the Released Methods) and click Start.
 9. Viewing from the Titrator window (select "Show Workbench" if it does not pop up after ~30 seconds), watch the graph for any anomalies.
-        1. Anomalies such as the graph jumping constantly.
-        1. Unless the zoom scale of the graph in the y-axis is at 0.1, small zig-zags are acceptable, but any change >0.1 units over time means that the calibration should be re-done with new buffers.
+      - Anomalies such as the graph jumping constantly.
+      - Unless the zoom scale of the graph in the y-axis is at 0.1, small zig-zags are acceptable, but any change >0.1 units over time means that the calibration should be re-done with new buffers.
 10. Once finished, the graph should be a Flat Line for individual samples or a downward graph if all three points are displayed.
-        1. If the results are not as described in step [ii.], replace buffers and redo [a. - d.].
+      - If the results are not as described in step [ii.], replace buffers and redo [a. - d.].
 11. Using Excel, open the “pHCalibration.csv” file, [C: This PC > Users > PPP Lab > Documents > Titratior > Data].
 12. Record the Date, Zero Point, Slope, pH 4, pH 7, pH 10, and Notes into the "pH_calibration.csv" file
-        1. The Notes are used to determine the age of the buffer.
-        1. To gather Zero Point and Slope, go to LabX > Click Data > look for “Result Sets” on the Data Tab bar (Top Left) > Click “Last 24 hours” > Double click on the "Calibration data set” > select the "Raw Data" tab >  scroll down to the "after sample scopes" > Record the data for slope and zero point onto the Excel spreadsheet.
-        1. As an alternative: Go to the Titrator tablet and if the tablet displays that the Calibration is done, press OK to view the Zero Point and Slope.
-        1. To gather data for each pH, click the Raw Data tab from the same Calibration Results Set.
-            1. Look for the “E” (mV) value for each pH, and record the "E" values on the spreadsheet.
-            1. Note: The results should be displayed in order from pH of 4, 7, then 10 as you scroll down in the raw data results page.
-        1. Once the calibrations are complete, remove the cups from the Autosampler and dispose them into the into a plastic reagent bottle, respective of their pH.
-            1. If the pH buffers need replacing, dispose of the buffers by pouring 4 and 10 down the sink simultaneously while running the faucet. Then pour the 7 buffer. Rince the pH buffer cups with water and hang them on the rack to dry.
-        1. Save CSV document and set the destination to the “Data” Folder.
+      - The Notes are used to determine the age of the buffer.
+      - To gather Zero Point and Slope, go to LabX > Click Data > look for “Result Sets” on the Data Tab bar (Top Left) > Click “Last 24 hours” > Double click on the "Calibration data set” > select the "Raw Data" tab >  scroll down to the "after sample scopes" > Record the data for slope and zero point onto the Excel spreadsheet.
+      - As an alternative: Go to the Titrator tablet and if the tablet displays that the Calibration is done, press OK to view the Zero Point and Slope.
+      - To gather data for each pH, click the Raw Data tab from the same Calibration Results Set.
+      - Look for the “E” (mV) value for each pH, and record the "E" values on the spreadsheet.
+          - Note: The results should be displayed in order from pH of 4, 7, then 10 as you scroll down in the raw data results page.
+13. Once the calibrations are complete, remove the cups from the Autosampler and dispose them into the into a plastic reagent bottle, respective of their pH.
+14. If the pH buffers need replacing, dispose of the buffers by pouring 4 and 10 down the sink simultaneously while running the faucet. Then pour the 7 buffer. Rince the pH buffer cups with water and hang them on the rack to dry.
+15. Save CSV document and set the destination to the “Data” Folder.
 
 
 4. <a name="Running_a_titration"></a> **Running_a_titration**
 
     1. You should start each day by running a Certified Reference Material (CRM) from the Dickson Lab. These are the standards. The procedure for running any titration, whether a CRM or unknowns are as follows. It is also advisable to start with a “junk” sample (filtered seawater that you don’t care about) at the beginning of each run to ensure there are no air bubbles in the acid line.
     2. On the LabX window, similarly to calibration, click on Putnam Lab Titrations  > Start > Titration
-        - In the Putnam Lab Titrations method editor, make sure you select which export template you would like the output data to go to. This is found in the export templates section on the right hand side of this window. Select "Save and Close" after making your selection. 
+        - In the Putnam Lab Titrations method editor, make sure you select which export template you would like the output data to go to. This is found in the export templates section on the right hand side of this window. Select "Save and Close" after making your selection.
     3. A window should pop up. Depending on the number of the sample measured, click on “Number of Samples” then apply the specific number of samples used in the titration, then press enter on the keyboard.
     4. On the left, look for the “ID 1” column and label the sample. Put in all your sample IDs into this column.
             1. Label ID Ex: "20210218_JUNK1"
@@ -179,28 +180,28 @@ Contents
 
     1. After completing titratoion for the day, you will need to push all your updated data to the GitHub Titrator repository.
     2. If you have never used GitHub or command line before, contact a lab manager or someone that has used it prior for instuctions.
-    2. On windows, type in and open "Git Bash" in the search bar (this app allows you to push and pull data from your windows computer to GitHub). 
-    3. You must first configure your GitHub account witht the local computer and Git Bash app. To do so, Type in: 
-        - git config --global user.email "you@example.com" 
+    2. On windows, type in and open "Git Bash" in the search bar (this app allows you to push and pull data from your windows computer to GitHub).
+    3. You must first configure your GitHub account witht the local computer and Git Bash app. To do so, Type in:
+        - git config --global user.email "you@example.com"
         - git config --global user.name "Your Name"
         - **make sure these match identically to your GitHub profile information**
         - **If it asks you for your password, enter it exactly as on your account**
         - **If you have updated your account to include a personal access token, this is now YOUR PASSWORD**
-    4. This will open a seperate window. Type in: "cd Documents/" into the window. This will take you into the documents folder on the computer. Type in "ls" to see the contents of this folder. 
+    4. This will open a seperate window. Type in: "cd Documents/" into the window. This will take you into the documents folder on the computer. Type in "ls" to see the contents of this folder.
     5. In the Documents folder you will see the Titrator folder.
-    6. To go into the Titrator folder, Type in: "cd Titrator/" into the window. This will take you into the Titrator folder on the computer. Type in "ls" to see the contents of this folder. 
+    6. To go into the Titrator folder, Type in: "cd Titrator/" into the window. This will take you into the Titrator folder on the computer. Type in "ls" to see the contents of this folder.
     7. You will see a "Data", "Protocols", and "Scripts" folder within the Titrator folder. You can use the "cd" and "ls" commands to get into each folder and see the contents.
-    8. If you have made any changes to any of these folders during your titrator runs for the day, make sure to push these changes to GitHub before you leave for the day. 
-    9. Before making any changes to the repository, **always make sure to use the command "git pull"**. 
+    8. If you have made any changes to any of these folders during your titrator runs for the day, make sure to push these changes to GitHub before you leave for the day.
+    9. Before making any changes to the repository, **always make sure to use the command "git pull"**.
         - This comman incorporates changes from a remote repository into the current branch. So if ny changes were made to the GitHub repository by another user, this ensures you have the most up to date repository.
     10. For any folders that you changed, type in: "git add folder_name" Ex: git add Data/ into the Git Bash app.
         - The git add command updates the index using the current content found in the working tree, to prepare the content staged for the next commit.
     11. Next, you have to commit whatever new information you added. Type in: "git commit -a -m "explanation here"" Ex: git commit -a -m "added titrations for initial E5 testing on 20210221 dmb"
-        - The git commit command creates a new commit containing the current contents of the index and the given log message describing the changes. 
+        - The git commit command creates a new commit containing the current contents of the index and the given log message describing the changes.
     12. Finally, you have to push all of the added data to the GitHub repository. Type in: "git push" into the Git Bash app.
             - This command updates remote refs using local refs, while sending objects necessary to complete the given refs.
-    13. After following these commands, make sure to login to your GitHub account on an internet browser and check that the changes have been made on the [Putnam Lab Titrator Repository](https://github.com/Putnam-Lab/Titrator). 
-                
+    13. After following these commands, make sure to login to your GitHub account on an internet browser and check that the changes have been made on the [Putnam Lab Titrator Repository](https://github.com/Putnam-Lab/Titrator).
+
 
 10. <a name="Clean_Up"></a> **Clean_Up**
 
