@@ -85,21 +85,28 @@ Contents
 
 3. <a name="pH_Calibration"></a> **pH_Calibration**
 
-    1. Use the three 80ml cups labeled "pH 4.0", "pH 7.0", and "pH 10.0". Add the appropriate pH buffer to each of the cups until filled halfway. Or the amount kept in the 50 mL tube.
-    2. Every week pour new pH solution into each 50 mL tube from the original bottle (2nd shelf on the right next to the Certified Reference Material). Mark date in the pHcalibration.csv file.
-    3. If a new buffer bottle is opened, write the date opened, your initials, and your lab on the bottle (ex: Opened 20180602 ES (Putnam)).
-    4. Place the three cups in the Autosampler: Position 01 - pH 4.0, Position 02 - pH 7.0, Position 03 - pH 10.0.
-    5. Place a 80 mL cup filled halfway with DI water into Position 00.
-    6. Using LabX, click "Analysis" on the bottom left-hand side then look for the Released Methods and click on “Calibration”, in the calibration method editor, make sure you select which export template you would like the output plot to go to. This is found in the export templates section on the right hand side of this window. Select "Save and Close" after making your selection. 
-    7. Click Start > Titrator > Start to start the Calibration.
-    8. You can either Right click on the Calibration group or look for the tab named “Recurrence” (It’s on top of the Released Methods) and click Start.
-    9. Viewing from the Titrator window (select "Show Workbench" if it does not pop up after ~30 seconds), watch the graph for any anomalies.
+**Things to check and know about the pH probe to ensure proper handling, usage, and storage: **
+    - Always check to make sure the pH probe is in KCl electrolyte solution in its holding tube when stored and the internal buffer solution (3) is covering the inside of the glass membrane (1). If you see bubbles in the membrane, gently shake the probe in a vertical direction. 
+    - Also always check if the reference electrolyte (6) is filled to the aperature (8). 
+    - The zero point of the electrode (pH value E = 0 mV) is approximately pH 7. The electrode potential, measured in a buffer solution of pH 7, must be within -30 mV and +30 mV.
+    - The electrode slope (potential change per pH unit) at the pH range 4-9 must be greater than -55 mV/pH (at 25°C).
+    - The zero point should be within pH 6 and 8, the slope not less than -52 mV/pH, and the potential change after 60s should not exceed 3 mV/30s.
+
+1. Use the three 80ml cups labeled "pH 4.0", "pH 7.0", and "pH 10.0". Add the appropriate pH buffer to each of the cups until filled halfway. Or the amount kept in the 50 mL tube.
+2. Every week pour new pH solution into each 50 mL tube from the original bottle (2nd shelf on the right next to the Certified Reference Material). Mark date in the pHcalibration.csv file.
+3. If a new buffer bottle is opened, write the date opened, your initials, and your lab on the bottle (ex: Opened 20180602 ES (Putnam)).
+4. Place the three cups in the Autosampler: Position 01 - pH 4.0, Position 02 - pH 7.0, Position 03 - pH 10.0.
+5. Place a 80 mL cup filled halfway with DI water into Position 00.
+6. Using LabX, click "Analysis" on the bottom left-hand side then look for the Released Methods and click on “Calibration”, in the calibration method editor, make sure you select which export template you would like the output plot to go to. This is found in the export templates section on the right hand side of this window. Select "Save and Close" after making your selection. 
+7. Click Start > Titrator > Start to start the Calibration.
+8. You can either Right click on the Calibration group or look for the tab named “Recurrence” (It’s on top of the Released Methods) and click Start.
+9. Viewing from the Titrator window (select "Show Workbench" if it does not pop up after ~30 seconds), watch the graph for any anomalies.
         1. Anomalies such as the graph jumping constantly.
         1. Unless the zoom scale of the graph in the y-axis is at 0.1, small zig-zags are acceptable, but any change >0.1 units over time means that the calibration should be re-done with new buffers.
-    10. Once finished, the graph should be a Flat Line for individual samples or a downward graph if all three points are displayed.
+10. Once finished, the graph should be a Flat Line for individual samples or a downward graph if all three points are displayed.
         1. If the results are not as described in step [ii.], replace buffers and redo [a. - d.].
-    11. Using Excel, open the “pHCalibration.csv” file, [C: This PC > Users > PPP Lab > Documents > Titratior > Data].
-    12. Record the Date, Zero Point, Slope, pH 4, pH 7, pH 10, and Notes into the "pH_calibration.csv" file
+11. Using Excel, open the “pHCalibration.csv” file, [C: This PC > Users > PPP Lab > Documents > Titratior > Data].
+12. Record the Date, Zero Point, Slope, pH 4, pH 7, pH 10, and Notes into the "pH_calibration.csv" file
         1. The Notes are used to determine the age of the buffer.
         1. To gather Zero Point and Slope, go to LabX > Click Data > look for “Result Sets” on the Data Tab bar (Top Left) > Click “Last 24 hours” > Double click on the "Calibration data set” > select the "Raw Data" tab >  scroll down to the "after sample scopes" > Record the data for slope and zero point onto the Excel spreadsheet.
         1. As an alternative: Go to the Titrator tablet and if the tablet displays that the Calibration is done, press OK to view the Zero Point and Slope.
