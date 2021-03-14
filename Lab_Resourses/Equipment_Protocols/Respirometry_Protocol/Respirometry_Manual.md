@@ -325,8 +325,8 @@ Ensure the channel has a measurement, sensor, and user (default)
 
 #### Exporting data:
 
-1.		 In the Measurements tab, select all data files that were just used to record data by holding Ctrl and clicking each file, then click “Export”.
-2.	 For your first data file, select the file type as "CSV" or "Excel", then select a target location to store your exported file by clicking the “…” to the right of the Target field.  Click "Save".  Repeat for all subsequent files.
+1.	In the Measurements tab, select all data files that were just used to record data by holding Ctrl and clicking each file, then click “Export”.
+2.	 For your first data file, select the file type as "CSV" then select a target location to store your exported file by clicking the “…” to the right of the Target field.  Click "Save".  Repeat for all subsequent files.
 3.	 Once all files have been assigned to a target storage location (all lights next ot the file names will change from red to green as the corresponding file has been assigned), click "Export".  Once the export has finished, click "OK".
 4. 	When files are downloaded, make sure to open a few of them to see that there is full data throughout the allotted time, there is consistency in the column names, etc. Sometimes files get distorted or download incorrectly so checking here you can resolve the issue by re-downloading them from PreSens.
 5.  Save files from each run to Google Drive, or a flash drive, or both to make sure that if any files are lost from PreSens or on the computer you have a secure backup!
