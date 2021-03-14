@@ -159,7 +159,7 @@ Contents
 7. <a name="Measure_Salinity"></a> **Measure_Salinity**
 
     1. While the samples are running on the titrator, you will measure salinity of each sample from the original sample vial.
-    2. Calibrate the conductivity meter (Orion Star) using a 2 point calibration.
+    2. Calibrate the conductivity meter (Orion Star) using a [2 point conductivity calibration](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Orion_MultiParameter_Sensor_Protocol.md#Conductivity).
     3. Measure the salinity of every sample and write down the value in the csv file you will make below. For CRMs, the salinity corresponds to its batch number, for junks just use salinity of 35.
 
 
