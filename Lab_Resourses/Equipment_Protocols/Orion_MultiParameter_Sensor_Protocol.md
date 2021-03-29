@@ -1,7 +1,7 @@
 # Standard protocol for Fisher Scientific Orion Star pH/conductivity portable multiparameter meter calibration
 
 
-Created By: DM Becker - 201
+Created By: Silbiger Lab - 20200304
 
 Last Revised: Putnam Lab - DM Becker - 20210219
 
@@ -10,6 +10,9 @@ Contents
 - [**Materials**](#Materials)  
 - [**Set_Up**](#Set_Up)
 - [**Protocol**](#Protocol)
+    - [**NBS Protocol**](#NBS)
+    - [**Tris Calibration**](#Tris)
+    - [**Conductivity Calibration**](#Conductivity)
 - [**Cleaning and Storage**](#Cleaning_and_Storage)
 - [**References**](#References)
 
