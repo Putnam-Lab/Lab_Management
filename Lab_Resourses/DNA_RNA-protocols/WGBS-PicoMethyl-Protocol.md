@@ -54,7 +54,7 @@ Prep Workflow Diagram from Zymo:
 - Vortex and spin down tubes
 - Place tubes in the thermocycler Pico Bisulfite Conversion program under the MES login (password 8888). Program specifications:
   - 98 degrees C for 8 minutes
-  - 54 degrees C for 54 minutes
+  - 54 degrees C for 60 minutes
   - 4 degrees C hold
 - _Once the program is done, samples can be stored in the fridge for up to 20 hours, so you can safely stop here overnight_
 - [Video link](https://www.youtube.com/watch?v=4ar8d5NeSks&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=2)
