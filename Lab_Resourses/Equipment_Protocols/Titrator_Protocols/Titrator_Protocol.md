@@ -80,13 +80,14 @@ Contents
         1. Before calibrations can be made, look at the top of the Sensor for KCl, make sure the KCl is filled to fully cover the metal inside by the grey cap, skip to [18]. If not, follow the step below.
         1. If KCl reservoir is low, open the cap on the sensor’s reservoir and add a few drops of KCl on the opening.
     19. Make sure that the cap is **open at all times**, so it can measure the pH.
-    20. Make sure the probe rinse reservoir is filled with DI water (a plastic tube on the right side of the InMotion Pro).
+    20. Make sure the probe rinse reservoir is filled with KCl solution (a plastic tube on the right side of the InMotion Pro).
     21. Once the pH probe is placed in its slot next to the propeller, fill a DI Only cup 2/3 full with DI water and place this cup in poistion 00. On the Titrator screen, "Park" the autosampler. The pH probe should always be submerged in a liquid (DI or its storage solution).
 
 3. <a name="pH_Calibration"></a> **pH_Calibration**
 
 **Things to check and know about the pH probe to ensure proper handling, usage, and storage:**
 
+  - The reference KCl electrolyte solution should be replaced in the glass electrode reservoir ~every month.
   - Always check to make sure the pH probe is in KCl electrolyte solution in its holding tube when stored and the internal buffer solution (3) is covering the inside of the glass membrane (1). If you see bubbles in the membrane, gently shake the probe in a vertical direction.
 
 ![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Equip_Images/pH_probe.jpg)
