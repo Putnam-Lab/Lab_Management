@@ -38,21 +38,39 @@ Prep Workflow Diagram from Zymo:
 - D5000 TapeStation Assay
 
 
-### DNA Dilution
+**Note about Thermocycler Programs**
 
-- Sample input to the Pico Methyl Seq kit has been somewhat optimized to work well with 1ng input
-- Dilute extracted DNA to 1ng/ul or appropriate concentration so 1ng of DNA can be used to start the protocol without pipetting below 1ul and the input volume is no more than 20ul
+- All programs are under the "mes" login, password 888
+- All programs are in the "PICO" folder
+- Depending on input amount of DNA, you will use different AMP 1 and AMP 2 programs:
+  - For 1ng DNA input: use "10 PICO METHYL AMP 1" and "12 PICO METHYL AMP 2"
+  - For 10ng DNA input: use "8 PICO METHYL AMP 1" and "10 PICO METHYL AMP 2"
+
+**Note about timing and planning this prep**
+
+- Calculate how much DNA you're going to use before you start the prep, ideally for all samples, getting the volumes ready before you start
+- Plan how you will index your samples before starting the preps. We have paired i5 and i7 indexes that go from 1-60. Each sample needs a unique pair, and the individual indexes are not used more than once. Ie you can have two samples that have i5-1, i7-1, and i5-2, i7-2. But you cannot have two samples that have i5-1, i7-1, and i5-1, i7-2. i5-1 can't be used twice to mitigate any possible index-hopping (however rare)
+- The list of primer/indexes we have are [here](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/DNA_RNA-protocols/Indexes_and_Barcodes/UDI_Index_Primer_Pairs_for_Pico_WGBS.csv). Right now there are 1-60
+- It can make things easier on you do the prep over 1.5 days: start the prep in the afternoon by doing the DNA dilution and bisulfite conversion. The BS converted DNA can be stable at 4 degrees C for 20 hours. So you can take it out of the thermocycler after the conversion program and store it in the fridge for the next day
+- It will probably take you the entire second day if you do 10 or more samples (including the QC)
+- While things are in the thermocycler, it can be helpful to start making the mixes for the next step and keep them on the ice bucket
+
+
+### DNA Dilution - Plan this before starting your library prep
+
+- Sample input to the Pico Methyl Seq kit has been somewhat optimized to work well with 10ng input, **but we used to do 1ng and that worked sometimes as well**
+- Dilute extracted DNA to 1ng/ul or appropriate concentration so 10ng of DNA can be used to start the protocol without pipetting below 1ul and the input volume is no more than 20ul
 - Use the same buffer that the extracted DNA is in (ex. 10mM Tris HCl)
-- For example dilute every sample to 1ng/ul so 1ul can be used as the input of the prep
+- For example dilute every sample to 1ng/ul so 10ul can be used as the input of the prep
 - [Video link](https://www.youtube.com/watch?v=byipduTsFmc&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=1)
 
 ### Bisulfite Conversion
 
-- For each sample add 1ng of DNA to a PCR strip tube
-- Increase the volume with 10mM Tris HCl or nuclease free water to 20ul for samples that need it
-- Add 130ul of Lightning Conversion Reagent to each tube
+- For each sample add 10ng of DNA to a PCR strip tube
+- Increase the volume with 10mM Tris HCl or nuclease free water to 20ul for samples that need it (if you did 10ng at a concentration of 1ng/ul, then you'd have added 10ul of your sample and would need 10ul of 10mM Tris HCl)
+- Add 130ul of Lightning Conversion Reagent to each tube. The total volume in each tube is now 150ul
 - Vortex and spin down tubes
-- Place tubes in the thermocycler Pico Bisulfite Conversion program under the MES login (password 8888). Program specifications:
+- Place tubes in the thermocycler, use the "mes" login, password 8888, folder "PICO". The program is titled "BS CONVERSION PICO." Program specifications:
   - 98 degrees C for 8 minutes
   - 54 degrees C for 60 minutes
   - 4 degrees C hold
@@ -111,7 +129,7 @@ Prep Workflow Diagram from Zymo:
 - Add 7ul of bisulfite converted sample to their respective strip tube. This should be about all the liquid there is in the final tubes from the previous cleanup
 - Add 3ul of PMM to each tube
 - [Video Link](https://www.youtube.com/watch?v=k5ApfvSbhAQ&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=6)
-- Vortex tubes, spin them down, and place them in the thermocyler in the Pico Methyl Priming program under the MES login (password 8888)
+- Vortex tubes, spin them down, and place them in the thermocyler in the "PICO METHYL PRIMING" program under the MES login (password 8888)
 - During the program there will be two holds during which you will have to add things to your samples:
   - 98 for 2 minutes
   - 8 degrees for 1 minute
@@ -164,7 +182,7 @@ Prep Workflow Diagram from Zymo:
 - Add 13.5ul of AMM to each of the new strip tubes on ice
 - Add 11.5ul of sample from the DCC elution to their respective strip tube
 - Vortex and spin down tubes
-- Place in the thermocycler 1st Pico Amp Program **8 cycles** under the MES login (password 8888)
+- Place in the thermocycler and choose the program you need, for 1ng input DNA use "10 PICO METHYL AMP 1", for 10ng input DNA use "8 PICO METHYL AMP 1"
 - Once the program is done take out the tubes and place on ice
 - [Video link](https://www.youtube.com/watch?v=Jy03aMCKW3U&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=10)
 
@@ -208,7 +226,7 @@ Prep Workflow Diagram from Zymo:
 |2|12|14|1ul index 2|1ul index 2|
 
 - Vortex and spin down tubes after all components are added to each tube
-- Place tubes in the thermocycler 2nd Pico Amp Program (12 Cycles) under the MES login (password 8888)
+- Place tubes in the thermocycler and choose the program for your samples: for 1ng input DNA use "12 PICO METHYL AMP 2", for 10ng input DNA, use "10 PICO METHYL AMP 2"
 - After the program is done, place the samples on ice
 - [Video link](https://www.youtube.com/watch?v=Vsn9XDs0Sok&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=11)
 
@@ -242,8 +260,8 @@ Prep Workflow Diagram from Zymo:
 ### D5000 TapeStation Analysis
 
 - If you get Qubit values for each of your libraries you should run them on the TapeStation to access the library size. If one library had too low DNA concentration the prep probably failed somewhere and there is no need to use the TS on that library
-- Use the [D5000 TapeStation protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/DNA-Tapestation/) to see the size range of your completed libraries. Make sure all reagents say D5000 on them
-- Make not is one library is drastically a different size distribution than others, that is probably not good to sequence
+- Use the [D5000 TapeStation protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/DNA-Tapestation/) to see the size range of your completed libraries. **Make sure all reagents say D5000 on them**
+- Make sure not is one library is drastically a different size distribution than others, that is probably not good to sequence
 
 Example TS trace for a good and sequenced WGBS library:
 
