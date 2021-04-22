@@ -1,6 +1,7 @@
-#welcome to the github repo for CBLS aquarium water quality tracking!
 
-Date created: 20210422
+# welcome to the github repo for CBLS aquarium water quality tracking!
+
+Date created: 20210422  
 Date last revised: 20210422 HGR
 
 ##**Some links within the repo**
