@@ -1,12 +1,39 @@
 # Protocol For Using the [Zymo Pico Methyl Seq Library Prep Kit](https://www.zymoresearch.com/products/pico-methyl-seq-library-prep-kit)
 
-### Goal
+### Goal, Steps, and Explanation
 
 Prepare sequenceable libraries of DNA that have been bisulfite converted for methylation data and subsequent whole genome bisulfite sequencing.
 
 Prep Workflow Diagram from Zymo:
 
-![](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/images/PMS-workflow.png)
+![1](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/PMS-workflow.png)
+
+#### Protocol Steps
+
+- **DNA Dilution**
+  - First you dilute your extracted DNA to a total amount of 1 or 10ng. This kit takes a very low input of DNA.
+- **Bisulfite Conversion**
+  - This step bisulfite-treats the DNA. This fragments the DNA, makes it single stranded, and converts all **non-methylated** Cytosines into Uracils. This happens because you treat the DNA with sodium bisulfate, which through a chemical reaction de-aminates the Cytosines (removing the NH3 group) and turns them into Uracils (see image below). Methylated Cs stay as Cs. The DNA becomes single stranded because it no-longer pairs well with the opposite strand, Uracils are 1. usually only present in RNA, and 2. Thymine takes the place of them in DNA. T and A pair together, and C and G pair together.
+  ![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/Screen%20Shot%202021-04-25%20at%2011.25.48%20AM.png)
+- **Post-Conversion Column Cleanup**
+  - Sodium bisulfite is a harsh chemical that needs to be cleaned out of the DNA. This is why the DNA is treated with a Desulphonation Buffer in this step.
+- **Amplification with Prep-Amp Primers**
+  - Here, the converted DNA is randomly primed with PCR primers that have [degenerate bases](idtdna.com/pages/support/faqs/what-are-the-base-degeneracy-codes-that-you-use-(eg.-r-w-k-v-s)-) so that amplification takes place all across the genome. Random priming and PCR of the fragmented DNA results in pieces of DNA 150-600bp long. The polymerase in this step is able to recognize Uracil and thus is more sensitive than other polymerases used in PCRs. This is why it needs to be added in twice, after the 98 degree step, because it would break down at that temperature.
+- **DNA Clean and Concentrator Cleanup**
+  - This step removes leftover enzymes and buffers from the solution that would inhibit the next reaction.
+- **1st Amplification**
+  - This step again amplifies the DNA and adds on the specific adapters that allow the DNA to anneal to the flow-cell during sequencing. It is also at this step that the Uracil is converted to Thymines (maybe, could be the previous step, Zymo is not transparent about the method).
+- **DNA Clean and Concentrator Cleanup**
+  - This step removes leftover enzymes and buffers from the solution that would inhibit the next reaction.
+- **2nd Amplification with Index Primers**
+  - Another amplification is needed to add the barcoded indexes to the DNA, which allows for multiple samples to be pooled together for sequencing.
+- **1X Bead Cleanup**
+  - This step removes leftover enzymes and buffers and any remaining primer from the solution. What is left is the purified libraries.
+- **Broad Range dsDNA Qubit Assay**
+  - The libraries need to be quantified before sequencing, previous sequencing has shown that libraries with concentrations below 7ng/ul have not sequenced well and have been removed from the analysis. If you have a library with a low quant, it might be advantageous to re-do the library.
+- **D5000 TapeStation Assay**
+  - The libraries also need to be visualized for accurate size determination. Libraries that are being sequenced together should all be about the same size distribution. Previous sequencing has also shown that a library noticeably a different size from the others sequenced poorly and was removed from the analysis. If you have a library with a strange size, it might be advantageous to re-do the library.
+
 
 ### Materials and Equitpment
 
@@ -21,21 +48,7 @@ Prep Workflow Diagram from Zymo:
 - [Broad range dsDNA Qubit assay](https://www.thermofisher.com/order/catalog/product/Q32850#/Q32850) and [tubes for Qubit use](https://www.fishersci.com/shop/products/axygen-pcr-tubes-0-5ml-flat-cap-10/p-4909458)
 - [TapeStation4200](https://www.agilent.com/en/product/automated-electrophoresis/tapestation-systems/tapestation-instruments/4200-tapestation-system-228263) or other fragment analyzer
 - [D5000 Tapestation Supplies](https://www.agilent.com/en/product/automated-electrophoresis/tapestation-systems/tapestation-dna-screentape-reagents/dna-screentape-analysis-228260)
-- UDI Index primers (see spreadsheet)
-
-### Protocol Steps
-
-- DNA dilution
-- Bisulfite Conversion
-- Post-Conversion Column Cleanup
-- Amplification with Prep-Amp Primers
-- DNA Clean and Concentrator Cleanup
-- 1st Amplification
-- DNA Clean and Concentrator Cleanup
-- 2nd Amplification with Index Primers
-- 1X Bead Cleanup
-- Broad Range dsDNA Qubit Assay
-- D5000 TapeStation Assay
+- UDI Index primers: [see spreadsheet](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/DNA_RNA-protocols/Indexes_and_Barcodes/UDI_Index_Primer_Pairs_for_Pico_WGBS.csv)
 
 
 **Note about Thermocycler Programs**
@@ -49,7 +62,7 @@ Prep Workflow Diagram from Zymo:
 **Note about timing and planning this prep**
 
 - Calculate how much DNA you're going to use before you start the prep, ideally for all samples, getting the volumes ready before you start
-- Plan how you will index your samples before starting the preps. We have paired i5 and i7 indexes that go from 1-60. Each sample needs a unique pair, and the individual indexes are not used more than once. Ie you can have two samples that have i5-1, i7-1, and i5-2, i7-2. But you cannot have two samples that have i5-1, i7-1, and i5-1, i7-2. i5-1 can't be used twice to mitigate any possible index-hopping (however rare)
+- Plan how you will index your samples before starting the preps. We have paired i5 and i7 indexes that go from 1-60. These indexes are combined into single tubes at 10uM concentration, where i7 1 is paired with i5 1 and so on. This is to help mitigate index hopping on patterned flow-cells, however rare it might be.
 - The list of primer/indexes we have are [here](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/DNA_RNA-protocols/Indexes_and_Barcodes/UDI_Index_Primer_Pairs_for_Pico_WGBS.csv). Right now there are 1-60
 - It can make things easier on you do the prep over 1.5 days: start the prep in the afternoon by doing the DNA dilution and bisulfite conversion. The BS converted DNA can be stable at 4 degrees C for 20 hours. So you can take it out of the thermocycler after the conversion program and store it in the fridge for the next day
 - It will probably take you the entire second day if you do 10 or more samples (including the QC)
@@ -215,15 +228,14 @@ Prep Workflow Diagram from Zymo:
 - Make new strip tubes for each of the samples
 - In each strip tube combine:
   - 12ul of DNA from the above DCC step
-  - 14ul of Library Amp Master Mix
-  - 1ul of the i5 10uM index primer
-  - 1ul of the i7 10uM index primer
+  - 13ul of Library Amp Master Mix
+  - 1ul of the combined i7 and i5 primer pair
 - For adding these I usually make a table where each addition can be highlighted after each pipette, ex:
 
-|sample|vol DNA| vol LibAmp MM| vol i5| vol i7|
+|sample|vol DNA| vol LibAmp MM| vol primer pair|
 |---|---|---|---|---|
-|1|12|14|1ul index 1|1ul index 1|
-|2|12|14|1ul index 2|1ul index 2|
+|1|12|13|1ul index 1|
+|2|12|13|1ul index 2|
 
 - Vortex and spin down tubes after all components are added to each tube
 - Place tubes in the thermocycler and choose the program for your samples: for 1ng input DNA use "12 PICO METHYL AMP 2", for 10ng input DNA, use "10 PICO METHYL AMP 2"
@@ -234,9 +246,9 @@ Prep Workflow Diagram from Zymo:
 
 - Take KAPA Pure Beads out of the refrigerator ~30 minutes before use to get to room temperature. Swirl the bottle to mix the beads but don't vortex
 - Make fresh 80% ethanol for the day, using 100% ethanol (in the flammable cabinet) and ultrapure water
-- When beads are at room temp, add 26ul (equal volume) of beads to each strip tube. Pipette slowly because the bead solution is very viscous. Pipette mix the bead-sample mix at least 10 times until homogeneously brown. [Video link](https://www.youtube.com/watch?v=M-c4QewJUeg&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=12)
+- When beads are at room temp, add 25ul (equal volume) of beads to each strip tube. Pipette slowly because the bead solution is very viscous. Pipette mix the bead-sample mix at least 10 times until homogeneously brown. [Video link](https://www.youtube.com/watch?v=M-c4QewJUeg&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=12)
 - Set up the rotating shaker on the Qubit bench and place the strip tubes on the shaker, rotating at 200rpm for 15 minutes
-- Get the "short" magnet plate from the Puritz lab bench: it's silver, clear, and white with horizontal magnetic bars
+- Use the grey long 24-spot magnet on the Putnam bench
 - At the 15 minutes on the shaker, place the tubes on the magnet rack and wait until the liquid goes clear and the beads have gone to the magnet
 - Using a p200 pipette set to 45ul, carefully remove the clear supernatant from each tube without disturbing the beads and discard in a waste trough
 - Add 200ul of 80% ethanol to each tube
