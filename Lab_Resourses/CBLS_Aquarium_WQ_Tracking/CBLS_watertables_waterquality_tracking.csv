@@ -188,3 +188,10 @@ Date,Time,Putnam_Labber,Treatment_ID,Tank_ID,Light,Temperature_C,Salinity_psu,pH
 20210301,1745,Hreich,header,header,,26.11,35.28,,-63.4,,,,,,,
 20210301,1745,Hreich,WaterTables,Water_Table_1,,26.1,35.29,,-63.3,,,,,,,
 20210301,1745,Hreich,WaterTables,Water_Table_2,,26.13,35.25,,-62.6,,,,,,,
+20210520,1130,Rbailey,WaterTables,Water_Table_1,22.25,26.07,,,-59.4,340,143.2,0.5,,,,"light w/o plexiglass span 23,24,21,21 w/plexiglass 17,16,17,17"
+20210520,1130,Rbailey,WaterTables,Water_Table_2,,26.05,,,-59.4,,,,,,,
+20210520,1130,Rbailey,header,header,,26.05,,,-59.8,,,,,,,
+20219524,1500,Rbailey,WaterTables,Water_Table_1,,26.03,31.67,,-60.8,,,,0.2,0,0,Salinity probe calibrated 50.4 ms
+20219524,1500,Rbailey,WaterTables,Water_Table_2,,26.02,31.74,,-60.9,,,,,,,
+20219524,1500,Rbailey,header,header,,26,31.59,,-60.9,,,,,,,
+20219524,1500,Rbailey,mixing ,mixing,,,31.71,,,,,,,,,
