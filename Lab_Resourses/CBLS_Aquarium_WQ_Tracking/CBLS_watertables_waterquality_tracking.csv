@@ -195,3 +195,7 @@ Date,Time,Putnam_Labber,Treatment_ID,Tank_ID,Light,Temperature_C,Salinity_psu,pH
 20210524,1500,Rbailey,WaterTables,Water_Table_2,,26.02,31.74,,-60.9,,,,,,,
 20210524,1500,Rbailey,header,header,,26,31.59,,-60.9,,,,,,,
 20210524,1500,Rbailey,mixing ,mixing,,,31.71,,,,,,,,,
+20210525,1030,Rbailey,WaterTables,Water_Table_1,,26.46,31.64,,-59.9,280,125.3,0.5,,,,
+20210525,1030,Rbailey,WaterTables,Water_Table_2,,26.45,31.73,,-59.8,,,,,,,
+20210525,1030,Rbailey,header,header,,26.46,31.75,,-59.9,,,,,,,
+20210525,1030,Rbailey,mixing,mixing,,,31.26,,,,,,,,,The water gathered from the tank was mostly DI water because the tank was filling.
