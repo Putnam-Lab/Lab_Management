@@ -9,7 +9,7 @@ output: html_document
 rm(list=ls())
 
 # set working directory
-setwd("~/Desktop/Github/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking/")
+setwd("/Users/roxyr/Documents/Github/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking/")
 
 # load packages
 library(ggplot2)
@@ -37,7 +37,7 @@ temp_wt <- ggplot(data=wt, aes(x=Date, y=Temperature_C, group=1)) +
         legend.position = "bottom")
 temp_wt
 
-save_plot("./figures/water_tables_TEMP.png", temp_wt, base_aspect_ratio = 1.8)
+save_plot("water_tables_TEMP.png", temp_wt, base_aspect_ratio = 1.8)
 
 # plot salinity
 sal_wt <- ggplot(data=wt, aes(x=Date, y=Salinity_psu, group=1)) +
@@ -51,7 +51,7 @@ sal_wt <- ggplot(data=wt, aes(x=Date, y=Salinity_psu, group=1)) +
         legend.position = "bottom")
 sal_wt
 
-save_plot("./figures/water_tables_SALINITY.png", sal_wt, base_aspect_ratio = 1.8)
+save_plot("water_tables_SALINITY.png", sal_wt, base_aspect_ratio = 1.8)
 
 # plot pH
 
@@ -69,7 +69,7 @@ ph_wt <- ggplot(data=wtphavg, aes(x=Date, y=pH_mv_avg, group = 1)) +
         legend.position = "bottom")
 ph_wt
 
-save_plot("./figures/water_tables_pH_MV.png", ph_wt, base_aspect_ratio = 1.8)
+save_plot("water_tables_pH_MV.png", ph_wt, base_aspect_ratio = 1.8)
 
 
 ```
