@@ -191,11 +191,15 @@ Date,Time,Putnam_Labber,Treatment_ID,Tank_ID,Light,Temperature_C,Salinity_psu,pH
 20210520,1130,Rbailey,WaterTables,Water_Table_1,22.25,26.07,,,-59.4,340,143.2,0.5,,,,"light w/o plexiglass span 23,24,21,21 w/plexiglass 17,16,17,17"
 20210520,1130,Rbailey,WaterTables,Water_Table_2,,26.05,,,-59.4,,,,,,,
 20210520,1130,Rbailey,header,header,,26.05,,,-59.8,,,,,,,
-20210524,1500,Rbailey,WaterTables,Water_Table_1,,26.03,31.67,,-60.8,,,,0.2,0,0,Salinity probe calibrated 50.4 ms
+20210524,1500,Rbailey,WaterTables,Water_Table_1,16,26.03,31.67,,-60.8,,,,0.2,0,0,Salinity probe calibrated 50.4 ms
 20210524,1500,Rbailey,WaterTables,Water_Table_2,,26.02,31.74,,-60.9,,,,,,,
 20210524,1500,Rbailey,header,header,,26,31.59,,-60.9,,,,,,,
 20210524,1500,Rbailey,mixing ,mixing,,,31.71,,,,,,,,,
-20210525,1030,Rbailey,WaterTables,Water_Table_1,,26.46,31.64,,-59.9,280,125.3,0.5,,,,
+20210525,1030,Rbailey,WaterTables,Water_Table_1,21.5,26.46,31.64,,-59.9,280,125.3,0.5,,,,
 20210525,1030,Rbailey,WaterTables,Water_Table_2,,26.45,31.73,,-59.8,,,,,,,
 20210525,1030,Rbailey,header,header,,26.46,31.75,,-59.9,,,,,,,
-20210525,1030,Rbailey,mixing,mixing,,,31.26,,,,,,,,,The water gathered from the tank was mostly DI water because the tank was filling.
+20210525,1030,Rbailey,mixing,mixing,,,31.26,,-60.6,,,,,,,The water gathered from the tank was mostly DI water because the tank was filling.
+20210526,1000,Rbailey,WaterTables,Water_Table_1,22,26.07,31.94,,-60.6,,,,,,,
+20210526,1000,Rbailey,WaterTables,Water_Table_2,,26.06,32.12,,-60.7,,,,,,,
+20210526,1000,Rbailey,header,header,,26.05,32.14,,,,,,,,,
+20210526,1000,Rbailey,mixer,mixer,,,31.71,,,,,,,,,
