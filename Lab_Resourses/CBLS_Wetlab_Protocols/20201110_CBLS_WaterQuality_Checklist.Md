@@ -9,7 +9,7 @@ tags: protocol, water quality, synthetic coral, CBLS Aquarium Room, pH, Salinity
 # CBLS Aquarium Room Water Quality Schedule and Protocols
 
 Date started: 20201110  
-Date last revised: 20201111 HGR
+Date last revised: 20210526 HGR updated schedule table
 Document adapted from [Sam Gurr's Whitney Point OA protocols](https://github.com/SamGurr/SamJGurr_Lab_Notebook/blob/master/_posts/2018-08-10-Daily-Wet-Lab-OA-at-Point-Whitney.md)
 
 # General lab pointers to know
@@ -17,10 +17,22 @@ Document adapted from [Sam Gurr's Whitney Point OA protocols](https://github.com
 - rinse towels in the sink and place on black rack underneath the water table to dry
 - **Contact** Prof. Hollie Putnam (hputnam@uri.edu) and Dr. Hannah Reich (hannah_reich@uri.edu) with any questions or issues.
 
-# Schedule of tasks
+# Schedule of routine aquarium maintenance tasks
+
+## daily water quality measurements
 | Monday  | Tuesday | Wednesday | Thursday | Friday |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| light, pH, salinity, temperature | light, pH, salinity, temperature, hardness (KH), Ca, NH4, NO3, NO2, PO4 | light, pH, salinity, temperature | light, pH, salinity, temperature, hardness (KH), Ca, NH4, NO3, NO2, PO4 | light, pH, salinity, temperature |
+| light, pH, salinity, temperature, NH4, NO3, NO2 | light, pH, salinity, temperature, hardness (KH), Ca, PO4 | light, pH, salinity, temperature | light, pH, salinity, temperature | light, pH, salinity, temperature |
+
+## other routine aquarium room tasks
+| Task | Frequency |
+| --- | --- |
+| coral feeding | 1x/week |
+| sock filter cleaning | 2x/week |
+| algae removal | 1-2x/month |
+| apex pH, salinity, temp probe calibration | 1-2x/month (general maintenance), 1x/week (during experiment) |
+| conductivity probe calibration | 1-2x/month (general maintenance), 1x/week (during experiment) |
+| pH probe calibration (tris curve) | 1-2x/month (general maintenance), 1x/week (during experiment) |
 
 # Tasks
 - [**Light**](#Light)
