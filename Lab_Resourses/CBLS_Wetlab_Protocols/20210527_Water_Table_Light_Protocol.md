@@ -18,7 +18,7 @@ tags: protocol, water quality, CBLS Aquarium Room, Light, AI Lights
 *Installed by OSA on 11/2020*
 
 | Light Number | Serial Number |
-| ----- ------ | ----- ------ |
+| --- | --- |
 | 1 | 359B7C99BER1F7 |    
 | 2 | 359B7C99BER1F6 |
 | 3 | 359B76552ARICE |
@@ -37,7 +37,7 @@ tags: protocol, water quality, CBLS Aquarium Room, Light, AI Lights
 # Light-Settings-AI-app
 
 |Type of light | Percent |
-| --- --- --- | --- --- --- |
+| --- | --- |
 | UV | 26% |
 | Violet | 26% |
 | Royal | 26% |
@@ -45,4 +45,4 @@ tags: protocol, water quality, CBLS Aquarium Room, Light, AI Lights
 | Green | 26% |
 | Deep Red | 26% |
 | Cool Light | 15% |
-| Moon Light | 60% | 
+| Moon Light | 60% |
