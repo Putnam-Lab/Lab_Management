@@ -19,7 +19,7 @@ tags: protocol, water quality, CBLS Aquarium Room, Light, AI Lights
 
 | Light Number | Serial Number |
 | ----- ------ | ----- ------ |
-| 1 | 359B7C99BER1F7 |  
+| 1 | 359B7C99BER1F7 |    
 | 2 | 359B7C99BER1F6 |
 | 3 | 359B76552ARICE |
 | 4 | 2Y9B750E70R1D1 |
@@ -45,4 +45,4 @@ tags: protocol, water quality, CBLS Aquarium Room, Light, AI Lights
 | Green | 26% |
 | Deep Red | 26% |
 | Cool Light | 15% |
-| Moon Light | 60% |
+| Moon Light | 60% | 
