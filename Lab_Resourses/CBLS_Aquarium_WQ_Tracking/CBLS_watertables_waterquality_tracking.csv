@@ -207,3 +207,7 @@ Date,Time,Putnam_Labber,Treatment_ID,Tank_ID,Light,Temperature_C,Salinity_psu,pH
 20210527,1000,Rbailey,WaterTables,Water_Table_2,,25.81,31.95,,-60.5,,,,,,,
 20210527,1000,Rbailey,header,header,,25.8,31.94,,-60.3,,,,,,,
 20210527,1000,Rbailey,mixer,mixer,,,31.49,,,,,,,,,
+20210528,1000,Rbailey,WaterTables,Water_Table_1,22.5,25.9,31.84,,-60.5,,,,,,,
+20210528,1000,Rbailey,WaterTables,Water_Table_2,,25.8,31.86,,-60.6,,,,,,,
+20210528,1000,Rbailey,header,header,,25.8,31.9,,-60.6,,,,,,,
+20210528,1000,Rbailey,mixer,mixer,,,31.42,,,,,,,,,
