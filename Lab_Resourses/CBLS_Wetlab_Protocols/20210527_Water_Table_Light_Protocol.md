@@ -14,6 +14,7 @@ tags: protocol, water quality, CBLS Aquarium Room, Light, AI Lights
 - Light has ranged between 20-40 umolm^2/s during peak time. (Lights near corals in table 1).
 - **If the LED Light Indicator is solid red, UNPLUG IT for 30 seconds and try to reset again**
 - Solid Green LED Light indicator means it is connected, flashing blue means it is attempting to connect.
+- [Website for Reference](https://support.aquaillumination.com/hc/en-us/articles/223618707-LED-Indicator-Descriptions-AI-Fi-Lights). 
 
 
 # Serial Number for 8 AI Lights
