@@ -19,14 +19,14 @@ tags: protocol, water quality, CBLS Aquarium Room, Light, AI Lights
 
 | Light Number | Serial Number |
 | --- | --- |
-| 1 | 359B7C99BER1F7 |    
-| 2 | 359B7C99BER1F6 |
-| 3 | 359B76552ARICE |
+| 1 | 3S9B7C99BER1F7 |    
+| 2 | 3S9B7C99BER1F6 |
+| 3 | 3S9B76552AR1CE |
 | 4 | 2Y9B750E70R1D1 |
-| 5 | 359B7C99C8R1EB |
-| 6 | 359B7CA5F8R1F2 |
-| 7 | 359B7CA63AR1E9 |
-| 8 | 359B7C99D0RIE4 |
+| 5 | 3S9B7C99C8R1EB |
+| 6 | 3S9B7CA5F8R1F2 |
+| 7 | 3S9B7CA63AR1E9 |
+| 8 | 3S9B7C99D0R1E4 |
 
 # Parameters-Ramp-Schedule
 
