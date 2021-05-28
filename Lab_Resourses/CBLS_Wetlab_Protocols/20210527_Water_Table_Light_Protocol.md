@@ -12,6 +12,8 @@ tags: protocol, water quality, CBLS Aquarium Room, Light, AI Lights
 
 - Lights hanging 8 inches off of white beam.
 - Light has ranged between 20-40 umolm^2/s during peak time. (Lights near corals in table 1).
+- **If the LED Light Indicator is solid red, UNPLUG IT for 30 seconds and try to reset again**
+- Solid Green LED Light indicator means it is connected, flashing blue means it is attempting to connect.
 
 
 # Serial Number for 8 AI Lights
