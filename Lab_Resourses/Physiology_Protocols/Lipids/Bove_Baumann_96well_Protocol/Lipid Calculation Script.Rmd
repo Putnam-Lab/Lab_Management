@@ -1,0 +1,298 @@
+---
+title: "Colormetric Lipid Concentration Calculation"
+output: 
+  html_document:
+    theme: spacelab
+---
+
+<style>
+  body{background-color: aliceblue !important}
+</style>
+
+```{r setup info, echo = FALSE}
+
+## If standards look good, you should only need to update this code chunk with your output file name, plate file name from both reads, and sample names (can use 'dummy' sample names if preferred).
+
+## I have included a sample plate for practice:
+# output_filename <- "Plate14_lipid_21Oct19" 
+# filename1 <- "Lipid_P14_R1_18Oct19"
+# filename2 <- "Lipid_P14_R2_18Oct19"
+# coral_ID  <- c("CFSB9", "CNSE9", "CNTB8", "CNTC18", "CNSC9", "CFSA9", "CFSC11", "CNSB15", "CFSB7", "CFSD12", "CNSA5", "CFSE9", "CNSE22", "CNSD10", "CNTB15", "CNTE17", "CFTF15", "CNTA7", "CNTD9")
+
+output_filename <- "Plate14_lipid_21Oct19" # Input file name that you want lipid concentrations saved as
+
+filename1 <- "Lipid_P14_R1_18Oct19"
+filename2 <- "Lipid_P14_R2_18Oct19"
+
+# Input the coral IDs for all samples on plate (for lipids, it is a max of 24 actual samples)
+coral_ID  <- c("CFSB9", "CNSE9", "CNTB8", "CNTC18", "CNSC9", "CFSA9", "CFSC11", "CNSB15", "CFSB7", "CFSD12", "CNSA5", "CFSE9", "CNSE22", "CNSD10", "CNTB15", "CNTE17", "CFTF15", "CNTA7", "CNTD9")
+
+
+
+
+## Below is for naming/saving files
+# Plot:
+date <- Sys.Date() # pulls the current date (format: YEAR-MONTH-DAY)
+fig <- paste(output_filename, "STD.plot", date, sep="_") # creates label for saving plot of standards
+fig <- paste(fig, ".pdf", sep="") # adds .pdf extension
+
+# CSV of calculated values
+csvFileName <- paste(output_filename, date, sep="_") 
+csvFileName <- paste(csvFileName, ".csv", sep="") 
+
+```
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE
+)
+
+```
+
+<br/>
+
+**Sample of how 96-well plate was filled with standards and samples**
+
+|  | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+|--------|--------|--------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| **A** | Std 1a | Std 1b | Std 1c | Samp 1a | Samp 1b | Samp 1c | Samp 9a | Samp 9b | Samp 9c | Samp 17a | Samp 17b | Samp 17c |
+| **B** | Std 2a | Std 2b | Std 2c | Samp 2a | Samp 2b | Samp 2c | Samp 10a | Samp 10b | Samp 10c | Samp 18a | Samp 18b | Samp 18c |
+| **C** | Std 3a | Std 3b | Std 3c | Samp 3a | Samp 3b | Samp 3c | Samp 11a | Samp 11b | Samp 11c | Samp 19a | Samp 19b | Samp 19c |
+| **D** | Std 4a | Std 4b | Std 4c | Samp 4a | Samp 4b | Samp 4c | Samp 12a | Samp 12b | Samp 12c | Samp 20a | Samp 20b | Samp 20c |
+| **E** | Std 5a | Std 5b | Std 5c | Samp 5a | Samp 5b | Samp 5c | Samp 13a | Samp 13b | Samp 13c | Samp 21a | Samp 21b | Samp 21c |
+| **F** | Std 6a | Std 6b | Std 6c | Samp 6a | Samp 6b | Samp 6c | Samp 14a | Samp 14b | Samp 14c | Samp 22a | Samp 22b | Samp 22c |
+| **G** | *blank* | *blank* | *blank* | Samp 7a | Samp 7b | Samp 7c | Samp 15a | Samp 15b | Samp 15c | Samp 23a | Samp 23b | Samp 23c |
+| **H** | *blank* | *blank* | *blank* | Samp 8a | Samp 8b | Samp 8c | Samp 16a | Samp 16b | Samp 16c | Samp 24a | Samp 24b | Samp 24c |
+
+
+<br/>
+
+### **Sample run**: `r output_filename`
+```{r libraries, include=FALSE}
+
+library("tidyverse")
+library("ggplot2")
+library("kableExtra")
+library("plotly")
+library("shiny")
+
+```
+
+
+```{r setup plates, echo=FALSE, message=FALSE}
+
+# add '.csv' extension to file names
+file1 <- paste(filename1, ".csv", sep="")
+file2 <- paste(filename2, ".csv", sep="")
+
+# read in both first and second plate reads into dataframes
+df1 <- read_csv(file1, col_names = FALSE)
+df2 <- read_csv(file2, col_names = FALSE)
+
+# subset dataframes to select for 'raw data' output from each
+df1 <- df1[-c(1:8, 17:40),-1] 
+df2 <- df2[-c(1:8, 17:40),-1] 
+
+# use these ones if saved as .xls instead of .csv initially
+#df1 <- df1[-c(1:12, 21:42), -c(1,14:15)] 
+#df2 <- df2[-c(1:12, 21:42), -c(1,14:19)]
+
+# convert all values to numerics
+df1 <- mutate_all(df1, function(x) as.numeric(as.character(x)))
+df2 <- mutate_all(df2, function(x) as.numeric(as.character(x)))
+
+```
+
+```{r blank calc and check, echo=FALSE}
+
+# determine average blank per plate (for double blank)
+blank1 <- mean(as.matrix(df1[7:8, 1:3]))
+blank2 <- mean(as.matrix(df2[7:8, 1:3]))
+
+
+# make tables to view
+b1.tab <- df1[7:8, 1:3]
+b1.tab$mean <- c("", round(blank1, 3))
+
+b2.tab <- df2[7:8, 1:3]
+b2.tab$mean <- c("", round(blank2, 3))
+
+# tables of mean blanks to check for removing any off values
+kable(b1.tab, caption = "Plate 1 Blank Values") %>%
+  kable_styling(font_size = 12, full_width = F) %>% 
+  column_spec(4, color = "red", bold = TRUE)
+
+kable(b2.tab, caption = "Plate 2 Blank Values") %>%
+  kable_styling(font_size = 12, full_width = F) %>% 
+  column_spec(4, color = "red", bold = TRUE)
+
+############
+
+## If you want to remove a value, select it with this code:
+# for any values in plate 1
+#b1.tab[#row_num, #col_num] = NA
+#blank1 <- mean(as.numeric(as.matrix(b1.tab[1:2, 1:3])), na.rm=TRUE)
+
+# for any values in plate 2
+#b2.tab[2, 3] = NA
+#blank2 <- mean(as.numeric(as.matrix(b2.tab[1:2, 1:3])), na.rm=TRUE)
+
+```
+
+```{r blank and plate1 correction, echo=FALSE}
+
+# blank-correct all of plates 1 and 2
+df1 <- df1 - blank1 # subtract mean blank from full plate 1
+df2 <- df2 - blank2 # subtract mean blank from full plate 2
+
+# this code makes sure that any negative values on plate 1 are converted to 0!
+df1[df1 < 0] <- 0
+
+# subtract plate 1 (background) from plate 2 (final plate read)
+df <- df2 - df1
+df <- round(df, 3)
+
+```
+
+
+```{r data manipulation, echo=FALSE}
+
+# subset into daraframes of triplicate measures and rename
+df_std <- df[,1:3]
+df_std <- df_std[1:6,] # this removes the blank values from the bottom two rows
+df_sam1 <- df[,4:6]
+df_sam2 <- df[,7:9]
+df_sam3 <- df[,10:12]
+
+colnames(df_std ) <- c("read_1","read_2","read_3")
+colnames(df_sam1) <- c("read_1","read_2","read_3")
+colnames(df_sam2) <- c("read_1","read_2","read_3")
+colnames(df_sam3) <- c("read_1","read_2","read_3")
+
+# combined them into long format
+df_all <- rbind(df_std , df_sam1, df_sam2, df_sam3)
+
+# adds a column of row numbers
+df_all <- tibble::rowid_to_column(df_all, "Sample_ID")
+df_all$Sample_ID <- as.factor(df_all$Sample_ID - 6)
+
+# this adds better naming of standards in 'Sample_ID' column
+pre <- "Std"
+suf <- as.factor(seq(1:6))
+std_nam <- seq(1:24)
+num <- as.data.frame(std_nam)
+num$std_nam <- as.factor(num$std_nam)
+std_nam <- paste(pre , suf, sep="_")
+std_nam <- as.data.frame(std_nam)
+IDs <- rbind(std_nam, num)
+df_all$Sample_ID <- IDs$std_nam
+
+# add another column of sample type (S = standard; coral = coral)
+df_all$samp_type <- paste(c(rep("S", 6), rep("coral", 24)))
+
+# adds a column for standard known concentration 
+df_all$conc <- paste(c(1.5, 0.75, 0.375, 0.1875, 0.09375, 0.046875, rep("NA", 24)))
+df_all$conc <- as.numeric(as.character(df_all$conc)) # transform to numeric
+
+# convert from wide to long format
+df_all <- gather(df_all, read, absorb, read_1:read_3)
+
+# create a dataframe of standards only
+stds <- subset(df_all, samp_type=="S")
+
+# Use this to remove single really off STD values
+#stds <- stds[-13,] 
+#stds <- stds[-13,] 
+
+```
+
+```{r linear model, echo=FALSE}
+
+R2 <- summary(lm(conc ~ absorb, data=stds))$r.squared # pulls R squared value
+m <- summary(lm(conc ~ absorb, data=stds))$coefficients[2,1] # pulls the slope of line
+b <- summary(lm(conc ~ absorb, data=stds))$coefficients[1,1] # pulls the line's intercept
+
+```
+
+***
+
+<br/>
+
+### **Standard concentration equation**:
+
+$${y} = `r m` {x}+`r b`$$
+$$R^2 = `r R2`$$
+
+<br/>
+
+### **Interactive standards plot**:
+```{r standard plot, echo=FALSE}
+
+conc_fig <- ggplot(stds, aes(absorb, conc, shape = read, group = samp_type))+
+  geom_point(size=3)+
+  geom_smooth(method="lm", se=F)+
+  ylab("Lipid Concentration (mg/mL)")+
+  xlab("Absorbance (540 nm)")+
+  ggtitle(bquote("R"^2 == .(round(R2, 3))~ "    y" == .(round(m, 2))~"x + "~ .(round(b, 3))))+
+  theme_classic() +
+  ggsave(fig, width = 7, height = 3)
+
+conc_fig2 <- ggplot(stds, aes(absorb, conc, shape = read, group = samp_type))+
+  geom_point(size=3)+
+  geom_smooth(method="lm", se=F)+
+  ylab("Lipid Concentration (mg/mL)")+
+  xlab("Absorbance (540 nm)")+
+  theme_classic()
+
+ggplotly(conc_fig2)
+
+```
+
+<br/>
+
+Subset of calculated sample concentrations:
+```{r saving final csv, echo = FALSE}
+
+corals <- subset(df_all, samp_type!="S") # subsets dataframe for coral values only
+corals$conc <- m * corals$absorb + b # calculates concentration of lipid using linear model
+
+# unhash this line if working with less than full sample plate
+corals <- na.omit(corals)
+
+# adds the provided sample names in order of how they are input (make sure you do this in the correct order up front)
+corals$Sample_ID <- paste(rep(coral_ID, 3))
+
+## Construct final dataframe
+df_final <- rbind(stds, corals) # adds the standards and samples together
+df_final$plate <- output_filename # list the file ID as a new column 
+
+# View sample of values in the markdown document
+kable(df_final[28:37,], row.names = FALSE) %>%
+  kable_styling(font_size = 11, full_width = FALSE)
+
+## save the final dataframe as a CSV
+write.csv(df_final, file = csvFileName)  
+
+```
+
+***
+
+#### **Calculated Lipid Concentration Output**: `r csvFileName`
+
+<br/>
+<br/>
+<br/>
+
+#### Session Info:
+
+Script written by [Colleen B. Bove](http://colleenbove.science) and was last updated on 27 May 2021.
+Feel free to contact with questions: colleenbove@gmail.com.
+
+```{r echo=FALSE}
+
+sessionInfo()
+
+```
