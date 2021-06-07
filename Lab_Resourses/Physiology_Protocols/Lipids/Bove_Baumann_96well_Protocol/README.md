@@ -2,6 +2,7 @@
 
 ## Files included in folder
 1. PDF version of protocol for lipid assay lab work (*Colorimetric Lipid Assay for Corals.pdf*)
+2. Markdown version of protocol for lipid assay lab work (*Coral_Lipid_Protocol.md*)
 2. Lipid correction/calculation Rmarkdown script (*Lipid Calculation Script.Rmd*)
 4. Sample plate files to running the Rmarkdown script (*Lipid_P14_R1_18Oct19.csv and Lipid_P14_R2_18Oct19.csv*)
 

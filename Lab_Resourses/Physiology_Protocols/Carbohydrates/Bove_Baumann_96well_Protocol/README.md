@@ -10,14 +10,14 @@ Modified by Colleen B Bove and Justin H Baumann
 
 - This protocol was modified and based off [this protocol](https://www.protocols.io/view/coral-carbohydrate-assay-for-96-well-plates-bvb9n2r6)
 - This protocol has been tested on coral homogenates that have been airbrushed in phosphate buffer saline (PBS) solution, homogenized. Additionally, the symbiont cells have been removed via centrifugation.
-- This protocol is also designed to work for in 96 well plates
+- This protocol is also designed to work in 96 well plates
 
 
 ### Materials
 --------------------------
 
 #### Reagents:
-- [Concentrated Sulphuric Acid (95% certified ACS grade)](https://www.fishersci.com/shop/products/sulfuric-acid-certified-acs-plus-fisher-chemical-11/A300500)
+- [Concentrated Sulphuric Acid (95% certified ACS grade)](https://www.carolina.com/specialty-chemicals-s/sulfuric-acid-18-m-95-98-vv-glass-bottle-acs-grade-25-l/893302.pr?question=)
 - [Phenol (certified ACS)](https://www.fishersci.com/shop/products/phenol-liquid-certified-fisher-chemical-4/A931I500#?keyword=phenol%20ACS)
 - MilliQ Water
 - [L-(-)-Glucose](https://www.sigmaaldrich.com/catalog/product/sigma/g5500?lang=en&region=US&gclid=Cj0KCQjw2NyFBhDoARIsAMtHtZ5C7ue3ciohFrpwseZgAYYvwQDzMdudL-xTZ7d94oJd6AzG398G9gYaArqVEALw_wcB)
