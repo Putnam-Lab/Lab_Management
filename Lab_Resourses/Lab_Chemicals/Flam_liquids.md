@@ -1,0 +1,12 @@
+# Putnam Lab Flammable Liquids
+
+
+**Chemical**|**Containers**|**PI**|**Physical Hazard Class**|**Health Hazard Class**|**Flammable Hazard Class**|**Instability Hazard Class**|**SDS link**|**Purchase Link**
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+Isopropanol|1 1L, 1 4L|PUTNAM|NA|2|3|0|[x](https://www.fishersci.com/store/msds?partNumber=BP26181&productDescription=ISOPROPANOL%2C+MOLECULAR+BIOLOGY&vendorId=VN00033897&countryCode=US&language=en)|[x](https://www.fishersci.com/shop/products/isopropanol-molecular-biology-grade-fisher-bioreagents-4/BP26181#?keyword=bp26181)
+Chloroform|1 500mL|PUTNAM|NA|1|2|1|[x](https://www.fishersci.com/store/msds?partNumber=C298500&productDescription=CHLOROFORM+CERTIFIED+ACS+500ML&vendorId=VN00033897&countryCode=US&language=en)|[x](https://www.fishersci.com/shop/products/chloroform-ethanol-as-preservative-certified-acs-fisher-chemical-7/C298500?searchHijack=true&searchTerm=C298500&searchType=RAPID&matchedCatNo=C298500)
+100% Ethanol|1 1 gallon|PUTNAM|NA|2|3|1|[x](https://www.fishersci.com/store/msds?partNumber=A4094&productDescription=ETHANOL+200+PRF+USP+EP+ACS+4L&vendorId=VN00033897&countryCode=US&language=en)|only available through URI chem department
+HPLC-grade Acetone|1 4L|PUTNAM|NA|2|3|0|[x](https://www.fishersci.com/store/msds?partNumber=A9491&productDescription=ACETONE+HPLC+GRADE+1L&vendorId=VN00033897&countryCode=US&language=en)|[x](https://www.labchem.com/acetone-hplc-6042.html)
+Methanol|2 4L|PUTNAM|NA|1|3|0|[x](https://www.fishersci.com/store/msds?partNumber=A412500&productDescription=METHANOL+CERTIFIED+ACS+500ML&vendorId=VN00033897&countryCode=US&language=en)|[x](https://www.fishersci.com/shop/products/methanol-certified-acs-fisher-chemical-10/A412500)
+Acetonitrile|1 4L|PUTNAM|NA|2|3|0|[x](https://www.fishersci.com/store/msds?partNumber=A211&productDescription=ACETONITRILE+CERTIFIED+ACS+1L&vendorId=VN00033897&countryCode=US&language=en)|[x](https://www.fishersci.com/shop/products/acetonitrile-certified-acs-fisher-chemical-4/A211#?keyword=Acetonitrile+CH3CN)
+Chloroform/Isoamy Alcohol 24:1|1 500mL|PUTNAM|NA|3|1|1|[x](https://www.fishersci.com/store/msds?partNumber=AC327155000&productDescription=CHLOROFORM%2FISOAMYLALCOHO+500ML&vendorId=VN00032119&countryCode=US&language=en)|[x](https://www.fishersci.com/shop/products/chloroform-isoamyl-alcohol-24-1-molecular-biology-dnase-rnase-protease-fr-acros-organics/AC327155000)
