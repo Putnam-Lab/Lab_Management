@@ -19,22 +19,20 @@ library(gridExtra)
 
 # Check working directory
 ```{r}
-getwd() 
+ setwd("C:/Users/roxyr/Documents/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking")
 ```
-
 # Load data
-```{r}
+``{r}
 # Load data
-daily <- read.csv("data/DailyMeasurements.csv", header = T)
-daily <- daily[-13,] # remove tank 14 because it cracked 
-daily$Timepoint <- as.Date(daily$Timepoint, "%m/%d/%Y")
-daily$Tank <- as.factor(daily$Tank)
-daily <- subset(daily, Treatment=="Heat" | Treatment=="Ambient")
+daily <- read.csv("/Users/roxyr/Documents/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking/CBLS_watertables_waterquality_tracking.csv", header = T)
+#daily$Timepoint <- as.Date(daily$Timepoint, "%m/%d/%Y")
+daily$Tank_ID <- as.factor(daily$Tank_ID)
+daily$Treatment_ID <- as.factor(daily$Treatment_ID)
 ```
 
 # Discrete pH calculations from Tris calibrations.
 ```{r}
-path <-("data/pH_Tris") #set path to calibration files
+path <-("/Users/roxyr/Documents/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking/tris_cal") #set path to calibration files
 file.names<-list.files(path = path, pattern = "csv$") #list all the file names in the folder to get only get the csv files
 pH.cals <- data.frame(matrix(NA, nrow=length(file.names), ncol=3, dimnames=list(file.names,c("Date", "Intercept", "Slope")))) #generate a 3 column dataframe with specific column names
 for(i in 1:length(file.names)) { # for every file in list start at the first and run this following function
