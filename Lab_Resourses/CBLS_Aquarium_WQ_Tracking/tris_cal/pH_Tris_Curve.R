@@ -1,8 +1,8 @@
 # modified for personal Lenovo PC at PT Whitney summer 2019
-# last modification on 20190625 by SJG
-setwd("/Users/hannahreich/Desktop/Github/SynCoral_Protocols/WaterQuality/20201009_OSA/") #set working directory
+# last modification on 20210621 by RB
+setwd("/Users/roxyr/Documents/GitHub/Lab_Management/WaterQuality/20210621.csv/") #set working directory
 
-Calib.Data <-read.table("20201009.csv", header=TRUE, sep=",", na.string="NA", as.is=TRUE) #reads in the data files
+Calib.Data <-read.table("20210621.csv", header=TRUE, sep=",", na.string="NA", as.is=TRUE) #reads in the data files
 model <-lm(mVTris ~ TTris, data=Calib.Data) #runs a linear regression of mV as a function of temperature
 coe <- coef(model) #extracts the coeffecients
 R2<-summary(model)$r.squared
