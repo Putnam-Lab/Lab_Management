@@ -19,7 +19,7 @@ library(gridExtra)
 
 # Check working directory
 ```{r}
- setwd("C:/Users/roxyr/Documents/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking")
+# setwd("C:/Users/roxyr/Documents/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking")
 ```
 # Load data
 ``{r}
@@ -29,7 +29,6 @@ daily <- read.csv("/Users/roxyr/Documents/GitHub/Lab_Management/Lab_Resourses/CB
 daily$Tank_ID <- as.factor(daily$Tank_ID)
 daily$Treatment_ID <- as.factor(daily$Treatment_ID)
 ```
-
 # Discrete pH calculations from Tris calibrations.
 ```{r}
 path <-("/Users/roxyr/Documents/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking/tris_cal") #set path to calibration files
@@ -45,13 +44,13 @@ for(i in 1:length(file.names)) { # for every file in list start at the first and
   pH.cals[i,2:3] <- coe #inserts coefficients in the dataframe
   pH.cals[i,1] <- substr(file.names[i],1,8) #stores the file name in the Date column
 }
-colnames(pH.cals) <- c("Calib.Date",  "Intercept",  "Slope") #rename columns
+colnames(pH.cals) <- c("Date",  "Intercept",  "Slope") #rename columns
 pH.cals #view data
 #constants for use in pH calculation 
 R <- 8.31447215 #gas constant in J mol-1 K-1 
 F <- 96485.339924 #Faraday constant in coulombs mol-1
 #merge with Seawater chemistry file
-SW.chem <- merge(daily, pH.cals, by="Calib.Date")
+SW.chem <- merge(daily, pH.cals, by='Date')
 ```
 
 # Calculate total pH. 
