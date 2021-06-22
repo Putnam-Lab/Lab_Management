@@ -19,12 +19,14 @@ library(gridExtra)
 
 # Check working directory
 ```{r}
- setwd("C:/Users/roxyr/Documents/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking")
+setwd("~/Desktop/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking") #didn't work for some reason, couldn't change from tris_cal folder
+getwd() 
 ```
+
 # Load data
-``{r}
+```{r}
 # Load data
-daily <- read.csv("/Users/roxyr/Documents/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking/CBLS_watertables_waterquality_tracking.csv", header = T)
+daily <- read.csv("~/Desktop/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking/CBLS_watertables_waterquality_tracking.csv", header = T)
 #daily$Timepoint <- as.Date(daily$Timepoint, "%m/%d/%Y")
 daily$Tank_ID <- as.factor(daily$Tank_ID)
 daily$Treatment_ID <- as.factor(daily$Treatment_ID)
@@ -32,7 +34,7 @@ daily$Treatment_ID <- as.factor(daily$Treatment_ID)
 
 # Discrete pH calculations from Tris calibrations.
 ```{r}
-path <-("/Users/roxyr/Documents/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking/tris_cal") #set path to calibration files
+path <-("~/Desktop/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking/tris_cal") #set path to calibration files
 file.names<-list.files(path = path, pattern = "csv$") #list all the file names in the folder to get only get the csv files
 pH.cals <- data.frame(matrix(NA, nrow=length(file.names), ncol=3, dimnames=list(file.names,c("Date", "Intercept", "Slope")))) #generate a 3 column dataframe with specific column names
 for(i in 1:length(file.names)) { # for every file in list start at the first and run this following function
@@ -50,13 +52,13 @@ pH.cals #view data
 #constants for use in pH calculation 
 R <- 8.31447215 #gas constant in J mol-1 K-1 
 F <- 96485.339924 #Faraday constant in coulombs mol-1
-#merge with Seawater chemistry file
-SW.chem <- merge(daily, pH.cals, by="Calib.Date")
+#merge with Seawater chemistry file (in our case, the WQ file!)
+SW.chem <- merge(daily, pH.cals, by.x="Date", by.y="Calib.Date", all=TRUE)
 ```
 
 # Calculate total pH. 
 ```{r}
-mvTris <- SW.chem$Temperature*SW.chem$Slope+SW.chem$Intercept #calculate the mV of the tris standard using the temperature mv relationships in the measured standard curves 
+mvTris <- SW.chem$Temperature*SW.chem$Slope+SW.chem$Intercept #calculate the mV of the tris standard using the temperature mV relationships in the measured standard curves 
 STris<-35 #salinity of the Tris
 phTris<- (11911.08-18.2499*STris-0.039336*STris^2)*(1/(SW.chem$Temperature+273.15))-366.27059+ 0.53993607*STris+0.00016329*STris^2+(64.52243-0.084041*STris)*log(SW.chem$Temperature+273.15)-0.11149858*(SW.chem$Temperature+273.15) #calculate the pH of the tris (Dickson A. G., Sabine C. L. and Christian J. R., SOP 6a)
 SW.chem$pH.Total<-phTris+(mvTris/1000-SW.chem$pH.MV/1000)/(R*(SW.chem$Temperature+273.15)*log(10)/F) #calculate the pH on the total scale (Dickson A. G., Sabine C. L. and Christian J. R., SOP 6a)
