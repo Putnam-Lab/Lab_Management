@@ -19,18 +19,18 @@ library(gridExtra)
 
 # Check working directory
 ```{r}
-<<<<<<< HEAD
+
 # setwd("C:/Users/roxyr/Documents/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking")
-=======
-setwd("~/Desktop/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking") #didn't work for some reason, couldn't change from tris_cal folder
+
+setwd("~/Documents/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking") #didn't work for some reason, couldn't change from tris_cal folder
 getwd() 
->>>>>>> 84eafc248825c7cf0c20001f31ec4f13c5ff7717
+
 ```
 
 # Load data
 ```{r}
 # Load data
-daily <- read.csv("~/Desktop/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking/CBLS_watertables_waterquality_tracking.csv", header = T)
+daily <- read.csv("/Users/roxyr/Documents/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking/CBLS_watertables_waterquality_tracking.csv", header = T)
 #daily$Timepoint <- as.Date(daily$Timepoint, "%m/%d/%Y")
 daily$Tank_ID <- as.factor(daily$Tank_ID)
 daily$Treatment_ID <- as.factor(daily$Treatment_ID)
@@ -55,13 +55,13 @@ pH.cals #view data
 #constants for use in pH calculation 
 R <- 8.31447215 #gas constant in J mol-1 K-1 
 F <- 96485.339924 #Faraday constant in coulombs mol-1
-<<<<<<< HEAD
+
 #merge with Seawater chemistry file
 SW.chem <- merge(daily, pH.cals, by='Date')
-=======
+
 #merge with Seawater chemistry file (in our case, the WQ file!)
 SW.chem <- merge(daily, pH.cals, by.x="Date", by.y="Calib.Date", all=TRUE)
->>>>>>> 84eafc248825c7cf0c20001f31ec4f13c5ff7717
+
 ```
 
 # Calculate total pH. 
