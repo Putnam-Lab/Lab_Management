@@ -1,0 +1,249 @@
+"","Date","Time","Putnam_Labber","Treatment_ID","Tank_ID","Light","Temperature_C","Salinity_psu","pH","pH_mv","Ca_ppm","KH_ppm","PO4_ppm","NH4_ppm","NO3_ppm","NO2_ppm","Notes","Intercept","Slope","pH.Total"
+"1",20201016,NA,"Hreich","WaterTables","Water_Table_1",NA,25.17,33.5,8.3,-66.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"2",20201016,NA,"Hreich","10galtank","10galtank",NA,25.6,30.5,8.45,-75,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"3",20201021,NA,"Hreich","WaterTables","Water_Table_1",NA,24.2,37,8.19,-59.2,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"4",20201021,NA,"Hreich","10galtank","10galtank",NA,26,33,7.79,-35.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"5",20201023,NA,"Hreich","WaterTables","Water_Table_1",NA,24.5,27.34,8.22,-64.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"6",20201023,NA,"Hreich","10galtank","10galtank",NA,26.1,33,7.8,-40.1,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"7",20201028,NA,"Sgray","WaterTables","Water_Table_1",NA,24.57,32.81,NA,NA,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"8",20201104,1215,"Hputnam","header","header",NA,23.89,33.9,NA,-65.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"9",20201104,NA,"Hputnam","10galtank","10galtank",NA,26,40.43,NA,-51.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"10",20201104,NA,"Hputnam","WaterTables","Water_Table_1",NA,23.89,33.83,NA,-65,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"11",20201104,NA,"Hputnam","WaterTables","Water_Table_2",NA,23.9,33.85,NA,-65.4,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"12",20201106,1400,"Hreich","WaterTables","Water_Table_1",NA,24.56,33.99,NA,-65.3,400,232.7,2,0.25,5,0.125,"Lights installed today!",NA,NA,NA
+"13",20201106,1400,"Hreich","WaterTables","Water_Table_2",NA,24.56,34.19,NA,-64.3,NA,NA,NA,NA,NA,NA,"Lights installed today!",NA,NA,NA
+"14",20201110,NA,"Hreich","WaterTables","Water_Table_1",NA,24.85,35.35,NA,-61.8,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"15",20201110,NA,"Hreich","WaterTables","Water_Table_2",NA,24.83,35.27,NA,-62.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"16",20201110,NA,"Hreich","10galtank","10galtank_1",NA,24.87,41.54,NA,-64,NA,NA,NA,NA,NA,NA,"water replaced in glass tank and heater removed",NA,NA,NA
+"17",20201110,NA,"Hreich","header","header",NA,24.83,35.27,NA,-43.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"18",20201111,NA,"Hreich","WaterTables","Water_Table_1",NA,24.03,35.29,NA,-64.5,500,179,2,0.25,5,0.125,"",NA,NA,NA
+"19",20201111,NA,"Hreich","WaterTables","Water_Table_2",NA,24.02,35.15,NA,-65.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"20",20201111,NA,"Hreich","10galtank","10galtank_1",NA,24.1,39.02,NA,-58.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"21",20201111,NA,"Hreich","header","header",NA,24,35.17,NA,-65.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"22",20201112,1530,"Hreich","WaterTables","Water_Table_1",NA,24.62,36.15,NA,-64.8,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"23",20201112,1530,"Hreich","WaterTables","Water_Table_2",NA,24.62,NA,NA,-62.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"24",20201112,1530,"Hreich","10galtank","10galtank_1",NA,24.61,50.92,NA,-51.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"25",20201112,1530,"Hreich","10galtank","10galtank_2",NA,24.61,38.98,NA,-59.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"26",20201112,1530,"Hreich","header","header",NA,24.61,36.12,NA,-64.8,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"27",20201113,940,"Hreich","10galtank","10galtank_1",NA,25.33,51.51,NA,-54.5,NA,NA,NA,NA,NA,NA,"hyperosmotic stress salinity ramp started 20201111",NA,NA,NA
+"28",20201113,1040,"Hreich","10galtank","10galtank_1",NA,25.42,51.55,NA,-55.3,NA,NA,NA,NA,NA,NA,"hyperosmotic stress salinity ramp started 20201111",NA,NA,NA
+"29",20201113,1140,"Hreich","10galtank","10galtank_1",NA,25.5,51.59,NA,-55.3,NA,NA,NA,NA,NA,NA,"hyperosmotic stress salinity ramp started 20201111",NA,NA,NA
+"30",20201113,1240,"Hreich","10galtank","10galtank_1",NA,25.56,51.62,NA,-55.4,NA,NA,NA,NA,NA,NA,"hyperosmotic stress salinity ramp started 20201111",NA,NA,NA
+"31",20201113,1440,"Hreich","10galtank","10galtank_1",NA,25.75,51.68,NA,-55.1,NA,NA,NA,NA,NA,NA,"hyperosmotic stress salinity ramp started 20201111",NA,NA,NA
+"32",20201113,1740,"Hreich","10galtank","10galtank_1",NA,25.9,51.76,NA,-54.1,NA,NA,NA,NA,NA,NA,"hyperosmotic stress salinity ramp started 20201111",NA,NA,NA
+"33",20201113,940,"Hreich","10galtank","10galtank_2",NA,25.36,50.7,NA,-50.37,NA,NA,NA,NA,NA,NA,"hyperosmotic stress salinity ramp started 20201112. chambers moved into glass tank 1 at 1445 on 20201113",NA,NA,NA
+"34",20201113,1040,"Hreich","10galtank","10galtank_2",NA,25.44,53.6,NA,-50.44,NA,NA,NA,NA,NA,NA,"hyperosmotic stress salinity ramp started 20201112. chambers moved into glass tank 1 at 1445 on 20201113",NA,NA,NA
+"35",20201113,1140,"Hreich","10galtank","10galtank_2",NA,25.54,53.7,NA,-50.46,NA,NA,NA,NA,NA,NA,"hyperosmotic stress salinity ramp started 20201112. chambers moved into glass tank 1 at 1445 on 20201113",NA,NA,NA
+"36",20201113,1240,"Hreich","10galtank","10galtank_2",NA,25.6,53.7,NA,-50.47,NA,NA,NA,NA,NA,NA,"hyperosmotic stress salinity ramp started 20201112. chambers moved into glass tank 1 at 1445 on 20201113",NA,NA,NA
+"37",20201113,1800,"Hreich","header","header",NA,25.85,36.15,NA,-65.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"38",20201113,1800,"Hreich","WaterTables","Water_Table_1",NA,25.86,36.87,NA,-66.1,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"39",20201113,1800,"Hreich","WaterTables","Water_Table_2",NA,25.87,35.92,NA,-65.8,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"40",20201113,1800,"Hreich","mini","mini_20201113",NA,26.17,37.41,NA,-54.1,NA,NA,NA,NA,NA,NA,"mini tank 1 started 1651 on 20201113",NA,NA,NA
+"41",20201113,1800,"Hreich","mixing","mixing",NA,25.02,36.67,NA,-43.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"42",20201116,1515,"Hreich","header","header",NA,26.98,35.65,NA,-65.8,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"43",20201116,1515,"Hreich","WaterTables","Water_Table_1",NA,27,35.68,NA,-66.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"44",20201116,1515,"Hreich","WaterTables","Water_Table_2",NA,27,35.66,NA,-66.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"45",20201116,1515,"Hreich","mini","mini_20201113",NA,27.75,48.88,NA,-53.6,NA,NA,NA,NA,NA,NA,"mini tank 1 started 1651 on 20201113",NA,NA,NA
+"46",20201116,1515,"Hreich","mixing","mixing",NA,24.54,35.01,NA,-45.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"47",20201116,1515,"Hreich","mini","mini_tank1",NA,27.75,53.98,NA,-55.1,NA,NA,NA,NA,NA,NA,"mini tank with 20201111 and 20201112 corals",NA,NA,NA
+"48",20201117,1550,"Hreich","header","header",NA,26.62,36.01,NA,-64.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"49",20201117,1550,"Hreich","WaterTables","Water_Table_1",NA,26.62,35.91,NA,-66.4,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"50",20201117,1550,"Hreich","WaterTables","Water_Table_2",NA,26.63,35.83,NA,-66.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"51",20201117,1550,"Hreich","mini","mini_20201113",NA,27.32,49.34,NA,-54.9,NA,NA,NA,NA,NA,NA,"no bailout in tank. Moved chamber into mini_tank1 so fraf is exposed to higher salinity",NA,NA,NA
+"52",20201117,1550,"Hreich","mixing","mixing",NA,24.47,35,NA,-47,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"53",20201117,1550,"Hreich","mini","mini_tank1",NA,27.63,54.45,NA,-53.7,NA,NA,NA,NA,NA,NA,"mini tank with 20201111 and 20201112 corals",NA,NA,NA
+"54",20201117,1550,"Hreich","mini","mini_control_1",NA,27.18,36.01,NA,-64.6,NA,NA,NA,NA,NA,NA,"mini tank set up 1500 20201117.",NA,NA,NA
+"55",20201117,1550,"Hreich","mini","mini_salinity_ramp_1",NA,27.63,36.1,NA,-63.2,NA,NA,NA,NA,NA,NA,"mini tank set up 1500 20201117.",NA,NA,NA
+"56",20201118,949,"Hreich","mini","mini_control_1",NA,26.28,36.8,NA,-63.2,NA,NA,NA,NA,NA,NA,"mini tank set up 1500 20201117.",NA,NA,NA
+"57",20201118,949,"Hreich","mini","mini_salinity_ramp_1",NA,26.71,48.5,NA,-52.8,NA,NA,NA,NA,NA,NA,"mini tank set up 1500 20201117.",NA,NA,NA
+"58",20201118,951,"Hreich","mini","mini_tank1",NA,26.65,55.51,NA,-53,NA,NA,NA,NA,NA,NA,"20201111, 20201112, 20201113 frags",NA,NA,NA
+"59",20201118,1216,"Hreich","mini","mini_control_1",NA,NA,37.2,NA,NA,NA,NA,NA,NA,NA,NA,"mini tank set up 1500 20201117.",NA,NA,NA
+"60",20201118,1216,"Hreich","mini","mini_salinity_ramp_1",NA,NA,49.4,NA,NA,NA,NA,NA,NA,NA,NA,"mini tank set up 1500 20201117.",NA,NA,NA
+"61",20201118,1640,"Hreich","mini","mini_control_1",NA,25.96,37.07,NA,-62.5,NA,NA,NA,NA,NA,NA,"mini tank set up 1500 20201117.",NA,NA,NA
+"62",20201118,1640,"Hreich","mini","mini_salinity_ramp_1",NA,26.71,52.58,NA,-50.3,NA,NA,NA,NA,NA,NA,"mini tank set up 1500 20201117.",NA,NA,NA
+"63",20201118,1640,"Hreich","mini","mini_tank1",NA,26.86,55.2,NA,-51.5,NA,NA,NA,NA,NA,NA,"20201111, 20201112, 20201113 frags",NA,NA,NA
+"64",20201118,1640,"Hreich","WaterTables","Water_Table_1",NA,25.84,36.45,NA,-62.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"65",20201119,1000,"Hreich","mini","mini_control_1",NA,26.03,37.31,NA,-61.8,NA,NA,NA,NA,NA,NA,"mini tank set up 1500 20201117.",NA,NA,NA
+"66",20201119,1000,"Hreich","mini","mini_salinity_ramp_1",NA,26.38,57.22,NA,-50.7,NA,NA,NA,NA,NA,NA,"mini tank set up 1500 20201117.",NA,NA,NA
+"67",20201119,1000,"Hreich","mini","mini_tank1",NA,26.11,55.64,NA,-56,NA,NA,NA,NA,NA,NA,"20201111, 20201112, 20201113 frags",NA,NA,NA
+"68",20201119,1520,"Hreich","mini","mini_control_1",NA,26.17,37.55,NA,-62.4,NA,NA,NA,NA,NA,NA,"mini tank set up 1500 20201117.",NA,NA,NA
+"69",20201119,1520,"Hreich","mini","mini_salinity_ramp_1",NA,26.61,55.95,NA,-56.4,NA,NA,NA,NA,NA,NA,"mini tank set up 1500 20201117.",NA,NA,NA
+"70",20201119,1520,"Hreich","mini","mini_tank1",NA,26.35,57.4,NA,-51.7,NA,NA,NA,NA,NA,NA,"20201111, 20201112, 20201113 frags",NA,NA,NA
+"71",20201119,1520,"Hreich","WaterTables","Water_Table_1",NA,25.38,36.79,NA,-65,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"72",20201119,1520,"Hreich","WaterTables","Water_Table_2",NA,25.38,36.77,NA,-65.1,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"73",20201119,1520,"Hreich","mixing","mixing",NA,23.88,35.32,NA,-45.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"74",20201119,1520,"Hreich","header","header",NA,25.37,36.85,NA,-64.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"75",20201123,1700,"Hreich","mini","mini_20201123",NA,25.82,35.29,NA,-65.9,NA,NA,NA,NA,NA,NA,"mini tank set up 1700 20201123",NA,NA,NA
+"76",20201123,1700,"Hreich","WaterTables","Water_Table_1",NA,25.71,35.21,NA,-67,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"77",20201123,1700,"Hreich","WaterTables","Water_Table_2",NA,25.71,35.37,NA,-66.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"78",20201123,1700,"Hreich","header","header",NA,25.68,35.25,NA,-66.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"79",20201123,1700,"Hreich","mixing","mixing",NA,23.92,35.22,NA,-48.8,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"80",20201124,1000,"Hreich","mini","mini_20201123",NA,25.62,49.3,NA,-50.5,NA,NA,NA,NA,NA,NA,"mini tank set up 1700 20201123",NA,NA,NA
+"81",20201124,1000,"Hreich","WaterTables","Water_Table_1",NA,24.53,35.31,NA,-64,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"82",20201124,1000,"Hreich","WaterTables","Water_Table_2",NA,24.53,35.3,NA,-63.8,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"83",20201124,1000,"Hreich","header","header",NA,24.51,35.27,NA,-64.2,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"84",20201201,1220,"Hreich","mini","mini_control_2",NA,26.71,35.51,NA,-63,NA,NA,NA,NA,NA,NA,"control treatment set up 1200 20201201 with 4 frags",NA,NA,NA
+"85",20201201,1220,"Hreich","mini","mini_20201201",NA,27.03,35.66,NA,-63.3,NA,NA,NA,NA,NA,NA,"hyperosmotic stress treatment set up 1200 20201201 with 4 frags",NA,NA,NA
+"86",20201201,1220,"Hreich","WaterTables","Water_Table_1",NA,26.34,35.39,NA,-64.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"87",20201201,1220,"Hreich","WaterTables","Water_Table_2",NA,26.34,35.47,NA,-64.4,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"88",20201201,1220,"Hreich","header","header",NA,26.32,35.44,NA,-64.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"89",20201201,1250,"Hreich","mini","mini_control_2",NA,NA,35.65,NA,NA,NA,NA,NA,NA,NA,NA,"control treatment set up 1200 20201201 with 4 frags",NA,NA,NA
+"90",20201201,1250,"Hreich","mini","mini_20201201",NA,NA,36.25,NA,NA,NA,NA,NA,NA,NA,NA,"hyperosmotic stress treatment set up 1200 20201201 with 4 frags",NA,NA,NA
+"91",20201208,1900,"Hreich","header","header",NA,23.29,36.53,NA,-58.8,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"92",20201208,1900,"Hreich","WaterTables","Water_Table_1",NA,23.3,36.31,NA,-60.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"93",20201208,1900,"Hreich","WaterTables","Water_Table_2",NA,23.29,36.31,NA,-60.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"94",20201208,1900,"Hreich","mini","mini_control_20201208",NA,23.28,36.42,NA,-60.5,NA,NA,NA,NA,NA,NA,"control treatment set up 1900 20201208 with 4 frags",NA,NA,NA
+"95",20201208,1900,"Hreich","mini","mini_salinity_20201208",NA,23.68,36.48,NA,-59.9,NA,NA,NA,NA,NA,NA,"hyperosmotic stress treatment set up 1900 20201208 with 4 frags",NA,NA,NA
+"96",20201209,1500,"Hreich","header","header",NA,23.97,36.43,NA,-64.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"97",20201209,1500,"Hreich","WaterTables","Water_Table_1",NA,23.98,36.51,NA,-63.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"98",20201209,1500,"Hreich","WaterTables","Water_Table_2",NA,23.96,36.4,NA,-64.1,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"99",20201209,1500,"Hreich","mini","mini_control_20201208",NA,24.72,36.63,NA,-59.2,NA,NA,NA,NA,NA,NA,"control treatment set up 1900 20201208 with 4 frags",NA,NA,NA
+"100",20201209,1500,"Hreich","mini","mini_salinity_20201208",NA,24.67,49.41,NA,-51.5,NA,NA,NA,NA,NA,NA,"hyperosmotic stress treatment set up 1900 20201208 with 4 frags",NA,NA,NA
+"101",20201210,1530,"Hreich","header","header",NA,24.58,36.52,NA,-65.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"102",20201210,1530,"Hreich","WaterTables","Water_Table_1",NA,24.6,36.54,NA,-66.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"103",20201210,1530,"Hreich","WaterTables","Water_Table_2",NA,24.58,36.56,NA,-66.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"104",20201210,1530,"Hreich","mini","mini_control_20201208",NA,25.05,37.5,NA,-59.2,NA,NA,NA,NA,NA,NA,"control treatment set up 1900 20201208 with 4 frags, ENDED 20201210",NA,NA,NA
+"105",20201210,1530,"Hreich","mini","mini_salinity_20201208",NA,25.12,60.05,NA,-49.2,NA,NA,NA,NA,NA,NA,"hyperosmotic stress treatment set up 1900 20201208 with 4 frags, ENDED 20201210",NA,NA,NA
+"106",20201211,1600,"Hreich","header","header",NA,25.17,36.74,NA,-64.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"107",20201211,1600,"Hreich","WaterTables","Water_Table_1",NA,25.18,36.67,NA,-65.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"108",20201211,1600,"Hreich","WaterTables","Water_Table_2",NA,25.18,36.62,NA,-65.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"109",20201215,1245,"Hreich","header","header",NA,25.5,37.58,NA,-65.6,NA,NA,NA,NA,NA,NA,"added ~5gal DI water after WQ measurements",NA,NA,NA
+"110",20201215,1245,"Hreich","WaterTables","Water_Table_1",NA,25.64,37.32,NA,-66,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"111",20201215,1245,"Hreich","WaterTables","Water_Table_2",NA,25.63,37.39,NA,-66.2,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"112",20210108,1200,"HReich","mixing","mixing",NA,21.9,26.48,NA,-59.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"113",20210108,1200,"HReich","header","header",NA,24.48,37.25,NA,-61.8,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"114",20210108,1200,"HReich","WaterTables","Water_Table_1",NA,24.5,37.17,NA,-62.4,460,NA,NA,NA,NA,NA,"",NA,NA,NA
+"115",20210108,1200,"HReich","WaterTables","Water_Table_2",NA,24.49,37.21,NA,-62.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"116",20210111,1645,"HReich","mixing","mixing",NA,NA,31.58,NA,-62.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"117",20210111,1645,"HReich","header","header",NA,24.93,37.52,NA,-62.4,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"118",20210111,1645,"HReich","WaterTables","Water_Table_1",NA,24.96,37.28,NA,-63,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"119",20210111,1645,"HReich","WaterTables","Water_Table_2",NA,24.97,37.48,NA,-63.1,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"120",20210112,1600,"HReich","mixing","mixing",NA,NA,31.6,NA,-63.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"121",20210112,1600,"HReich","header","header",NA,24.8,37.48,NA,-62.4,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"122",20210112,1600,"HReich","WaterTables","Water_Table_1",NA,24.82,37.51,NA,-62.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"123",20210112,1600,"HReich","WaterTables","Water_Table_2",NA,24.81,37.48,NA,-62.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"124",20210112,1600,"HReich","mini","mini_control_20210112",NA,25.45,37.61,NA,-62.1,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"125",20210112,1600,"HReich","mini","mini_salinity_20210112",NA,25.82,37.55,NA,-61.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"126",20210113,1600,"Hreich","mixing","mixing",NA,NA,31.57,NA,-65.4,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"127",20210113,1600,"Hreich","header","header",NA,24.83,37.5,NA,-62.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"128",20210113,1600,"Hreich","WaterTables","Water_Table_1",NA,24.94,37.45,NA,-63,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"129",20210113,1600,"Hreich","WaterTables","Water_Table_2",NA,24.93,37.43,NA,-62.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"130",20210113,1600,"Hreich","mini","mini_control_20210112",NA,25.8,37.81,NA,-61.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"131",20210113,1600,"Hreich","mini","mini_salinity_20210112",NA,26.01,56.2,NA,-43.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"132",20210114,1000,"Hreich","mixing","mixing",NA,NA,31.56,NA,-66,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"133",20210114,1000,"Hreich","header","header",NA,25.08,37.23,NA,-62.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"134",20210114,1000,"Hreich","WaterTables","Water_Table_1",26.33333333,25.1,37.2,NA,-62.8,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"135",20210114,1000,"Hreich","WaterTables","Water_Table_2",20,25.1,37.19,NA,-62.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"136",20210114,1000,"Hreich","mini","mini_control_20210112",NA,25.97,38.12,NA,-61.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"137",20210114,1000,"Hreich","mini","mini_salinity_20210112",NA,26.09,60.48,NA,-47.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"138",20210115,1315,"Hreich","mixing","mixing",NA,NA,31.52,NA,-66.1,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"139",20210115,1315,"Hreich","header","header",NA,25.47,36.73,NA,-62.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"140",20210115,1315,"Hreich","WaterTables","Water_Table_1",31.33333333,25.48,36.75,NA,-62.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"141",20210115,1315,"Hreich","WaterTables","Water_Table_2",24,25.47,36.71,NA,-62.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"142",20210115,1700,"Hreich","WaterTables","Water_Table_1",NA,NA,36.13,NA,-62.4,NA,NA,2,0.25,5,0.125,"",NA,NA,NA
+"143",20210118,1250,"Hreich","mixing","mixing",NA,NA,31.51,NA,-67,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"144",20210118,1250,"Hreich","header","header",NA,NA,36.23,NA,-64.4,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"145",20210118,1250,"Hreich","WaterTables","Water_Table_1",NA,NA,36.11,NA,-65.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"146",20210118,1250,"Hreich","WaterTables","Water_Table_2",NA,NA,36.09,NA,-65.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"147",20210118,1250,"Hreich","mini","mini_control_20210118",NA,NA,36.02,NA,-65.4,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"148",20210118,1250,"Hreich","mini","mini_salinity_20210118",NA,NA,59.95,NA,-64.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"149",20210119,1425,"Hreich","header","header",NA,NA,36.05,NA,-58.4,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"150",20210119,1425,"Hreich","WaterTables","Water_Table_1",NA,NA,36.1,NA,-61.1,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"151",20210119,1425,"Hreich","WaterTables","Water_Table_2",NA,NA,36.1,NA,-62.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"152",20210119,1425,"Hreich","mini","mini_control_20210118",NA,NA,36.46,NA,-65.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"153",20210119,1425,"Hreich","mini","mini_salinity_20210118",NA,NA,48.91,NA,-55.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"154",20210120,1445,"Hreich","header","header",NA,NA,36.08,NA,-61.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"155",20210120,1445,"Hreich","WaterTables","Water_Table_1",NA,NA,36.18,NA,-62.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"156",20210120,1445,"Hreich","WaterTables","Water_Table_2",NA,NA,36.1,NA,-62.8,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"157",20210120,1445,"Hreich","mini","mini_control_20210118",NA,NA,36.69,NA,-63.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"158",20210120,1445,"Hreich","mini","mini_salinity_20210118",NA,NA,57.58,NA,-48.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"159",20210121,1600,"Hreich","header","header",NA,24.94,36.05,NA,-62.1,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"160",20210121,1600,"Hreich","WaterTables","Water_Table_1",NA,24.97,36.12,NA,-63,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"161",20210121,1600,"Hreich","WaterTables","Water_Table_2",NA,24.98,36.02,NA,-63.1,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"162",20210122,900,"Hreich","header","header",NA,24.97,36.03,NA,-61.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"163",20210122,900,"Hreich","WaterTables","Water_Table_1",NA,24.98,36.02,NA,-62.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"164",20210122,900,"Hreich","WaterTables","Water_Table_2",NA,24.99,36.06,NA,-62.4,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"165",20210125,1425,"Hreich","header","header",NA,24.53,35.95,NA,-62.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"166",20210125,1425,"Hreich","WaterTables","Water_Table_1",NA,24.54,36.03,NA,-62.8,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"167",20210125,1425,"Hreich","WaterTables","Water_Table_2",NA,24.54,35.92,NA,-62.2,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"168",20210125,1425,"Hreich","mini","mini_control_20210125",NA,24.55,35.96,NA,-62.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"169",20210125,1425,"Hreich","mini","mini_salinity_20210125",NA,24.62,35.99,NA,-62.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"170",20210126,1220,"Hreich","header","header",NA,24.45,35.72,NA,-61.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"171",20210126,1220,"Hreich","WaterTables","Water_Table_1",NA,24.45,35.66,NA,-62.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"172",20210126,1220,"Hreich","WaterTables","Water_Table_2",NA,24.47,35.75,NA,-62.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"173",20210126,1220,"Hreich","mini","mini_control_20210125",NA,25.42,36.21,NA,-63.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"174",20210126,1220,"Hreich","mini","mini_salinity_20210125",NA,25.61,50.27,NA,-51,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"175",20210205,1700,"Hreich","header","header",NA,25.21,35.1,NA,-60.8,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"176",20210205,1700,"Hreich","WaterTables","Water_Table_1",NA,25.22,35.12,NA,-61.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"177",20210205,1700,"Hreich","WaterTables","Water_Table_2",NA,25.23,35.08,NA,-62,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"178",20210205,1700,"Hreich","mixing","mixing",NA,NA,12.09,NA,2.7,NA,NA,NA,NA,NA,NA,"added 70 gal DI water",NA,NA,NA
+"179",20210212,1815,"Hreich","mixing","mixing",NA,NA,33.17,NA,-66.1,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"180",20210212,1815,"Hreich","header","header",NA,24.78,35.25,NA,-61.8,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"181",20210212,1815,"Hreich","WaterTables","Water_Table_1",NA,24.78,35.21,NA,-61.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"182",20210212,1815,"Hreich","WaterTables","Water_Table_2",NA,24.78,35.21,NA,-61.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"183",20210226,1600,"Hreich","mixing","mixing",NA,NA,33.26,NA,-65.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"184",20210226,1600,"Hreich","header","header",NA,25.74,35.24,NA,-62.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"185",20210226,1600,"Hreich","WaterTables","Water_Table_1",NA,25.75,35.27,NA,-63,400,NA,0.25,0.25,5,0,"",NA,NA,NA
+"186",20210226,1600,"Hreich","WaterTables","Water_Table_2",NA,25.76,35.23,NA,-63,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"187",20210301,1745,"Hreich","header","header",NA,26.11,35.28,NA,-63.4,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"188",20210301,1745,"Hreich","WaterTables","Water_Table_1",NA,26.1,35.29,NA,-63.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"189",20210301,1745,"Hreich","WaterTables","Water_Table_2",NA,26.13,35.25,NA,-62.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"190",20210520,1130,"Rbailey","WaterTables","Water_Table_1",22.25,26.07,NA,NA,-59.4,340,143.2,0.5,NA,NA,NA,"light w/o plexiglass span 23,24,21,21 w/plexiglass 17,16,17,17",NA,NA,NA
+"191",20210520,1130,"Rbailey","WaterTables","Water_Table_2",NA,26.05,NA,NA,-59.4,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"192",20210520,1130,"Rbailey","header","header",NA,26.05,NA,NA,-59.8,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"193",20210524,1500,"Rbailey","WaterTables","Water_Table_1",16,26.03,31.67,NA,-60.8,NA,NA,NA,0.2,0,0,"Salinity probe calibrated 50.4 ms",NA,NA,NA
+"194",20210524,1500,"Rbailey","WaterTables","Water_Table_2",NA,26.02,31.74,NA,-60.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"195",20210524,1500,"Rbailey","header","header",NA,26,31.59,NA,-60.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"196",20210524,1500,"Rbailey","mixing ","mixing",NA,NA,31.71,NA,NA,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"197",20210525,1030,"Rbailey","WaterTables","Water_Table_1",21.5,26.46,31.64,NA,-59.9,280,125.3,0.5,NA,NA,NA,"",NA,NA,NA
+"198",20210525,1030,"Rbailey","WaterTables","Water_Table_2",NA,26.45,31.73,NA,-59.8,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"199",20210525,1030,"Rbailey","header","header",NA,26.46,31.75,NA,-59.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"200",20210525,1030,"Rbailey","mixing","mixing",NA,NA,31.26,NA,-60.6,NA,NA,NA,NA,NA,NA,"The water gathered from the tank was mostly DI water because the tank was filling.",NA,NA,NA
+"201",20210526,1000,"Rbailey","WaterTables","Water_Table_1",22,26.07,31.94,NA,-60.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"202",20210526,1000,"Rbailey","WaterTables","Water_Table_2",NA,26.06,32.12,NA,-60.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"203",20210526,1000,"Rbailey","header","header",NA,26.05,32.14,NA,NA,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"204",20210526,1000,"Rbailey","mixing","mixing",NA,NA,31.71,NA,NA,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"205",20210527,1000,"Rbailey","WaterTables","Water_Table_1",21,25.82,31.84,NA,-60.4,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"206",20210527,1000,"Rbailey","WaterTables","Water_Table_2",NA,25.81,31.95,NA,-60.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"207",20210527,1000,"Rbailey","header","header",NA,25.8,31.94,NA,-60.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"208",20210527,1000,"Rbailey","mixing","mixing",NA,NA,31.49,NA,NA,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"209",20210528,1000,"Rbailey","WaterTables","Water_Table_1",22.5,25.9,31.84,NA,-60.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"210",20210528,1000,"Rbailey","WaterTables","Water_Table_2",NA,25.8,31.86,NA,-60.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"211",20210528,1000,"Rbailey","header","header",NA,25.8,31.9,NA,-60.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"212",20210528,1000,"Rbailey","mixing","mixing",NA,NA,31.42,NA,NA,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"213",20210604,1000,"Rbailey","WaterTables","Water_Table_1",24.8,25.7,32.7,NA,-61.1,300,125.3,0,0,0,0,"",NA,NA,NA
+"214",20210604,1000,"Rbailey","WaterTables","Water_Table_2",NA,25.7,32.71,NA,-61.2,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"215",20210604,1000,"Rbailey","header","header",NA,25.6,32.7,NA,-61.2,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"216",20210604,1000,"Rbailey","mixing","mixing",NA,NA,31.95,NA,NA,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"217",20210610,NA,"Athorson","WaterTables","Water_Table_1",NA,26.76,32.94,NA,-61.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"218",20210610,NA,"Athorson","WaterTables","Water_Table_2",NA,26.74,32.86,NA,-61.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"219",20210610,NA,"Athorson","header","header",NA,26.74,32.95,NA,-61.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"220",20210610,NA,"Athorson","mixing","mixing",NA,NA,32.49,NA,NA,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"221",20210611,NA,"Athorson","WaterTables","Water_Table_1",NA,NA,31.77,NA,NA,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"222",20210611,NA,"Athorson","WaterTables","Water_Table_2",NA,NA,32.59,NA,NA,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"223",20210611,NA,"Athorson","header","header",NA,NA,32.18,NA,NA,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"224",20210611,NA,"Athorson","mixing","mixing",NA,NA,32.43,NA,NA,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"225",20210615,NA,"Athorson","WaterTables","Water_Table_1",NA,26.4,33.53,NA,-62.1,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"226",20210615,NA,"Athorson","WaterTables","Water_Table_2",NA,26.4,33.45,NA,-62.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"227",20210615,NA,"Athorson","header","header",NA,26.4,33.66,NA,-62.2,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"228",20210616,NA,"Athorson","WaterTables","Water_Table_1",NA,26.4,33.19,NA,-62.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"229",20210616,NA,"Athorson","WaterTables","Water_Table_2",NA,26.4,33.34,NA,-62.3,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"230",20210616,NA,"Athorson","header","header",NA,26.3,33.47,NA,-62.4,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"231",20210617,1000,"Athorson","WaterTables","Water_Table_1",NA,26.6,33.37,NA,-62,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"232",20210617,1000,"Athorson","WaterTables","Water_Table_2",NA,26.5,33.45,NA,-61.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"233",20210617,1000,"Athorson","header","header",NA,26.5,33.32,NA,-61.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"234",20210618,1400,"Athorson","WaterTables","Water_Table_1",NA,26.7,33.5,NA,-62.6,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"235",20210618,1400,"Athorson","WaterTables","Water_Table_2",NA,26.7,33.79,NA,-62.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"236",20210618,1400,"Athorson","header","header",NA,26.7,33.66,NA,-62.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"237",20210621,1000,"Rbailey","WaterTables","Water_Table_1",25.8,27.5,34.43,NA,-63.3,320,125.3,0.5,NA,NA,NA,"",-86.0636363636364,1.27272727272727,8.22108802550125
+"238",20210621,1000,"Rbailey","WaterTables","Water_Table_2",NA,27.48,34.43,NA,-63.4,NA,NA,NA,NA,NA,NA,"",-86.0636363636364,1.27272727272727,8.22296831232388
+"239",20210621,1000,"Rbailey","header","header",NA,27.5,34.45,NA,-63,NA,NA,NA,NA,NA,NA,"",-86.0636363636364,1.27272727272727,8.21605914858612
+"240",20210621,1000,"Rbailey","mixing","mixing",NA,NA,31.5,NA,-65.4,NA,NA,NA,NA,NA,NA,"",-86.0636363636364,1.27272727272727,NA
+"241",20210622,1000,"Rbailey","WaterTables","Water_Table_1",22.5,27.94,34.5,NA,-62.8,NA,NA,NA,0,0,0,"",NA,NA,NA
+"242",20210622,1000,"Rbailey","WaterTables","Water_Table_2",NA,27.93,34.45,NA,-62.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"243",20210622,1000,"Rbailey","header","header",NA,27.9,34.47,NA,-62.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"244",20210622,1000,"Rbailey","mixing","mixing",NA,NA,31,NA,-65.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"245",20210623,9300,"Rbailey","WaterTables","Water_Table_1",NA,27.43,34.6,NA,-62.2,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"246",20210623,9300,"Rbailey","WaterTables","Water_Table_2",NA,27.48,34.57,NA,-62.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"247",20210623,9300,"Rbailey","header","header",NA,27.47,34.33,NA,-62.8,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"248",20210623,9300,"Rbailey","mixing","mixing",NA,26.8,31.46,NA,-65.1,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
