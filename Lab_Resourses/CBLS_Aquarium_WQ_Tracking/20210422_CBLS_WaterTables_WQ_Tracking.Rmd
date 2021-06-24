@@ -58,9 +58,9 @@ save_plot("water_tables_SALINITY.png", sal_wt, base_aspect_ratio = 1.8)
 # average pH between the 2 water tables
 wtphavg <- wt %>% group_by(Date) %>% summarise(pH_mv_avg = mean(pH_mv, na.rm = TRUE))
 
-ph_wt <- ggplot(data=wtphavg, aes(x=Date, y=pH_mv_avg, group = 1)) +
+ph_wt <- ggplot(data=wtphavg, aes(x=Date, y=pH.Total, group = 1)) +
   geom_line(colour = "gray70")+
-  geom_point(size = 3, aes(color=pH_mv_avg)) +
+  geom_point(size = 3, aes(color=pH.Total)) +
   theme_bw() +
   scale_color_gradient(low = "orange", high = "lime green") +
   labs(title = "Water Tables pH (mv)") +

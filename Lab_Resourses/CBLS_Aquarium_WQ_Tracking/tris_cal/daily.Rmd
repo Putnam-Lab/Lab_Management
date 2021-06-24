@@ -16,18 +16,22 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(gridExtra)
 library(dplyr)
+library(ggplot2)
+library(cowplot)
+library(reshape2)
+library(ggpubr)
 ```
 
 # Check working directory
 ```{r}
-setwd("~/Desktop/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking") #didn't work for some reason, couldn't change from tris_cal folder
+setwd("/Users/roxyr/Documents/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking") #didn't work for some reason, couldn't change from tris_cal folder
 getwd() 
 ```
 
 # Load data
 ```{r}
 # Load data
-daily <- read.csv("~/Desktop/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking/CBLS_watertables_waterquality_tracking.csv", header = T)
+daily <- read.csv("/Users/roxyr/Documents/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking/CBLS_watertables_waterquality_tracking.csv", header = T)
 #daily$Timepoint <- as.Date(daily$Timepoint, "%m/%d/%Y")
 daily$Tank_ID <- as.factor(daily$Tank_ID)
 daily$Treatment_ID <- as.factor(daily$Treatment_ID)
@@ -35,7 +39,7 @@ daily$Treatment_ID <- as.factor(daily$Treatment_ID)
 
 # Discrete pH calculations from Tris calibrations.
 ```{r}
-path <-("~/Desktop/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking/tris_cal") #set path to calibration files
+path <-("/Users/roxyr/Documents/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking/tris_cal") #set path to calibration files
 file.names<-list.files(path = path, pattern = "csv$") #list all the file names in the folder to get only get the csv files
 pH.cals <- data.frame(matrix(NA, nrow=length(file.names), ncol=3, dimnames=list(file.names,c("Date", "Intercept", "Slope")))) #generate a 3 column dataframe with specific column names
 for(i in 1:length(file.names)) { # for every file in list start at the first and run this following function
@@ -65,9 +69,62 @@ phTris<- (11911.08-18.2499*STris-0.039336*STris^2)*(1/(SW.chem$Temperature_C+273
 
 SW.chem$pH.Total<-phTris+((mvTris/1000)-(SW.chem$pH_mv/1000))/(R*(SW.chem$Temperature_C+273.15)*(log(10)/F)) #calculate the pH on the total scale (Dickson A. G., Sabine C. L. and Christian J. R., SOP 6a)
 
-write.csv(SW.chem,file="~/Desktop/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking/WQ_with_total_pH")
+write.csv(SW.chem,file="/Users/roxyr/Documents/GitHub/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking/WQ_with_total_pH")
 
 # SAVE SW CHEM FILE (HAS TOTAL PH)
+```
+
+# load data
+```{r}
+SW.chem$Date <- as.factor(SW.chem$Date)
+# filter out the water tables
+wt <- dplyr::filter(SW.chem, Treatment_ID == c("WaterTables"))
+
+# plot temp
+temp_wt <- ggplot(data=wt, aes(x=Date, y=Temperature_C, group=1)) +
+  geom_line(colour = "gray70")+
+  geom_point(size = 3, aes(color=Temperature_C)) +
+  theme_bw() +
+  scale_color_gradient(low = "blue", high = "red") +
+  labs(title = "Water Tables Temperature (C)") +
+  theme(panel.grid = element_blank(),
+        axis.text.x = element_text(angle = 45, size = 6, vjust = 1, hjust = 1),
+        legend.position = "bottom")
+temp_wt
+
+save_plot("water_tables_TEMP.png", temp_wt, base_aspect_ratio = 1.8)
+
+# plot salinity
+sal_wt <- ggplot(data=wt, aes(x=Date, y=Salinity_psu, group=1)) +
+  geom_line(colour = "gray70")+
+  geom_point(size = 3, aes(color=Salinity_psu)) +
+  theme_bw() +
+  scale_color_gradient(low = "yellow", high = "lime green") +
+  labs(title = "Water Tables Salinity (psu)") +
+  theme(panel.grid = element_blank(),
+        axis.text.x = element_text(angle = 45, size = 6, vjust = 1, hjust = 1),
+        legend.position = "bottom")
+sal_wt
+
+save_plot("water_tables_SALINITY.png", sal_wt, base_aspect_ratio = 1.8)
+
+# plot pH
+
+# average pH between the 2 water tables
+# wtphavg <- wt %>% group_by(Date) %>% summarise(pH_mv_avg = mean(pH_mv, na.rm = TRUE))
+
+ph_wt <- ggplot(data=wt, aes(x=Date, y=pH.Total, group = 1)) +
+  geom_line(colour = "gray70")+
+  geom_point(size = 3, aes(color=pH.Total)) +
+  theme_bw() +
+  scale_color_gradient(low = "purple", high = "cyan") +
+  labs(title = "Water Tables pH (mv)") +
+  theme(panel.grid = element_blank(),
+        axis.text.x = element_text(angle = 45, size = 6, vjust = 1, hjust = 1),
+        legend.position = "bottom")
+ph_wt
+
+save_plot("water_tables_pH_MV.png", ph_wt, base_aspect_ratio = 1.8)
 ```
 
 
