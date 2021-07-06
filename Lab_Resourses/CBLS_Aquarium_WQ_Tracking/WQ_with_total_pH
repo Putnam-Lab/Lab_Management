@@ -267,7 +267,11 @@
 "266",20210630,9000,"Rbailey","header","header",NA,27.11,34.66,NA,-63.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
 "267",20210630,1345,"Rbailey","unmarkedunmarked","header",37,24.19,34.6,NA,-63.1,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
 "268",20210630,1345,"Rbailey","Mcap","Mcap",41,25.57,34.67,NA,-52.4,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
-"269",20210701,1000,"Rbailey","WaterTables","Water_Table_1",NA,27.9,34.34,NA,-63.4,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"269",20210701,1000,"Rbailey","WaterTables","Water_Table_1",NA,27.9,34.34,NA,-63.4,300,125.3,0.5,0.1,0,0,"",NA,NA,NA
 "270",20210701,1000,"Rbailey","header","header",NA,27.95,34.3,NA,-63.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
 "271",20210701,1000,"Rbailey","Mps","Mps",NA,25.9,35.02,NA,-62.2,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
 "272",20210701,1000,"Rbailey","WaterTables","Water_Table_2",NA,27.97,34.32,NA,-63.2,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"273",20210705,9400,"Rbailey","WaterTables","Water_Table_2",NA,26.6,34.57,NA,-65.4,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"274",20210705,9400,"Rbailey","WaterTables","Water_Table_1",NA,26.6,34.55,NA,-65.4,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"275",20210705,9400,"Rbailey","mixing ","mixing",NA,25.61,30.73,NA,-67,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"276",20210705,9400,"Rbailey","header","header",NA,26.59,34.67,NA,-65.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
