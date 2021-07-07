@@ -267,7 +267,7 @@
 "266",20210630,9000,"Rbailey","WaterTables","Water_Table_1",NA,27.11,34.63,NA,-63.8,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
 "267",20210630,9000,"Rbailey","WaterTables","Water_Table_2",NA,27.12,34.59,NA,-63.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
 "268",20210630,9000,"Rbailey","header","header",NA,27.11,34.66,NA,-63.7,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
-"269",20210701,1000,"Rbailey","WaterTables","Water_Table_1",NA,27.9,34.34,NA,-63.4,300,125.3,0.5,0.1,0,0,"",NA,NA,NA
+"269",20210701,1000,"Rbailey","WaterTables","Water_Table_1",NA,27.9,34.34,NA,-63.4,300,125.3,0.1,0.1,0,0,"",NA,NA,NA
 "270",20210701,1000,"Rbailey","header","header",NA,27.95,34.3,NA,-63.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
 "271",20210701,1000,"Rbailey","Mps","Mps",NA,25.9,35.02,NA,-62.2,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
 "272",20210701,1000,"Rbailey","WaterTables","Water_Table_2",NA,27.97,34.32,NA,-63.2,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
@@ -275,7 +275,7 @@
 "274",20210705,9400,"Rbailey","WaterTables","Water_Table_2",NA,26.6,34.57,NA,-65.4,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
 "275",20210705,9400,"Rbailey","header","header",NA,26.59,34.67,NA,-65.5,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
 "276",20210705,9400,"Rbailey","mixing ","mixing",NA,25.61,30.73,NA,-67,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
-"277",20210706,1000,"Rbailey","WaterTables","Water_Table_1",21.8,26.62,34.79,NA,-65.1,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
+"277",20210706,1000,"Rbailey","WaterTables","Water_Table_1",21.8,26.62,34.79,NA,-65.1,300,125.3,0.1,0.1,0,0,"",NA,NA,NA
 "278",20210706,1000,"Rbailey","WaterTables","Water_Table_2",NA,26.61,34.58,NA,-64.9,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
 "279",20210706,1000,"Rbailey","header","header",NA,26.61,34.64,NA,-65.1,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
 "280",20210706,1000,"Rbailey","mixing ","mixing",NA,25.7,30.79,NA,-66.8,NA,NA,NA,NA,NA,NA,"",NA,NA,NA
