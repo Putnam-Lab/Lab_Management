@@ -1,4 +1,4 @@
-﻿Tag_Number,Plug_ID,Origin,Species,Date_Acquired,Date_Fragged,Notes
+Tag_Number,Plug_ID,Origin,Species,Date_Acquired,Date_Fragged,Notes
 1,NA,OSA,Pocillopora_acuta,20201106,20201106,too small to be fragged 20210528 but tagged on 20210528
 2,NA,OSA,Pocillopora_acuta,20201106,20201106,too small to be fragged 20210528 but tagged on 20210528
 3,NA,OSA,Pocillopora_acuta,20201106,20201106,too small to be fragged 20210528 but tagged on 20210528
@@ -45,7 +45,7 @@
 44,NA,OSA,Pocillopora_acuta,20210522,20210528,
 45,NA,OSA,Pocillopora_acuta,20210522,20210614,clipped for 20210614 bailout trial
 46,NA,OSA,Pocillopora_acuta,20210522,20210528,
-47,NA,OSA,Pocillopora_acuta,20210522,20210621,clipped for 20210621 bailout trial 
+47,NA,OSA,Pocillopora_acuta,20210522,20210621,clipped for 20210621 bailout trial
 48,NA,OSA,Pocillopora_acuta,20210522,20210621,"control frags from 20210621 bail out trial ""Coral 0047"""
 49,NA,OSA,Pocillopora_acuta,20210522,20210621,"control frags from 20210621 bail out trial ""Coral 0047"""
 50,NA,OSA,Pocillopora_acuta,20210522,20210621,"control frags from 20210621 bail out trial ""Coral 0047"""
@@ -145,3 +145,49 @@ J-36,NA,2nd HI shipment juvenile plugs,Montipora_capitata,20210630,NA,
 62,NA,OSA,Pocillopora_acuta,20210522,20210714,"control frags from 20210712 bail out trial ""Coral 0044"""
 63,NA,OSA,Pocillopora_acuta,20210522,20210714,"control frags from 20210712 bail out trial ""Coral 0047"""
 64,NA,OSA,Pocillopora_acuta,20210522,20210714,"control frags from 20210712 bail out trial ""Coral 0046"""
+X01,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,"Originally the “nuggets,” the ones losing tissue, kept in a separate bin for many weeks"
+X02,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,"Originally the “nuggets,” the ones losing tissue, kept in a separate bin for many weeks"
+X03,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,"Originally the “nuggets,” the ones losing tissue, kept in a separate bin for many weeks"
+X04,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,"Originally the “nuggets,” the ones losing tissue, kept in a separate bin for many weeks"
+X05,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,"Originally the “nuggets,” the ones losing tissue, kept in a separate bin for many weeks"
+X06,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,"Originally the “nuggets,” the ones losing tissue, kept in a separate bin for many weeks"
+X07,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,"Originally the “nuggets,” the ones losing tissue, kept in a separate bin for many weeks"
+X08,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X09,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X10,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X11,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X12,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X13,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X14,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X15,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X16,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X17,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X18,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X19,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X20,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X21,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X22,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X23,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X24,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X25,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X26,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X27,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X28,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X29,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X30,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X31,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X32,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X33,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X34,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X35,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X36,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X37,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X38,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X39,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X40,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X41,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X42,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X43,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X44,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X45,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
+X46,NA,1st HI shipment unknown fragments,Montipora_capitata,20210618,NA,
