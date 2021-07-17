@@ -14,7 +14,7 @@
 - Juvenile corals from Hawaii 2nd shipment: J01-J36  
 - HI Bleaching Pairs fragments 2nd shipment: M-XX original label  
 - Unknown fragments 2nd shipment: U1-U25  
-- 1st shipment fragments: X01-X43
+- 1st shipment fragments: 0001-0043
 
 
 ### Shipment and coral fragment notes
@@ -22,6 +22,7 @@
 #### 1st shipment from Hawaii arrived on 20210618
 
 - 1st shipment included unlabeled *Montipora capitata* fragments and 5-7 unlabeled plugs potentially with juveniles on them.  
+- The plugs are unlabeled.  
 - These were placed in the water table upon arrival but had significant tissue fall off the fragments which clogged up the water table and caused a bad smell.  
 - Fragments were placed in a quarantine tank and recovered a little bit, gaining some color back. They were held there for a couple more days until the tank was needed for the 2nd shipment. They were then placed back into the water table and have been stable since.  
 - Fragments were glued to plugs and labeled on 20210716 and 20210717.
