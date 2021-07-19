@@ -22,10 +22,11 @@
 #### 1st shipment from Hawaii arrived on 20210618
 
 - 1st shipment included unlabeled *Montipora capitata* fragments and 5-7 unlabeled plugs potentially with juveniles on them.  
-- The plugs are unlabeled.  
 - These were placed in the water table upon arrival but had significant tissue fall off the fragments which clogged up the water table and caused a bad smell.  
 - Fragments were placed in a quarantine tank and recovered a little bit, gaining some color back. They were held there for a couple more days until the tank was needed for the 2nd shipment. They were then placed back into the water table and have been stable since.  
-- Fragments were glued to plugs and labeled on 20210716 and 20210717.
+- Fragments were glued to plugs on 20210716 and 20210717, and labeled on 20210717 and 20210719.  
+- The plugs are unlabeled.  
+- Images of a subset of corals (first taken on 20210719), are found in the lab google drive images folder [here](https://drive.google.com/drive/u/0/folders/1g1UQAQpicxsuLb_QoF_4cuvAucUm6p_r).
 
 #### 2nd shipment from Hawaii arrived on 20210630
 
