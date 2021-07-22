@@ -328,3 +328,8 @@ Date,Time,Putnam_Labber,Treatment_ID,Tank_ID,Light,Temperature_C,Salinity_psu,pH
 20210721,1215,Athorson,header,header,,26.62,34.77,,-65.4,,,,,,,
 20210721,1215,Athorson,Mcap2ndShipment,Mcap2ndShipment,39.3333333333333,23.66,40.46,,-53.3,,,,,,,
 20210721,1215,Athorson,Astrangia,Astrangia,42,23.32,39.76,,-62.0,,,,,,,
+20210722,1145,Athorson,WaterTables,Water_Table_1,,26.66,35.48,,-66.8,,,,,,,
+20210722,1145,Athorson,WaterTables,Water_Table_2,,26.65,35.45,,-66.9,,,,,,,
+20210722,1145,Athorson,header,header,,26.62,35.54,,-66.8,,,,,,,
+20210722,1145,Athorson,Mcap2ndShipment,Mcap2ndShipment,,24.76,39.74,,-55.9,,,,,,,
+20210722,1145,Athorson,Astrangia,Astrangia,,23.76,39.07,,-64.2,,,,,,,
