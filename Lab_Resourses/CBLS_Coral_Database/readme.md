@@ -14,7 +14,7 @@
 - Juvenile corals from Hawaii 2nd shipment: J01-J36  
 - HI Bleaching Pairs fragments 2nd shipment: M-XX original label  
 - Unknown fragments 2nd shipment: U1-U25  
-- 1st shipment fragments: 0001-0043
+- HI 1st shipment fragments: 0001-0043
 
 
 ### Shipment and coral fragment notes
@@ -27,6 +27,7 @@
 - Fragments were glued to plugs on 20210716 and 20210717, and labeled on 20210717 and 20210719.  
 - The plugs are unlabeled.  
 - Images of a subset of corals (first taken on 20210719), are found in the lab google drive images folder [here](https://drive.google.com/drive/u/0/folders/1g1UQAQpicxsuLb_QoF_4cuvAucUm6p_r).
+- A lot of the corals started to look pale on Monday 20210726, but we don't know why. They were fed the Thursday before (20210722) and looked fine then. The only thing I (Alison) can think of that happened around that time is the dead *M capitatas* and *P. acutas* were removed on 20210721 or 22, maybe leaving mucus or tissue? Pictures from 20210727 are in the above google folder.
 
 #### 2nd shipment from Hawaii arrived on 20210630
 
