@@ -366,3 +366,7 @@ Date,Time,Putnam_Labber,Treatment_ID,Tank_ID,Light,Temperature_C,Salinity_psu,pH
 20210804,930,Rbailey,header,header,,25.57,36.41,,-64.5,,,,,,,
 20210804,930,Rbailey,mixing,mixing,,24.43,34.34,,-65.5,,,,,,,
 20210804,930,Rbailey,Astrangia,Astrangia,,25.38,37.05,,-56,,,,,,,
+20210805,1120,Athorson,WaterTables,Water_Table_1,,25.22,36.52,,-65.0,,,,,,,
+20210805,1120,Athorson,WaterTables,Water_Table_2,,25.21,36.44,,-65.2,,,,,,,
+20210805,1120,Athorson,header,header,,25.18,36.54,,-65.3,,,,,,,
+20210805,1120,Athorson,Astrangia,Astrangia,,25.08,36.53,,-64.4,,,,,,,
