@@ -382,3 +382,7 @@ Date,Time,Putnam_Labber,Treatment_ID,Tank_ID,Light,Temperature_C,Salinity_psu,pH
 20210810,1130,Rbailey,WaterTables,Water_Table_2,,27.74,36.59,,-66.7,,,,,,,
 20210810,1130,Rbailey,header,header,,27.75,36.58,,-66.7,,,,,,,
 20210810,1130,Rbailey,Astrangia,Astrangia,,28.21,37.02,,-62.9,,,,,,,
+20210811,930,Rbailey,WaterTables,Water_Table_1,23,28.5,36.62,,-66.5,,,,,,,
+20210811,930,Rbailey,WaterTables,Water_Table_2,,28.5,36.63,,-66.7,,,,,,,
+20210811,930,Rbailey,header,header,,28.42,36.61,,-62.6,,,,,,,
+20210811,930,Rbailey,Astrangia,Astrangia,41,25.24,34.97,,-64.3,,,,,,,
