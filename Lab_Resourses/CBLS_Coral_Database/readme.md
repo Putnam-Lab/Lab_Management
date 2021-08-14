@@ -6,7 +6,7 @@
 
 #### list of all corals and tag numbers = *CBLS_WaterTables_Coral_Database.csv*
 - **Information included:** origin, species, date acquired or fragged
-- **Abbreviations:** OSA = [Ocean State Aquatics](https://osa-services.com/osa-aquaculture-center/)
+- **Abbreviations:** OSA = [Ocean State Aquatics](https://osa-services.com/osa-aquaculture-center/), HI= Hawaii, MBL = Roberson Lab
 
 ### Coral fragment labeling scheme
 
@@ -15,6 +15,7 @@
 - HI Bleaching Pairs fragments 2nd shipment: M-XX original label  
 - Unknown fragments 2nd shipment: U1-U25  
 - HI 1st shipment fragments: 0001-0043
+- MBL - shipment arrived 20210813 - contained 2 tiles of Porites astreoides spat and 1 L of Astrangia larvae
 
 
 ### Shipment and coral fragment notes
