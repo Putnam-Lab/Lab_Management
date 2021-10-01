@@ -187,6 +187,9 @@ Once you have gathered those, the next thing to do is **login to the [submission
 - Next you go to upload your files. Choose the FTP command line preload option and click the button to request a pre-load folder.
 ![32](/images/request-preload.png "32")
 - Then you have to choose what type of instructions to use. Click the FTP upload instructions and it will give you some command prompts that I will go into more detail with here.
+
+## **Instructions on how to connect to the NCBI SRA server using FTP**
+
 - First, in your terminal make sure you can access your files. Go to that directory. If there are other files not being uploaded, either remove them or create a new directory that **only** contains the sequence files you are going to upload.
 - FTP, or File Transfer Protocol, lets you access a folder for NCBI and your directory at the same time just for the purpose of transferring files.
 - While you are in the directory with your files, invoke the FTP process by typing:
@@ -214,6 +217,50 @@ mput *
 - Then, you review all your information, make sure all the files are there and submit!!
 
 **Note: It can take over a day for your sequences to show up on NCBI**
+
+## **Instructions on how to connect to the NCBI SRA server using Bluewaves**
+
+- First, in your terminal connect to your [Bluewaves account](https://github.com/Putnam-Lab/Lab_Management/tree/master/Bioinformatics_%26_Coding/Bluewaves). Go to the directory that contains your raw data (usually fastq.gz) files. If there are other files not being uploaded, either remove them or create a new directory that **only** contains the sequence files you are going to upload.
+- FTP, or [File Transfer Protocol](https://searchnetworking.techtarget.com/definition/File-Transfer-Protocol-FTP), lets you access a folder for NCBI and your directory at the same time just for the purpose of transferring files. I noticed that this FTP is not functional on Bluewaves so we will be using a different command called [NcFTP](https://www.tecmint.com/command-line-ftp-clients-for-linux/) which is an alternative to the standard FTP program to connect.
+
+![33](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Bioinformatics_%26_Coding/images/select-folder.png)
+
+- While you are in the Bluewaves directory with your files, invoke the NcFTP command instead of FTP. To start the process by type:
+
+```
+ncftp -u 'username provided through NCBI for you' ftp-private.ncbi.nlm.nih.gov
+```
+
+- Notice that your command prompt now changes to `ncftp>`
+- Now you want to login to NCBI using the address they give you. This command will allow you to enter the username in one line and it will prompt you for your designated password.**They only give you 30 seconds to do this so make sure you are ready to C+P**.
+
+![34](https://raw.githubusercontent.com/daniellembecker/DanielleBecker_Lab_Notebook/master/images/ncftp.login.png)
+
+- Once you are logged in, `cd` into the account folder given to you by NCBI
+
+![35](https://raw.githubusercontent.com/daniellembecker/DanielleBecker_Lab_Notebook/master/images/cd.uploads.png)
+
+- Create a new directory for your files with `mkdir` then `cd` into that new directory.
+
+![39](https://raw.githubusercontent.com/daniellembecker/DanielleBecker_Lab_Notebook/master/images/mkdir.ncbi.png)
+
+- Then you copy the files from your directory into the remote FTP NCBI directory. You could use the `put` command to choose one file at a time, but using the `mput` command along with the `.` to specify "all files in this directory" is much easier. Simply type in and enter to start copying all files:
+
+```
+mput *
+```
+
+- You will then see it start uploading the files. See example command line interface in the middle of uploading:
+
+![36](https://raw.githubusercontent.com/daniellembecker/DanielleBecker_Lab_Notebook/master/images/mput.png)
+
+- This can take a while, depending on how many files you have and how large they are. When it is finished copying you will see the command line prompt go back to `ncftp>`.
+
+- Once that's done, you can go back to the submission portal and **Select Preload folder**. If your folder hasn't shown up yet, wait another 10 minutes and keep refreshing the folders. It can take time. Then select your folder and click use selected folder.
+- Then, you review all your information, make sure all the files are there and submit!!
+
+**Note: It can take over a day for your sequences to show up on NCBI**
+
 
 ### What Everything Will Look Like on NCBI
 
