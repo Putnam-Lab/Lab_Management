@@ -2,7 +2,9 @@
 
 Created By: Silbiger Lab - 20190227
 
-Last Revised: Putnam Lab - DM Becker - 20210218
+Last Revised: Putnam Lab - DM Becker - 20211005
+
+A detailed training video for this protocal can be found [here]( https://drive.google.com/drive/folders/1-2tGp9tBK3EJTsJ4ZxTLHuD5JwkCsPrx). It will ask you to request access form a member of the Putnam Lab.
 
 Contents
 - [**Materials**](#Materials)
