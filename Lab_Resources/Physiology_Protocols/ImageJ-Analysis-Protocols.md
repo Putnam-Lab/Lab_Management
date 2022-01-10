@@ -5,6 +5,7 @@ A series of analysis protocols in ImageJ.
 Contents:
 - [**Color Score**](#Color_Score)
 - [**Larvae_Size_Fecundity_Fertilization**](#Larvae_Size_Fecundity_Fertilization)
+- [**Surface Area Measurement**](#Surface_Area_Measurement)
 
 ## ImageJ Download
 
@@ -65,7 +66,7 @@ Goal: To measure the size (diameter) of 50 eggs per photo, quantify fecundity by
   - Cleaved embryos: 4+ cells
 2. Record each value in the spreadsheet.
 
-## <a name="Size Measurements"></a> **Size Measurements**
+## <a name="Surface Area Measurement"></a> **Surface Area Measurement**
 
 Goal: Measure the surface area of a coral.
 
