@@ -64,3 +64,30 @@ Goal: To measure the size (diameter) of 50 eggs per photo, quantify fecundity by
   - Cleaved embryos: 4 cells  
   - Cleaved embryos: 4+ cells
 2. Record each value in the spreadsheet.
+
+## <a name="Size Measurements"></a> **Size Measurements**
+
+Goal: Measure the surface area of a coral.
+
+1. Open the ImageJ application. The application only appears as a tool bar until an image is opened.
+2. In ImageJ: "File" > "Open" > Choose the desired photo. 
+3. Using the line tool in the toolbar, draw a line between two points of known distance (ruler in the photo).
+
+![image](https://raw.githubusercontent.com/JillAshey/JillAshey_Putnam_Lab_Notebook/master/images/ImageJ_1.png)
+
+4. Click "Analyze" > "Set Scale". A Set Scale box will open.
+5. In the Set Scale box, fill in the known distance (1.0, 1.5, etc) and the unit of length (cm, inch, etc) from the ruler. Click OK. 
+
+![image](https://raw.githubusercontent.com/JillAshey/JillAshey_Putnam_Lab_Notebook/master/images/ImageJ_2.png)
+
+Checking the global box will apply this scale setting to other images that are opened. Do **NOT** select global unless pictures were taken with camera at the same position for all images (i.e. camera did not move).
+
+6. Back on the image, click the freehand selection tool in the tool bar. Outline the **LIVE** tissue only.  Do not select places where tissue is in a shadow. 
+
+![image](https://raw.githubusercontent.com/JillAshey/JillAshey_Putnam_Lab_Notebook/master/images/ImageJ_3.png)
+
+7. Click "Analyze" > "Measure". A measurement box will open showing the area of outlined selection. 
+
+![image](https://raw.githubusercontent.com/JillAshey/JillAshey_Putnam_Lab_Notebook/master/images/ImageJ_4.png)
+
+8. Record this value in the spreadsheet. 
