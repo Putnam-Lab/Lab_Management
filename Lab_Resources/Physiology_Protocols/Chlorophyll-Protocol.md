@@ -58,7 +58,7 @@ Follow the [Synergy HTX Operating Manual](https://github.com/urol-e5/protocols/b
 3. To create a new protocol, follow the 'Getting Started' section in the [Gen5 Software Manual](https://github.com/urol-e5/protocols/blob/master/Gen5_software_manual.pdf).
 4. To measure Absorbance, create a 'Chlorophyll Protocol' option.
 
-**add photos and remaining instructions once we can see next steps on moorea computer**
+**add photos and remaining instructions once we can see next steps on computer**
 
 
 
