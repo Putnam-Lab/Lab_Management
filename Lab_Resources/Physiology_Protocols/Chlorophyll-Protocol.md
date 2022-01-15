@@ -9,7 +9,7 @@ projects: E5, Putnam Lab
 
 # Quantifying Chl-a and Chl-c2 Concentration in Symbiodiniaceae from coral tissues
 
-Original: 20200101  
+Original: 20200101 E5 Protocol
 Last Revised: 20220115 DMBP
 
 Contents  
@@ -18,14 +18,14 @@ Contents
 - [**References**](#References)  
 
 1. <a name="Materials"></a> **Materials**
-    - 	100% acetone
-    - 	flammable safe fridge 4°
-    - 	**quartz** 96 well plate
-    -   Microcentrifuge (Mo'orea Gump Molecular Lab)
-    - 	1ml pipette and tips
+    - 	 100% acetone
+    - 	 flammable safe fridge 4°
+    - 	 **quartz** 96 well plate
+    -   Microcentrifuge 
+    - 	 1ml pipette and tips
     -   1.5 ml microfuge tubes
-    -   [Synergy HTX Multi-Mode Microplate Reader](https://www.biotek.com/products/detection-multi-mode-microplate-readers/synergy-htx-multi-mode-reader/) (Mo'orea Gump Molecular Lab)
-    -   [Gen5 Software](https://www.biotek.com/products/software-robotics-software/gen5-microplate-reader-and-imager-software/) (Mo'orea Gump Molecular Lab Putnam Computer)
+    -   [Synergy HTX Multi-Mode Microplate Reader](https://www.biotek.com/products/detection-multi-mode-microplate-readers/synergy-htx-multi-mode-reader/) 
+    -   [Gen5 Software](https://www.biotek.com/products/software-robotics-software/gen5-microplate-reader-and-imager-software/) 
 
 
 **2. <a name="Protocol"></a> Protocol**
@@ -56,7 +56,7 @@ Follow the [Synergy HTX Operating Manual](https://github.com/urol-e5/protocols/b
 
 
 3. To create a new protocol, follow the 'Getting Started' section in the [Gen5 Software Manual](https://github.com/urol-e5/protocols/blob/master/Gen5_software_manual.pdf).
-4. To measure Absorbance, select the 'Chlorophyll Protocol' option.
+4. To measure Absorbance, create a 'Chlorophyll Protocol' option.
 
 **add photos and remaining instructions once we can see next steps on moorea computer**
 
