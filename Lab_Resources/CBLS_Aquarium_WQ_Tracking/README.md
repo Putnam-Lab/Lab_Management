@@ -1,8 +1,8 @@
 
-# welcome to the github repo for CBLS aquarium water quality tracking!
+# Welcome to the GitHub Repository for CBLS aquarium water quality tracking!
 
 Date created: 20210422  
-Date last revised: 20210524 RB Added new data and updated photo links
+Date last revised: 20220119 DMBP
 
 ## **Some links within the repo**
 - Rmarkdown file for plotting Temperature, Salinity, and pH of water tables through time: https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/scripts/20210422_CBLS_WaterTables_WQ_Tracking.Rmd
