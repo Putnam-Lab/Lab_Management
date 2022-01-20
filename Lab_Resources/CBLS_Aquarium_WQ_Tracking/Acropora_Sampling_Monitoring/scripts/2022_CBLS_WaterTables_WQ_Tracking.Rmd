@@ -1,8 +1,10 @@
 ---
 title: "CBLSWaterTables_WQ_Tracking"
 author: "Danielle Becker-Polinski"
-date: "20220120"
-output: html_document
+date: '20220120'
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 
