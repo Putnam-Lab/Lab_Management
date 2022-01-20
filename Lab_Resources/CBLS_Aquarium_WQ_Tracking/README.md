@@ -12,9 +12,9 @@ To ensure accurate results, water quality is assessed within the tanks through v
 
 ## **Some links within the repo**
 - Polyp Bailout Project Water Quality Monitoring led by Dr. Hannah Reich, Rosie Bailey, and Alison Thorson
-        - [Rmarkdown file](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/scripts/20210422_CBLS_WaterTables_WQ_Tracking.Rmd) for plotting Temperature, Salinity, and pH of water tables through time.
-        - Folder containing [plots](https://github.com/Putnam-Lab/Lab_Management/tree/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/scripts/figures) (png files) of water table WQ through time.
-        -[CSV](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/CBLS_watertables_waterquality_tracking.csv) of water quality tracking data.
+    - [Rmarkdown file](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/scripts/20210422_CBLS_WaterTables_WQ_Tracking.Rmd) for plotting Temperature, Salinity, and pH of water tables through time.
+    - Folder containing [plots](https://github.com/Putnam-Lab/Lab_Management/tree/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/scripts/figures) (png files) of water table WQ through time.
+    -[CSV](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/CBLS_watertables_waterquality_tracking.csv) of water quality tracking data.
 
 ## **Links outside of the repo**
 
