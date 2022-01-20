@@ -1,30 +1,38 @@
 ---
 title: "CBLSWaterTables_WQ_Tracking"
-author: "Hannah Reich"
-date: "4/22/2021"
+author: "Danielle Becker-Polinski"
+date: "20220120"
 output: html_document
 ---
 
+
+# Set Up    
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE)
+```
+ 
+ 
+#Load libraries and data files 
 ```{r}
-rm(list=ls())
-
-# set working directory
-setwd("/Users/roxyr/Documents/Github/Lab_Management/Lab_Resourses/CBLS_Aquarium_WQ_Tracking/")
-
 # load packages
 library(ggplot2)
 library(cowplot)
 library(dplyr)
 library(reshape2)
 library(ggpubr)
+library(here)
+
+here
 
 # load data
-dat <- read.csv("CBLS_watertables_waterquality_tracking.csv")
+dat <- read.csv("../data/CBLS_watertables_waterquality_tracking.csv")
 dat$Date <- as.factor(dat$Date)
 
-# filter out the water tables
-wt <- dplyr::filter(dat, Treatment_ID == c("WaterTables"))
 
+```
+
+#Temperature plot
+```{r}
 # plot temp
 temp_wt <- ggplot(data=wt, aes(x=Date, y=Temperature_C, group=1)) +
   geom_line(colour = "gray70")+
@@ -37,12 +45,16 @@ temp_wt <- ggplot(data=wt, aes(x=Date, y=Temperature_C, group=1)) +
         legend.position = "bottom")
 temp_wt
 
-save_plot("water_tables_TEMP.png", temp_wt, base_aspect_ratio = 1.8)
+save_plot("figures/water_tables_TEMP.png", temp_wt, base_aspect_ratio = 1.8)
+```
 
+
+#Salinity plot
+```{r}
 # plot salinity
-sal_wt <- ggplot(data=wt, aes(x=Date, y=Salinity_psu, group=1)) +
+sal_wt <- ggplot(data=wt, aes(x=Date, y=sal, group=1)) +
   geom_line(colour = "gray70")+
-  geom_point(size = 3, aes(color=Salinity_psu)) +
+  geom_point(size = 3, aes(color=sal)) +
   theme_bw() +
   scale_color_gradient(low = "cyan", high = "pink") +
   labs(title = "Water Tables Salinity (psu)") +
@@ -51,26 +63,31 @@ sal_wt <- ggplot(data=wt, aes(x=Date, y=Salinity_psu, group=1)) +
         legend.position = "bottom")
 sal_wt
 
-save_plot("water_tables_SALINITY.png", sal_wt, base_aspect_ratio = 1.8)
+save_plot("figures/water_tables_SALINITY.png", sal_wt, base_aspect_ratio = 1.8)
+```
 
-# plot pH
+#Light plot
+```{r}
+# plot light
 
-# average pH between the 2 water tables
-wtphavg <- wt %>% group_by(Date) %>% summarise(pH_mv_avg = mean(pH_mv, na.rm = TRUE))
+# average light between the tanks
+wt_light_avg <- wt %>% group_by(Date) %>% summarise(light_avg = mean(light, na.rm = TRUE))
 
-ph_wt <- ggplot(data=wtphavg, aes(x=Date, y=pH_mv_avg, group = 1)) +
+light_wt <- ggplot(data=wtphavg, aes(x=Date, y=pH_mv_avg, group = 1)) +
   geom_line(colour = "gray70")+
   geom_point(size = 3, aes(color=pH_mv_avg)) +
   theme_bw() +
   scale_color_gradient(low = "orange", high = "lime green") +
-  labs(title = "Water Tables pH (mv)") +
+  labs(title = "Water Tables Light") +
   theme(panel.grid = element_blank(),
         axis.text.x = element_text(angle = 45, size = 6, vjust = 1, hjust = 1),
         legend.position = "bottom")
-ph_wt
+light_wt
 
-save_plot("water_tables_pH_MV.png", ph_wt, base_aspect_ratio = 1.8)
+save_plot("figures/water_tables_pH_MV.png", ph_wt, base_aspect_ratio = 1.8)
 
 
 ```
+
+
 

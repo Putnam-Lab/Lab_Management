@@ -10,11 +10,15 @@ The Putnam Lab CBLS tanks are used for dynamic marine invertebrate projects faci
 
 To ensure accurate results, water quality is assessed within the tanks through various measurements that include; salinity, pH, total alkalinity, calcium, and carbonate hardness. Environmental parameters, such as, temperature, light, NH4, NO2, NO3, and PO4 are also measured. 
 
+Tank metadata
+
 ## **Some links within the repo**
-- Polyp Bailout Project Water Quality Monitoring led by Dr. Hannah Reich, Rosie Bailey, and Alison Thorson
+- [Polyp Bailout Project Water Quality Monitoring](https://github.com/Putnam-Lab/Lab_Management/tree/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/Polyp_Bailout_Project) led by Dr. Hannah Reich, Rosie Bailey, and Alison Thorson
     - [Rmarkdown file](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/scripts/20210422_CBLS_WaterTables_WQ_Tracking.Rmd) for plotting Temperature, Salinity, and pH of water tables through time.
     - Folder containing [plots](https://github.com/Putnam-Lab/Lab_Management/tree/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/scripts/figures) (png files) of water table WQ through time.
     -[CSV](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/CBLS_watertables_waterquality_tracking.csv) of water quality tracking data.
+    
+- [Acropora Sampling Water Quality Monitoring](https://github.com/Putnam-Lab/Lab_Management/tree/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/Acropora_Sampling_Monitoring) led by Dr. Hollie Putnam, Danielle Becker-Polinski, and Pierrick Harnay.
 
 ## **Links outside of the repo**
 
