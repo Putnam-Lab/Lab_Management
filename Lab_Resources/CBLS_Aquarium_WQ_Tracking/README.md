@@ -10,7 +10,10 @@ The Putnam Lab CBLS tanks are used for dynamic marine invertebrate projects faci
 
 To ensure accurate results, water quality is assessed within the tanks through various measurements that include; salinity, pH, total alkalinity, calcium, and carbonate hardness. Environmental parameters, such as, temperature, light, NH4, NO2, NO3, and PO4 are also measured. 
 
-Tank metadata
+
+**CBLS Wetlab Map**
+
+![](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/images/CBLS_wetlab_map.jpg)
 
 ## **Some links within the repo**
 - [Polyp Bailout Project Water Quality Monitoring](https://github.com/Putnam-Lab/Lab_Management/tree/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/Polyp_Bailout_Project) led by Dr. Hannah Reich, Rosie Bailey, and Alison Thorson
