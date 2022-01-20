@@ -1,22 +1,22 @@
 
-# Welcome to the GitHub Repository for CBLS aquarium water quality tracking!
+# Welcome to the GitHub Repository for the Center for Biotechnology and Life Sciences (CBLS) Aquarium Water Quality Monitoring!
 
 Date created: 20210422  
 Date last revised: 20220119 DMBP
 
+Location: University of Rhode Island, Center for Biotechnology and Life Sciences, Aquarium Room 70
+
+The Putnam Lab CBLS tanks are used for dynamic marine invertebrate projects facilitated by Putnam Lab members. The tanks offer a way for students to investigate methodology pertaining to research questions, monitor water quality, learn aquacultural techniques, and conduct vital research in marine invertebrate systems. 
+
+To ensure accurate results, water quality is assessed within the tanks through various measurements that include; salinity, pH, total alkalinity, calcium, and carbonate hardness. Environmental parameters, such as, temperature, light, NH4, NO2, NO3, and PO4 are also measured. 
+
 ## **Some links within the repo**
-- Rmarkdown file for plotting Temperature, Salinity, and pH of water tables through time: https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/scripts/20210422_CBLS_WaterTables_WQ_Tracking.Rmd
-- Folder containing plots (png files) of water table wq through time: https://github.com/Putnam-Lab/Lab_Management/tree/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/scripts/figures
-- CSV of water quality tracking data: https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/CBLS_watertables_waterquality_tracking.csv
+- Polyp Bailout Project Water Quality Monitoring led by Dr. Hannah Reich, Rosie Bailey, and Alison Thorson
+        - [Rmarkdown file](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/scripts/20210422_CBLS_WaterTables_WQ_Tracking.Rmd) for plotting Temperature, Salinity, and pH of water tables through time.
+        - Folder containing [plots](https://github.com/Putnam-Lab/Lab_Management/tree/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/scripts/figures) (png files) of water table WQ through time.
+        -[CSV](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/CBLS_watertables_waterquality_tracking.csv) of water quality tracking data.
 
 ## **Links outside of the repo**
-- Schedule and protocols for routine aquarium upkeep tasks: https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/CBLS_Wetlab_Protocols/20201110_CBLS_WaterQuality_Checklist.Md
 
-### CBLS water table TEMPERATURE (C)
-![temp](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/Water_Quality_Figures/water_tables_TEMP.png)
+- [Wetlab Protocols](https://github.com/Putnam-Lab/Lab_Management/tree/master/Lab_Resources/CBLS_Wetlab_Protocols) for routine aquarium maintenance, equipment, and measurements. 
 
-### CBLS water table SALINITY (psu)
-![sal](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/Water_Quality_Figures/water_tables_SALINITY.png)
-
-### CBLS water table pH (mv)
-![ph_mv](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/CBLS_Aquarium_WQ_Tracking/Water_Quality_Figures/water_tables_pH_MV.png)
