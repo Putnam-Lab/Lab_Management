@@ -29,10 +29,11 @@ here
 
 # load data
 dat <- read.csv("../data/CBLS_watertables_waterquality_tracking.csv")
+
 dat$date <- as.factor(dat$date)
 
 #format date using lubridate package
-dat$date  <- ymd(dat$date) 
+dat$date  <- mdy(dat$date) 
 
 
 ```
