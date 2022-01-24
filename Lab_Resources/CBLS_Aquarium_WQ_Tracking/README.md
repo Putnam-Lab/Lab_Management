@@ -26,4 +26,5 @@ To ensure accurate results, water quality is assessed within the tanks through v
 ## **Links outside of the repo**
 
 - [Wetlab Protocols](https://github.com/Putnam-Lab/Lab_Management/tree/master/Lab_Resources/CBLS_Wetlab_Protocols) for routine aquarium maintenance, equipment, and measurements. 
+- [CBLS Google Drive](https://drive.google.com/drive/u/0/folders/1ocYxPYi3edLmXBJPu962fU0PFoS6fVF6) includes photos, videos, room maps, and notebook photos.
 
