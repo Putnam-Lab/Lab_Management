@@ -26,9 +26,9 @@ Previous coral fragment environmental and water quality conditions, provided by 
 
 420 ppm
 
-**Alkalinity**
+**Carbonate Alkalinity**
 
-9-9.5 DKH
+9.0 dkh
 
 
 **CBLS Wetlab Map**
