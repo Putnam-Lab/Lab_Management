@@ -140,4 +140,99 @@ ggsave(filename="../figures/TA.plot.pdf", plot=TA_plot, width=10, height=5, unit
 
 ```
 
+# calcium alkalinity plot
+```{r}
+#filter for just temp data
 
+ca.dat <- filter(dat.grouped, WQ.type == "ca")
+
+
+#plot mean temp per day by date
+ca_plot <- ca.dat %>%
+  ggplot(aes(x=date, y=mean, color = tank))+
+  geom_line() + 
+  geom_point() +
+  scale_x_date(date_breaks = "1 day", date_labels = "%m-%d") +
+  theme_classic()+
+  theme(axis.text.x = element_text(angle = 90)) +
+  ylab("Calcium (Ca) (ppm)") +
+  xlab("Date");ca_plot
+
+ggsave(filename="../figures/ca.plot.pdf", plot=ca_plot, width=10, height=5, units="in")
+
+
+
+```
+
+# magnesium plot
+```{r}
+#filter for just temp data
+
+mg.dat <- filter(dat.grouped, WQ.type == "mg")
+
+
+#plot mean temp per day by date
+mg_plot <- mg.dat %>%
+  ggplot(aes(x=date, y=mean, color = tank))+
+  geom_line() + 
+  geom_point() +
+  scale_x_date(date_breaks = "1 day", date_labels = "%m-%d") +
+  theme_classic()+
+  theme(axis.text.x = element_text(angle = 90)) +
+  ylab("Magnesium (Mg) (ppm)") +
+  xlab("Date");mg_plot
+
+ggsave(filename="../figures/mg.plot.pdf", plot=mg_plot, width=10, height=5, units="in")
+
+
+
+```
+
+
+# carbonate alkalinity plot
+```{r}
+#filter for just temp data
+
+alk.dat <- filter(dat.grouped, WQ.type == "alk")
+
+
+#plot mean temp per day by date
+alk_plot <- alk.dat %>%
+  ggplot(aes(x=date, y=mean, color = tank))+
+  geom_line() + 
+  geom_point() +
+  scale_x_date(date_breaks = "1 day", date_labels = "%m-%d") +
+  theme_classic()+
+  theme(axis.text.x = element_text(angle = 90)) +
+  ylab("Carbonate Alkalinity (dkh)") +
+  xlab("Date");alk_plot
+
+ggsave(filename="../figures/alk.plot.pdf", plot=alk_plot, width=10, height=5, units="in")
+
+
+
+```
+
+# pH plot
+```{r}
+#filter for just temp data
+
+ph.dat <- filter(dat.grouped, WQ.type == "pH")
+
+
+#plot mean temp per day by date
+ph_plot <- ph.dat %>%
+  ggplot(aes(x=date, y=mean, color = tank))+
+  geom_line() + 
+  geom_point() +
+  scale_x_date(date_breaks = "1 day", date_labels = "%m-%d") +
+  theme_classic()+
+  theme(axis.text.x = element_text(angle = 90)) +
+  ylab("pH (mV)") +
+  xlab("Date");ph_plot
+
+ggsave(filename="../figures/ph.plot.pdf", plot=ph_plot, width=10, height=5, units="in")
+
+
+
+```
