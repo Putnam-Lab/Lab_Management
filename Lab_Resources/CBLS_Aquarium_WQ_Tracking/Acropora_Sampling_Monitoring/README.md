@@ -31,7 +31,7 @@ Previous coral fragment environmental and water quality conditions, provided by 
 9.0 dkh
 
 
-Fourteen *Acropora* spp. corals recieved on Tuesday January 25th at 11:00 am
+**Fourteen *Acropora* spp. corals recieved on Tuesday January 25th at 11:00 am**
 
 
 ![](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/images/Acropora_corals_wetlab.jpg)
