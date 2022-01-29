@@ -33,6 +33,8 @@ Previous coral fragment environmental and water quality conditions, provided by 
 
 **Fourteen *Acropora* spp. corals recieved on Tuesday January 25th at 11:00 am**
 
+**The aquarist is confident that the green colored coral fragments are *Acropora youngei*, the rest of the coral fragments were choosen as they were morphologically close to *Acropora pulchra* but they could be other species. We think that there are at least four distinct *Acropora* species in this collection.**
+
 
 ![](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/images/Acropora_corals_wetlab.jpg)
 
