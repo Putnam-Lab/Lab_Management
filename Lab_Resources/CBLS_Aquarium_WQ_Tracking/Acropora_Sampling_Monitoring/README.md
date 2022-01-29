@@ -31,7 +31,7 @@ Previous coral fragment environmental and water quality conditions, provided by 
 9.0 dkh
 
 
-**Fourteen *Acropora* spp. corals recieved on Tuesday January 25th at 11:00 am**
+**Fourteen *Acropora* spp. corals recieved on Tuesday January 25th at 11:00 am. All corals appeared to be in good condition.**
 
 **The aquarist is confident that the green colored coral fragments are *Acropora youngei*, the rest of the coral fragments were choosen as they were morphologically close to *Acropora pulchra* but they could be other species. We think that there are at least four distinct *Acropora* species in this collection.**
 
@@ -40,6 +40,8 @@ Previous coral fragment environmental and water quality conditions, provided by 
 
 
 **CBLS Wetlab Map**
+
+**All coral fragments were placed into the quaratine tank.**
 
 ![](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/images/CBLS_wetlab_map.jpg)
 
