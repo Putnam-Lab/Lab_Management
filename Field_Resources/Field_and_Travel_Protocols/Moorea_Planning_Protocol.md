@@ -28,6 +28,10 @@ https://www.moorea.berkeley.edu/user-guide/formalities/gump-station-forms
 - URI TAR https://web.uri.edu/ecampus/financial-administration/
 - CISI insuranse https://www.mycisi.com/CISIPortalWeb/participants/participant.aspx
 
+### Internation Insurance - URI - CISI
+
+- Enroll here: https://www.culturalinsurance.com/uri/
+
 
 ### Contacts
 
