@@ -4,7 +4,11 @@ Created By: Silbiger Lab - 20190227
 
 Last Revised: Putnam Lab - DM Becker - 20211005
 
-A detailed training video for this protocal can be found [here]( https://drive.google.com/drive/folders/1-2tGp9tBK3EJTsJ4ZxTLHuD5JwkCsPrx). It will ask you to request access form a member of the Putnam Lab.
+**A detailed training video for this protocal can be found [here]( https://drive.google.com/drive/folders/1-2tGp9tBK3EJTsJ4ZxTLHuD5JwkCsPrx). It will ask you to request access form a member of the Putnam Lab.**
+
+**To plan your titrations, keep in mind that the setup (i.e. purging the HCl, pH calibration, and running a CRM) takes ~45 minutes to 1 hour. While runnning a total of nine samples (i.e. the full amount of samples avaialble on this specific rondolino) or one titration run takes ~1 hour and 45 minutes. With about ~15 - 20 minutes of clean up and waste disposal.**
+
+**Make sure to take your time for each step of the titration process to ensure accuracy and precision of measurements. While this protocol is tedious, all steps and specifications are necessary to ensure confident titration measurements.**
 
 Contents
 - [**Materials**](#Materials)
@@ -66,24 +70,26 @@ Contents
     7. On the “Server Export Directory,” that is where your data is going. You can modify it by clicking on “Edit Export Template” and navigate to the *folder of the day*. Select "Save and Close" in the upper left hand corner and exit this window. You will now see your export path in the export templates section of LabX.
     8. There should already be an empty 80ml cup in position 00.
     9. If not, raise the Rondolino by pressing the left blue button "Rotate 180 degrees" (with no numbered tick marks). Press the same button to return the Rondolino to position 00.
-    10. PURGING (RINSING): Using the Titrator tablet, tap “Manual”, "Burette", "Rinse". Set Titrant: HCl, Concentration: 0.1 mol/L, Drive: 1, Cycles: 3, Discharge volume: 100%, Fill rate: 100%. See notes below before pressing "Start".
-    11. YOU MUST PARK THE AUTOSAMPLER FIRST (AT POSITION 00), OTHERWISE THE ACID WILL SPILL ALL OVER THE AUTOSAMPLER.
-    12. If it ever occurs, you must use the chemical wipes with DI water to soak up the acid.
+    10. Remove the temperature probe from its slot and set it to the side while you purge the HCl.
+    11. PURGING (RINSING): Using the Titrator tablet, tap “Manual”, "Burette", "Rinse". Set Titrant: HCl, Concentration: 0.1 mol/L, Drive: 1, Cycles: 3, Discharge volume: 100%, Fill rate: 100%. See notes below before pressing "Start".
+    12. YOU MUST PARK THE AUTOSAMPLER FIRST (AT POSITION 00), OTHERWISE THE ACID WILL SPILL ALL OVER THE AUTOSAMPLER.
+    13. If it ever occurs, you must use the chemical wipes with DI water to soak up the acid.
 
     - *Note: Rinse is used to purge any air bubbles that may occur in the acid line. If there are more air bubbles, flick both tubes until they disappear*. ***DO NOT start titrations if there are still bubbles, this will affect the amount of acid the titrator gives the sample***.
 
-    13. After Purging/Rinsing, click "OK" to bring the titrator screen back to home.
-    14. If you still see bubbles in the lines, redo the purging step!
-    15. Recycle (pour back) the acid into the glass bottle that is connected to the titrator by removing the small white plug and pour carefully into the bottle.
+    14. After Purging/Rinsing, click "OK" to bring the titrator screen back to home.
+    15. If you still see bubbles in the lines, redo the purging step!
+    16. Recycle (pour back) the acid into the glass bottle that is connected to the titrator by removing the small white plug and pour carefully into the bottle.
         1. If a spill occurs, you must use the chemical wipes with DI water to soak up the acid.
-    16. Using DI water, clean the acid cup. Leave upside down on KimWipe to dry.
-    17. Located at the right side, at the back of the Titrator, there will be a pH Sensor. Place the sensor in the position marked with a black arrow, next to the propeller.
-    18. Open the grey cap on the pH sensor and leave open throughout use. pH will not be measured otherwise.
+    17. Using DI water, clean the acid cup. Leave upside down on KimWipe to dry.
+    18. Place the temperature probe back in its original slot before next steps.
+    19. Located at the right side, at the back of the Titrator, there will be a pH Sensor. Place the sensor in the position marked with a black arrow, next to the propeller.
+    20. Open the grey cap on the pH sensor and leave open throughout use. pH will not be measured otherwise.
         1. Before calibrations can be made, look at the top of the Sensor for KCl, make sure the KCl is filled to fully cover the metal inside by the grey cap, skip to [18]. If not, follow the step below.
         1. If KCl reservoir is low, open the cap on the sensor’s reservoir and add a few drops of KCl on the opening.
-    19. Make sure that the cap is **open at all times**, so it can measure the pH.
-    20. Make sure the probe rinse reservoir is filled with KCl solution (a plastic tube on the right side of the InMotion Pro).
-    21. Once the pH probe is placed in its slot next to the propeller, fill a DI Only cup 2/3 full with DI water and place this cup in poistion 00. On the Titrator screen, "Park" the autosampler. The pH probe should always be submerged in a liquid (DI or its storage solution).
+    21. Make sure that the cap is **open at all times**, so it can measure the pH.
+    22. Make sure the probe rinse reservoir is filled with KCl solution (a plastic tube on the right side of the InMotion Pro).
+    23. Once the pH probe is placed in its slot next to the propeller, fill a DI Only cup 2/3 full with DI water and place this cup in poistion 00. On the Titrator screen, "Park" the autosampler. The pH probe should always be submerged in a liquid (DI or its storage solution).
 
 3. <a name="pH_Calibration"></a> **pH_Calibration**
 
