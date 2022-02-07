@@ -21,6 +21,7 @@
 3. *Confirm reservations*
 4. *Complete equipment import forms*  
 5. *Assemble packing list and pack supplies*  
+6. *Update URI/Putnam Lab COVID travel plan*
 
 # 1 Week Before Departure To FP 
 
