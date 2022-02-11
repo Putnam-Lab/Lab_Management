@@ -98,7 +98,7 @@ Contents
   - The reference KCl electrolyte solution should be replaced in the glass electrode reservoir ~every month.
   - Always check to make sure the pH probe is in KCl electrolyte solution in its holding tube when stored and the internal buffer solution (3) is covering the inside of the glass membrane (1). If you see bubbles in the membrane, gently shake the probe in a vertical direction.
 
-![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Equip_Images/pH_probe.jpg)
+![](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/Equip_Images/pH_probe.jpg)
 
   - Also always check if the reference electrolyte (6) is filled to the aperature (8).
   - The zero point of the electrode (pH value E = 0 mV) is approximately pH 7. The electrode potential, measured in a buffer solution of pH 7, must be within -30 mV and +30 mV.
