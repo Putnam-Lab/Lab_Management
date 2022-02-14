@@ -1,0 +1,68 @@
+---
+title: "Trident TA Compare"
+author: "Danielle Becker"
+date: "02/13/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+
+## install packages if you dont already have them
+if (!require("tidyverse")) install.packages("tidyverse")
+
+# load packages
+library(tidyverse)
+```
+
+```{r}
+
+library(ggplot2)
+library(ggpmisc)
+
+#load wax data for second wax bath used for TP0
+compare.data <- read.csv("../data/Trident.TA.Compare.csv", header=TRUE)
+
+# calculate the curve coefficients for slope and intercept to apply as the standard
+stnd.curve <- lm(trident~TA, data=compare.data)
+plot(trident~TA, data=compare.data)
+stnd.curve$coefficients
+summary(stnd.curve)$r.squared
+
+
+#plot TA vs trident curve and add lm equation and r squared to plot using stat_poly_eq
+
+formula1 <- y ~ x
+
+ggplot(data = compare.data, aes(x = TA, y = trident)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE, formula = formula1) +
+  stat_poly_eq(aes(label = paste0("atop(", ..eq.label.., ",", ..rr.label.., ")")), 
+               formula = formula1, 
+               parse = TRUE) +
+  theme_bw(base_size = 16)
+
+#save plot to output folder
+
+ggsave("../figures/stnd.curv.TA.pdf")
+
+#Calculate surface area using the standard curve
+#smpls <- subset(wax.data, sample=="")
+#smpls$surface.area.cm2 <- stnd.curve$coefficients[2] * smpls$delta.mass.g + stnd.curve$coefficients[1]
+
+#select the samples only
+#smpls <- smpls %>%
+  #select(-sample, -diameter)
+
+#smpls %>%
+  #count(colony_id) %>% arrange(n)
+
+#check the range to make sure your samples fall within the range of the standards
+#range(smpls$surface.area.cm2)
+#range(stnds$surface.area.cm2)
+
+#Save the output for use in normilzation for phys assays
+#write.csv(smpls, "output/trident.TA.output.csv")
+
+```
+
