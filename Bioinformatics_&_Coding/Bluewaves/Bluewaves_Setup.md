@@ -1,6 +1,6 @@
-### Setting up Bluewaves Account
+### Setting up URI HPC Account
 
-1. Email 	hpc@etal.uri.edu and cc Hollie requesting an account on Bluewaves. As simple as: Hello I work with Dr. Hollie Putnam as a ____ and I would like to request a Bluewaves account. Thank you.
+1. Email 	hpc@etal.uri.edu from your URI email address and cc Hollie requesting an account on Bluewaves. As simple as: Hello I work with Dr. Hollie Putnam as a ____ and I would like to request an Andromeda/Bluewaves account. Thank you.
 2. They will email you back with a username and a password. Your password will likely be your URI student/employee ID number and you will be forced to set a new password right after login, so be ready with a new password.
 3. Login with the command `ssh -l username bluewaves.uri.edu` and put in your password when prompted then the new password.
 4. If you want to streamline logging in you can create an alias command for logging in. And alias is a word/command that codes for a longer set of words or commands, like a function, but with nothing to modify. Ssh means secure shell, and it securely connects you to a separate server. When you login to Bluewaves you are basically connecting to a remote computer. This portal is only on the terminal window you have open. To go back to your personal computer either use the command `exit` and the connection will be broken, or open a new shell window on your computer.
