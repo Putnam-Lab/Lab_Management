@@ -22,7 +22,7 @@ Contents
 - [**Data_Analysis**](#Data_Analysis)
 - [**Using GitHub on Windows Computer**](#GitHub)
 - [**Clean_Up**](#Clean_Up)
-- [**Waste_Processing**](#Waste Processing)
+- [**Waste_Processing**](#Waste_Processing)
 
 <a name="Materials"></a> **Materials**
 - Mettler Toledo InMotion Pro Autosampler
