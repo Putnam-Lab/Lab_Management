@@ -244,8 +244,8 @@ Contents
 ![](https://raw.githubusercontent.com/meschedl/PPP-Lab-Resources/master/images/IMG_5347.jpg)
 
 
-      6. When a waste container is full, to request for it to be picked up by EHS (Environmental Health and Safety) use [this link](https://web.uri.edu/ehs/online-pickup/). Make sure to list out all contents of the containers. Also make sure to request a new plastic bottle if needed and new waste container labels when they are running low.
-      7. The SAA next to the titrator is for titrator and aquarium room wastes
+- When a waste container is full, to request for it to be picked up by EHS (Environmental Health and Safety) use [this link](https://web.uri.edu/ehs/online-pickup/). Make sure to list out all contents of the containers. Also make sure to request a new plastic bottle if needed and new waste container labels when they are running low.
+- The SAA next to the titrator is for titrator and aquarium room wastes
        
 ![](https://raw.githubusercontent.com/meschedl/PPP-Lab-Resources/master/images/IMG_5186.jpg)
 ![](https://raw.githubusercontent.com/meschedl/PPP-Lab-Resources/master/images/IMG_5187.jpg)
