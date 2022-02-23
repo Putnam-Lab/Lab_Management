@@ -234,18 +234,17 @@ Contents
       2. For specifics on what hazards pertain to the chemical, look in the SDS
       3. If your solutions have any of these, the waste should be treated as hazardous and disposed of in a SAA (satellite accumulation area)
       4. Make a hazardous waste label for the waste container, list **all** components of the liquid and approximate percentages of each one. Put your PIs name, room number (CBLS 190; SAA cabinet BD12), and check off all types of hazards present. Add notes if applicable (ie if waste is from a kit, put the name of the kit as a reference)
-      5. For the tirator, we have these type of waste labels you will need to make:
-             - Mercuric chloride: 0.1%, seawater: 99.9%
-             - Solid waste: Mercuric chloride: 0.1%, seawater: 99.9%
-             - Seawater: 95%, HCl: 5%
-             - KCl 100%
-
+      5. For the tirator, we have these type of waste labels you will need to make: 
+              Mercuric chloride: 0.1%, seawater: 99.9%
+              Solid waste: Mercuric chloride: 0.1%, seawater: 99.9%
+              Seawater: 95%, HCl: 5%
+              KCl 100%
+      6.  When a waste container is full, to request for it to be picked up by EHS (Environmental Health and Safety) use [this link](https://web.uri.edu/ehs/online-pickup/). Make sure to list out all contents of the containers. Also make sure to request a new plastic bottle if needed and new waste container labels when they are running low.
+      7.  The SAA next to the titrator is for titrator and aquarium room wastes
+              
+ 
 
 ![](https://raw.githubusercontent.com/meschedl/PPP-Lab-Resources/master/images/IMG_5347.jpg)
-
-
-- When a waste container is full, to request for it to be picked up by EHS (Environmental Health and Safety) use [this link](https://web.uri.edu/ehs/online-pickup/). Make sure to list out all contents of the containers. Also make sure to request a new plastic bottle if needed and new waste container labels when they are running low.
-- The SAA next to the titrator is for titrator and aquarium room wastes
        
 ![](https://raw.githubusercontent.com/meschedl/PPP-Lab-Resources/master/images/IMG_5186.jpg)
 ![](https://raw.githubusercontent.com/meschedl/PPP-Lab-Resources/master/images/IMG_5187.jpg)
