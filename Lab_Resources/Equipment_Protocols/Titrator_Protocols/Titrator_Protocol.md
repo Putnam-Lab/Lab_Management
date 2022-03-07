@@ -26,8 +26,8 @@ Contents
 
 <a name="Materials"></a> **Materials**
 - [Mettler Toledo Rondolino](https://www.mt.com/us/en/home/products/Laboratory_Analytics_Browse/Product_Family_Browse_titrators_main/automated-titration-systems/Rondolino.html)
-- [Mettler Toledo Titrator Excellence T5](https://www.mt.com/us/en/home/products/Laboratory_Analytics_Browse/Product_Family_Browse_titrators_main/Titration_Excellence/T5_Titrator.html)
-- [Mettler Toledo Analytical Balance]()
+- [Mettler Toledo Titrator Excellence T5 - Material Number 30252672](https://www.mt.com/us/en/home/products/Laboratory_Analytics_Browse/Product_Family_Browse_titrators_main/Titration_Excellence/T5_Titrator.html)
+- Mettler Toledo Analytical Balance
 - Mettler Toledo LabX Laboratory Software (connects titrator, balance, burettes, etc.)
 - [Mettler Toledo Compact Stirrer - Material No.: 51109150](https://www.mt.com/us/en/home/products/Laboratory_Analytics_Browse/pH-meter/pH-accessories/Stirrer-Compact.html)
 - Mettler Toledo pH electrode
