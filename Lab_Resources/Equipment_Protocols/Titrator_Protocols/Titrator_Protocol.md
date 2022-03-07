@@ -25,11 +25,11 @@ Contents
 - [**Waste_Processing**](#Waste_Processing)
 
 <a name="Materials"></a> **Materials**
-- Mettler Toledo InMotion Pro Autosampler
-- Mettler Toledo Titrator
-- Mettler Toledo Analytical Balance
+- [Mettler Toledo Rondolino](https://www.mt.com/us/en/home/products/Laboratory_Analytics_Browse/Product_Family_Browse_titrators_main/automated-titration-systems/Rondolino.html)
+- [Mettler Toledo Titrator Excellence T5](https://www.mt.com/us/en/home/products/Laboratory_Analytics_Browse/Product_Family_Browse_titrators_main/Titration_Excellence/T5_Titrator.html)
+- [Mettler Toledo Analytical Balance]()
 - Mettler Toledo LabX Laboratory Software (connects titrator, balance, burettes, etc.)
-- Mettler Toledo Compact Stirrer
+- [Mettler Toledo Compact Stirrer - Material No.: 51109150](https://www.mt.com/us/en/home/products/Laboratory_Analytics_Browse/pH-meter/pH-accessories/Stirrer-Compact.html)
 - Mettler Toledo pH electrode
 - Mettler Toledo InLab Solutions KCl 3 mol/L solution (for titrator pH electrode)
 - Thermo Scientific Orion Star A221 and Star A321 Portable pH Meter
