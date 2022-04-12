@@ -80,9 +80,7 @@ Contents
 1. Fill a small clean beaker with DI water and fill about half of a 50mL falcon tube with fresh Tris Buffer (from Scripps CO2 Lab). 
 1. If a tris buffer has already been allocated within the previous 3 weeks and properly sealed and stored in the fume hood, you may use this solution for the calibration.
 1. Place the sealed falcon tube in a container to keep it mostly  upright.
-1. Collect ice chips from Magnolia Hall in a clean beaker or other container and set to the side of your work statino
-1. Follow the steps above for the [NBS calibration](#NBS) using the 4, 7, and 10 pH buffers.
-1. Once calibrated for the NBS scale, rinse the electrode in DI water, wipe the probe casing dry, slip on the falcon tube cap with a large and small hole cut into the top about halfway up the probe casing, and then place the electrode into the tris tube and screw on the cap.
+1. place the electrode into the tris tube.
 1. Place the Traceable Thermometer probe tip into the small hole of the cap and slide down to the same level as the pH electrode.  Turn on the Thermometer.
 1. Turn on the meter and wait for the measurement screen to appear.
 1. Make sure the current measurement is for mV.  If not, either change the Channel (press F3 to swap between probe inputs) or Mode (pressing the Mode button on the meter to swap between measurements using the current Channel's probe) until the instrument is reading mV.
