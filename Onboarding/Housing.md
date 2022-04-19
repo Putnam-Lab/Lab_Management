@@ -2,7 +2,7 @@
 
 ### Most popular places for graduate students to live
 
-![]()
+![](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/places-to-live.png?raw=true)
 
 Providence:  
 - ~30-40 minutes away
