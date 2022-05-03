@@ -9,7 +9,7 @@ Contents:
 - [Danielle Becker's methylseq presentation from 2021 lab meeting](https://docs.google.com/presentation/d/1qNMI2-LmyvqwNZ4J8FaHIg7d-niXm5jxEeeL1aobXeI/edit#slide=id.p4)  
 - [K. Wong WGBS workflow with P. asteroides](https://github.com/kevinhwong1/Thermal_Transplant_Molecular/blob/main/scripts/Past_WGBS_Workflow.md)  
 - [D. Becker WGBS workflow with P. verrucosa](https://github.com/hputnam/Becker_E5/blob/master/Bioinformatics/Workflows/Becker_WGBS_Workflow.md)     
-- [E. Strand WGBS workflow with P.acuta](https://github.com/emmastrand/EmmaStrand_Notebook/blob/master/_posts/2021-10-21-HoloInt-WGBS-Analysis-Pipeline.md)  
+- [E. Strand WGBS workflow with P. acuta](https://github.com/emmastrand/EmmaStrand_Notebook/blob/master/_posts/2021-10-21-HoloInt-WGBS-Analysis-Pipeline.md)  
 - [E. Strand WGBS workflow with M. capitata](https://github.com/emmastrand/EmmaStrand_Notebook/blob/master/_posts/2021-10-21-KBay-Bleaching-Pairs-WGBS-Analysis-Pipeline.md)
 
 ## <a name="MBDBS"></a> **Laboratory method: Methyl-Binding Domain Bisulfite Sequencing (MBD-BS)**
@@ -28,4 +28,4 @@ We used the [Invitrogen Methylminer Methylated DNA Enrichment Kit](https://www.t
 
 We used the [Zymo Pico Methyl Seq Kit](https://www.zymoresearch.com/products/pico-methyl-seq-library-prep-kit). For full protocol details, see [here](https://github.com/hputnam/Cvir_Nut_Int#using-the-zymo-pico-methyl-seq-kit-on-the-mbd-enriched-eastern-oyster-dna-from-samples-from-rebecca-stevick). Bisulfite conversion steps convert any *un-methylated* cytosine into a uracil that in later steps becomes a thymine. With these sequences, you can compare to a reference genome and calculate the % methylation based on how many C's match the reference genome and how many T's don't.
 
-![](https://www.diagenode.com/img/categories/bisulfite-conversion/bisulfite-conversion-acgautac.png)
+![](https://nbis-workshop-epigenomics.readthedocs.io/en/latest/_images/biseq.png)
