@@ -4,7 +4,9 @@ Contents:
 - [**General lab resources**](#resources)   
 - [**Laboratory method: Methyl-Binding Domain Bisulfite Sequencing (MBD-BS)**](#MBDBS)
 - [**Sequencing**](#seq)   
-- [**Nextflow methylseq pipeline**](#methylseq)   
+- [**Nextflow methylseq pipeline: methylation quantification**](#methylseq)   
+- [**Merge strands**](#merge)   
+- [**Standardizing**](#standard)   
 
 ## <a name="resources"></a> **General lab resources**
 
@@ -49,7 +51,7 @@ C. virginica genome (the reference we will be using): https://www.ncbi.nlm.nih.g
 
 *Do we do fastqc/multiqc reports on these sequences? No because methylseq does this for us post QC?*
 
-## <a name="methylseq"></a> **Nextflow methylseq pipeline**
+## <a name="methylseq"></a> **Nextflow methylseq pipeline: methylation quantification**
 
 In these steps we are taking 2 fastq files per sample as an input, *insert summary of what is going on.*
 
@@ -164,3 +166,7 @@ nextflow run nf-core/methylseq \
 #### Overview
 
 *Describe output of this script -- what goes into outdir and what do we use to go into the next steps?*
+
+## <a name="merge"></a> **Merge strands**
+
+## <a name="standard"></a> **Standardizing**
