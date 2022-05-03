@@ -4,7 +4,7 @@ Contents:
 - [**General lab resources**](#resources)   
 - [**Laboratory method: Methyl-Binding Domain Bisulfite Sequencing (MBD-BS)**](#MBDBS)
 - [**Sequencing**](#seq)   
-- [**Bioinformatic pipeline**](#bioinfo)   
+- [**Nextflow methylseq pipeline**](#methylseq)   
 
 ## <a name="resources"></a> **General lab resources**
 
@@ -49,11 +49,9 @@ C. virginica genome (the reference we will be using): https://www.ncbi.nlm.nih.g
 
 *Do we do fastqc/multiqc reports on these sequences? No because methylseq does this for us post QC?*
 
-## <a name="bioinfo"></a> **Bioinformatic pipeline**
+## <a name="methylseq"></a> **Nextflow methylseq pipeline**
 
 In these steps we are taking 2 fastq files per sample as an input, *insert summary of what is going on.*
-
-### 1. Nextflow methylseq pipeline
 
 **[nf-core/methylseq](https://nf-co.re/methylseq/1.6.1)** is a methylation (Bisulfite-Sequencing) analysis pipeline using Bismark or bwa-meth + MethylDackel. It pre-processes raw data from FastQ inputs, aligns the reads and performs extensive quality-control on the results. The pipeline is built using [Nextflow](https://www.nextflow.io/), a workflow tool to run tasks across multiple compute infrastructures in a very portable manner. It comes with docker containers making installation trivial and results highly reproducible.
 
@@ -62,7 +60,7 @@ Definitions:
 - [methylseq](https://nf-co.re/methylseq/1.6.1): bioinformatic pipeline specific to DNA methylation data, found on nf-core webpage.     
 - [Nextflow](https://www.nextflow.io/): a framework that allows a bioinformatician to integrate all scripts into one cohesive pipeline that is reproducible, scalable, and checkpointed.
 
-#### Pipeline summary
+### Pipeline summary
 
 | **Step**                                       	| **Bismark workflow** 	| **bwa-meth workflow**     	|
 |--------------------------------------------	|------------------	|-----------------------	|
@@ -78,36 +76,35 @@ Definitions:
 | Sample complexity                          	| Preseq           	| Preseq                	|
 | Project Report                             	| MultiQC          	| MultiQC               	|
 
-#### Parameter choices
+### Parameter choices
 
-Usage choices:
+**Usage choices**:
 
 - `- profile`: [usage doc](https://nf-co.re/methylseq/usage#profile); we use the `singularity` profile *because insert reason*.    
 - `- resume`: [usage doc](https://nf-co.re/methylseq/usage#resume): this instructs methylseq to pick up where it left off (i.e. if the script got timed out). Not needed in example above.
 
-Input/output parameter choices [details here](https://nf-co.re/methylseq/1.6.1/parameters#inputoutput-options):  
+**Input/output parameter choices**;[details here](https://nf-co.re/methylseq/1.6.1/parameters#inputoutput-options):  
 
 - `--input '##PATH##'`: specifies where the script can find our fastq files.  
 - `--outdir '##PATH##'`: output directory where results will be saved (default: ``'./results'``).  
 - `--email`: email address for completion summary.  
 - `--single_end`: specifies that the input is single-end reads. This isn't applicable to our example above.
 
-Alignment parameter choices [details here](https://nf-co.re/methylseq/1.6.1/parameters#alignment-options):  
+If you have special library types (i.e. PBAT, EM-seq, single-cell bisulfite libraries), then there is a list of flag options to include ([details here](https://nf-co.re/methylseq/1.6.1/parameters#special-library-types))  
+*Should we be using the -zymo flag for a trimming preset for the Zymo kit?*
+
+**Alignment parameter choices**;[details here](https://nf-co.re/methylseq/1.6.1/parameters#alignment-options):  
 
 - `--aligner`: we chose `bismark` (which is the default), but other options include `bismark_hisat` and `bwameth`.  
 - `--comprehensive`: output information for all cytosine contexts. Not used in our example above.  
 
-If you have special library types (i.e. PBAT, EM-seq, single-cell bisulfite libraries), then there is a list of flag options to include ([details here](https://nf-co.re/methylseq/1.6.1/parameters#special-library-types))  
-
-*Should we be using the -zymo flag for a trimming preset for the Zymo kit?*
-
-Reference genome parameter choices; [details here](https://nf-co.re/methylseq/1.6.1/parameters#reference-genome-options):  
+**Reference genome parameter choices**; [details here](https://nf-co.re/methylseq/1.6.1/parameters#reference-genome-options):  
 
 - `--fasta ##PATH##`: path to FASTA genome file. There are more options for alternate reference genome flags in the link above.  
 - `--igenomes_ignore`: Do not load the iGenomes reference config. *Explain what an iGenome is.*
 - `--save_reference`: Save reference(s) to results directory.
 
-Adapter trimming parameter choices; [details here](https://nf-co.re/methylseq/1.6.1/parameters#adapter-trimming):
+**Adapter trimming parameter choices**; [details here](https://nf-co.re/methylseq/1.6.1/parameters#adapter-trimming):
 
 - `--clip_r1`: trim bases from the 5' end of read 1 (default = 0)  
 - `--clip_r2`: trim bases from the 5' end of read 2 (default = 0)  
@@ -116,7 +113,7 @@ Adapter trimming parameter choices; [details here](https://nf-co.re/methylseq/1.
 
 *Insert explanation of why parameters chosen.*
 
-Bismark parameter choices; [details here](https://nf-co.re/methylseq/1.6.1/parameters#bismark-options):
+**Bismark parameter choices**; [details here](https://nf-co.re/methylseq/1.6.1/parameters#bismark-options):
 
 - `--num_mismatches`: 0.6 will allow a penalty of bp * -0.6 - for 100bp reads (bismark default is 0.2) (methylseq pipeline default = 0.6)  
 - `--non_directional`: Run alignment against all four possible strands   
