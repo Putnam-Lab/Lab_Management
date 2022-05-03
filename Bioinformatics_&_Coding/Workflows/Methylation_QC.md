@@ -14,7 +14,7 @@ Contents:
 
 ## <a name="MBDBS"></a> **Laboratory method: Methyl-Binding Domain Bisulfite Sequencing (MBD-BS)**
 
-We used MBD-BS for our 2022 lab meetings oyster methylation paper: [Cvir github page](https://github.com/hputnam/Cvir_Nut_Int); [laboratory protocol details post](https://github.com/hputnam/Cvir_Nut_Int#m-schedl-mbdbs-library-preps). Other methods include Whole Genome Bisulfite Sequencing (WGBS) and RRBS (Reduced Representation Bisulfite Sequencing), but see methods comparison paper [Trigg et a 2021](https://onlinelibrary.wiley.com/doi/pdf/10.1111/1755-0998.13542).
+We used MBD-BS for our 2022 lab meetings oyster methylation paper: [Cvir github page](https://github.com/hputnam/Cvir_Nut_Int); [laboratory protocol details post](https://github.com/hputnam/Cvir_Nut_Int#m-schedl-mbdbs-library-preps). Other methods include Whole Genome Bisulfite Sequencing (WGBS) and RRBS (Reduced Representation Bisulfite Sequencing), but see methods comparison paper [Trigg et al 2021](https://onlinelibrary.wiley.com/doi/pdf/10.1111/1755-0998.13542).
 
 Because <20% of the genome is methylated for invertebrates and WGBS is costly, using a method that enriches for the methylated regions of the DNA prior to bisulfite sequencing can be beneficial.
 
