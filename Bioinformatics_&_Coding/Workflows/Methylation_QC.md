@@ -2,7 +2,9 @@
 
 Contents:   
 - [**General lab resources**](#resources)   
-- [**Laboratory method: Methyl-Binding Domain Bisulfite Sequencing (MBD-BS)**](#MBDBS)   
+- [**Laboratory method: Methyl-Binding Domain Bisulfite Sequencing (MBD-BS)**](#MBDBS)
+- [**Sequencing**](#seq)   
+- [**Bioinformatic pipeline**](#bioinfo)   
 
 ## <a name="resources"></a> **General lab resources**
 
@@ -29,3 +31,139 @@ We used the [Invitrogen Methylminer Methylated DNA Enrichment Kit](https://www.t
 We used the [Zymo Pico Methyl Seq Kit](https://www.zymoresearch.com/products/pico-methyl-seq-library-prep-kit). For full protocol details, see [here](https://github.com/hputnam/Cvir_Nut_Int#using-the-zymo-pico-methyl-seq-kit-on-the-mbd-enriched-eastern-oyster-dna-from-samples-from-rebecca-stevick). Bisulfite conversion steps convert any *un-methylated* cytosine into a uracil that in later steps becomes a thymine. With these sequences, you can compare to a reference genome and calculate the % methylation based on how many C's match the reference genome and how many T's don't.
 
 ![](https://nbis-workshop-epigenomics.readthedocs.io/en/latest/_images/biseq.png)
+
+![](https://www.bioscience.co.uk/userfiles/images/picomethylseq_correctsize.png)
+
+## <a name="seq"></a> **Sequencing**
+
+Samples are all pooled together (they have adapters on them so we can trace which read came from which sample) and then sequenced on a single Illumina NovaSeq S4 flow cell lane for 2 x 150 bp sequencing at Genewiz.
+
+Product from sequencing: each sample has a forward and reverse read:
+
+```
+#SAMPLE-NAME#_R1_001.fastq.gz  # forward
+#SAMPLE-NAME#_R2_001.fastq.gz  # reverse
+```
+
+C. virginica genome (the reference we will be using): https://www.ncbi.nlm.nih.gov/genome/398
+
+*Do we do fastqc/multiqc reports on these sequences? No because methylseq does this for us post QC?*
+
+## <a name="bioinfo"></a> **Bioinformatic pipeline**
+
+In these steps we are taking 2 fastq files per sample as an input, *insert summary of what is going on.*
+
+### 1. Nextflow methylseq pipeline
+
+**[nf-core/methylseq](https://nf-co.re/methylseq/1.6.1)** is a methylation (Bisulfite-Sequencing) analysis pipeline using Bismark or bwa-meth + MethylDackel. It pre-processes raw data from FastQ inputs, aligns the reads and performs extensive quality-control on the results. The pipeline is built using [Nextflow](https://www.nextflow.io/), a workflow tool to run tasks across multiple compute infrastructures in a very portable manner. It comes with docker containers making installation trivial and results highly reproducible.
+
+Definitions:  
+- [nf-core](https://nf-co.re/): a "project" that allows bioinformatics community to come together and share pipelines ("A community effort to collect a curated set of analysis pipelines built using Nextflow.").     
+- [methylseq](https://nf-co.re/methylseq/1.6.1): bioinformatic pipeline specific to DNA methylation data, found on nf-core webpage.     
+- [Nextflow](https://www.nextflow.io/): a framework that allows a bioinformatician to integrate all scripts into one cohesive pipeline that is reproducible, scalable, and checkpointed.
+
+#### Pipeline summary
+
+| **Step**                                       	| **Bismark workflow** 	| **bwa-meth workflow**     	|
+|--------------------------------------------	|------------------	|-----------------------	|
+| Generate Reference Genome Index (optional) 	| Bismark          	| bwa-meth              	|
+| Raw data QC                                	| FastQC           	| FastQC                	|
+| Adapter sequence trimming                  	| Trim Galore!     	| Trim Galore!          	|
+| Align Reads                                	| Bismark          	| bwa-meth              	|
+| Deduplicate Alignments                     	| Bismark          	| Picard MarkDuplicates 	|
+| Extract methylation calls                  	| Bismark          	| MethylDackel          	|
+| Sample report                              	| Bismark          	| -                     	|
+| Summary Report                             	| Bismark          	| -                     	|
+| Alignment QC                               	| Qualimap         	| Qualimap              	|
+| Sample complexity                          	| Preseq           	| Preseq                	|
+| Project Report                             	| MultiQC          	| MultiQC               	|
+
+#### Parameter choices
+
+Usage choices:
+
+- `- profile`: [usage doc](https://nf-co.re/methylseq/usage#profile); we use the `singularity` profile *because insert reason*.    
+- `- resume`: [usage doc](https://nf-co.re/methylseq/usage#resume): this instructs methylseq to pick up where it left off (i.e. if the script got timed out). Not needed in example above.
+
+Input/output parameter choices [details here](https://nf-co.re/methylseq/1.6.1/parameters#inputoutput-options):  
+
+- `--input '##PATH##'`: specifies where the script can find our fastq files.  
+- `--outdir '##PATH##'`: output directory where results will be saved (default: ``'./results'``).  
+- `--email`: email address for completion summary.  
+- `--single_end`: specifies that the input is single-end reads. This isn't applicable to our example above.
+
+Alignment parameter choices [details here](https://nf-co.re/methylseq/1.6.1/parameters#alignment-options):  
+
+- `--aligner`: we chose `bismark` (which is the default), but other options include `bismark_hisat` and `bwameth`.  
+- `--comprehensive`: output information for all cytosine contexts. Not used in our example above.  
+
+If you have special library types (i.e. PBAT, EM-seq, single-cell bisulfite libraries), then there is a list of flag options to include ([details here](https://nf-co.re/methylseq/1.6.1/parameters#special-library-types))  
+
+*Should we be using the -zymo flag for a trimming preset for the Zymo kit?*
+
+Reference genome parameter choices; [details here](https://nf-co.re/methylseq/1.6.1/parameters#reference-genome-options):  
+
+- `--fasta ##PATH##`: path to FASTA genome file. There are more options for alternate reference genome flags in the link above.  
+- `--igenomes_ignore`: Do not load the iGenomes reference config. *Explain what an iGenome is.*
+- `--save_reference`: Save reference(s) to results directory.
+
+Adapter trimming parameter choices; [details here](https://nf-co.re/methylseq/1.6.1/parameters#adapter-trimming):
+
+- `--clip_r1`: trim bases from the 5' end of read 1 (default = 0)  
+- `--clip_r2`: trim bases from the 5' end of read 2 (default = 0)  
+- `--three_prime_clip_r1`: Trim bases from the 3' end of read 1 AFTER adapter/quality trimming (default = 0)  
+- `--three_prime_clip_r2`: Trim bases from the 3' end of read 2 AFTER adapter/quality trimming (default = 0)  
+
+*Insert explanation of why parameters chosen.*
+
+Bismark parameter choices; [details here](https://nf-co.re/methylseq/1.6.1/parameters#bismark-options):
+
+- `--num_mismatches`: 0.6 will allow a penalty of bp * -0.6 - for 100bp reads (bismark default is 0.2) (methylseq pipeline default = 0.6)  
+- `--non_directional`: Run alignment against all four possible strands   
+- `--cytosine_report`: Output stranded cytosine report during Bismark's bismark_methylation_extractor step  
+- `--relax_mismatches`: Turn on to relax stringency for alignment (set allowed penalty with --num_mismatches).  
+- `--unmapped`: Save unmapped reads to FastQ files  
+- `--meth_cutoff`: Specify a minimum read coverage to report a methylation call. *insert why we don't use this.*  
+
+#### Script
+
+```
+#!/bin/bash
+#SBATCH --job-name="methylseq"
+#SBATCH -t 500:00:00
+#SBATCH --nodes=1 --ntasks-per-node=10
+#SBATCH --mem=120GB
+#SBATCH --account=putnamlab
+#SBATCH --export=NONE
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --mail-user=####insert mail address####
+#SBATCH -D ####insert directory####
+#SBATCH --exclusive
+
+# load modules needed
+
+module load Nextflow/21.03.0
+
+# run nextflow methylseq
+
+nextflow run nf-core/methylseq \
+-profile singularity \
+--aligner bismark \
+--igenomes_ignore \
+--fasta /data/putnamlab/kevin_wong1/Past_Genome/past_filtered_assembly.fasta \
+--save_reference \
+--input '/data/putnamlab/KITT/hputnam/20211008_Past_ThermalTransplant_WGBS/*_R{1,2}_001.fastq.gz' \
+--clip_r1 15 \
+--clip_r2 30 \
+--three_prime_clip_r1 30 \
+--three_prime_clip_r2 15 \
+--non_directional \
+--cytosine_report \
+--relax_mismatches \
+--unmapped \
+--outdir WGBS_methylseq
+```
+
+#### Overview
+
+*Describe output of this script -- what goes into outdir and what do we use to go into the next steps?*
