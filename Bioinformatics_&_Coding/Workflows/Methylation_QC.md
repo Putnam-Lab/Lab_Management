@@ -93,7 +93,7 @@ Definitions:
 - `--single_end`: specifies that the input is single-end reads. This isn't applicable to our example above.
 
 If you have special library types (i.e. PBAT, EM-seq, single-cell bisulfite libraries), then there is a list of flag options to include ([details here](https://nf-co.re/methylseq/1.6.1/parameters#special-library-types))  
-*Should we be using the -zymo flag for a trimming preset for the Zymo kit?*
+*Should we be using the -zymo flag for a trimming preset for the Zymo kit? See Adapter trimming sequences section*
 
 **Alignment parameter choices**;[details here](https://nf-co.re/methylseq/1.6.1/parameters#alignment-options):  
 
@@ -103,7 +103,7 @@ If you have special library types (i.e. PBAT, EM-seq, single-cell bisulfite libr
 **Reference genome parameter choices**; [details here](https://nf-co.re/methylseq/1.6.1/parameters#reference-genome-options):  
 
 - `--fasta ##PATH##`: path to FASTA genome file. There are more options for alternate reference genome flags in the link above.  
-- `--igenomes_ignore`: Do not load the iGenomes reference config. *Explain what an iGenome is.*
+- `--igenomes_ignore`: Do not load the iGenomes reference config. iGenomes are used if you are using a genome of a model organism. If you are providing your own reference genome, make sure to use this flag.
 - `--save_reference`: Save reference(s) to results directory.
 
 **Adapter trimming parameter choices**; [details here](https://nf-co.re/methylseq/1.6.1/parameters#adapter-trimming):
@@ -113,7 +113,7 @@ If you have special library types (i.e. PBAT, EM-seq, single-cell bisulfite libr
 - `--three_prime_clip_r1`: Trim bases from the 3' end of read 1 AFTER adapter/quality trimming (default = 0)  
 - `--three_prime_clip_r2`: Trim bases from the 3' end of read 2 AFTER adapter/quality trimming (default = 0)  
 
-*Insert explanation of why parameters chosen.*
+The goal of trimming the ends of sequences beyond the adapter is to reduce the [m-bias](https://rawgit.com/FelixKrueger/Bismark/master/Docs/Bismark_User_Guide.html#m-bias-plot). For an example of testing multiple parameters, see [this notebook post](https://kevinhwong1.github.io/KevinHWong_Notebook/Methylseq-trimming-test-to-remove-m-bias/).
 
 **Bismark parameter choices**; [details here](https://nf-co.re/methylseq/1.6.1/parameters#bismark-options):
 
@@ -149,24 +149,313 @@ nextflow run nf-core/methylseq \
 -profile singularity \
 --aligner bismark \
 --igenomes_ignore \
---fasta /data/putnamlab/kevin_wong1/Past_Genome/past_filtered_assembly.fasta \
+--fasta <PATH_TO_GENOME_FASTA> \
 --save_reference \
---input '/data/putnamlab/KITT/hputnam/20211008_Past_ThermalTransplant_WGBS/*_R{1,2}_001.fastq.gz' \
---clip_r1 15 \
---clip_r2 30 \
---three_prime_clip_r1 30 \
---three_prime_clip_r2 15 \
+--input '<PATH_TO_RAW_SEQUENCES>/*_R{1,2}_001.fastq.gz' \
+--clip_r1 15 \ #Modify to your samples
+--clip_r2 30 \ #Modify to your samples  
+--three_prime_clip_r1 30 \ #Modify to your samples
+--three_prime_clip_r2 15 \ #Modify to your samples
 --non_directional \
 --cytosine_report \
 --relax_mismatches \
 --unmapped \
---outdir WGBS_methylseq
+--outdir WGBS_methylseq #Change if you want to change the name of the output folder
 ```
 
 #### Overview
 
-*Describe output of this script -- what goes into outdir and what do we use to go into the next steps?*
+Once this script is completed, you will get mutiple folders within the `--outdir` folder. In the `MultiQC` folder, you will have a `multiqc_report.html`, which you can export to your local computer and get a comprehensive report the methylation calls for each sample. An example of a MultiQC report can be found [here](https://multiqc.info/examples/bs-seq/multiqc_report.html).
+
+The files generated from `methylseq` that we will use in further analyses will be found in `bismark_methylation_calls/methylation_coverage/*deduplicated.bismark.cov.gz`.
+
 
 ## <a name="merge"></a> **Merge strands**
 
-## <a name="standard"></a> **Standardizing**
+The Bismark `coverage2cytosine` command re-reads the genome-wide report and merges methylation evidence of both top and bottom strand to create one file.
+
+**Input File:**
+* `*deduplicated.bismark.cov.gz`
+
+**Output File:**
+* `*merged_CpG_evidence.cov`
+
+#### Script
+
+`mkdir cov_to_cyto`
+
+`cov_to_cyto.sh`
+
+```
+#!/bin/bash
+#SBATCH -t 500:00:00
+#SBATCH --nodes=1 --ntasks-per-node=10
+#SBATCH --mem=120GB
+#SBATCH --account=putnamlab
+#SBATCH --export=NONE
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --mail-user=####insert mail address####
+#SBATCH -D <PATH_TO_outdir>/cov_to_cyto
+#SBATCH --exclusive
+
+# load modules needed
+
+module load Bismark/0.20.1-foss-2018b
+
+# run coverage2cytosine merge of strands
+
+ find <PATH_TO_outdir>/bismark_methylation_calls/methylation_coverage/*deduplicated.bismark.cov.gz \
+ | xargs basename -s _L004_R1_001_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz \
+ | xargs -I{} coverage2cytosine \
+ --genome_folder <PATH_TO_outdir>/reference_genome/BismarkIndex \
+ -o {} \
+ --merge_CpG \
+ --zero_based \
+<PATH_TO_outdir>/bismark_methylation_calls/methylation_coverage/{}_L004_R1_001_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz
+```
+
+
+## <a name="standard"></a> **Filter for a specific coverage (e.g. 5x, 10x)**
+
+Here, we are running a loop to filter CpGs for a specified coverage and creating tab files. For the sake of this tutorial, we will continue the rest of the analysis for 5x coverage.
+
+Each `.cov` will look like the table below without the headers:
+
+| Scaffhold | Start Position | Stop Position | % Methylated | Methylated | Unmethylated |
+|:---------:|:--------------:|:-------------:|:------------:|:----------:|:------------:|
+|  000000F  |      29076     |     29078     |   0.000000   |      0     |       5      |
+|  000000F  |      29158     |     29160     |   0.000000   |      0     |      12      |
+|  000000F  |      29185     |     29187     |   0.000000   |      0     |       8      |
+|  000000F  |      29215     |     29217     |   0.000000   |      0     |       4      |
+|  000000F  |      29232     |     29234     |   0.000000   |      0     |       3      |
+|  000000F  |      29241     |     29243     |   11.111111  |      1     |       8      |
+|  000000F  |      29277     |     29279     |   0.000000   |      0     |      11      |
+|  000000F  |      29282     |     29284     |   0.000000   |      0     |      12      |
+|  000000F  |      29313     |     29315     |   0.000000   |      0     |      11      |
+|    29335  |      29335     |     29337     |   0.000000   |      0     |      10      |
+
+Essentially, the loop in this script adds columns 5 (Methylated) and 6 (Unmethylated) positions and keeps that row if it is greater than or equal to 5. This means that we have 5x coverage for this position. This limits our interpretation to 0%, 20%, 40%, 60%, 80%, 100% methylation resolution per position.
+
+
+**Input File:**
+* `*merged_CpG_evidence.cov`
+
+**Output File:**
+* `5x_sorted.tab`
+
+#### Script
+
+`bedtools_sort_cov5x.sh`
+
+```
+#!/bin/bash
+#SBATCH -t 500:00:00
+#SBATCH --nodes=1 --ntasks-per-node=10
+#SBATCH --mem=120GB
+#SBATCH --account=putnamlab
+#SBATCH --export=NONE
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --mail-user=####insert mail address####
+#SBATCH -D <PATH_TO_outdir>/cov_to_cyto
+#SBATCH --exclusive
+
+module load BEDTools/2.27.1-foss-2018b
+
+### Sorting the .cov files so all lines are in the same order
+for f in *merged_CpG_evidence.cov
+do
+  STEM=$(basename "${f}" .CpG_report.merged_CpG_evidence.cov)
+  bedtools sort -i "${f}" \
+  > "${STEM}"_sorted.cov
+done
+
+### Filtering for CpG for 5x coverage. To change the coverage, replace X with your desired coverage in ($5+6 >= X)
+
+for f in *_sorted.cov
+do
+  STEM=$(basename "${f}" _sorted.cov)
+  cat "${f}" | awk -F $'\t' 'BEGIN {OFS = FS} {if ($5+$6 >= 5) {print $1, $2, $3, $4, $5, $6}}' \
+  > "${STEM}"_5x_sorted.tab
+done
+```
+
+Your output file should now look like the example below:
+
+```
+000000F 19622   19624   0.000000        0       11
+000000F 19640   19642   0.000000        0       11
+000000F 19656   19658   0.000000        0       10
+000000F 19673   19675   0.000000        0       7
+000000F 19678   19680   0.000000        0       6
+000000F 19702   19704   0.000000        0       7
+000000F 19708   19710   0.000000        0       7
+```
+
+## <a name="standard"></a> **Create a file with positions found in all samples at specified coverage**
+
+For a later step, we need to create a file that identifies the positions found in all samples. This includes both methylated and unmethylated positions after filtering for a specific coverage. First, we will use  `multiIntersectBed` to create a file that merges all of the samples together. In the fourth column of this file, it tells you how many samples have that position (i.e. row). Second, we filter the positions that are present in all of the samples (i.e. the fourth column should equal the number of samples you have in your dataset).
+
+**Input File:**
+* `5x_sorted.tab`
+
+**Output File:**
+* `CpG.filt.all.samps.5x_sorted.bed`
+
+#### Script
+
+`5x_intersect.sh`
+
+```
+#!/bin/bash
+#SBATCH -t 500:00:00
+#SBATCH --nodes=1 --ntasks-per-node=10
+#SBATCH --mem=120GB
+#SBATCH --account=putnamlab
+#SBATCH --export=NONE
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --mail-user=####insert mail address####
+#SBATCH -D <PATH_TO_outdir>/cov_to_cyto
+#SBATCH --exclusive
+
+# load modules needed
+
+module load BEDTools/2.27.1-foss-2018b
+
+multiIntersectBed -i *_5x_sorted.tab > CpG.all.samps.5x_sorted.bed
+
+cat CpG.all.samps.5x_sorted.bed | awk '$4 ==<INSERT_NUMBER_OF_SAMPLES>' > CpG.filt.all.samps.5x_sorted.bed
+```
+
+## <a name="standard"></a> **Gene Annotation**
+
+This step needs a gff file that is only includes gene positions. If you do not have a modified gff with only genes, run the following code:
+
+```bash
+awk '{if ($3 == "gene") {print}}' <ORIGINAL.gff>  > <MODIFIED.gene.gff>
+```
+
+Now we can use `intersectBed` to merge the gene annotation file with each sample file.
+
+**Input File:**
+* `*5x_sorted.tab`
+* `MODIFIED.gene.gff`
+
+**Output File:**
+* `*_5x_sorted.tab_gene`
+
+#### Script
+
+`5x_intersectBed.sh`
+
+```
+#!/bin/bash
+#SBATCH -t 500:00:00
+#SBATCH --nodes=1 --ntasks-per-node=10
+#SBATCH --mem=120GB
+#SBATCH --account=putnamlab
+#SBATCH --export=NONE
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --mail-user=####insert mail address####
+#SBATCH -D <PATH_TO_outdir>/cov_to_cyto
+#SBATCH --exclusive
+
+module load BEDTools/2.27.1-foss-2018b
+
+for i in *5x_sorted.tab
+do
+  intersectBed \
+  -wb \
+  -a ${i} \
+  -b MODIFIED.gene.gff \
+  > ${i}_gene
+done
+
+```
+
+Your file should now look like the example below:
+
+```
+000000F 24523   24525   20.000000       1       4       000000F maker   gene    24295   26964   .       +       .       ID=Pastreoides00003;Name=Pastreoides00003;Alias=maker-000000F-augustus-gene-0.47;
+000000F 24539   24541   0.000000        0       6       000000F maker   gene    24295   26964   .       +       .       ID=Pastreoides00003;Name=Pastreoides00003;Alias=maker-000000F-augustus-gene-0.47;
+000000F 24582   24584   0.000000        0       12      000000F maker   gene    24295   26964   .       +       .       ID=Pastreoides00003;Name=Pastreoides00003;Alias=maker-000000F-augustus-gene-0.47;
+000000F 24588   24590   0.000000        0       11      000000F maker   gene    24295   26964   .       +       .       ID=Pastreoides00003;Name=Pastreoides00003;Alias=maker-000000F-augustus-gene-0.47;
+000000F 24617   24619   0.000000        0       10      000000F maker   gene    24295   26964   .       +       .       ID=Pastreoides00003;Name=Pastreoides00003;Alias=maker-000000F-augustus-gene-0.47;
+000000F 24619   24621   0.000000        0       10      000000F maker   gene    24295   26964   .       +       .       ID=Pastreoides00003;Name=Pastreoides00003;Alias=maker-000000F-augustus-gene-0.47;
+```
+
+## <a name="standard"></a> **Intersect with file to subset only those positions found in all samples**
+
+Now we are using the `CpG.filt.all.samps.5x_sorted.bed` file we created 2 steps above to filter for the positions found in all samples for each annotated file at that specific coverage.
+
+**Input File:**
+* `*_5x_sorted.tab_gene`
+* `CpG.filt.all.samps.5x_sorted.bed`
+
+**Output File:**
+* `*CpG_5x_enrichment.bed`
+
+
+#### Script
+
+`5x_intersect_final.sh`
+
+```
+#!/bin/bash
+#SBATCH -t 500:00:00
+#SBATCH --nodes=1 --ntasks-per-node=10
+#SBATCH --mem=120GB
+#SBATCH --account=putnamlab
+#SBATCH --export=NONE
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --mail-user=####insert mail address####
+#SBATCH -D <PATH_TO_outdir>/cov_to_cyto
+#SBATCH --exclusive
+
+# load modules needed
+
+module load BEDTools/2.27.1-foss-2018b
+
+for i in *_5x_sorted.tab_gene
+do
+  intersectBed \
+  -a ${i} \
+  -b CpG.filt.all.samps.5x_sorted.bed \
+  > ${i}_CpG_5x_enrichment.bed
+done
+```
+
+All of your sample files now should have the same number of positions (i.e. lines). To double check this before exporting these bedfiles to your local computer, use `wc -l *5x_enrichment.bed`. All of your files should have the same number of lines like the example below:
+
+```
+103636 18-106_S163_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 18-118_S162_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 18-130_S172_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 18-142_S189_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 18-167_S166_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 18-190_S186_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 18-202_S188_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 18-227_S170_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 18-322_S180_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 18-358_S201_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 18-370_S171_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 18-406_S177_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 18-418_S196_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 18-454_S197_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 18-55_S190_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 L-1029_S183_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 L-1038_S184_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 L-1053_S167_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 L-1059_S175_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 L-1093_S168_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 L-1257_S205_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 L-1263_S173_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 L-562_S174_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 L-571_S194_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 L-661_S182_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 L-704_S169_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 L-728_S161_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 L-862_S200_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 L-924_S204_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+103636 L-933_S203_5x_sorted.tab_gene_CpG_5x_enrichment.bed
+ 3109080 total
+```
