@@ -6,7 +6,10 @@ Contents:
 - [**Sequencing**](#seq)   
 - [**Nextflow methylseq pipeline: methylation quantification**](#methylseq)   
 - [**Merge strands**](#merge)   
-- [**Standardizing**](#standard)   
+- [**Filter for a specific coverage (e.g. 5x, 10x)**](#5x)   
+- [**Create a file with positions found in all samples at specified coverage**](#all_positions)   
+- [**Gene Annotation**](#annotation)   
+- [**Intersect with file to subset only those positions found in all samples**](#final_positions)   
 
 ## <a name="resources"></a> **General lab resources**
 
@@ -49,7 +52,7 @@ Product from sequencing: each sample has a forward and reverse read:
 
 C. virginica genome (the reference we will be using): https://www.ncbi.nlm.nih.gov/genome/398
 
-*Do we do fastqc/multiqc reports on these sequences? No because methylseq does this for us post QC?*
+We don't do a multiqc report prior to methylseq because it is embedded in that script and will be an output file at the end. You could do this before if you needed to.
 
 ## <a name="methylseq"></a> **Nextflow methylseq pipeline: methylation quantification**
 
@@ -63,6 +66,8 @@ Definitions:
 - [Nextflow](https://www.nextflow.io/): a framework that allows a bioinformatician to integrate all scripts into one cohesive pipeline that is reproducible, scalable, and checkpointed.
 
 ### Pipeline summary
+
+We use the bismark workflow in our current pipelines.
 
 | **Step**                                       	| **Bismark workflow** 	| **bwa-meth workflow**     	|
 |--------------------------------------------	|------------------	|-----------------------	|
@@ -82,7 +87,7 @@ Definitions:
 
 **Usage choices**:
 
-- `- profile`: [usage doc](https://nf-co.re/methylseq/usage#profile); we use the `singularity` profile *because insert reason*.    
+- `- profile`: [usage doc](https://nf-co.re/methylseq/usage#profile); we use the `singularity` profile. Similar to a conda envirionment in that it is a contained workspace.      
 - `- resume`: [usage doc](https://nf-co.re/methylseq/usage#resume): this instructs methylseq to pick up where it left off (i.e. if the script got timed out). Not needed in example above.
 
 **Input/output parameter choices**;[details here](https://nf-co.re/methylseq/1.6.1/parameters#inputoutput-options):  
@@ -92,8 +97,7 @@ Definitions:
 - `--email`: email address for completion summary.  
 - `--single_end`: specifies that the input is single-end reads. This isn't applicable to our example above.
 
-If you have special library types (i.e. PBAT, EM-seq, single-cell bisulfite libraries), then there is a list of flag options to include ([details here](https://nf-co.re/methylseq/1.6.1/parameters#special-library-types))  
-*Should we be using the -zymo flag for a trimming preset for the Zymo kit? See Adapter trimming sequences section*
+If you have special library types (i.e. PBAT, EM-seq, single-cell bisulfite libraries), then there is a list of flag options to include ([details here](https://nf-co.re/methylseq/1.6.1/parameters#special-library-types)). There is a zymo flag for adapter timmining sequences, but see below section on adapter trimming trials.
 
 **Alignment parameter choices**;[details here](https://nf-co.re/methylseq/1.6.1/parameters#alignment-options):  
 
@@ -122,7 +126,7 @@ The goal of trimming the ends of sequences beyond the adapter is to reduce the [
 - `--cytosine_report`: Output stranded cytosine report during Bismark's bismark_methylation_extractor step  
 - `--relax_mismatches`: Turn on to relax stringency for alignment (set allowed penalty with --num_mismatches).  
 - `--unmapped`: Save unmapped reads to FastQ files  
-- `--meth_cutoff`: Specify a minimum read coverage to report a methylation call. *insert why we don't use this.*  
+- `--meth_cutoff`: Specify a minimum read coverage to report a methylation call. We do this later in our workflow, not within methylseq.  
 
 #### Script
 
@@ -142,6 +146,10 @@ The goal of trimming the ends of sequences beyond the adapter is to reduce the [
 # load modules needed
 
 module load Nextflow/21.03.0
+
+# make directory for Output
+
+mkdir WGBS_methylseq  # only run this line if you don't have the directory created
 
 # run nextflow methylseq
 
@@ -165,7 +173,7 @@ nextflow run nf-core/methylseq \
 
 #### Overview
 
-Once this script is completed, you will get mutiple folders within the `--outdir` folder. In the `MultiQC` folder, you will have a `multiqc_report.html`, which you can export to your local computer and get a comprehensive report the methylation calls for each sample. An example of a MultiQC report can be found [here](https://multiqc.info/examples/bs-seq/multiqc_report.html).
+Once this script is completed, you will get multiple folders within the `--outdir` folder. In the `MultiQC` folder, you will have a `multiqc_report.html`, which you can export to your local computer and get a comprehensive report the methylation calls for each sample. An example of a MultiQC report can be found [here](https://multiqc.info/examples/bs-seq/multiqc_report.html).
 
 The files generated from `methylseq` that we will use in further analyses will be found in `bismark_methylation_calls/methylation_coverage/*deduplicated.bismark.cov.gz`.
 
@@ -214,14 +222,13 @@ module load Bismark/0.20.1-foss-2018b
 <PATH_TO_outdir>/bismark_methylation_calls/methylation_coverage/{}_L004_R1_001_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz
 ```
 
-
-## <a name="standard"></a> **Filter for a specific coverage (e.g. 5x, 10x)**
+## <a name="5x"></a> **Filter for a specific coverage (e.g. 5x, 10x)**
 
 Here, we are running a loop to filter CpGs for a specified coverage and creating tab files. For the sake of this tutorial, we will continue the rest of the analysis for 5x coverage.
 
 Each `.cov` will look like the table below without the headers:
 
-| Scaffhold | Start Position | Stop Position | % Methylated | Methylated | Unmethylated |
+| Scaffold | Start Position | Stop Position | % Methylated | Methylated | Unmethylated |
 |:---------:|:--------------:|:-------------:|:------------:|:----------:|:------------:|
 |  000000F  |      29076     |     29078     |   0.000000   |      0     |       5      |
 |  000000F  |      29158     |     29160     |   0.000000   |      0     |      12      |
@@ -291,7 +298,7 @@ Your output file should now look like the example below:
 000000F 19708   19710   0.000000        0       7
 ```
 
-## <a name="standard"></a> **Create a file with positions found in all samples at specified coverage**
+## <a name="all_positions"></a> **Create a file with positions found in all samples at specified coverage**
 
 For a later step, we need to create a file that identifies the positions found in all samples. This includes both methylated and unmethylated positions after filtering for a specific coverage. First, we will use  `multiIntersectBed` to create a file that merges all of the samples together. In the fourth column of this file, it tells you how many samples have that position (i.e. row). Second, we filter the positions that are present in all of the samples (i.e. the fourth column should equal the number of samples you have in your dataset).
 
@@ -326,7 +333,7 @@ multiIntersectBed -i *_5x_sorted.tab > CpG.all.samps.5x_sorted.bed
 cat CpG.all.samps.5x_sorted.bed | awk '$4 ==<INSERT_NUMBER_OF_SAMPLES>' > CpG.filt.all.samps.5x_sorted.bed
 ```
 
-## <a name="standard"></a> **Gene Annotation**
+## <a name="annotation"></a> **Gene Annotation**
 
 This step needs a gff file that is only includes gene positions. If you do not have a modified gff with only genes, run the following code:
 
@@ -383,7 +390,7 @@ Your file should now look like the example below:
 000000F 24619   24621   0.000000        0       10      000000F maker   gene    24295   26964   .       +       .       ID=Pastreoides00003;Name=Pastreoides00003;Alias=maker-000000F-augustus-gene-0.47;
 ```
 
-## <a name="standard"></a> **Intersect with file to subset only those positions found in all samples**
+## <a name="final_positions"></a> **Intersect with file to subset only those positions found in all samples**
 
 Now we are using the `CpG.filt.all.samps.5x_sorted.bed` file we created 2 steps above to filter for the positions found in all samples for each annotated file at that specific coverage.
 
@@ -459,3 +466,7 @@ All of your sample files now should have the same number of positions (i.e. line
 103636 L-933_S203_5x_sorted.tab_gene_CpG_5x_enrichment.bed
  3109080 total
 ```
+
+#### Now we can export this locally and analyze in R.
+
+*Link R scripts here.*
