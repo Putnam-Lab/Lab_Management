@@ -1,5 +1,8 @@
 # DNA methylation workflows: bioinformatic pipeline for quality control
 
+Written by: Kevin Wong and Emma Strand  
+Spring 2022
+
 Contents:   
 - [**General lab resources**](#resources)   
 - [**Laboratory method: Methyl-Binding Domain Bisulfite Sequencing (MBD-BS)**](#MBDBS)
@@ -41,7 +44,7 @@ We used the [Zymo Pico Methyl Seq Kit](https://www.zymoresearch.com/products/pic
 
 ## <a name="seq"></a> **Sequencing**
 
-Samples are all pooled together (they have adapters on them so we can trace which read came from which sample) and then sequenced on a single Illumina NovaSeq S4 flow cell lane for 2 x 150 bp sequencing at Genewiz.
+For oyster paper (Spring 2022 lab meetings): Samples are all pooled together (they have adapters on them so we can trace which read came from which sample) and then sequenced on a single Illumina NovaSeq S4 flow cell lane for 2 x 150 bp sequencing at Genewiz.
 
 Product from sequencing: each sample has a forward and reverse read:
 
@@ -50,13 +53,15 @@ Product from sequencing: each sample has a forward and reverse read:
 #SAMPLE-NAME#_R2_001.fastq.gz  # reverse
 ```
 
-C. virginica genome (the reference we will be using): https://www.ncbi.nlm.nih.gov/genome/398
+C. virginica genome (the reference we will be using for oyster paper): https://www.ncbi.nlm.nih.gov/genome/398
 
-We don't do a multiqc report prior to methylseq because it is embedded in that script and will be an output file at the end. You could do this before if you needed to.
+**We suggest running fastqc and multiqc on your raw files first to make sure our reads are high quality and there are not any issues with the sequencing itself.**
+
+## How to address batch effects
+
+*Insert more information here.*
 
 ## <a name="methylseq"></a> **Nextflow methylseq pipeline: methylation quantification**
-
-In these steps we are taking 2 fastq files per sample as an input, *insert summary of what is going on.*
 
 **[nf-core/methylseq](https://nf-co.re/methylseq/1.6.1)** is a methylation (Bisulfite-Sequencing) analysis pipeline using Bismark or bwa-meth + MethylDackel. It pre-processes raw data from FastQ inputs, aligns the reads and performs extensive quality-control on the results. The pipeline is built using [Nextflow](https://www.nextflow.io/), a workflow tool to run tasks across multiple compute infrastructures in a very portable manner. It comes with docker containers making installation trivial and results highly reproducible.
 
@@ -83,12 +88,22 @@ We use the bismark workflow in our current pipelines.
 | Sample complexity                          	| Preseq           	| Preseq                	|
 | Project Report                             	| MultiQC          	| MultiQC               	|
 
+Deduplicate alignments information: This is only needed for WGBS and MBD-BS reads (not RRBS). This is done to remove PCR-based duplication.
+
+From a helpful [Bismark issue post](https://github.com/FelixKrueger/Bismark/issues/400):
+
+The duplication plot in FastQC works simply on the sequence level of all sequences in the file, and more specifically on the first 50bp in case your reads were longer than that. It stores the first 200,000 different sequences, and follows these sequences to the end of the file. Exact matches of 50bp are counted as duplicates.
+
+The deduplication of deduplicate_bismark uses the mapping position instead, so chromosome, start (as well as end for PE files) and orientation of the alignment. In contrast to FastQC, 100% would refer to 100% of all aligned sequences, so if your unique alignment rate was only say 50%, the value you would get here could be substantially different to the one from FastQC.
+
+*Insert more information here.*
+
 ### Parameter choices
 
 **Usage choices**:
 
-- `- profile`: [usage doc](https://nf-co.re/methylseq/usage#profile); we use the `singularity` profile. Similar to a conda envirionment in that it is a contained workspace.      
-- `- resume`: [usage doc](https://nf-co.re/methylseq/usage#resume): this instructs methylseq to pick up where it left off (i.e. if the script got timed out). Not needed in example above.
+- `--profile`: [usage doc](https://nf-co.re/methylseq/usage#profile); we use the `singularity` profile. Similar to a conda envirionment in that it is a contained workspace.      
+- `--resume`: [usage doc](https://nf-co.re/methylseq/usage#resume): this instructs methylseq to pick up where it left off (i.e. if the script got timed out). Not needed in example above.
 
 **Input/output parameter choices**;[details here](https://nf-co.re/methylseq/1.6.1/parameters#inputoutput-options):  
 
@@ -103,6 +118,14 @@ If you have special library types (i.e. PBAT, EM-seq, single-cell bisulfite libr
 
 - `--aligner`: we chose `bismark` (which is the default), but other options include `bismark_hisat` and `bwameth`.  
 - `--comprehensive`: output information for all cytosine contexts. Not used in our example above.  
+
+More information on aligners from the usage docs:  
+
+The nf-core/methylseq package is actually two pipelines in one. The default workflow uses Bismark with Bowtie2 as alignment tool: unless specified otherwise, nf-core/methylseq will run this pipeline.
+
+Since bismark v0.21.0 it is also possible to use HISAT2 as alignment tool. To run this workflow, invoke the pipeline with the command line flag --aligner bismark_hisat. HISAT2 also supports splice-aware alignment if analysis of RNA is desired (e.g. SLAMseq experiments), a file containing a list of known splicesites can be provided with --known_splices.
+
+The second workflow uses BWA-Meth and MethylDackel instead of Bismark. To run this workflow, run the pipeline with the command line flag --aligner bwameth.
 
 **Reference genome parameter choices**; [details here](https://nf-co.re/methylseq/1.6.1/parameters#reference-genome-options):  
 
@@ -127,6 +150,18 @@ The goal of trimming the ends of sequences beyond the adapter is to reduce the [
 - `--relax_mismatches`: Turn on to relax stringency for alignment (set allowed penalty with --num_mismatches).  
 - `--unmapped`: Save unmapped reads to FastQ files  
 - `--meth_cutoff`: Specify a minimum read coverage to report a methylation call. We do this later in our workflow, not within methylseq.  
+
+More info on mismatch parameters (from the usage doc above):
+
+By default, Bismark is pretty strict about which alignments it accepts as valid. If you have good reason to believe that your reads will contain more mismatches than normal, this flags can be used to relax the stringency that Bismark uses when accepting alignments. This can greatly improve the number of aligned reads you get back, but may negatively impact the quality of your data.
+
+Bismark uses the Bowtie alignment scoring mechanism to filter reads. Mismatches cost -6, gap opening -5 and gap extension -2. So, a threshold of-60 would allow 10 mismatches or ~ 8 x 1-2bp indels. The threshold is dependent on the length of reads, so a penalty value is used where penalty * bp read length = threshold.
+
+The penalty value used by Bismark by default is 0.2, so for 100bp reads this would be a threshold of -20.
+
+If you specifying the --relax_mismatches pipeline flag, Bismark instead uses 0.6, or a threshold of -60. This adds the Bismark flag --score_min L,0,-0.6 to the alignment command.
+
+The penalty value can be modified using the --num_mismatches pipeline option.
 
 #### Script
 
