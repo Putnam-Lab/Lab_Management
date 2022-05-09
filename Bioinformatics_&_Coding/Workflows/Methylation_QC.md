@@ -88,7 +88,7 @@ We use the bismark workflow in our current pipelines.
 | Sample complexity                          	| Preseq           	| Preseq                	|
 | Project Report                             	| MultiQC          	| MultiQC               	|
 
-Deduplicate alignments information: This is only needed for WGBS and MBD-BS reads (not RRBS). This is done to remove PCR-based duplication.
+Deduplicate alignments information: This is only needed for WGBS and is not recommended for reduced representation methods like MBD-BS and RRBS. This is done to remove PCR-based duplication.
 
 From a helpful [Bismark issue post](https://github.com/FelixKrueger/Bismark/issues/400):
 
@@ -96,7 +96,7 @@ The duplication plot in FastQC works simply on the sequence level of all sequenc
 
 The deduplication of deduplicate_bismark uses the mapping position instead, so chromosome, start (as well as end for PE files) and orientation of the alignment. In contrast to FastQC, 100% would refer to 100% of all aligned sequences, so if your unique alignment rate was only say 50%, the value you would get here could be substantially different to the one from FastQC.
 
-*Insert more information here.*
+Additional info on this found on [Bismark documentation](http://felixkrueger.github.io/Bismark/Docs/).
 
 ### Parameter choices
 
