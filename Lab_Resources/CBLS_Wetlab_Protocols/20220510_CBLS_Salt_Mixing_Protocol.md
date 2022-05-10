@@ -32,10 +32,12 @@ Contents
 2. <a name="Protocol"></a> **Protocol**
 - <a name="DI"></a> **Fill DI header tank**
     1. Before you begin the salt mixing process you must first fill the white 165 gallon DI header tank.
+
       - **This can take ~10 hours to fill so start the day before**
     2. To begin filling the DI header tank, you need to turn the metal spicket on the far wall behind the blue tank system to the on position (vertical).
       - [DI tank fill spicket](https://youtube.com/shorts/JiGZhvBDHuQ)  
       [![DI tank fill](https://img.youtube.com/vi/JiGZhvBDHuQ/0.jpg)](https://youtube.com/shorts/JiGZhvBDHuQ "DI fill")
+    3. Make sure to look inside the DI header tank to check that there is a slight flow of water coming in from the spicket at the top of the tank.
 
 
   - <a name="Salt"></a> **Transfer DI water to salt mixing tank**
