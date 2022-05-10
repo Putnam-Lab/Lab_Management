@@ -47,6 +47,13 @@ Contents
     3. The blue valve towards the bottom of the header tanks can always be left open. It is in between the two bottom blue valves and is slightly above the floor level closest to the yellow pump.
     4. To begin, **CLOSE** the top blue valve going from the two white header tanks to the black floor header tank (middle top pipe/valve), **CLOSE** the top blue valve coming from the DI header tank (left top pipe/valve), and **CLOSE** the bottom blue valve going into the salt mixing tank (bottom right pipe/valve).
     5. You will then need to **OPEN** the top blue valve coming from the salt mixing tank (right top pipe/valve) and **OPEN** the bottom blue valve coming from the DI header tank (bottom left pipe/valve).
+
+    ![ditank](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Lab_Resources/CBLS_Wetlab_Protocols/images/DI_transfer1.jpg)
+
+    ![di](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Lab_Resources/CBLS_Wetlab_Protocols/images/DI_transfer2.jpg)
+
+    ![di3](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Lab_Resources/CBLS_Wetlab_Protocols/images/DI_transfer3.jpg)
+
     6. Once all valves are properly opened or closed, you will need to turn on the yellow pump that sits on the floor between the two white 165 gallon header tanks. To do so, you turn on the white extension cord that is attached with cable ties securely underneath the blue tanks.
     7. Once on, you will be able to hear a strong flow coming into the salt mixing tank. The salt mixing tank will fill within ~20 minutes so make sure to stay by the tanks at this point.
     8. During the filling of the salt mixing tank you can start to pour in the [Fritz Pro Aquatics Reef Pro Mix](https://www.amazon.com/Fritz-Aquatics-80243-Complete-Marine/dp/B01K4YY8HM) to the salt mixing tank. Follow the instructions below for the amount that you want to mix for the desired salinity. We want the salinity in the salt mixing tank between 34 and 36 psu.
@@ -62,6 +69,13 @@ Contents
   4. The blue valve towards the bottom of the header tanks can always be left open. It is in between the two bottom blue valves and is slightly above the floor level closest to the yellow pump.
   5. To begin, **CLOSE** the top blue valve going from the two white header tanks to the black floor header tank (middle top pipe/valve), **CLOSE** the top blue valve coming from the DI header tank (left top pipe/valve), and **CLOSE** the bottom blue valve coming from the DI header tank (bottom left pipe/valve).
   6. You will then need to **OPEN** the top blue valve coming from the salt mixing tank (right top pipe/valve) and **OPEN** the bottom blue valve going into the salt mixing header tank (bottom right pipe/valve).
+
+    ![saltmix](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Lab_Resources/CBLS_Wetlab_Protocols/images/Salt_mix1.jpg)
+
+    ![salt](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Lab_Resources/CBLS_Wetlab_Protocols/images/Salt_mix2.jpg)
+
+    ![water](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Lab_Resources/CBLS_Wetlab_Protocols/images/Salt_mix3.jpg)
+
   7. Once all valves are properly opened or closed, you will need to turn on the yellow pump that sits on the floor between the two white 165 gallon header tanks. To do so, you turn on the white extension cord that is attached with cable ties securely underneath the blue tanks.
   8. Once on, you will be able to hear a strong flow coming into the salt mixing tank. This is water that is being pumped from the bottom of the salt mixing tank back through the top. Leave this running for ~24 hours.
   9. Using the [Thermo Scientific Orion Star A222 Conductivity Portable Meter](https://www.fishersci.com/shop/products/orion-star-a222-conductivity-portable-meter/p-4529310) measure the salinity as often as you can and add more DI water or more salt mix as needed. Follow the [Orion Star Conductivity Measurement Protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/Orion_MultiParameter_Sensor_Protocol.md).
