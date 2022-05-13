@@ -88,7 +88,7 @@ We use the bismark workflow in our current pipelines.
 | Sample complexity                          	| Preseq           	| Preseq                	|
 | Project Report                             	| MultiQC          	| MultiQC               	|
 
-Deduplicate alignments information: This is only needed for WGBS and is not recommended for reduced representation methods like MBD-BS and RRBS. This is done to remove PCR-based duplication.
+Deduplicate alignments information: This is only needed for WGBS and MBDBS and is not recommended for reduced representation methods like RRBS. This is done to remove PCR-based duplication.
 
 From a helpful [Bismark issue post](https://github.com/FelixKrueger/Bismark/issues/400):
 
