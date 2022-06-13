@@ -15,7 +15,7 @@ Document adapted from [Sam Gurr's Whitney Point OA protocols](https://github.com
 # General lab pointers to know
 - Record ALL data and notes in the designated lab notebook. Write clear enough for others to read the notes and understand the thought process. Label each page with the page number in the top right-hand corner of the notebook page. **Write your initials and the date next to each entry or form of data you record.**
 - rinse towels in the sink and place on black rack underneath the water table to dry
-- **Contact** Prof. Hollie Putnam (hputnam@uri.edu) and Dr. Hannah Reich (hannah_reich@uri.edu) with any questions or issues.
+- **Contact** Dr. Hollie Putnam (hputnam@uri.edu)with any questions or issues.
 
 # Schedule of routine aquarium maintenance tasks
 
