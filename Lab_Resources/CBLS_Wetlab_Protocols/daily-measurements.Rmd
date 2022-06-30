@@ -1,0 +1,57 @@
+---
+title: "Daily_measurements"
+author: "LaurenZane"
+date: "6/24/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+# load libraries, set working directory, load dataframe
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+library(lubridate) # used for converting 8 digit date into datetime format for R
+library(RColorBrewer)
+setwd("/Users/laurenzane/Desktop/Putnam_Lab/Lab_Management/Lab_Resources/CBLS_Wetlab_Protocols")
+getwd() # confirm that wd is in CBLS Wetlab Protocol directory
+daily_measurements <- read.csv("daily_measurements.csv")
+daily_measurements$Date <- ymd(daily_measurements$Date) # convert 8 digit date into datetime format
+
+```
+
+```{r}
+
+# plot temperature, salinity, pH or light values 
+# for scale color manual, values correspond to BT1, BT2, BT3, BT4, HT, QT
+
+month <-daily_measurements[daily_measurements$Date >= "2022-06-01" & daily_measurements$Date <= "2022-06-30", ] # use if you would like to subset by month or from certain date range 
+
+daily_measurements$Tank_ID <- as.factor(daily_measurements$Tank_ID)
+temp <- ggplot(month, aes(x=Date, y=Temperature_C, color=Tank_ID)) +
+    geom_point()+
+    geom_hline(aes(yintercept = mean(Temperature_C)), color="blue")+
+    scale_color_manual(values = c("#66CCFF", "#66CCFF", "#66CCFF",
+                                "#66CCFF","#66CC33","#FFFF33"))
+
+
+print(temp)
+
+
+```
+
+```{r}
+# plot salinity
+
+sal <- ggplot(daily_measurements, aes(x=Date, y=Salinity_psu, color=Tank_ID)) +
+    geom_point()+
+    scale_color_manual(values = c("#66CCFF", "#66CCFF", "#66CCFF",
+                                "#66CCFF","#66CC33","#FFFF33"))
+
+print(sal)
+
+```
