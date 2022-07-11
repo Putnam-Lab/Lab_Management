@@ -19,7 +19,7 @@ library(lubridate) # used for converting 8 digit date into datetime format for R
 library(RColorBrewer)
 setwd("/Users/laurenzane/Desktop/Putnam_Lab/Lab_Management/Lab_Resources/CBLS_Wetlab_Protocols")
 getwd() # confirm that wd is in CBLS Wetlab Protocol directory
-daily_measurements <- read.csv("daily_measurements.csv")
+daily_measurements <- read.csv("Daily_measurements_tracking.csv")
 daily_measurements$Date <- ymd(daily_measurements$Date) # convert 8 digit date into datetime format
 
 ```
@@ -29,14 +29,18 @@ daily_measurements$Date <- ymd(daily_measurements$Date) # convert 8 digit date i
 # plot temperature, salinity, pH or light values 
 # for scale color manual, values correspond to BT1, BT2, BT3, BT4, HT, QT
 
-month <-daily_measurements[daily_measurements$Date >= "2022-06-01" & daily_measurements$Date <= "2022-06-30", ] # use if you would like to subset by month or from certain date range 
+month <-daily_measurements[daily_measurements$Date >= "2022-06-01" & daily_measurements$Date <= "2022-07-07", ] # use if you would like to subset by month or from certain date range 
+no_qtank <- subset(month, Tank_ID != "quarantine_tank") # removing quarantine tank from plot
+
 
 daily_measurements$Tank_ID <- as.factor(daily_measurements$Tank_ID)
-temp <- ggplot(month, aes(x=Date, y=Temperature_C, color=Tank_ID)) +
+temp <- ggplot(no_qtank, aes(x=Date, y=Temperature_C, color=Tank_ID)) +
     geom_point()+
     geom_hline(aes(yintercept = mean(Temperature_C)), color="blue")+
     scale_color_manual(values = c("#66CCFF", "#66CCFF", "#66CCFF",
-                                "#66CCFF","#66CC33","#FFFF33"))
+                                "#66CCFF","#66CC33"))
+
+min(daily_measurements$)
 
 
 print(temp)
