@@ -24,7 +24,7 @@ Last Revised: Putnam Lab - DM Becker - 20210218
 <a name="Returning"></a> **Returning Bottles**
 1. Gather all empty bottles and their original packages (including box, styrofoam dividers, and bottle top clips and bands).  Place all bottles in their original boxes, making sure the bottles are completely empty and sealed, ready for shipment.
 1. Contact a lab manager or PI to arrange a UPS shipping label.
-1. Create a UPS label for the Recipient Address and Return Address.
+1. Create a FedEx label for the Recipient Address and Return Address.
     * **Recipient Address:**  
     Certified Reference Materials Laboratory  
     Scripps Institution of Oceanography  
@@ -44,4 +44,4 @@ Last Revised: Putnam Lab - DM Becker - 20210218
     401-874-9510
     * Tape this informaiton on the package so it is easily read.
 1. Email the CRM Lab to notify their lab of an upcoming delivery.  Include the contents of the shipment (i.e. solution type, batch number, and number of bottles for each).
-1. Drop the package(s) off at the loading dock for UPS.
+1. Drop the package(s) off at the loading dock for FedEx.
