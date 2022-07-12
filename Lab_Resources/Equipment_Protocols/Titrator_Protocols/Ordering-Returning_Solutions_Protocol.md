@@ -2,7 +2,7 @@
 
 Created By: Silbiger Lab - 20190227
 
-Last Revised: Putnam Lab - DM Becker - 20210218
+Last Revised: Putnam Lab - DM Becker - 20220712
 
 **Contents**  
 [Solutions Needed for Titrations](#Solutions)  
@@ -24,7 +24,8 @@ Last Revised: Putnam Lab - DM Becker - 20210218
 <a name="Returning"></a> **Returning Bottles**
 1. Gather all empty bottles and their original packages (including box, styrofoam dividers, and bottle top clips and bands).  Place all bottles in their original boxes, making sure the bottles are completely empty and sealed, ready for shipment.
 1. Contact a lab manager or PI to arrange a FedEx shipping label.
-1. Create a FedEx label for the Recipient Address and Return Address.
+	- Follow [@JillAshey notebook post](https://github.com/JillAshey/JillAshey_Putnam_Lab_Notebook/blob/master/_posts/2022-06-26-FedEx-Shipments.md) for creating a FedEx shipping label.
+3. Create a FedEx label for the Recipient Address and Return Address. 
     * **Recipient Address:**  
     Certified Reference Materials Laboratory  
     Scripps Institution of Oceanography  
