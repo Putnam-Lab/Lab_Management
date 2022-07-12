@@ -1,4 +1,4 @@
-## Planning field research to Mo'orea, French Polynesia (FP)? Use this helpful guide for documents, planning times, and information regarding your trip.
+## Planning field research to Mo'orea, French Polynesia (FP). Use this helpful guide for documents, planning times, and information regarding your trip.
 
 ### It is important to start planning your trip to Mo'orea ~ three months ahead of your departure to make sure all administration forms, reservations, and details are secure.  
 
@@ -9,10 +9,11 @@
 1. *Protocol d'Accuile* 
 2. *CITES permit*  
 3. *Submit URI Travel Authorization*
-4. *Enroll in international insurance*
-5. *Flight tickets*
-6. *Hotel reservation (if necessary)*
-7. *Reserve housing in Moorea* 
+ - https://appfsprod.ecampus.uri.edu/psp/fsprod/?cmd=login
+5. *Enroll in international insurance*
+6. *Flight tickets*
+7. *Hotel reservation (if necessary)*
+8. *Reserve housing in Moorea* 
 
 # 1 Month Before Departure To FP
 
