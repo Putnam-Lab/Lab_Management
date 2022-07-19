@@ -47,6 +47,11 @@ Contents
 12. Follow steps below to measure the extract Absorbance on the [Synergy HTX Multi-Mode Microplate Reader](https://www.biotek.com/products/detection-multi-mode-microplate-readers/synergy-htx-multi-mode-reader/) at 630, 663, and 750 nm in a 96-well quartz plate.
 13. Standardize for path length in 200µl of sample in 96-well quartz plate.
 
+**Make a Platemap in your Notebook** 
+1. Before running the software, make a written platemap in your notebook with the designated samples going into each well. 
+
+
+
 **Measure the Absorbance**  
 
 Follow the [Synergy HTX Operating Manual](https://github.com/urol-e5/protocols/blob/master/synergy_htx_manual.pdf) and [Gen5 Software Manual](https://github.com/urol-e5/protocols/blob/master/Gen5_software_manual.pdf) to install the software on your host computer and general operating instructions.
@@ -58,9 +63,9 @@ Follow the [Synergy HTX Operating Manual](https://github.com/urol-e5/protocols/b
 
 
 3. To create a new protocol, follow the 'Getting Started' section in the [Gen5 Software Manual](https://github.com/urol-e5/protocols/blob/master/Gen5_software_manual.pdf).
-4. To measure Absorbance, create a 'Chlorophyll Protocol' option.
+4. To measure Absorbance, select the 'Chlorophyll Protocol' option.
 
-**add photos and remaining instructions once we can see next steps on computer**
+
 
 
 **3. <a name="Calc"></a> Calculating Chlorophyll Concentration**
