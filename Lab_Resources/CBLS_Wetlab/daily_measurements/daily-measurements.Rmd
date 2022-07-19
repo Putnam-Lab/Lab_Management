@@ -1,7 +1,7 @@
 ---
 title: "Daily_measurements"
 author: "LaurenZane"
-date: "6/24/2022"
+date: "7/19/2022"
 output: html_document
 ---
 
@@ -26,36 +26,58 @@ daily_measurements$Date <- ymd(daily_measurements$Date) # convert 8 digit date i
 
 ```{r}
 
-# plot temperature, salinity, pH or light values 
+# preparing df to plot temperature, salinity, pH or light values for CBLS aquarium daily measurements
 # for scale color manual, values correspond to BT1, BT2, BT3, BT4, HT, QT
 
-month <-daily_measurements[daily_measurements$Date >= "2022-06-01" & daily_measurements$Date <= "2022-07-07", ] # use if you would like to subset by month or from certain date range 
-no_qtank <- subset(month, Tank_ID != "quarantine_tank") # removing quarantine tank from plot
-
+month <-daily_measurements[daily_measurements$Date >= "2022-06-01" & daily_measurements$Date <= "2022-07-18", ] # use if you would like to subset by month or from certain date range 
+no_qtank <- subset(month, Tank_ID != "quarantine_tank") # removing quarantine tank from plot            
+no_qtank[no_qtank == ""] <- NA # replace blanks with NA
 
 daily_measurements$Tank_ID <- as.factor(daily_measurements$Tank_ID)
+
+```
+
+```{r} 
+
+# temperature plot
+
 temp <- ggplot(no_qtank, aes(x=Date, y=Temperature_C, color=Tank_ID)) +
     geom_point()+
-    geom_hline(aes(yintercept = mean(Temperature_C)), color="blue")+
+    scale_color_manual(values = c("#66CCFF", "#66CCFF", "#66CCFF",
+                                "#66CCFF","#66CC33"))
+print(temp)
+
+ggsave(path = "CBLS_Wetlab/", filename = "20220718_daily_measurements_temp.pdf")
+
+```
+
+```{r} 
+
+## salinity plot 
+
+sal <- ggplot(no_qtank, aes(x=Date, y=Salinity_psu, color=Tank_ID)) +
+    geom_point()+
     scale_color_manual(values = c("#66CCFF", "#66CCFF", "#66CCFF",
                                 "#66CCFF","#66CC33"))
 
-min(daily_measurements$)
-
-
-print(temp)
-
-
-```
-
-```{r}
-# plot salinity
-
-sal <- ggplot(daily_measurements, aes(x=Date, y=Salinity_psu, color=Tank_ID)) +
-    geom_point()+
-    scale_color_manual(values = c("#66CCFF", "#66CCFF", "#66CCFF",
-                                "#66CCFF","#66CC33","#FFFF33"))
-
 print(sal)
 
+ggsave(path = "CBLS_Wetlab/", filename = "20220718_daily_measurements_sal.pdf")
+
+
 ```
+```{r}
+
+## pH plot 
+
+pH <- ggplot(no_qtank, aes(x=Date, y=pH_mv, color=Tank_ID)) +
+    geom_point()+
+    scale_color_manual(values = c("#66CCFF", "#66CCFF", "#66CCFF",
+                                "#66CCFF","#66CC33"))
+
+print(pH)
+
+ggsave(path = "CBLS_Wetlab/", filename = "20220718_daily_measurements_pH.pdf")
+
+```
+
