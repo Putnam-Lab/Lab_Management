@@ -74,7 +74,7 @@ Follow the [Synergy HTX Operating Manual](https://github.com/urol-e5/protocols/b
 
 - To correct for path length, use the following approach to generate a corrected value for 630 and 663 nm by subtracting the blank value (750 nm) and dividiing by path length correction (0.6 cm). 
 
-        - Note that the path length correction may vary based on the specific instrument. To calculate the pathlength for your specific instrument, follow the protocols outlined in Warren 2007 above.     
+- Note that the path length correction may vary based on the specific instrument. To calculate the pathlength for your specific instrument, follow the protocols outlined in Warren 2007 above.     
 
 ```
 data$c630.corr <- (data$c630 - data$c750) / 0.6
