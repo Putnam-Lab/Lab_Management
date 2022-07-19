@@ -15,6 +15,8 @@ Last Revised: 20220115 DMBP
 Contents  
 - [**Materials**](#Materials)   
 - [**Protocol**](#Protocol)  
+    - [**Calculating Chlorophyll Concentration**](#Calc)  
+    - [**Waste Disposal**](#Waste) 
 - [**References**](#References)  
 
 1. <a name="Materials"></a> **Materials**
@@ -61,9 +63,7 @@ Follow the [Synergy HTX Operating Manual](https://github.com/urol-e5/protocols/b
 **add photos and remaining instructions once we can see next steps on computer**
 
 
-
-
-**Calculating Chlorophyll Concentration**  
+**3. <a name="Calc"></a> Calculating Chlorophyll Concentration**
 
 Chlorophyll a and c2 concentrations are calculated from the equations in [Jeffrey and Humphrey 1975](https://reader.elsevier.com/reader/sd/pii/S0015379617307783?token=0937035D38C07F29ADF00F1F2A21F20F221219B1CC11A444A4F84D16B98EC3A6AD941D191BA2135A68C98BA62A0B69FE) after substracting A750nm from all measurements.  
 
@@ -83,7 +83,9 @@ data$c663.corr <- (data$c663 - data$c750) / 0.6
 
 See an [example calculation script here](https://github.com/urol-e5/timeseries/blob/master/timepoint_1/scripts/chlorophyll.Rmd). 
 
-4. <a name="References"></a> **References**
+**4. <a name="Waste"></a> Disposing of Waste at Gump**
+
+**5. <a name="References"></a> References**
 
     1.  [Jeffrey and Humphrey 1975](https://reader.elsevier.com/reader/sd/pii/S0015379617307783?token=0937035D38C07F29ADF00F1F2A21F20F221219B1CC11A444A4F84D16B98EC3A6AD941D191BA2135A68C98BA62A0B69FE)
     2. [Warren 2007](https://www.tandfonline.com/doi/full/10.1080/01904160802135092?casa_token=RqeUl1Ccg7AAAAAA%3A6SyNAs848qrRk1-Tf1g088xWD10z1Xngb8cmcgRvC3jYSYPugr2cL8QG9wFvrFj7xZF-pqqUozonRg)
