@@ -19,7 +19,7 @@ Contents
     - [**Waste Disposal**](#Waste) 
 - [**References**](#References)  
 
-1. <a name="Materials"></a> **Materials**
+**1. <a name="Materials"></a> Materials**
     - 	 100% acetone
     - 	 flammable safe fridge 4°
     - 	 **quartz** 96 well plate
@@ -65,23 +65,23 @@ Follow the [Synergy HTX Operating Manual](https://github.com/urol-e5/protocols/b
 
 **3. <a name="Calc"></a> Calculating Chlorophyll Concentration**
 
-Chlorophyll a and c2 concentrations are calculated from the equations in [Jeffrey and Humphrey 1975](https://reader.elsevier.com/reader/sd/pii/S0015379617307783?token=0937035D38C07F29ADF00F1F2A21F20F221219B1CC11A444A4F84D16B98EC3A6AD941D191BA2135A68C98BA62A0B69FE) after substracting A750nm from all measurements.  
+- Chlorophyll a and c2 concentrations are calculated from the equations in [Jeffrey and Humphrey 1975](https://reader.elsevier.com/reader/sd/pii/S0015379617307783?token=0937035D38C07F29ADF00F1F2A21F20F221219B1CC11A444A4F84D16B98EC3A6AD941D191BA2135A68C98BA62A0B69FE) after substracting A750nm from all measurements.  
 
 ![Equations for Dinos in 100% acetone](https://github.com/urol-e5/protocols/blob/master/images/JH_EQ.png)
 
-Need to correct for differences in path length of the volume in the 96 well plate compared to the 1cm path length of a cuvette.
+- Need to correct for differences in path length of the volume in the 96 well plate compared to the 1cm path length of a cuvette.
 [Warren 2007](https://www.tandfonline.com/doi/full/10.1080/01904160802135092?casa_token=RqeUl1Ccg7AAAAAA%3A6SyNAs848qrRk1-Tf1g088xWD10z1Xngb8cmcgRvC3jYSYPugr2cL8QG9wFvrFj7xZF-pqqUozonRg)
 
-To correct for path length, use the following approach to generate a corrected value for 630 and 663 nm by subtracting the blank value (750 nm) and dividiing by path length correction (0.6 cm). 
+- To correct for path length, use the following approach to generate a corrected value for 630 and 663 nm by subtracting the blank value (750 nm) and dividiing by path length correction (0.6 cm). 
 
-Note that the path length correction may vary based on the specific instrument. To calculate the pathlength for your specific instrument, follow the protocols outlined in Warren 2007 above.     
+        - Note that the path length correction may vary based on the specific instrument. To calculate the pathlength for your specific instrument, follow the protocols outlined in Warren 2007 above.     
 
 ```
 data$c630.corr <- (data$c630 - data$c750) / 0.6
 data$c663.corr <- (data$c663 - data$c750) / 0.6
 ```
 
-See an [example calculation script here](https://github.com/urol-e5/timeseries/blob/master/timepoint_1/scripts/chlorophyll.Rmd). 
+- See an [example calculation script here](https://github.com/urol-e5/timeseries/blob/master/timepoint_1/scripts/chlorophyll.Rmd). 
 
 **4. <a name="Waste"></a> Disposing of Waste at Gump**
 
