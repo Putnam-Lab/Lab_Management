@@ -90,7 +90,7 @@ data$c663.corr <- (data$c663 - data$c750) / 0.6
 
 - See an [example calculation script here](https://github.com/urol-e5/timeseries/blob/master/timepoint_1/scripts/chlorophyll.Rmd).
 
-**4. <a name="Waste"></a> Disposing of Waste at Gump**
+**4. <a name="Waste"></a> Disposing of Waste**
 1. Use labeling tape and label a plastic or glass jar or waste container with the Putnam Lab, Date, and 100% acetone waste.
 2. Place a plastic funnel at the top of the waste container and slowly pour the acetone and samples into the vessel.
 3. Rinse the quartz plate with DI water, making sure to squirt the DI water in each of the wells.
