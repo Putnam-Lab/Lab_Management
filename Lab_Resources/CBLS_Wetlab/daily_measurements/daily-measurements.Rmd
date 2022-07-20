@@ -17,7 +17,7 @@ library(tidyverse)
 library(ggplot2)
 library(lubridate) # used for converting 8 digit date into datetime format for R
 library(RColorBrewer)
-setwd("/Users/laurenzane/Desktop/Putnam_Lab/Lab_Management/Lab_Resources/CBLS_Wetlab_Protocols")
+setwd("/Users/laurenzane/Desktop/Putnam_Lab/Lab_Management/Lab_Resources/CBLS_Wetlab/daily_measurements")
 getwd() # confirm that wd is in CBLS Wetlab Protocol directory
 daily_measurements <- read.csv("Daily_measurements_tracking.csv")
 daily_measurements$Date <- ymd(daily_measurements$Date) # convert 8 digit date into datetime format
@@ -47,7 +47,7 @@ temp <- ggplot(no_qtank, aes(x=Date, y=Temperature_C, color=Tank_ID)) +
                                 "#66CCFF","#66CC33"))
 print(temp)
 
-ggsave(path = "CBLS_Wetlab/", filename = "20220718_daily_measurements_temp.pdf")
+ggsave(path = "./", filename = "20220718_daily_measurements_temp.pdf")
 
 ```
 
@@ -62,7 +62,7 @@ sal <- ggplot(no_qtank, aes(x=Date, y=Salinity_psu, color=Tank_ID)) +
 
 print(sal)
 
-ggsave(path = "CBLS_Wetlab/", filename = "20220718_daily_measurements_sal.pdf")
+ggsave(path = "./", filename = "20220718_daily_measurements_sal.pdf")
 
 
 ```
@@ -77,7 +77,7 @@ pH <- ggplot(no_qtank, aes(x=Date, y=pH_mv, color=Tank_ID)) +
 
 print(pH)
 
-ggsave(path = "CBLS_Wetlab/", filename = "20220718_daily_measurements_pH.pdf")
+ggsave(path = "./", filename = "20220718_daily_measurements_pH.pdf")
 
 ```
 
