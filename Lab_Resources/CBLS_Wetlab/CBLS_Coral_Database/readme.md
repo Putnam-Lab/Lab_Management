@@ -8,7 +8,7 @@
 - **Information included:** origin, species, date acquired or fragged
 - **Abbreviations:** OSA = [Ocean State Aquatics](https://osa-services.com/osa-aquaculture-center/), HI= Hawaii, MBL = Roberson Lab  
 
-[List Here](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/CBLS_Coral_Database/CBLS_WaterTables_Coral_Database.csv)
+[List Here](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/CBLS_Wetlab/CBLS_Coral_Database/CBLS_WaterTables_Coral_Database.csv)
 
 ### Coral fragment labeling scheme
 
