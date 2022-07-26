@@ -3,7 +3,9 @@
 
 Created By: Silbiger Lab - 20200304
 
-Last Revised: Putnam Lab - DM Becker - 20210219
+Revised: Putnam Lab - DM Becker - 20210219
+
+Salinity Calibration Protocol added - Putnam Lab - Lauren Zane - 20220726
 
 
 Contents
@@ -13,6 +15,7 @@ Contents
     - [**NBS Protocol**](#NBS)
     - [**Tris Calibration**](#Tris)
     - [**Conductivity Calibration**](#Conductivity)
+    - [**Salinity Calibration**](#Salinity)
 - [**Cleaning and Storage**](#Cleaning_and_Storage)
 - [**References**](#References)
 
@@ -114,6 +117,25 @@ Contents
 1. Press the f2 (next) key to proceed to the next standard and repeat steps 2 through 4 for the second conductovity standard (1413 μS/cm).
 1. Press the f3 (cal done) key to save and end the calibration.
 1. Press the f1 (meas) key to proceed to the measurement mode. 
+
+***
+<a name="Salinity"></a> **Salinity Calibration** 
+- the conductivity probe is used to measure salinity and must be calibrated once weekly at 25°C
+1. Gently use a Kim wipe to dry the tip of the conductivity probe 
+1. Press the f3 (channel) key to navigate to the salinity measurement channel start the calibration
+1. While still on the salinity measurement channel, press the f1 (cal) key
+1. hold salinity standard (50,000us/cm) by the top of the Falcon tube to minimize heat transfer to the calibration standard and using the temperature probe measure temperature
+1. adjust temperature of the salinity calibration fluid to 25°C by *slowly* applying heat from your hands by holding and lightly squeezing the tube to increase the temperature or cupping the tube with ice pack to decrease the temperature
+1. at 25°C, place probe into conductivity fluid and allow measurement to stablize 
+1. record first reading in binder
+        - for example: "calibrated salinity probe with 50.00ms/cm conductivity standard; 48.71 ms/cm upon first reading"
+1. if first reading is not 50.00 ms/cm, press f3 (edit) and enter 50.00 for the standard and record average cell calibration factor in binder
+        - for example: "calibrated to 50.00ms/cm at 25°C; avg. cell cal. factor = 0.477"
+1. Optional: to check if the conductivity probe may need replacement or fixing, you can also measure the salinity of clean DI water (psu = ~0)
+
+
+
+
 
 ***
 
