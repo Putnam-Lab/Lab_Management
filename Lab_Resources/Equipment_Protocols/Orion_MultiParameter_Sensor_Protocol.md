@@ -156,7 +156,7 @@ Contents
 1. Long-term storage
 - After properly cleaning all meters and following the above storage solution methods, store all materials into the Orion Star Meter plastic black case as seen below:
 
-![Orion Case](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Lab_Resourses/Equipment_Protocols/Equip_Images/OrionStar_Case.png)
+![Orion Case](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Lab_Resources/Equipment_Protocols/Equip_Images/OrionStar_Case.png)
 
 
 ***
