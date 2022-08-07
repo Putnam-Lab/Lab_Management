@@ -39,7 +39,7 @@ Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy
 - [Oxy10 Oxygen Dipping Probes](https://www.presens.de/products/detail/oxygen-dipping-probe-dp-pst7)
 - [Oxy10 Temperature Probes](https://www.presens.de/products/detail/pt100-temperature-sensor)
 - [Respirometer stand (with 4 screw-on legs) or underwater stirring plate](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_base.JPG?raw=true)
-- [Replacement motor](https://www.maxongroup.com/maxon/view/service_search?query=459049) - Maxon Motors Part # 459049 - 110182 A-max 26, 7W ^v DC motor + 144035 Planetary Gearhead, 26B, 53:1
+- [Replacement motor](https://www.maxongroup.com/maxon/view/service_search?query=459049) - Maxon Motors Part # 459049 - 110182 A-max 26, 7W 6v DC motor + 144035 Planetary Gearhead, 26B, 53:1
 - [Replacement Switch](https://au.element14.com/itw-switches/19n402r15/microswitch-v4-roller-lever/dp/521875)
 - [Silicon - DuPont Molykote 112 High Performance Silicon Food Grade](https://www.mcmaster.com/1204K42/)
 - [Stir system large orings - Oil-Resistant Buna-N O-Ring
