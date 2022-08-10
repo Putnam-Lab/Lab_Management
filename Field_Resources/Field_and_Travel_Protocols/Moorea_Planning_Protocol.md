@@ -40,7 +40,6 @@
 
 # Arrival in French Polynesia  
 
-
 # 1 Week Before Departure to US 
 
 1. *Complete COVID testing requirements*  
@@ -58,9 +57,11 @@
 3. *Unpack samples and update freezer/project inventories*  
 
 
+# CITES Information
+CITES is an International treaty regulating cross-borders exportation of endangered species: Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES)
 
-
-
+1. https://www.moorea.berkeley.edu/user-guide/formalities/CITES-permits-biodiversity-regulations
+2. After recieving CITES, you need to declare your samples through the U.S. Fish and Wildlife Service. You must fcreat an Electronic Declarations (eDecs) account [here](https://edecs.fws.gov) and complete a new eDecs form for your arrival in the US with your samples.
 
 
 ### Gump Station
@@ -98,6 +99,5 @@ https://www.moorea.berkeley.edu/user-guide/formalities/gump-station-forms
 
 ### Contacts
 
-Val
-Aeata
-Maheata
+Val: valmoorea@yahoo.fr
+Maheata: maheata.gump@gmail.com 
