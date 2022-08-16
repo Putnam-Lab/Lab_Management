@@ -10,7 +10,7 @@ projects: E5, Putnam Lab
 # Standard protocol for ash-free dry weight 
 
 Original: 20190131    
-Last Revised: 20200101  
+Last Revised: 20220916    
 
 Contents  
 - [**Materials**](#Materials)    
