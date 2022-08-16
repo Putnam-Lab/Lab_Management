@@ -10,8 +10,6 @@ projects: E5, Putnam Lab
 # Total Protein Protocol
 both soluble and insolube protein  
 
-**Draft Protocol**
-
 Original: 20200101    
 Last Revised: 20220916  
 
@@ -22,22 +20,22 @@ Contents
 - [**References**](#References)  
  
 1. <a name="Materials"></a> **Materials**
-    - 	[Pierce BCA Protein Assay Kit from Thermo Scientific](https://www.thermofisher.com/order/catalog/product/23225?SID=srch-srp-23225).  
-    - 	96 Well plate
-    - 	Incubator or Waterbath at 37°C
-    - 	Plate reader Spectrophotometer
-    -  1M NaOH
-    -  0.1M HCl
-    -  Pipettes P10, P200, P1000 and tips
-    -  1.5ml microfuge tubes
-    -  DI water
+    - [Pierce BCA Protein Assay Kit from Thermo Scientific](https://www.thermofisher.com/order/catalog/product/23225?SID=srch-srp-23225).  
+    - 96 Well plate
+    - Incubator or Waterbath at 37°C
+    - Plate reader Spectrophotometer
+    - 1M NaOH
+    - 0.1M HCl
+    - Pipettes P10, P200, P1000 and tips
+    - 1.5ml microfuge tubes
+    - DI water
  
 
 2. <a name="Protocol"></a> **Protocol** 
 
 [Pierce BCA Protein Assay Kit](/Users/hputnam/MyProjects/urol-e5/protocols/images/Pierce_BCA_Protein_Assay_UG.pdf). 
 
-**Adult Tissue Sample Preparation**  
+**Total Protein (Soluble and Insoluble) Adult Tissue Sample Preparation**  
 1. Thaw the 500 μL homogenate aliquot.  
 2. Vortex to re-suspend the symbiont cell pellet.   
 5. Add 10 μL of 1M NaOH (pH should be ~10) to the tube.  
@@ -46,7 +44,16 @@ Contents
 8. Add 280 μL of 0.1M HCl to the tube to neutralize the sample. Add this volume in small amounts and continue to test the pH of the sample using pH paper. pH needs to be at 7.0 to move onto the next steps.  
 9. **_It is critical to know exactly how much volume was added_**
 
-3. <a name="Table"></a> **Standard Table**  
+**Soluble Protein ONLY Adult Tissue Sample Preparation** 
+
+This is often used in conjuncttion with the [TAC protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Physiology_Protocols/Total-Antioxidant-Capacity-Protocol.md). If so, use the same thawed homogenate from the 'Sample Preparation' section of that protocol. 
+
+If you want ONLY host, use centrifuge steps to isolate the host tissue from the symbiont cells. In the past, our group has used the steps from the 'Sample Preparation' of the TAC protocol. 
+
+If you want both host and symbiont cells, do not centrifuge to separate. Instead vortex to homogenize the thawed tissue sample and use 25 uL of this homogenate for the steps in the 'Microplate Procedure' section. 
+
+
+1.  <a name="Table"></a> **Standard Table**  
 **Preparation of Diluted Albumin (BSA) Standards**    
 *These standards can be made during the 4 hour incubation period in the sample preparation section.*
 1. Use the following table as a guide to prepare a set of protein standards. For this project we will use the microplate procedure. Diluent is DI water Type II. Each vial will be a sterile 1.5 mL microcentrifuge tube. Label the cap of the microcentrifuge tube with the Vial ID ("A", "B", etc.).  
