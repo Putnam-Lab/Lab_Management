@@ -5,7 +5,7 @@ Last Revised: Putnam Lab - HM Putnam - 20230211
 
 
 [PreSens Oxy-10 ST](https://www.presens.de/products/detail/oxy-10-st-g2)   
-![labeledoxysetup](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/Equip_Images/resp-setup-total.jpg?raw=true)   
+![Oxy10 Back](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10-back.JPG?raw=true)    
 ![Sirring System](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Stirplate_chamber_Drawings_AIMS.pdf)
 
 Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy10 sensor, probes and software in a temperature controlled setting. This includes Apex controller for temperature manipulation and control of the respirometry water baths.
