@@ -34,7 +34,7 @@ Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy
 
 
 
-# <a name="Supplies"></a> **Supplies**
+<a name="Supplies"></a> **Supplies**
 
 - [Oxygen meter and Sensors PreSens Oxy10](https://www.presens.de/products/detail/oxy-10-st-g2)
 - [Oxy10 Oxygen Dipping Probes](https://www.presens.de/products/detail/oxygen-dipping-probe-dp-pst7)
@@ -71,7 +71,7 @@ Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy
 - [Light sensor and meter if measuring photosynthesis](https://www.apogeeinstruments.com/mq-510-full-spectrum-underwater-quantum-meter/)
 - [Minimum Data Sheet]()  
 
-# <a name="Bath"></a> **Water Bath Setup**
+<a name="Bath"></a> **Water Bath Setup**
 
 1. Place the coolers in close proximity to their respective chillers and within reach of the heaters and probes connected to the temperature controllers. Fill the second bin with the water you'll use to fill the chambers (here called "source water") and set up an Apex controller to control the temperature of that water. [Temperature Control](#Temperature)
 
@@ -84,7 +84,7 @@ Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy
 
 1. While you wait for the bath and source water to reach the desired temperature, set up the Oxy10 and prepare the stirring system and chambers.  
 
-# <a name="Temperature"></a> **Temperature Control** 
+<a name="Temperature"></a> **Temperature Control** 
 
 ## Temperature control via Apex
 Further information on the [Apex_Protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/Apex_Protocol.md) 
@@ -169,7 +169,7 @@ Further information on the [Apex_Protocol](https://github.com/Putnam-Lab/Lab_Man
 - [EnergyBar 4 Setup Guide](https://www.neptunesystems.com/downloads/docs/EB4_manual.pdf)
 
 
-# <a name="Battery"></a> **Connecting the Battery**
+<a name="Battery"></a> **Connecting the Battery**
 
 1. Unscrew the cap of the sealed battery compartment on the underside of the respirometer and locate the red and black cables.  Attach the red clip to the positive terminal (marked in red) on the battery and the black clip to the negative terminal (marked in black).  Test your connection and battery power by turning the switch on the other side of battery compartment **clockwise**.  The conveyor belt should start moving at a quick pace.  Turn the switch off.  
 1. If the belt does not move or moves slowly, the battery needs to be switched out and recharged.  
@@ -183,7 +183,7 @@ Further information on the [Apex_Protocol](https://github.com/Putnam-Lab/Lab_Man
 
 
 
-# <a name="Oxy10"></a> **Oxy10 Setup**
+<a name="Oxy10"></a> **Oxy10 Setup**
 
 Below is an example of the entire set-up. This can be modified to be specific to whatever lab or space you are in, but the **electronics need to be completely dry and far above/away from any potential water leak or water source**.  
 
@@ -202,7 +202,7 @@ Be very delicate with the oxygen probes.  Leave the cap on the end when not in u
 
 ![Oxy10 Back](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10-back.JPG?raw=true)
 
-# <a name="Software Setup"></a> **Software Setup**
+<a name="Software Setup"></a> **Software Setup**
 
 ### PreSens Measurement Studio 2 Software Setup
 
@@ -226,6 +226,22 @@ Perform instructions in the correct order!!
 	- Be careful when inserting, never force it. If inserting correctly, the ports will align without resistance.
 
 ![Oxy10 Fiber Optic Probe Connections](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_fiberopticprobes.png?raw=true)
+
+<a name="Calibrate"></a> **Probe Calibration**
+
+
+1.  In the Sensors tab, select "New".
+2.  Type in the name for your sensor (Ex. OXY_CH1) and select the probe type listed on your probe description sheet (Ex. PSt7_10)
+3. Fill in the information as provided by the data sheet for the specific sensor you're calibrating.
+4. Only use the information in the gray boxes for Phase Signal and Temperature.
+5. Be sure to select the correct units for Temperature (Celcius) and Oxygen (umol/L or your preferrered units).
+6. Note the User Signal Intensity: this value may be 0 or 1 depending on the specific sensor.
+7. Batch ID breaks down into 4 number groups: first two digits are the Year, second two digits are the Month, third two digits are the Day, and the three digits after the dash are the Sequence.
+8. Leave Lot Nr blank.
+9.    Select the appropriate OXY_CH# probe and Channel #, then click “Assign to” to link the coupled O2 and Temp probes to each Channel.
+
+##To manually calibrate the probes for 100% saturated and 0% O2, follow page 13 - 18 in the detailed [PreSens Oxygen Calibration Protocol](https://www.presens.de/index.php?eID=dumpFile&t=f&f=1082&token=26a98c0985a772ed2db5c7801adf8ff454c29979)
+
 
 
 ## Temperature sensor installation
@@ -307,7 +323,7 @@ Note: Before beginning your measurements, you must calculate the appropriate Oxy
 1.   Click `Users` on the tool bar
 2.    Choose default user with default parameters
 
-# <a name="Run_Program_Export_Data"></a> **Running the Program and Exporting Data**
+<a name="Run_Program_Export_Data"></a> **Running the Program and Exporting Data**
 
 #### Running the program:
 Ensure the channel has a measurement, sensor, and user (default)
@@ -333,24 +349,9 @@ Ensure the channel has a measurement, sensor, and user (default)
 5.  Save files from each run to Google Drive, or a flash drive, or both to make sure that if any files are lost from PreSens or on the computer you have a secure backup!
 
 
-# <a name="Calibrate"></a> **Probe Calibration**
 
 
-1.  In the Sensors tab, select "New".
-2.  Type in the name for your sensor (Ex. OXY_CH1) and select the probe type listed on your probe description sheet (Ex. PSt7_10)
-3. Fill in the information as provided by the data sheet for the specific sensor you're calibrating.
-4. Only use the information in the gray boxes for Phase Signal and Temperature.
-5. Be sure to select the correct units for Temperature (Celcius) and Oxygen (umol/L or your preferrered units).
-6. Note the User Signal Intensity: this value may be 0 or 1 depending on the specific sensor.
-7. Batch ID breaks down into 4 number groups: first two digits are the Year, second two digits are the Month, third two digits are the Day, and the three digits after the dash are the Sequence.
-8. Leave Lot Nr blank.
-9.    Select the appropriate OXY_CH# probe and Channel #, then click “Assign to” to link the coupled O2 and Temp probes to each Channel.
-
-##To manually calibrate the probes for 100% saturated and 0% O2, follow page 13 - 18 in the detailed [PreSens Oxygen Calibration Protocol](https://www.presens.de/index.php?eID=dumpFile&t=f&f=1082&token=26a98c0985a772ed2db5c7801adf8ff454c29979)
-
-
-
-# <a name="Stir"></a> **Stirring System Setup**
+<a name="Stir"></a> **Stirring System Setup**
 ![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_base.JPG?raw=true)  
 
 Check all orings connecting the drive motor to the stirplate for cracks. Lubricate with silicon before each run as needed
@@ -369,8 +370,7 @@ Check all orings connecting the drive motor to the stirplate for cracks. Lubrica
 
 1. Situate the heater so it is fully submerged but not touching the respirometer stand or the Apex temp probe, and away from the battery compartment if possible.  
     - Consider the best placement of the temp probe, heater, and chiller outflow for adequate water monitoring and circulation.  Ex. Temp probe along the back of the cooler, centered.  The heater suction cupped on one far side of the cooler.  The chiller inflow and outflow placed on the opposide far side of the cooler. ADD PHOTO HERE
-
-# <a name="Chambers"></a> **Filling and Securing Chambers**
+<a name="Chambers"></a> **Filling and Securing Chambers**
 
 ![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_singlechamber.JPG?raw=true)
 ![Oxy10 Front](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/oxy10_chamberbase.JPG?raw=true)
@@ -405,7 +405,7 @@ Check all orings connecting the drive motor to the stirplate for cracks. Lubrica
 1. Once all chambers are secure, turn the stir system power switch **clockwise** to on, and check for proper stir bar placement.  If any stir bars are not spinning or are out of place, loosen the bolt and gently jiggle the chamber until the bar is reset in the center of the divot.
     - If necessary, remove the chamber, place back into the source water, unscrew the bottom to move the stir bar into place, then close and re-secure the chamber.  Note the new time of when you seal the chamber.  
 
-# <a name="Final_Checks"></a> **Final Chamber Checks**
+<a name="Final_Checks"></a> **Final Chamber Checks**
 
 Last checks before starting to record data using the PreSens program:  
 
@@ -420,7 +420,7 @@ Last checks before starting to record data using the PreSens program:
 1. The probes are snug and secure in the chambers  
 
 
-# <a name="Water_Change"></a> **Water Changeover for Additional Runs**
+<a name="Water_Change"></a> **Water Changeover for Additional Runs**
 
 If using the respirometer at more than one temperature (i.e. Thermal Performance Curves)
 
@@ -430,7 +430,7 @@ If using the respirometer at more than one temperature (i.e. Thermal Performance
 
 1. While you wait for the temperature in your bath water to stabilize, collect water samples, if needed for your data set, or start [preparing the chambers](#Chambers) with the new source water using the same steps above.
 
-# <a name="Removing"></a> **Removing Chambers from Respirometer**
+<a name="Removing"></a> **Removing Chambers from Respirometer**
 
 1. Turn off the battery by turning the switch **counter-clockwise**.  
 
@@ -448,7 +448,7 @@ If using the respirometer at more than one temperature (i.e. Thermal Performance
 
 1. Once the source water and water bath are at the desired temperature, follow the same steps to [fill and secure the chambers](#Chambers) to prepare for your next run.  
 
-# <a name="Take-Down"></a> **Respirometer Take-Down and CleanUp**
+<a name="Take-Down"></a> **Respirometer Take-Down and CleanUp**
 
 1. Turn off the Apex and
 2. Turn off the power to the respirometer battery by turning the switch **counter-clockwise**.
@@ -487,7 +487,7 @@ If using the respirometer at more than one temperature (i.e. Thermal Performance
 12. Leave items to soak overnight if possible, then remove from the fresh water and place on a clean surface to dry.  
 
 
-# <a name="Troubleshooting"></a> **Troubleshooting**
+<a name="Troubleshooting"></a> **Troubleshooting**
 
 **If PreSens Measurement Studio 2 crashes after plugging in the Oy10, or PreSens shows this error message after plugging in the Oxy10 first: "Error while loading the sensors.  The application will now terminate."**  
 - First, Shut down the program and reload it.
@@ -523,9 +523,9 @@ If using the respirometer at more than one temperature (i.e. Thermal Performance
 - Do NOT touch any metal while the motor is on.
 - Once a connection point is found, use a heated soldering iron and solder to seal that connection. Let rest for a few minutes, then test the motor by turning it ON again.
 
-# <a name="Chamber Oring Replacement"></a> **ChamberOring** (make video)
+<a name="Chamber Oring Replacement"></a> **ChamberOring** (make video)
 
-# <a name="Stir System Oring Replacement"></a> **StirSystemOrings** 
+<a name="Stir System Oring Replacement"></a> **StirSystemOrings** 
 
 [Stirring O-ring Replacement](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Stand_Oring_replacement.mov)
 
@@ -550,8 +550,7 @@ Replace top plate
 Replace and tighten bolts  
 
 
-
-# <a name="references"></a> **References**  
+<a name="references"></a> **References**  
 * [Oxygen Dipping Probe DP-PSt7 specifications](https://www.presens.de/products/detail/oxygen-dipping-probe-dp-pst7)
 * [Pt100 Temperature Sensor specifications](https://www.presens.de/products/detail/pt100-temperature-sensor)
 * [Specification Brochure](#Images/Presens_O2_and_Temp_specs)
