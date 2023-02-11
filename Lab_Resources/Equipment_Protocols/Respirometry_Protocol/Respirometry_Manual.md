@@ -1,11 +1,12 @@
-# Respirometer Manual - IN PROGRESS
+# Respirometer Manual 
 
 
 Last Revised: Putnam Lab - HM Putnam - 20230211
 
 
-[PreSens Oxy-10 ST](https://www.presens.de/products/detail/oxy-10-st-g2)
-[Sirring System](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Stirplate_chamber_Drawings_AIMS.pdf)
+[PreSens Oxy-10 ST](https://www.presens.de/products/detail/oxy-10-st-g2)   
+![labeledoxysetup](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/Equip_Images/resp-setup-total.jpg?raw=true)   
+![Sirring System](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Stirplate_chamber_Drawings_AIMS.pdf)
 
 Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy10 sensor, probes and software in a temperature controlled setting. This includes Apex controller for temperature manipulation and control of the respirometry water baths.
 
@@ -186,7 +187,7 @@ Further information on the [Apex_Protocol](https://github.com/Putnam-Lab/Lab_Man
 
 Below is an example of the entire set-up. This can be modified to be specific to whatever lab or space you are in, but the **electronics need to be completely dry and far above/away from any potential water leak or water source**.  
 
-![labeledoxysetup](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Equip_Images/resp-setup-total.jpg?raw=true)
+![labeledoxysetup](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/Equip_Images/resp-setup-total.jpg?raw=true)
 
 Be very delicate with the oxygen probes.  Leave the cap on the end when not in use and do not scratch the tip.  The oxygen cord should never be coiled too tightly or bent, or the sensor will break.
 
