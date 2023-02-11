@@ -1,7 +1,7 @@
 # Respirometer Manual - IN PROGRESS
 
 
-Last Revised: Putnam Lab - DM Becker - 20210218
+Last Revised: Putnam Lab - HM Putnam - 20230211
 
 
 [PreSens Oxy-10 ST](https://www.presens.de/products/detail/oxy-10-st-g2)
