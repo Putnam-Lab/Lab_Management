@@ -85,10 +85,8 @@ Protocol for Respirometry (oxygen flux in sealed chambers) using the PreSens Oxy
 
 # <a name="Temperature"></a> **Temperature Control** 
 
-(ADD PHOTOS)
-
 ## Temperature control via Apex
-Further information on the [Apex_Protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Apex_Protocol.md) 
+Further information on the [Apex_Protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/Apex_Protocol.md) 
 
 1. Place the Apex temperature probe in the water and check that the display (or apex.local dashboard on your computer) is showing an accurate current temperature reading. [Temperature Control](#Temperature)
 
