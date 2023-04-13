@@ -32,7 +32,7 @@
 |        28       |    Maggie Schedl|General Lab Notebook| 20210301|          |                    |
 |        29       |               |                   |            |          |                    |
 |        30       |               |                   |            |          |                    |
-|        31       |               |                   |            |          |                    |
+|        31       |  Ariana Huffmyer  | Symbiont Integration 2021 + Moorea Pacuta 2021 | 20210601 | 20211209 |                    |
 |        32       |  Jill Ashey   |Astrangia & HIMB 2022| 20210722 | 20230118 |                    |
 |        33       |               |                   |            |          |                    |
 |        34       |               |                   |            |          |                    |
@@ -46,7 +46,7 @@
 |        42       |               |                   |            |          |                    |
 |        43       |               |                   |            |          |                    |
 |        44       |               |                   |            |          |                    |
-|        45       |               |                   |            |          |                    |
+|        45       | Ariana Huffmyer | Moorea E5 + Larval Temp 2022 | 20221020 | 20221028 |                    |
 |        46       |               |                   |            |          |                    |
 |        47       |               |                   |            |          |                    |
 |        48       |               |                   |            |          |                    |
