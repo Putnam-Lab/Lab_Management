@@ -27,13 +27,13 @@
 |        23       | Emma Strand | Holobiont Integration | 20191125 |          |                    |
 |        24       |               |                   |            |          |                    |
 |        25       |               |                   |            |          |                    |
-|        26       |               |                   |            |          |                    |
+|        26       |  Jill Ashey   | Astrangia 2021    | 20201121   | 20210721 |                    |
 |        27       |               |                   |            |          |                    |
 |        28       |    Maggie Schedl|General Lab Notebook| 20210301|          |                    |
 |        29       |               |                   |            |          |                    |
 |        30       |               |                   |            |          |                    |
 |        31       |               |                   |            |          |                    |
-|        32       |               |                   |            |          |                    |
+|        32       |  Jill Ashey   |Astrangia & HIMB 2022| 20210722 | 20230118 |                    |
 |        33       |               |                   |            |          |                    |
 |        34       |               |                   |            |          |                    |
 |        35       |               |                   |            |          |                    |
