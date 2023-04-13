@@ -33,7 +33,7 @@
 |        29       |               |                   |            |          |                    |
 |        30       |               |                   |            |          |                    |
 |        31       |  Ariana Huffmyer  | Symbiont Integration 2021 + Moorea Pacuta 2021 | 20210601 | 20211209 |                    |
-|        32       |  Jill Ashey   |Astrangia & HIMB 2022| 20210722 | 20230118 |                    |
+|        32       |  Jill Ashey   |Astrangia + HIMB 2022| 20210722 | 20230118 |                    |
 |        33       |               |                   |            |          |                    |
 |        34       |               |                   |            |          |                    |
 |        35       |               |                   |            |          |                    |
@@ -49,5 +49,5 @@
 |        45       | Ariana Huffmyer | Moorea E5 + Larval Temp 2022 | 20221020 | 20221028 |                    |
 |        46       |               |                   |            |          |                    |
 |        47       |               |                   |            |          |                    |
-|        48       |               |                   |            |          |                    |
+|        48       | Zoe Dellaert  |    ENCORE + E5    | 20221001   |          |                    |
 |        49       | Florence Fields |General Lab Notebook| 20230413|          |                    |
