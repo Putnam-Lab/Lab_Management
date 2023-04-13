@@ -28,10 +28,10 @@
 |        24       |               |                   |            |          |                    |
 |        25       |               |                   |            |          |                    |
 |        26       |  Jill Ashey   | Astrangia 2021    | 20201121   | 20210721 |                    |
-|        27       |               |                   |            |          |                    |
+|        27       | Danielle Becker |E5 + Mutagenesis time series| 20210125 |          |                    |
 |        28       |    Maggie Schedl|General Lab Notebook| 20210301|          |                    |
 |        29       |               |                   |            |          |                    |
-|        30       |               |                   |            |          |                    |
+|        30       | Chole Gilligan|Astrangia + Histology| 20210602 |          |                    |
 |        31       |  Ariana Huffmyer  | Symbiont Integration 2021 + Moorea Pacuta 2021 | 20210601 | 20211209 |                    |
 |        32       |  Jill Ashey   |Astrangia + HIMB 2022| 20210722 | 20230118 |                    |
 |        33       |               |                   |            |          |                    |
