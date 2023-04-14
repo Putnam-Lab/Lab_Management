@@ -9,7 +9,7 @@
 |        5        | Hollie Putnam |   Coral TPC       |  20180930  |          |                    |                     |
 |        6        | Erin Chille   |                   | 20180201   |          |                    |                     |
 |        7        | Hollie Putnam |  Moorea Connect   |  20180308  |          |                    |                     |
-|        8        |               |                   |            |          |                    |                     |
+|        8        | Hollie Putnam |Holobiont Integration| 20180901 | 20190112 |                    |                     |
 |        9        |               |                   |            |          |                    |                     |
 |        10       |  Sam Gurr     |  Geoduck FFAR     |  20191009  |          |                    |                     |
 |        11       |               |                   |            |          |                    |                     |
