@@ -28,7 +28,7 @@
 |        24       |               |                   |            |          |                    |                     |
 |        25       |               |                   |            |          |                    |                     |
 |        26       |  Jill Ashey   | Astrangia 2021    | 20201121   | 20210721 |                    |                     |
-|        27       | Danielle Becker |E5 + Mutagenesis time series| 20210125 |          |                    |                     |
+|        27       | Danielle Becker |E5 + Gametogenesis time series| 20210125 |          |                    |                     |
 |        28       |    Maggie Schedl|General Lab Notebook| 20210301|          |                    |                     |
 |        29       |               |                   |            |          |                    |                     |
 |        30       | Chole Gilligan|Astrangia + Histology| 20210602 |          |                    |                     |
