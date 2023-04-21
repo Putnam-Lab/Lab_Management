@@ -19,7 +19,7 @@ library(lubridate) # used for converting 8 digit date into datetime format for R
 library(RColorBrewer)
 setwd("/Users/laurenzane/Desktop/Putnam_Lab/Lab_Management/Lab_Resources/CBLS_Wetlab/daily_measurements")
 getwd() # confirm that wd is in CBLS Wetlab Protocol directory
-daily_measurements <- read.csv("Daily_measurements_tracking.csv")
+daily_measurements <- read.csv("../Data/Daily_measurements_tracking.csv")
 daily_measurements$Date <- ymd(daily_measurements$Date) # convert 8 digit date into datetime format
 
 ```
@@ -29,10 +29,9 @@ daily_measurements$Date <- ymd(daily_measurements$Date) # convert 8 digit date i
 # preparing df to plot temperature, salinity, pH or light values for CBLS aquarium daily measurements
 # for scale color manual, values correspond to BT1, BT2, BT3, BT4, HT, QT
 
-month <-daily_measurements[daily_measurements$Date >= "2022-06-01" & daily_measurements$Date <= "2022-07-18", ] # use if you would like to subset by month or from certain date range 
+month <-daily_measurements[daily_measurements$Date >= "2022-06-01" & daily_measurements$Date <= "2022-07-29", ] # use if you would like to subset by month or from certain date range 
 no_qtank <- subset(month, Tank_ID != "quarantine_tank") # removing quarantine tank from plot            
 no_qtank[no_qtank == ""] <- NA # replace blanks with NA
-
 daily_measurements$Tank_ID <- as.factor(daily_measurements$Tank_ID)
 
 ```
@@ -41,13 +40,15 @@ daily_measurements$Tank_ID <- as.factor(daily_measurements$Tank_ID)
 
 # temperature plot
 
-temp <- ggplot(no_qtank, aes(x=Date, y=Temperature_C, color=Tank_ID)) +
-    geom_point()+
-    scale_color_manual(values = c("#66CCFF", "#66CCFF", "#66CCFF",
-                                "#66CCFF","#66CC33"))
+temp <- ggplot(no_qtank, aes(x=Date, y=Temperature_C, colour = Tank_ID)) + 
+    geom_line() + 
+    theme_classic() + 
+    geom_point() + 
+    ylab("Temperature °C")
+
 print(temp)
 
-ggsave(path = "./", filename = "20220718_daily_measurements_temp.pdf")
+
 
 ```
 
@@ -55,29 +56,167 @@ ggsave(path = "./", filename = "20220718_daily_measurements_temp.pdf")
 
 ## salinity plot 
 
-sal <- ggplot(no_qtank, aes(x=Date, y=Salinity_psu, color=Tank_ID)) +
-    geom_point()+
-    scale_color_manual(values = c("#66CCFF", "#66CCFF", "#66CCFF",
-                                "#66CCFF","#66CC33"))
+sal <- ggplot(no_qtank, aes(x=Date, y=Salinity_psu, colour = Tank_ID)) + 
+    geom_line() + 
+    theme_classic() + 
+    geom_point() +
+    ylab("Salinity (psu)")
 
 print(sal)
 
-ggsave(path = "./", filename = "20220718_daily_measurements_sal.pdf")
 
 
 ```
 ```{r}
 
-## pH plot 
+## total pH calculation setup 
 
-pH <- ggplot(no_qtank, aes(x=Date, y=pH_mv, color=Tank_ID)) +
-    geom_point()+
-    scale_color_manual(values = c("#66CCFF", "#66CCFF", "#66CCFF",
-                                "#66CCFF","#66CC33"))
+## for pH, we need the total pH, which depends on the Tris calibration and the temperature.
 
-print(pH)
+getwd() #check working directory
+path <-("/Users/laurenzane/Desktop/Putnam_Lab/CBLS_Wetlab/Data/tris_cal") #set path to calibration files
+file.names<-list.files(path = path, pattern = "csv$") #list all the file names in the folder to get only the .csv files 
+print(file.names)
+pH.cals <- data.frame(matrix(NA, nrow=length(file.names), ncol=3, dimnames=list(file.names,c("Date", "Intercept", "Slope")))) #generate a 3 column dataframe with specific column names
 
-ggsave(path = "./", filename = "20220718_daily_measurements_pH.pdf")
+for(i in 1:length(file.names)) { # for every file in list start at the first and run this following function
+  Calib.Data <-read.table(file.path(path,file.names[i]), header=TRUE, sep=",", na.string="NA",
+                          as.is=TRUE) #reads in the data files
+  file.names[i]
+  model <-lm(mVTris ~ TTris, data=Calib.Data) #runs a linear regression of mV as a function of temperature
+  coe <- coef(model) #extracts the coeffecients
+  summary(model)$r.squared #extracts the r squared
+  plot(Calib.Data$mVTris, Calib.Data$TTris, main = summary(model)$r.squared) #plots the regression data
+  pH.cals[i,2:3] <- coe #inserts coefficients in the dataframe
+  pH.cals[i,1] <- substr(file.names[i],1,8) #stores the file name in the Date column
+}
+
+colnames(pH.cals) <- c("Date",  "Intercept",  "Slope")#rename columns
+pH.cals$Date <- ymd(pH.cals$Date)
+pH.cals #view data
+
+#constants for use in pH calculation 
+R <- 8.31447215 #gas constant in J mol-1 K-1 
+F <- 96485.339924 #Faraday constant in coulombs mol-1
+
+#merge with Seawater chemistry file
+SW.chem <- full_join(no_qtank, pH.cals, by="Date")
+
 
 ```
+
+```{r}
+# calculate total pH
+
+# select calibration date for the week 
+
+calib.date <- "2022-07-26"
+pH.cals<-pH.cals[pH.cals$Date==calib.date,]
+
+# subset daily measurements for week that pertains to the Tris calibration 
+
+month <-daily_measurements[daily_measurements$Date >= "2022-07-25" & daily_measurements$Date <= "2022-07-29", ]
+
+#create an empty matrix to put the pH values in
+
+nrows<-nrow(month) #need file length/number of rows
+
+
+total_pH <- data.frame(matrix(nrow = nrows, ncol = 6)) # changed from 4 columns to 5 LZ 20220720
+
+colnames(total_pH)<-c("Date","Tank_ID", "Temperature_C",'mvTris','phTris','pH.Total') 
+
+# Tris calculations
+
+mvTris <- month$Temperature_C*pH.cals$Slope+pH.cals$Intercept #calculate the mV of the tris standard using the temperature mv relationships in the measured standard curves 
+STris<-35 #salinity of the Tris
+print(mvTris)
+
+phTris<- (11911.08-18.2499*STris-0.039336*STris^2)*(1/(month$Temperature_C+273.15))-366.27059+ 0.53993607*STris+0.00016329*STris^2+(64.52243-0.084041*STris)*log(month$Temperature_C+273.15)-0.11149858*(month$Temperature_C+273.15) #calculate the pH of the tris (Dickson A. G., Sabine C. L. and Christian J. R., SOP 6a)
+print(phTris)
+
+pH.Total<-phTris+(mvTris/1000-month$pH_mv/1000)/(R*(month$Temperature_C+273.15)*log(10)/F) #calculate the pH on the total scale (Dickson A. G., Sabine C. L. and Christian J. R., SOP 6a)
+
+
+# populate empty dataframe with Tris calibrations 
+Date <- month$Date
+total_pH$Date <- Date
+Tank_ID <- month$Tank_ID
+total_pH$Tank_ID <- Tank_ID
+Temperature_C <- month$Temperature_C
+total_pH$Temperature_C <- Temperature_C
+total_pH$pH.Total <- pH.Total
+total_pH$phTris <- phTris
+total_pH$mvTris <- mvTris
+
+# append total pH to cumulative total pH dataframe each week
+getwd()
+total_pH_cumu <- read.csv("/Users/laurenzane/Desktop/Putnam_Lab/CBLS_Wetlab/Data/total_pH_cumulative.csv")
+update.data <- rbind(total_pH_cumu, total_pH)
+write.table(update.data,"/Users/laurenzane/Desktop/Putnam_Lab/CBLS_Wetlab/Data/total_pH_cumulative.csv",sep=",", row.names=FALSE)
+
+
+
+```
+
+
+```{r}
+
+# plot total pH from the cumulative total pH
+
+total_pH_plot <- ggplot(total_pH_cumu, aes(x=Date, y=pH.Total, group = Tank_ID, colour = Tank_ID)) + 
+    geom_line() +  
+    geom_point()+
+    theme_classic()+
+    ylab("total pH")
+print(total_pH_plot)
+
+
+```
+
+```{r}
+## import .csv of TA from blue tank titrations from Titration repository, which is outside of the working directory, so you'll need the full path 
+
+TA_data <- read.csv("/Users/laurenzane/Desktop/Putnam_Lab/Titrator/Data/CBLS_Aquarium_TA.csv")
+TA_data$Date <- ymd(TA_data$Date) # convert 8 digit date into datetime format
+TA_data$Date <-as.character(TA_data$Date)
+
+# subset to remove junk samples or CRM
+TA_unknown_only <- TA_data[(TA_data$SampleID == "BT1") | (TA_data$SampleID == "BT2")|(TA_data$SampleID == "BT3") | (TA_data$SampleID == "HT1") | (TA_data$SampleID == "HT2"),]
+
+# plot TA
+
+TA <- ggplot(TA_unknown_only, aes(x=Date, y=TA, group = SampleID, colour = SampleID)) + geom_line() + geom_point() + theme_classic()
+print(TA)
+
+
+```
+
+```{r}
+# combine all plots onto one page using the ggpubr package and save as a pdf 
+
+#load library
+library(ggpubr)
+
+# create pdf 
+pdf(file = "/Users/laurenzane/Desktop/Putnam_Lab/CBLS_Wetlab/Output/20220802_daily_measurements.pdf",
+    width = 4,
+    height = 4)
+
+# combine plots using ggpubr command onto one page
+
+daily <- ggarrange(temp, sal, total_pH_plot, TA, 
+          ncol = 2, nrow = 2)
+
+print(daily) # view plot
+
+# dev.off is used to create the file 
+dev.off()
+
+
+
+
+```
+
+
 
