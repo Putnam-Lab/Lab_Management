@@ -38,7 +38,7 @@
 |        33       |               |                   |            |          |                    |                     |
 |        34       |   Emma Strand       |   Holobiont Int. / KBay    |   20210802    |   20221018   |                    |   Only half full   |
 |        35       |               |                   |            |          |                    |                     |
-|        36       |               |                   |            |          |                    |                     |
+|        36       |    Lauren Zane      |       CNT          |    20210920        |          |                    |                     |
 |        37       |               |                   |            |          |                    |                     |
 |        38       |               |                   |            |          |                    |                     |
 |        39       |               |                   |            |          |                    |                     |
@@ -83,5 +83,5 @@
 |        26       |               |                   |            |          |                    |
 |        27       |               |                   |            |          |                    |
 |        28       |    Maggie Schedl|General Lab Notebook| 20210301|          |                    |
-|        36       |    Lauren Zane|CNT| 20210920|          |                    |
+
 >>>>>>> f6d98f3 (LZ physical notebook updated)
