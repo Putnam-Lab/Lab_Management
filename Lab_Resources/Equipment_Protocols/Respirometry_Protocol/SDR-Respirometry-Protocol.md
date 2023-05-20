@@ -10,7 +10,7 @@ projects: E5, Putnam Lab
 # SDR Respirometry Protocol
 
 Original: 20201214
-Last Revised: 20210331
+Last Revised: 20230520
 
 **Contents**
 - [**Supplies**](#Supplies)
@@ -29,6 +29,7 @@ Last Revised: 20210331
 
 - 2 PreSens SDR SensorDish® Reader Basic Set [(SDR Specs)](https://www.presens.de/products/detail/sdr-sensordish-reader-basic-set) [(SDR User Manual)](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/Respirometry_Protocol/Images/SDR_UserManual.pdf) 
 - 2 PreSens SDR QuickStart Guide [PreSens Getting Started](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/Respirometry_Protocol/Images/SDR_GettingStarted_GS_SDR-16-01_dv2.pdf)) 
+- Loligo Glass 24 well microplate with Presens Oxygen spots [Loligo 80µl well size plate Cat #CH25000](https://loligosystems.com/products/microplate/accessories/24-well-glass-microplate-80-ul/)
 - LoligoⓇ MicroResp™ Software [(Software Download)](https://www.loligosystems.com/downloads)
 - [> 48 pieces of 12mm Microscope Cover Glass](https://www.amazon.com/gp/product/B00XZP7XMU/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 - Windows Computer 
@@ -40,6 +41,10 @@ Last Revised: 20210331
 - Squeeze Bottle
 - Large Towel
 - Isopropanol wipes
+- glass transfer pipette
+- plastic transfer pipette
+- Airsaturated Water
+- Zero percent oxygen calibration solution
 
 ## Software Options
 <a name="Loligo_MicroResp_Software"></a> **PresensⓇ SDR™ V4.0.0**
