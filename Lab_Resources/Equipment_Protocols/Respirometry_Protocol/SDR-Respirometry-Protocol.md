@@ -30,7 +30,7 @@ Last Revised: 20210331
 - 2 PreSens SDR SensorDish® Reader Basic Set [(SDR Specs)](https://www.presens.de/products/detail/sdr-sensordish-reader-basic-set) [(SDR User Manual)](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/Respirometry_Protocol/Images/SDR_UserManual.pdf) 
 - 2 PreSens SDR QuickStart Guide [(PreSens Getting Started]([https://www.presens.de/products/detail/oxodish-od24](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/Respirometry_Protocol/Images/SDR_GettingStarted_GS_SDR-16-01_dv2.pdf)) [(SensorDishes User Manual)](https://www.presens.de/index.php?eID=dumpFile&t=f&f=1089&token=f982b881d7ba1e288e0f79f3c3100aee4c5e7906) 
 - LoligoⓇ MicroResp™ Software [(Software Download)](https://www.loligosystems.com/downloads)
-- Circular Coverslips (> 48)
+- [> 48 pieces of 12mm Microscope Cover Glass](https://www.amazon.com/gp/product/B00XZP7XMU/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 - Windows Computer 
 - [Digital Traceable Thermometer](https://www.traceable.com/4000-traceable-digital-thermometer.html)
 - 2 AI Aquaillumination Prime™ 16HD Reef Aquarium Lights [(Product Description)](https://www.aquaillumination.com/products/prime)
