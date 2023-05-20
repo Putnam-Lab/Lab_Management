@@ -14,8 +14,8 @@ Last Revised: 20210331
 
 **Contents**
 - [**Supplies**](#Supplies)
+- [**PresensⓇ SDR™ V4.0.0**](#Presens_SDR_Software)
 - [**LoligoⓇ MicroResp™ Software**](#Loligo_MicroResp_Software)
-- [**Oxygen OxoDishⓇ**](#Oxygen_OxoDish)
 - [**Initial Setup**](#Initial_Setup)
 - [**Sample Preparation**](#Sample_Preparation)
 - [**Photosynthesis**](#Photosynthesis)
@@ -41,16 +41,16 @@ Last Revised: 20210331
 - Large Towel
 - Isopropanol wipes
 
+## Software Options
+<a name="Loligo_MicroResp_Software"></a> **PresensⓇ SDR™ V4.0.0**
+
+1. Download and install the PresensⓇ SDR™ V4.0.0 Software to a windows computer. Download found here: [(Presens Software Download)](https://www.presens.de/index.php?eID=dumpFile&t=f&f=1466&token=5a8621a95739d6b1afbfc48719edafeccb4e1b87). 
+
+or if purchased with Loligo Plate
+
 <a name="Loligo_MicroResp_Software"></a> **LoligoⓇ MicroResp™ Software**
-
-1. Download and install the LoligoⓇ MicroResp™ Software to a windows computer. Download found here: [(Software Download)](https://www.loligosystems.com/downloads). 
-2. See comment 
-
-
-<a name="Oxygen_OxoDish"></a> **Oxygen OxoDishⓇ**
-
-1.   If interested in measuring oxygen on the SDR plate, there is an Oxygen OxoDish  that has pre-calibrated oxygen sensors integrated at the bottom of each well and are read out contactless with the SDR SensorDish Reader. It can be ordered here: [(PreSens OxoDish® OD24)](https://www.presens.de/products/detail/oxodish-od24)
-
+1. Download and install the LoligoⓇ MicroResp™ Software to a windows computer. Download found here: [(Loligo Software Download)](https://www.loligosystems.com/downloads). 
+2. See comment
 
 <a name="Initial_Setup"></a>**Initial Setup**
 
