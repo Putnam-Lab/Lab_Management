@@ -28,7 +28,7 @@ Last Revised: 20230520
 <a name="Supplies"></a> **Supplies**
 
 - 2 PreSens SDR SensorDish® Reader Basic Set [(SDR Specs)](https://www.presens.de/products/detail/sdr-sensordish-reader-basic-set) [(SDR User Manual)](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/Respirometry_Protocol/Images/SDR_UserManual.pdf) 
-- 2 PreSens SDR QuickStart Guide [PreSens Getting Started](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/Respirometry_Protocol/Images/SDR_GettingStarted_GS_SDR-16-01_dv2.pdf)) 
+- 2 PreSens SDR QuickStart Guide [PreSens Getting Started](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/Respirometry_Protocol/Images/SDR_GettingStarted_GS_SDR-16-01_dv2.pdf)    
 - Loligo Glass 24 well microplate with Presens Oxygen spots [Loligo 80µl well size plate Cat #CH25000](https://loligosystems.com/products/microplate/accessories/24-well-glass-microplate-80-ul/)
 - LoligoⓇ MicroResp™ Software [(Software Download)](https://www.loligosystems.com/downloads)
 - [> 48 pieces of 12mm Microscope Cover Glass](https://www.amazon.com/gp/product/B00XZP7XMU/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
@@ -50,8 +50,10 @@ Last Revised: 20230520
 <a name="Presens_SDR_Software"></a> **PresensⓇ SDR™ V4.0.0**
 
 1. Download and install the PresensⓇ SDR™ V4.0.0 Software to a windows computer. Download found here: [(Presens Software Download)](https://www.presens.de/index.php?eID=dumpFile&t=f&f=1466&token=5a8621a95739d6b1afbfc48719edafeccb4e1b87). 
+- [Windows XP/Vista/7/8 USB Serial Driver](https://www.presens.de/index.php?eID=dumpFile&t=f&f=1456&token=88b25aa3ec8e8e89942b5c586ba7f4076bae219a)
+- [Windows XP/Vista USB Serial Driver](https://www.presens.de/index.php?eID=dumpFile&t=f&f=1469&token=27969a51372168cc3a583a1e40b24c5b8584c2c2)
 
-or if purchased with Loligo Plate
+or if LoligoⓇ MicroResp™ Software was purchased with Loligo Plate
 
 <a name="Loligo_MicroResp_Software"></a> **LoligoⓇ MicroResp™ Software**
 1. Download and install the LoligoⓇ MicroResp™ Software to a windows computer. Download found here: [(Loligo Software Download)](https://www.loligosystems.com/downloads). 
