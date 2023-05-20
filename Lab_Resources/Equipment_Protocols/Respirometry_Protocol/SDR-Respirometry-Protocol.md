@@ -15,7 +15,6 @@ Last Revised: 20210331
 **Contents**
 - [**Supplies**](#Supplies)
 - [**LoligoⓇ MicroResp™ Software**](#Loligo_MicroResp_Software)
-- [**pH HydroDishⓇ**](#pH_HydroDish)
 - [**Oxygen OxoDishⓇ**](#Oxygen_OxoDish)
 - [**Initial Setup**](#Initial_Setup)
 - [**Sample Preparation**](#Sample_Preparation)
@@ -28,9 +27,8 @@ Last Revised: 20210331
 
 <a name="Supplies"></a> **Supplies**
 
-- 2 PreSens SDR SensorDish® Reader Basic Set [(SDR Specs)](https://www.presens.de/products/detail/sdr-sensordish-reader-basic-set) [(SDR User Manual)](https://www.presens.de/index.php?eID=dumpFile&t=f&f=1103&token=6ec566be81833841f3e6b4f16998296b8d4fbe3e) 
-- 2 PreSens OxoDish® OD24 for oxygen measurements [(PreSens OxoDish® OD24 Specs)](https://www.presens.de/products/detail/oxodish-od24) [(SensorDishes User Manual)](https://www.presens.de/index.php?eID=dumpFile&t=f&f=1089&token=f982b881d7ba1e288e0f79f3c3100aee4c5e7906) 
-- 2 PreSens HydroDish® HD24 for pH measurements [(PreSens HydroDish® HD24 Specs)](https://www.presens.de/products/detail/hydrodish-hd24) [(SensorDishes User Manual)](https://www.presens.de/index.php?eID=dumpFile&t=f&f=1089&token=f982b881d7ba1e288e0f79f3c3100aee4c5e7906) 
+- 2 PreSens SDR SensorDish® Reader Basic Set [(SDR Specs)](https://www.presens.de/products/detail/sdr-sensordish-reader-basic-set) [(SDR User Manual)](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/Respirometry_Protocol/Images/SDR_UserManual.pdf) 
+- 2 PreSens SDR QuickStart Guide [(PreSens Getting Started]([https://www.presens.de/products/detail/oxodish-od24](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/Respirometry_Protocol/Images/SDR_GettingStarted_GS_SDR-16-01_dv2.pdf)) [(SensorDishes User Manual)](https://www.presens.de/index.php?eID=dumpFile&t=f&f=1089&token=f982b881d7ba1e288e0f79f3c3100aee4c5e7906) 
 - LoligoⓇ MicroResp™ Software [(Software Download)](https://www.loligosystems.com/downloads)
 - Circular Coverslips (> 48)
 - Windows Computer 
@@ -47,10 +45,6 @@ Last Revised: 20210331
 
 1. Download and install the LoligoⓇ MicroResp™ Software to a windows computer. Download found here: [(Software Download)](https://www.loligosystems.com/downloads). 
 2. See comment 
-
-<a name="pH_HydroDish"></a> **pH HydroDishⓇ**
-
-1.  If interested in measuring pH on the SDR plate, there is a pH HydroDish that has pre-calibrated pH sensors integrated at the bottom of each well and are read out contactless with the SDR SensorDish Reader. It can be ordered here:  [(PreSens pH HydroDish HD24)](https://www.presens.de/products/detail/hydrodish-hd24)
 
 
 <a name="Oxygen_OxoDish"></a> **Oxygen OxoDishⓇ**
