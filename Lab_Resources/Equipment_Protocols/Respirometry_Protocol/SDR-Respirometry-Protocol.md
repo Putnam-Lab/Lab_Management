@@ -57,7 +57,8 @@ or if LoligoⓇ MicroResp™ Software was purchased with Loligo Plate
 
 <a name="Loligo_MicroResp_Software"></a> **LoligoⓇ MicroResp™ Software**
 1. Download and install the LoligoⓇ MicroResp™ Software to a windows computer. Download found here: [(Loligo Software Download)](https://www.loligosystems.com/downloads). 
-2. See comment
+
+[Loligo Plate Calibration and Care](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/Respirometry_Protocol/Images/Loligo_Plate_microresp_quickguide.pdf)
 
 <a name="Initial_Setup"></a>**Initial Setup**
 
