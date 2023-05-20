@@ -47,7 +47,7 @@ Last Revised: 20230520
 - Zero percent oxygen calibration solution
 
 ## Software Options
-<a name="Loligo_MicroResp_Software"></a> **PresensⓇ SDR™ V4.0.0**
+<a name="Presens_SDR_Software"></a> **PresensⓇ SDR™ V4.0.0**
 
 1. Download and install the PresensⓇ SDR™ V4.0.0 Software to a windows computer. Download found here: [(Presens Software Download)](https://www.presens.de/index.php?eID=dumpFile&t=f&f=1466&token=5a8621a95739d6b1afbfc48719edafeccb4e1b87). 
 
