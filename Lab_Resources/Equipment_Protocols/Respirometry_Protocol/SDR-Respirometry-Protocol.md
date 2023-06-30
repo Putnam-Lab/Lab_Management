@@ -45,8 +45,8 @@ Last Revised: 20230630
 - Isopropanol wipes
 - glass transfer pipette
 - plastic transfer pipette
-- Airsaturated Water
-- Zero percent oxygen calibration solution
+- Air-saturated filtered seawater (100% FSW)
+- Zero percent oxygen calibration solution (FSW saturated with sodium sulfite)
 
 ## Software Options
 <a name="Presens_SDR_Software"></a> **PresensⓇ SDR™ V4.0.0**
@@ -72,7 +72,7 @@ Setting up the SDR sensor plates and accompanying system for the first time in a
 4. Record the AI light setting and position combinations required to obtain each desired light intensity to use in Photosynthesis trials.
 5. If possible, assemble and run the equipment in a temperaure-controlled environment, such as an incubator. Fluctuations in room temperature and increases in temperature due to the use of LED lighting can influence measurements. Temperature control using an incubator will allow for respiration measurements in treatment conditions if desired.  
 6. Run a one-point calibration with 100% oxygen saturated filtered seawater (FSW) for each plate before each run. To do this, bubble FSW for 15 minutes or vigoursly shake in a falcon tube to fully aerate the water. Load the plate with the 100% saturated FSW and place the plate in the incubator on the SDR. In the software, select oxygen levels be measured at % air saturation. Click "Calibration" and then "One-point adjustment". A box will pop up with the % air saturation values for each well. These should be between 90-120%. At the box at the bottom, enter "100" for % air saturation. Click OK. Repeat these steps for both plates.
-7. After the calibration, click "Single Scan" in the upper left hand corner. This will run a single measurement scan on all of the wells to double check the calibration. The values should be aroun 98-105% air saturation. The plate is now calibrated!
+7. After the calibration, click "Single Scan" in the upper left hand corner. This will run a single measurement scan on all of the wells to double check the calibration. The values should be around 98-105% air saturation. The plate is now calibrated! **It is strongly recommended to run the calibration before every plate/run, especially if different temperatures are being measured.** 
 
 <a name="Sample_Preparation"></a> **Sample Preparation**
 
@@ -139,34 +139,36 @@ Refer to these repositories and notebooks for data analysis and workflows for re
 13. **keep the spots covered to reduce light effects**
 
 
-### PI curves under different temperatures
+### Example protocols: PI curves under different temperatures
 
-This section details the protocol for performing photosynthetic irradiance curves under different temperatures. In *M. capitata* 2023 experiments, AH and JA performed several PI curves (dark respiration, low light, medium light, high light, light-enhanced respiration) at different temperatures (27, 30, 33, and 36°C). 
+This section details the protocol for performing photosynthetic irradiance curves under different temperatures. In *M. capitata* 2023 experiments, Ariana Huffmyer and Jill Ashey performed several PI curves (dark respiration, low light, medium light, high light, light-enhanced respiration) at different temperatures (27, 30, 33, and 36°C). See Ariana's [GitHub respository from this project](https://github.com/AHuffmyer/larval_symbiont_TPC) for example metadata and file formats and scripts. The file format is critically important and it is highly recommended to replicate formats from existing repositories. 
 
 1. Follow the steps outlined above for initial set-up. 
 2. Set the incubator to the desired temperature for measurements. 
-3. Set the light levels for low, medium and high light. In *M. capitata* 2023 experiments, AH and JA set low light at 50 PAR (5% on AI light app), medium light at 100 PAR (8% on AI light app), and high light at 500 PAR (26% on AI light app). Use the apogee to get precise PAR readings.
+3. Set the light levels for low, medium and high light. In *M. capitata* 2023 experiments, AH and JA set low light at 50 PAR (5% on AI light app), medium light at 100 PAR (8% on AI light app), and high light at 500 PAR (26% on AI light app). Use the apogee to get precise PAR readings. The light levels should be set by first running a PI curve at ambient temperature across a wide range of light levels (0-1500 PAR). The PI curve can then be used to decide the appropriate light levels. 
 4. Perform a one-point calibration as detailed above. **Important**: perform a calibration at every temperature!!! This will ensure the plate is calibrated at the proper temperature for measurements. 
 5. Gather the larvae and incubate them in the dark for 20-30 minutes. The first measurement will be of dark respiration, so be sure to acclimate them to darkness before running. 
-6. Load the larvae in the plates as detailed above. Make sure to have plate maps prepared beforehand with a sufficient number of replicates and blanks. After the larvae are loaded into the plates, incubate the plates in the dark for 5 minutes.
-7. Load the plates onto the SDR in the incubators set to the desired temperatures. The first run will be dark respiration, so the lights will be off. Once both plates are on the SDR in the correct positions, start the SDR program. Let the program measure for 15-20 minutes. 
-8. Once the dark respiration run is done, pause the program. Turn the lights on to 50 PAR and resume the program. 
-9. Repeat these steps for 100 PAR, 500 PAR and light-enhanced respiration (0 PAR). 
-10. Export measurements once 02 measurements for all light levels have been collected at a specific temperature. 
+6. Load the larvae (n=5 per well) in the plates as detailed above. Make sure to have plate maps prepared beforehand with a sufficient number of replicates and blanks. After the larvae are loaded into the plates, incubate the plates in the dark for 5 minutes.
+7. Load the plates onto the SDR in the incubators set to the desired temperatures. The first run will be dark respiration, so the lights will be off. Once both plates are on the SDR in the correct positions, start the SDR program. Let the program measure for 15-20 minutes or until a clear slope is observed.  
+8. Once the dark respiration run is done, pause the program. Turn the lights on to the low light setting (50 PAR in this project) and resume the program after a 2 minute period. 
+9. Repeat these steps to next run medium light (e.g., 100 PAR), and high light (500 PAR) phases, followed by the dark again at the end to measure light-enhanced respiration (0 PAR). 
+10. Export measurements once oxygen measurements for all light levels have been collected at a specific temperature. 
 11. Repeat for each temperature. **Important**: perform a calibration at every temperature!!! This will ensure the plate is calibrated at the proper temperature for measurements. 
-12. Follow the steps outlined above for take down and clean up. 
+12. Follow the steps outlined above for take down and clean up.
+13. Be sure to export the data after each measurement and keep detailed time stamps for each light phase. See the GitHub respository linked above for example metadata.  
 
+### Example protocol: Larval thermal performance curves 
 
-### Thermal performance curves 
+This section details the protocol for performing thermal performance curves (TPCs). In *M. capitata* 2023 experiments, Ariana Huffmyer and Jill Ashey performed TPCs under 10, 15, 24, 28, 29, 32, 36, 39, and 40°C in the dark. This encompassed a range for temperatures relevant to the study species. 
 
-This section details the protocol for performing thermal performance curves (TPCs). In *M. capitata* 2023 experiments, AH and JA performed TPCs under 10, 15, 24, 28, 29, 32, 36, 39, and 40°C in the dark. 
+See Ariana's [GitHub respository from this project](https://github.com/AHuffmyer/larval_symbiont_TPC) for example metadata and file formats and scripts.
 
 1. Follow the steps outlined above for initial set-up. These measurements will be taken in the dark, so there is no need to set light levels. 
 2. Set the incubator to the desired temperature for measurements. 
 3. Perform a one-point calibration as detailed above. **Important**: perform a calibration at every temperature!!! This will ensure the plate is calibrated at the proper temperature for measurements. 
 4. Gather the larvae and incubate them in the dark for 20-30 minutes. Load the larvae in the plates as detailed above. Make sure to have plate maps prepared beforehand with a sufficient number of replicates and blanks. After the larvae are loaded into the plates, incubate the plates in the dark for 5 minutes.
 5. Load the plates onto the SDR in the incubators set to the desired temperatures. Start the run on the program and let the program run for 15-20 minutes. 
-6. Stop the program and export the data. 
+6. Stop the program and export the data. Record start and stop times in metadata. 
 7. Remove the plates and clean them, making sure to remove all larvae. Turn the incubators to the next TPC temperature. 
 8. Once the incubators have reached the next temperature, re-calibrate each plate at that temperature. **Important**: perform a calibration at every temperature!!! This will ensure the plate is calibrated at the proper temperature for measurements. 
 9. Re-load the plate with fresh larvae, put the plate on the SDR and begin measurements. 
