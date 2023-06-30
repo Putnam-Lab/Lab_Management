@@ -24,6 +24,8 @@ Last Revised: 20230630
 - [**Final Checks**](#Final_Checks)
 - [**Data Analysis**](#Data_Analysis)
 - [**Take-Down and Clean Up**](#Take-Down)
+- PI curves under different temperatures
+- Thermal performance curves
 
 <a name="Supplies"></a> **Supplies**
 
