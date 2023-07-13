@@ -9,17 +9,15 @@ tag: [ Acropora pulchra, HMW ]
 #### Goal:
 Use *Acropora pulchra* sperm samples to extract high molecular weight DNA for E5 project *A. pulchra* genome. Testing methods between the Genomic Tip High Molecular Weight DNA Extraction Protocol and NEB High Molecular Weight DNA Extraction.
 
-#### Materials
+#### Example Protocols
 
-#### Protocols
+[Maggie Schedl Qiagen Genomic Tip HMW DNA Extraction Protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/HMW-Tip-Protocol/)
 
-https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/HMW-Tip-Protocol/
+[Maggie Schedl Qiagen Genomic Tip HMW DNA Extraction of Fire Coral](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/firecoral-HMW/)
 
-https://www.neb.com/monarch/high-molecular-weight-dna-extraction?gclid=Cj0KCQjwnrmlBhDHARIsADJ5b_kHBvc274KwNljTVwN6r2KJbjBQjnWFzkyJLI6GpmEZw7UNU-HPjmEaAt_tEALw_wcB
+[New England Biolabs High Molecular Weight DNA Extraction Guidelines](https://www.neb.com/monarch/high-molecular-weight-dna-extraction?gclid=Cj0KCQjwnrmlBhDHARIsADJ5b_kHBvc274KwNljTVwN6r2KJbjBQjnWFzkyJLI6GpmEZw7UNU-HPjmEaAt_tEALw_wcB)
 
-https://www.neb.com/-/media/nebus/files/manuals/manualt3050.pdf?rev=41e2c417f75c4889b2d0caeaa6746419&hash=1A3E03456DCB79B426622B85DFB85111
-
-https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/firecoral-HMW/
+[**New England Biolabs High Molecular Weight DNA Cells and Blood Kit**](https://www.neb.com/-/media/nebus/files/manuals/manualt3050.pdf?rev=41e2c417f75c4889b2d0caeaa6746419&hash=1A3E03456DCB79B426622B85DFB85111)
 
 
 **Important Notes about HMW DNA** from [Maggie](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/HMW-Tip-Protocol/
@@ -31,9 +29,37 @@ https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/firecoral-HMW/
 - **Do not freeze the DNA**, freeze thaws can break up the long fragments, keep HMW DNA in the 4 degree fridge for storage
 - HMW DNA can really clump, especially in this extraction method that pellets it in a precipitation. For quantifying with the Qubit, take a top and bottom of the tube 1ul: do 2 Qubits for each sample and average them together for the whole tube concentration
 
-#### Process
+#### Materials
 
-1. We will be using *A. pulchra* sperm preserved in Zymo DNA/RNA shield. These samples were preserved by mixing 1 mL of sperm with 1 mL of DNA/RNA shield. 
+- Monarch® HMW DNA Extraction Kit for Cells & Blood
+NEB #T3050S/L 
+- Thermal mixer containing a 2 ml tube block (if not available, use a 1.5 ml block).
+- Isopropanol, 275 μl per sample (Low Input: 100 μl/sample).
+- Ethanol (≥ 95%)
+- 1.5 ml DNase-free, low DNA binding microfuge tubes (e.g., Eppendorf® DNA LoBind®, #0030108051) are recommended for elution and storage (1 per sample)
+- Recommended: vertical rotating mixer (e.g., Thermo Scientific® HulaMixer® Sample Mixer).
+- Wide-bore pipette tips.
+
+#### Protocol, Using the [**New England Biolabs/Monarch High Molecular Weight DNA Cells and Blood Kit**](https://www.neb.com/-/media/nebus/files/manuals/manualt3050.pdf?rev=41e2c417f75c4889b2d0caeaa6746419&hash=1A3E03456DCB79B426622B85DFB85111)
+
+MATERIALS REQUIRED BUT NOT SUPPLIED
+
+- Thermal mixer containing a 2 ml tube block (if not available, use a 1.5 ml block).
+- Isopropanol, 275 μl per sample (Low Input: 100 μl/sample).
+- Ethanol (≥ 95%)
+- 1.5 ml DNase-free, low DNA binding microfuge tubes (e.g., Eppendorf® DNA LoBind®, #0030108051) are recommended for elution and storage (1 per sample)
+- Recommended: vertical rotating mixer (e.g., Thermo Scientific® HulaMixer® Sample Mixer).
+- Wide-bore pipette tips.
+
+IMPORTANT NOTES BEFORE YOU BEGIN
+- Review the complete protocol before beginning.
+- Add ethanol (≥ 95%) to the gDNA Wash Buffer as indicated on the bottle label.
+- Cool the Nuclei Prep Buffer to 4°C.
+- Preheat thermal mixer with 2 ml block to 56°C.
+
+Protocol
+
+1. We will be using *A. pulchra* sperm preserved in Zymo DNA/RNA shield. These samples were preserved by mixing 1 mL of sperm with 1 mL of DNA/RNA shield. The concentration of sperm used was 10^6 sperm/mL, so this 2mL volume of sperm + DNA/RNA shield should contain 10^6 sperm, or 500,000 cells/mL. The recommended input for this kit is 10^6 cells, so one full tube of sperm + DNA/RNA shield should be roughly the desired input. We need to figure out how to reduce the volume of this for the input.
 
 2. According to the Monarch protocol, the cells (sperm) stored in DNA/RNA shield are already sufficiently lysed:
 
@@ -48,7 +74,7 @@ https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/firecoral-HMW/
     - For more than one sample, refer to the following table:
 
 | Number of Samples | Volume of DNA/RNA Shield (uL) | Volume of RNAse A (uL) |
-|-----------------------------|------|----------|
+|------|------|----------|
 | 1 | 165 | 5.5 |
 | 2 | 330 | 11  |
 | 3 | 495 | 16.5  |
@@ -57,14 +83,80 @@ https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/firecoral-HMW/
 
 4. Nuclei Lysis Buffer preparation
     - Since we used DNA/RNA shield to preserve the sample, we will use DNA/RNA shield instead of the Nuclei Lysis Buffer.
-    - For one sample, mix 165 uL of cold DNA/RNA shield with 11 uL of Proteinase K.
-    -  **Vortex to mix. Keep on ice.**
+    - For one sample, mix 165 uL of DNA/RNA shield with 11 uL of Proteinase K.
+    -  **Vortex to mix. Keep at room temperature.**
     - For more than one sample, refer to the following table:
 
 | Number of Samples | Volume of DNA/RNA Shield (uL) | Volume of Proteinase K (uL) |
-|-----------------------------|------|----------|
+|------|------|----------|
 | 1 | 165 | 11  |
 | 2 | 330 | 22  |
 | 3 | 495 | 33  |
 | 4 | 660 | 44  |
 | 5 | 825 | 55  |
+
+5. Input volume of sperm mixture: ______. Transfer this volume to the  Monarch 2 ml Tube. Add 150 µl of Nuclei Prep Solution and pipette up and down 10 times to mix,
+being careful not to introduce air bubbles. Incubate at room temperature for 2 minutes. The sample will become less turbid,
+indicating cell lysis; nuclei remain intact.
+
+6. Add 150 µl of Nuclei Lysis Solution to sample and invert 10 times to mix. Avoid introducing air bubbles. Do
+not vortex or pipette.
+
+7. Incubate at 56°C for 10 minutes in a thermal mixer with agitation at the desired speed to control the shearing and tune the size
+of gDNA. The speed of the thermal mixer influences fragment length; higher speeds reduce overall size. For the standard ligationbased Oxford Nanopore Technologies (ONT) sequencing protocol, agitation at **2,000 rpm is recommended**. If desired, samples can be stored at 4°C overnight after the incubation.
+
+8. Prepare and label the plastics for Part 2: HMW gDNA Binding and Elution.
+Each sample will require:
+    - 1 Monarch Collection Tube II (no need to label).
+    - 1 Monarch Bead Retainer inserted into the collection tube; this will be used to remove the wash buffer from the gDNA bound to the beads.
+    - 1 Monarch 2 ml Tube; this will be used for eluting the gDNA from the beads.
+    - 1 1.5 ml microfuge tube (DNA low bind is recommended, not provided); this will be used to collect the eluate.
+
+9. Add 75 µl of Precipitation Enhancer after the 10-minute incubation and mix by inverting 8–10 times. 
+
+##### Protocol Part 2: HMW gDNA BINDING AND ELUTION
+
+1. Using clean forceps, **add 2 DNA Capture Beads** to each sample, which should be contained in a Monarch 2 ml Tube.
+
+2. Add **275 μl isopropanol**, close the cap, and mix on a vertical rotating mixer at 10 rpm for 4 minutes to attach DNA to the beads. When working with ≥ 5 x 10^6 cells, double the inversion time to 8 minutes; this is especially important if low agitation speeds were used during lysis.
+
+    If a vertical rotating mixer is not available, invert slowly and gently by hand 30 times. A manual inversion is complete when the tube returns to the upright position. Slow inversion is critical for the DNA to bind to the beads; each full inversion should take ~5–6 seconds. If necessary, flick the tube to release any beads that stick to the bottom of the tube.
+
+    After a few inversions, the solution becomes more viscous and the DNA will wrap loosely around the beads. During the following inversions, precipitation of gDNA may be visible, especially with sample inputs ≥ 5 x 10^6 cells. The DNA complex will often contain small air bubbles. With more inversions, the DNA will completely wrap around the beads, often causing the beads to stick together.
+
+3. **Remove and discard liquid by pipetting**. Avoid removing any of the gDNA wrapped around the glass beads. For optimal DNA solubility, avoid letting the bound DNA dry out on the beads during this and the following steps; **add the next buffer quickly**. There are two suggested options for carrying out this step:
+    - Keeping tube upright, insert pipette tip and gently push beads aside to remove liquid.
+    - Angle tube so that beads remain at the bottom, and liquid reaches toward tube opening. Pipette from the liquid surface and continue to angle as liquid is removed (tube will be almost horizontal at the end).
+
+<img src="https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/blob/master/images/protocols/Monarch_HMW_1.png?raw=true"  width="400" /> 
+
+4. Add **500 μl gDNA Wash Buffer**, close the cap, and mix by inverting the tube 2–3 times. Remove the gDNA Wash Buffer as described in Step 3. The loose gDNA complex will condense around the beads more tightly.
+
+5. Repeat the wash in Steps 3–4. Remove the gDNA Wash Buffer by pipetting. It is not necessary to remove all the gDNA Wash Buffer at this point.
+
+6. Place a labeled bead retainer into a Monarch Collection Tube II. Pour the beads into the bead retainer and close the cap. Discard the used Monarch 2 ml Tube. When working with multiple samples, be sure to close the cap of the bead retainer after each transfer of beads.
+
+<img src="https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/blob/master/images/protocols/Monarch_HMW_2.png?raw=true"  width="200" /> 
+
+7. Pulse spin (1 second or less) the sample in a benchtop minicentrifuge to remove any residual wash buffer from the beads.
+
+8. Separate the bead retainer from the collection tube, pour the beads into a new, labeled Monarch 2 ml Tube, and **insert the used bead retainer into the labeled 1.5 ml microfuge tube** (_DNA low bind recommended_, not provided) for later use during elution. Discard the used collection tube.
+
+<img src="https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/blob/master/images/protocols/Monarch_HMW_3.png?raw=true"  width="200" /> 
+
+9. Immediately add **100 μl** (use 200 μl if working with > 2 x 10^6 cells) **Elution Buffer II** onto the glass beads and **incubate for 5 minutes at 56°C in a thermal mixer with agitation at the lowest speed (300 rpm)**. Halfway through the incubation, ensure the beads are not stuck to the bottom of the tube by *tilting the tube almost horizontally and gently shaking*.
+
+    This ensures that the beads can move freely, allowing for optimal release of the DNA from the beads. It also ensures that the lower bead does not stick to the bottom of the tube during the following transfer step. 
+
+<img src="https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/blob/master/images/protocols/Monarch_HMW_4.png?raw=true"  width="200" /> 
+
+10. Ensure the bead retainer is inserted into the 1.5 ml microfuge tube. **Pour the eluate and the glass beads into the bead retainer and close the cap**. When working with more than 1 sample, it is important to close the cap after each transfer of beads. Typically, all the eluate flows into the bead retainer upon pouring. If any volume remains in the 2 ml tube, spin briefly and transfer.
+
+<img src="https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/blob/master/images/protocols/Monarch_HMW_5.png?raw=true"  width="200" /> 
+
+11. **Centrifuge for 30 seconds** (1 minute if working with ≥ 5 x 10^6 cells) at 12,000 x g to separate the eluate from the glass beads. *Discard the beads and retainer.*
+
+
+12. **Pipette eluate up and down 5–10 times with a wide bore pipette tip and ensure any visible DNA aggregates are dispersed.** Before analysis or downstream use, HMW DNA must be homogeneously dissolved. **After pipetting, incubate at 37°C for 30-60 minutes, overnight at room temperature, or for > 24 hours at 4°C**.
+
+    *Pipette up and down 5-10 times again before analyzing or using the HMW DNA*. Samples processed using low agitation speeds during lysis will require additional time to fully dissolve. See additional guidance in “Homogenization of HMW DNA Samples”, page 24. Samples can be stored at 4°C for short term use (weeks), or at -20°C for long term storage. The elution buffer (10 mM Tris, pH 9.0, 0.5 mM EDTA) is formulated for long term storage of gDNA.
