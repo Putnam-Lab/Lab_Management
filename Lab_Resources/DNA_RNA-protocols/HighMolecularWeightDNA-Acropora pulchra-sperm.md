@@ -67,52 +67,20 @@ Protocol
 
     Therefore, we will thaw the sperm in the DNA/RNA shield, and vortex to homogenize/lyse the sperm. Then, since the DNA/RNA shield is already at 1X concentration, we will use this mixture as input for the following steps.
 
-3. Nuclei Prep Buffer preparation
-    - Since we used DNA/RNA shield to preserve the sample, we will use DNA/RNA shield instead of the Nuclei Prep Buffer.
-    - For one sample, mix 165 uL of cold DNA/RNA shield with 5.5 uL of RNAse A.
-    -  **Vortex to mix. Keep on ice.**
-    - For more than one sample, refer to the following table:
+3. Transfer **300 uL of the sperm** in DNA/RNA shield volume to the  Monarch 2 ml Tube. Add 5uL of RNase A and 10 uL of Proteinase K to this. Invert 10 times to mix. Avoid introducing air bubbles. Do not vortex or pipette.
 
-| Number of Samples | Volume of DNA/RNA Shield (uL) | Volume of RNAse A (uL) |
-|------|------|----------|
-| 1 | 165 | 5.5 |
-| 2 | 330 | 11  |
-| 3 | 495 | 16.5  |
-| 4 | 660 | 22  |
-| 5 | 825 | 27.5  |
+    > This will be approximately 15,000 or 1.5 x 10^4 cells, which is below the recommended input of cells. We may need to increase the input to 600 uL and increase the RNAse A and Proteinase K accordingly (as well as the Precipitation Enhancer and Isopropanol below).
 
-4. Nuclei Lysis Buffer preparation
-    - Since we used DNA/RNA shield to preserve the sample, we will use DNA/RNA shield instead of the Nuclei Lysis Buffer.
-    - For one sample, mix 165 uL of DNA/RNA shield with 11 uL of Proteinase K.
-    -  **Vortex to mix. Keep at room temperature.**
-    - For more than one sample, refer to the following table:
+4. Incubate at **56°C for 10 minutes** in a thermal mixer with agitation at the desired speed to control the shearing and tune the size of gDNA. The speed of the thermal mixer influences fragment length; higher speeds reduce overall size. For the standard ligationbased Oxford Nanopore Technologies (ONT) sequencing protocol, agitation at **2,000 rpm is recommended**. If desired, samples can be stored at 4°C overnight after the incubation.
 
-| Number of Samples | Volume of DNA/RNA Shield (uL) | Volume of Proteinase K (uL) |
-|------|------|----------|
-| 1 | 165 | 11  |
-| 2 | 330 | 22  |
-| 3 | 495 | 33  |
-| 4 | 660 | 44  |
-| 5 | 825 | 55  |
-
-5. Input volume of sperm mixture: ______. Transfer this volume to the  Monarch 2 ml Tube. Add 150 µl of Nuclei Prep Solution and pipette up and down 10 times to mix,
-being careful not to introduce air bubbles. Incubate at room temperature for 2 minutes. The sample will become less turbid,
-indicating cell lysis; nuclei remain intact.
-
-6. Add 150 µl of Nuclei Lysis Solution to sample and invert 10 times to mix. Avoid introducing air bubbles. Do
-not vortex or pipette.
-
-7. Incubate at 56°C for 10 minutes in a thermal mixer with agitation at the desired speed to control the shearing and tune the size
-of gDNA. The speed of the thermal mixer influences fragment length; higher speeds reduce overall size. For the standard ligationbased Oxford Nanopore Technologies (ONT) sequencing protocol, agitation at **2,000 rpm is recommended**. If desired, samples can be stored at 4°C overnight after the incubation.
-
-8. Prepare and label the plastics for Part 2: HMW gDNA Binding and Elution.
+5. Prepare and label the plastics for Part 2: HMW gDNA Binding and Elution.
 Each sample will require:
     - 1 Monarch Collection Tube II (no need to label).
     - 1 Monarch Bead Retainer inserted into the collection tube; this will be used to remove the wash buffer from the gDNA bound to the beads.
     - 1 Monarch 2 ml Tube; this will be used for eluting the gDNA from the beads.
     - 1 1.5 ml microfuge tube (DNA low bind is recommended, not provided); this will be used to collect the eluate.
 
-9. Add 75 µl of Precipitation Enhancer after the 10-minute incubation and mix by inverting 8–10 times. 
+6. Add **75 µl of Precipitation Enhancer** after the 10-minute incubation and mix by inverting 8–10 times. 
 
 ##### Protocol Part 2: HMW gDNA BINDING AND ELUTION
 
