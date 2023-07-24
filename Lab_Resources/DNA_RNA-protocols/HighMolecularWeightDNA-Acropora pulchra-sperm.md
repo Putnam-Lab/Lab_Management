@@ -4,7 +4,7 @@ title: High Molecular Weight DNA for Acropora pulchra sperm
 category: [ HMW , DNA]
 tag: [ Acropora pulchra, HMW ]
 ---
-## Protocol for testing how to extract High Molecular Weight DNA for Acropora pulchra sperm 
+## Protocol for testing how to extract High Molecular Weight DNA for Acropora pulchra sperm
 
 #### Goal:
 Use *Acropora pulchra* sperm samples to extract high molecular weight DNA for E5 project *A. pulchra* genome. Testing methods between the Genomic Tip High Molecular Weight DNA Extraction Protocol and NEB High Molecular Weight DNA Extraction.
@@ -32,7 +32,7 @@ Use *Acropora pulchra* sperm samples to extract high molecular weight DNA for E5
 #### Materials
 
 - Monarch® HMW DNA Extraction Kit for Cells & Blood
-NEB #T3050S/L 
+NEB #T3050S/L
 - Thermal mixer containing a 2 ml tube block (if not available, use a 1.5 ml block).
 - Isopropanol, 275 μl per sample (Low Input: 100 μl/sample).
 - Ethanol (≥ 95%)
@@ -80,7 +80,7 @@ Each sample will require:
     - 1 Monarch 2 ml Tube; this will be used for eluting the gDNA from the beads.
     - 1 1.5 ml microfuge tube (DNA low bind is recommended, not provided); this will be used to collect the eluate.
 
-6. Add **75 µl of Precipitation Enhancer** after the 10-minute incubation and mix by inverting 8–10 times. 
+6. Add **75 µl of Precipitation Enhancer** after the 10-minute incubation and mix by inverting 8–10 times.
 
 ##### Protocol Part 2: HMW gDNA BINDING AND ELUTION
 
@@ -96,7 +96,7 @@ Each sample will require:
     - Keeping tube upright, insert pipette tip and gently push beads aside to remove liquid.
     - Angle tube so that beads remain at the bottom, and liquid reaches toward tube opening. Pipette from the liquid surface and continue to angle as liquid is removed (tube will be almost horizontal at the end).
 
-<img src="https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/blob/master/images/protocols/Monarch_HMW_1.png?raw=true"  width="400" /> 
+<img src="https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/blob/master/images/protocols/Monarch_HMW_1.png?raw=true"  width="400" />
 
 4. Add **500 μl gDNA Wash Buffer**, close the cap, and mix by inverting the tube 2–3 times. Remove the gDNA Wash Buffer as described in Step 3. The loose gDNA complex will condense around the beads more tightly.
 
@@ -104,23 +104,23 @@ Each sample will require:
 
 6. Place a labeled bead retainer into a Monarch Collection Tube II. Pour the beads into the bead retainer and close the cap. Discard the used Monarch 2 ml Tube. When working with multiple samples, be sure to close the cap of the bead retainer after each transfer of beads.
 
-<img src="https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/blob/master/images/protocols/Monarch_HMW_2.png?raw=true"  width="200" /> 
+<img src="https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/blob/master/images/protocols/Monarch_HMW_2.png?raw=true"  width="200" />
 
 7. Pulse spin (1 second or less) the sample in a benchtop minicentrifuge to remove any residual wash buffer from the beads.
 
 8. Separate the bead retainer from the collection tube, pour the beads into a new, labeled Monarch 2 ml Tube, and **insert the used bead retainer into the labeled 1.5 ml microfuge tube** (_DNA low bind recommended_, not provided) for later use during elution. Discard the used collection tube.
 
-<img src="https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/blob/master/images/protocols/Monarch_HMW_3.png?raw=true"  width="200" /> 
+<img src="https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/blob/master/images/protocols/Monarch_HMW_3.png?raw=true"  width="200" />
 
 9. Immediately add **100 μl** (use 200 μl if working with > 2 x 10^6 cells) **Elution Buffer II** onto the glass beads and **incubate for 5 minutes at 56°C in a thermal mixer with agitation at the lowest speed (300 rpm)**. Halfway through the incubation, ensure the beads are not stuck to the bottom of the tube by *tilting the tube almost horizontally and gently shaking*.
 
-    This ensures that the beads can move freely, allowing for optimal release of the DNA from the beads. It also ensures that the lower bead does not stick to the bottom of the tube during the following transfer step. 
+    This ensures that the beads can move freely, allowing for optimal release of the DNA from the beads. It also ensures that the lower bead does not stick to the bottom of the tube during the following transfer step.
 
-<img src="https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/blob/master/images/protocols/Monarch_HMW_4.png?raw=true"  width="200" /> 
+<img src="https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/blob/master/images/protocols/Monarch_HMW_4.png?raw=true"  width="200" />
 
 10. Ensure the bead retainer is inserted into the 1.5 ml microfuge tube. **Pour the eluate and the glass beads into the bead retainer and close the cap**. When working with more than 1 sample, it is important to close the cap after each transfer of beads. Typically, all the eluate flows into the bead retainer upon pouring. If any volume remains in the 2 ml tube, spin briefly and transfer.
 
-<img src="https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/blob/master/images/protocols/Monarch_HMW_5.png?raw=true"  width="200" /> 
+<img src="https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/blob/master/images/protocols/Monarch_HMW_5.png?raw=true"  width="200" />
 
 11. **Centrifuge for 30 seconds** (1 minute if working with ≥ 5 x 10^6 cells) at 12,000 x g to separate the eluate from the glass beads. *Discard the beads and retainer.*
 
@@ -128,3 +128,22 @@ Each sample will require:
 12. **Pipette eluate up and down 5–10 times with a wide bore pipette tip and ensure any visible DNA aggregates are dispersed.** Before analysis or downstream use, HMW DNA must be homogeneously dissolved. **After pipetting, incubate at 37°C for 30-60 minutes, overnight at room temperature, or for > 24 hours at 4°C**.
 
     *Pipette up and down 5-10 times again before analyzing or using the HMW DNA*. Samples processed using low agitation speeds during lysis will require additional time to fully dissolve. See additional guidance in “Homogenization of HMW DNA Samples”, page 24. Samples can be stored at 4°C for short term use (weeks), or at -20°C for long term storage. The elution buffer (10 mM Tris, pH 9.0, 0.5 mM EDTA) is formulated for long term storage of gDNA.
+
+## QC
+
+#### Qubit
+
+    - Use the broad range DNA assay and [protocol](https://github.com/meschedl/PPP-Lab-Resources/blob/master/Protocols/Qubit-Assay-Protocol.md)
+    - Quantify both the top and bottom of each tube and then use the averages of each tube for the final concentration
+    - You should be getting very high DNA quants for this, above 100ng/ul is good
+
+#### TapeStation
+
+    - For accurate sizing, we use the TapeStation instead of a gel. However it still isn't the absolute best, the best thing for HMW DNA is a pulse-phase gel that's run super slowly and alternates the position of the current to separate out the large fragments. You can look at [pictures](https://international.neb.com/monarch/high-molecular-weight-dna-extraction), pretty cool. However, we don't have the type of gel box for that!
+    - Use the **Genomic DNA** screentapes and reagent/ladder. This reads from 48,000bp to 100bp
+    - Follow the [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/DNA-Tapestation/)
+    - Your goal is to have a huge peak at the 60,000bp size or around there, and very minimal smearing elsewhere
+    - Good trace:
+    ![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/Screen%20Shot%202021-04-18%20at%204.59.16%20PM.png)
+    - Bad trace:
+    ![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/Screen%20Shot%202021-04-18%20at%205.04.25%20PM.png)
