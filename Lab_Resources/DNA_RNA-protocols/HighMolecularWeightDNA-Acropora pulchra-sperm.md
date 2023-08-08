@@ -70,8 +70,6 @@ Protocol
 3. Transfer **300 uL of the sperm** in DNA/RNA shield volume to the  Monarch 2 ml Tube. Add 5uL of RNase A and 10 uL of Proteinase K to this. Invert 10 times to mix. Avoid introducing air bubbles. Do not vortex or pipette.
 
     > This will be approximately 15,000 or 1.5 x 10^4 cells, which is below the recommended input of cells. We may need to increase the input to 600 uL and increase the RNAse A and Proteinase K accordingly (as well as the Precipitation Enhancer and Isopropanol below).
-    >
-    > **Protocol adjustment: Instead of adding ProK and RNAse A at same time, add Proteinase K, incubate for 10 mins at 56 ºC, and then add RNAse A and repeat the incubation.**
 
 4. Incubate at **56°C for 10 minutes** in a thermal mixer with agitation at the desired speed to control the shearing and tune the size of gDNA. The speed of the thermal mixer influences fragment length; higher speeds reduce overall size. For the standard ligationbased Oxford Nanopore Technologies (ONT) sequencing protocol, agitation at **2,000 rpm is recommended**. If desired, samples can be stored at 4°C overnight after the incubation.
 
