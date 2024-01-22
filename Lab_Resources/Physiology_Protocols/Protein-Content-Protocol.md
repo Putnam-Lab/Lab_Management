@@ -14,6 +14,7 @@ Original: 20200101
 Last Revised: 20240122  
 
 #NOTE: If using the [Pierce Rapid Gold BCA Protein Assay Kit](https://www.thermofisher.com/order/catalog/product/A53225) from Thermo Scientific see manual manual [here](https://www.thermofisher.com/document-connect/document-connect.html?url=https://assets.thermofisher.com/TFS-Assets%2FLSG%2Fmanuals%2FMAN0017135_PierceRapidGoldBCAProteinAssayKit_UG.pdf)
+
 Contents  
 - [**Materials**](#Materials)    
 - [**Protocol**](#Protocol)  
