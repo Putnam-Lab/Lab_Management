@@ -9,3 +9,7 @@
 
 
 [2.25" Acrylic Disk covers](https://www.amazon.com/gp/product/B085XX2RWY/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+
+[60mm plug holder](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/60mmTube_PlugHolder%20v3.stl)
+
+[40mm plug holder](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/44mmJar_PlugHolder%20v2.stl)
