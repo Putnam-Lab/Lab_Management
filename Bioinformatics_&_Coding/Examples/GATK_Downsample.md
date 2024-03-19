@@ -25,7 +25,7 @@ java -jar picard.jar DownsampleSam \ I=input.bam \ O=downsampled.bam \ STRATEGY=
 
 # code for downsampling
 ```
-nano /data/putnamlab/shared/example_scripts/downsample.sh
+nano /data/putnamlab/shared/scripts/downsample.sh
 ```
 
 ```
@@ -39,12 +39,13 @@ nano /data/putnamlab/shared/example_scripts/downsample.sh
 
 module load GATK/4.1.0.0-foss-2018b-Python-3.6.6
 module load SAMtools/1.12-GCC-10.2.0
+module load picard/2.25.1-Java-11
 
 #count reads in the original file
 echo "original bam read number" 
 samtools view -c 1041.bam
 
-java -jar picard.jar DownsampleSam \ I=1041.bam \ O=1041.downsampled.bam \ P=0.2
+java -jar $EBROOTPICARD/picard.jar DownsampleSam INPUT=1041.bam O=1041.downsampled.bam P=0.2
 
 #count reads in the downsampled file
 echo "downsampled bam read number" 
@@ -53,6 +54,10 @@ samtools view -c 1041.downsampled.bam
 ```
 
 ```
-sbatch /data/putnamlab/shared/example_scripts/downsample.sh
+sbatch /data/putnamlab/shared/scripts/downsample.sh
 ```
 
+
+```
+nano /data/putnamlab/shared/scripts/count_mapped_reads.sh
+```
