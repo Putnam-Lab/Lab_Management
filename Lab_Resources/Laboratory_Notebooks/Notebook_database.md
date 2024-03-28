@@ -21,7 +21,7 @@
 |        16       |               |                   |            |          |                    |                     |
 |        17       |       E5      |  Moorea E5        | 20201231   |          |                    |                     |
 |        18       |               |                   |            |          |                    |                     |
-|        19       | Emma Strand | Holobiont Integration | 20190501  |          |                    |                     |
+|        19       | Emma Strand | Holobiont Integration | 20190501 |          |                    |                     |
 |        20       |               |                   |            |          |                    |                     |
 |        21       |       E5      |  Moorea E5        | 20201231   |          |                    |                     |
 |        22       |       E5      |  Moorea E5        | 20201231   |          |                    |                     |
@@ -53,7 +53,17 @@
 |        48       | Zoe Dellaert  |    ENCORE + E5    | 20221001   |          |                    |                     |
 |        49       | Florence Fields |General Lab Notebook| 20230413|          |                    |                     |
 |        50       |  |            |         |          |                    |                     |
-|        51       |  |            |         |          |                    | 
+|        51       | Chloe Gilligan | COTS Pocillopora RAPID            |         |  [Notebook 51](https://drive.google.com/drive/u/1/folders/1EYyFF8hKeZxYx5_gXWJiGwxXpYO6nRaV)        |                    | 
 |        52       |  |            |         |          |                    | 
-|        53       |  |            |         |          |                    | 
+|        53       |  |            |         |          |                    |
+|        54       |  |            |         |          |                    |
+|        55       | Hollie Putnam  | COTS Pocillopora RAPID           | 20231001         |  [Notebook 55](https://drive.google.com/drive/u/1/folders/1E6YqB_r7Mmc1G0HQLTGKNMszTFlSDZvV)        |                    | 
+|        56       |  |            |         |          |                    | 
+|        57       |  |            |         |          |                    | 
+|        58       |  |            |         |          |                    | 
+|        59       |  |            |         |          |                    | 
+|        60       |  |            |         |          |                    | 
+|        61       |  |            |         |          |                    | 
+|        62       |  |            |         |          |                    | 
+
 =======
