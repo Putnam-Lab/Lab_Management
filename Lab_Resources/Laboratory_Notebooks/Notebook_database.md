@@ -53,11 +53,11 @@
 |        48       | Zoe Dellaert  |    ENCORE + E5    | 20221001   |          |                    |                     |
 |        49       | Florence Fields |General Lab Notebook| 20230413|          |                    |                     |
 |        50       |  |            |         |          |                    |                     |
-|        51       | Chloe Gilligan | COTS Pocillopora RAPID            |         |  [Notebook 51](https://drive.google.com/drive/u/1/folders/1EYyFF8hKeZxYx5_gXWJiGwxXpYO6nRaV)        |                    | 
+|        51       | Chloe Gilligan | COTS Pocillopora RAPID            |        | |  [Notebook 51](https://drive.google.com/drive/u/1/folders/1EYyFF8hKeZxYx5_gXWJiGwxXpYO6nRaV)        |                    | 
 |        52       |  |            |         |          |                    | 
 |        53       |  |            |         |          |                    |
 |        54       |  |            |         |          |                    |
-|        55       | Hollie Putnam  | COTS Pocillopora RAPID           | 20231001         |  [Notebook 55](https://drive.google.com/drive/u/1/folders/1E6YqB_r7Mmc1G0HQLTGKNMszTFlSDZvV)        |                    | 
+|        55       | Hollie Putnam  | COTS Pocillopora RAPID           | 20231001     |    |  [Notebook 55](https://drive.google.com/drive/u/1/folders/1E6YqB_r7Mmc1G0HQLTGKNMszTFlSDZvV)        |                    | 
 |        56       |  |            |         |          |                    | 
 |        57       |  |            |         |          |                    | 
 |        58       |  |            |         |          |                    | 
