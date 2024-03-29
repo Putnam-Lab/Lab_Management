@@ -12,9 +12,9 @@
 |        7        | Hollie Putnam |  Moorea Connect   |  20180308  |          |                    |                     |
 |        8        | Hollie Putnam |Holobiont Integration| 20180901 | 20190112 |                    |                     |
 |        9        |               |                   |            |          |                    |                     |
-|        10       |  Sam Gurr     |  Geoduck FFAR     |  20191009  |          |                    |                     |
-|        11       |               |                   |            |          |                    |                     |
-|        12       |               |                   |            |          |                    |                     |
+|        10       |  Sam Gurr     |  Geoduck FFAR     |  20191009  | 20210303   |  [Notebook10](https://drive.google.com/drive/u/1/folders/1tkBTEnRiyPSfmHNIgHLrGgkIWGKBu4sI)                  |                     |
+|        11       |   Sam Gurr |  Geoduck FFAR  |  20190330  | 20190419 |  [Notebook11](https://drive.google.com/drive/u/1/folders/1g2DRze4RcN3m9fvqFdcE0aAFz3yZf13n)                   |                     |
+|        12       | Sam Gurr |  Geoduck FFAR   |  20190115          | 20190329 |   [Notebook12](https://drive.google.com/drive/u/1/folders/1NPFgAmrhc5NcplBgkrbC5MLAbAJLpR7N)                   |                     |
 |        13       | Maggie Schedl |General Lab Notebook|20181201   |          |                    |                     |
 |        14       |               |                   |            |          |                    |                     |
 |        15       |               |                   |            |          |                    |                     |
@@ -52,7 +52,7 @@
 |        47       |               |                   |            |          |                    |                     |
 |        48       | Zoe Dellaert  |    ENCORE + E5    | 20221001   |          |                    |                     |
 |        49       | Florence Fields |General Lab Notebook| 20230413|          |                    |                     |
-|        50       |  |            |         |          |                    |                     |
+|        50       | Hollie Putnam | BSF Climate SOlutions | 20230503  |          |                    |                     |
 |        51       | Chloe Gilligan | COTS Pocillopora RAPID            |        | |  [Notebook 51](https://drive.google.com/drive/u/1/folders/1EYyFF8hKeZxYx5_gXWJiGwxXpYO6nRaV)        |                    | 
 |        52       |  |            |         |          |                    | 
 |        53       |  |            |         |          |                    |
