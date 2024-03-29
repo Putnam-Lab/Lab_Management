@@ -3,7 +3,7 @@
 
 | Notebook Number |  Personnel    |  Project Contents | Start Date | End Date | Electronic Archive | Notes |
 |:---------------:|:-------------:|:-----------------:|:----------:|:--------:|:------------------:| :------------------:|
-|        1        | Kevin Wong    |      BIOS2017     |  20170813  |          |                    |                     |  
+|        1        | Kevin Wong    |      BIOS2017     |  20170813  |          |  [Notebook 1](https://drive.google.com/drive/u/1/folders/1yOBbBNgjXLsc_Z6ds8fEQX8ylrs_suGU)                  |                     |  
 |        2        | Andrew Petlock|       Embryos     |  20170908  |          |                    |                     |
 |        3        | Max Zavell    | Biomineralization |  20170908  |          |                    |                     |
 |        4        | Erin Bowman   |      BIOS2017     |  20170912  |          |                    |                     |
@@ -19,12 +19,12 @@
 |        14       |               |                   |            |          |                    |                     |
 |        15       |               |                   |            |          |                    |                     |
 |        16       |               |                   |            |          |                    |                     |
-|        17       |       E5      |  Moorea E5        | 20201231   |          |                    |                     |
+|        17       |       E5      |  Moorea E5        | 20201231   |          | [Notebook 17](https://drive.google.com/drive/u/1/folders/11dWjEpwpiTMu7EzVegkFU8gnxio-5mOW)                   |                     |
 |        18       |               |                   |            |          |                    |                     |
-|        19       | Emma Strand | Holobiont Integration | 20190501 |          |                    |                     |
+|        19       | Emma Strand | Holobiont Integration | 20190501 |          |  [Notebook 19](https://drive.google.com/drive/u/1/folders/1mrI1G9jDXOQflhzSOGVXPZ_x6sxeflTE)                  |                     |
 |        20       |               |                   |            |          |                    |                     |
-|        21       |       E5      |  Moorea E5        | 20201231   |          |                    |                     |
-|        22       |       E5      |  Moorea E5        | 20201231   |          |                    |                     |
+|        21       |       E5      |  Moorea E5        | 20201231   |          | [Notebook 21](https://drive.google.com/drive/u/1/folders/1LMvI56nj-jg01niKBVTu0n53zidkBciG)                   |                     |
+|        22       |       E5      |  Moorea E5        | 20201231   |          | [Notebook 22](https://drive.google.com/drive/u/1/folders/1ctpnqX0g5ZHRpiZ3aB4bwiaIXMdaaJgz)                   |                     |
 |        23       | Emma Strand | Holobiont Integration | 20191125 |          |                    |                     |
 |        24       |               |                   |            |          |                    |                     |
 |        25       |               |                   |            |          |                    |                     |
@@ -41,8 +41,8 @@
 |        36       |    Lauren Zane      |       CNT          |    20210920        |          |                    |                     |
 |        37       |               |                   |            |          |                    |                     |
 |        38       |               |                   |            |          |                    |                     |
-|        39       |               |                   |            |          |                    |                     |
-|        40       |               |                   |            |          |                    |                     |
+|        39       |  Danielle Becker  |  Moorea Gameotgenesis   |            |          |  [notebook 39](https://drive.google.com/drive/u/1/folders/1RFvGxOfpmNIYO8jbi0eywAKb15d3kSCx)                  |                     |
+|        40       | Danielle Becker  | Moorea Gameotgenesis |            |          | [notebook 40](https://drive.google.com/drive/u/1/folders/1-0eFSTW5194KzacfUk74LzKNGgnbdtUL)                   |                     |
 |        41       | Ariana Huffmyer | Symbiont Integration 2021 | 20220404 | 20220407 |                    |                     |
 |        42       |               |                   |            |          |                    |                     |
 |        43       | Ariana Huffmyer | Symbiont Integration 2021 | 20220405| 20220411         |                    |                     |
