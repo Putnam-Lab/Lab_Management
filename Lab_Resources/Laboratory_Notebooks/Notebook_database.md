@@ -29,7 +29,7 @@
 |        24       |               |                   |            |          |                    |                     |
 |        25       |               |                   |            |          |                    |                     |
 |        26       |  Jill Ashey   | Astrangia 2021    | 20201121   | 20210721 |                    |                     |
-|        27       | Danielle Becker |E5 + Gametogenesis time series| 20210125 |          |                    |                     |
+|        27       | Danielle Becker |E5 + Gametogenesis time series| 20210125 |          |      [Notebook 57 pages 99-120](https://drive.google.com/drive/u/2/folders/1oJuEuXrCQQxRYyEkXan5u3yvlI5DTtK9)              |                     |
 |        28       |    Maggie Schedl|General Lab Notebook| 20210301|          |                    |                     |
 |        29       |               |                   |            |          |                    |                     |
 |        30       | Chole Gilligan|Astrangia + Histology| 20210602 |          |                    |                     |
@@ -61,7 +61,7 @@
 |        56       |  |            |         |          |                    | 
 |        57       |  |            |         |          |                    | 
 |        58       |  |            |         |          |                    | 
-|        59       | Ariana Huffmyer | March 2024 URI Labwork     |  20240325       |          |                    |  
+|        59       | Ariana Huffmyer | March 2024 URI Labwork     |  20240325       |          |      [Notebook 59](https://drive.google.com/drive/u/2/folders/1xIQI4vaf7FRWdMCSGtNAXpWpAge0TxO0)              |  
 |        60       |  |            |         |          |                    | 
 |        61       |  |            |         |          |                    | 
 |        62       |  |            |         |          |                    | 
