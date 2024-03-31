@@ -41,8 +41,8 @@
 |        36       |    Lauren Zane      |       CNT          |    20210920        |          |                    |                     |
 |        37       |               |                   |            |          |                    |                     |
 |        38       |               |                   |            |          |                    |                     |
-|        39       |  Danielle Becker  |  Moorea Gameotgenesis   |            |          |  [notebook 39](https://drive.google.com/drive/u/1/folders/1RFvGxOfpmNIYO8jbi0eywAKb15d3kSCx)                  |                     |
-|        40       | Danielle Becker  | Moorea Gameotgenesis |            |          | [notebook 40](https://drive.google.com/drive/u/1/folders/1-0eFSTW5194KzacfUk74LzKNGgnbdtUL)                   |                     |
+|        39       |  Danielle Becker  |  Moorea Gameotogenesis   |            |          |  [Notebook 39](https://drive.google.com/drive/u/1/folders/1RFvGxOfpmNIYO8jbi0eywAKb15d3kSCx)                  |                     |
+|        40       | Danielle Becker  | Moorea Gameot0genesis |            |          | [Notebook 40](https://drive.google.com/drive/u/1/folders/1-0eFSTW5194KzacfUk74LzKNGgnbdtUL)                   |                     |
 |        41       | Ariana Huffmyer & Jill Ashey | Symbiont Integration 2021 | 20220404 | |           [notebook 41 pages 1-63](https://drive.google.com/drive/u/2/folders/1dfVltn3Zv8fm_e_p3G8XRhedGzl817eY)         |                     |
 |        42       |               |                   |            |          |                    |                     |
 |        43       | Ariana Huffmyer | Symbiont Integration 2021 | 20220405| 20220411         |                    |                     |
