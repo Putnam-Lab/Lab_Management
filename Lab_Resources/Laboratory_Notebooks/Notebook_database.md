@@ -29,7 +29,7 @@
 |        24       |               |                   |            |          |                    |                     |
 |        25       |               |                   |            |          |                    |                     |
 |        26       |  Jill Ashey   | Astrangia 2021    | 20201121   | 20210721 |                    |                     |
-|        27       | Danielle Becker |E5 + Gametogenesis time series| 20210125 |          |      [Notebook 57 pages 99-120](https://drive.google.com/drive/u/2/folders/1oJuEuXrCQQxRYyEkXan5u3yvlI5DTtK9)              |                     |
+|        27       | Danielle Becker |URI Labwork: E5 + Gametogenesis | 20210125 |          |      [Notebook 27 pages 1 - 89](https://drive.google.com/drive/u/2/folders/1LL8oF1fFLrY6pfJWSK0knYeZG7gHGXAr)              |                     |
 |        28       |    Maggie Schedl|General Lab Notebook| 20210301|          |                    |                     |
 |        29       |               |                   |            |          |                    |                     |
 |        30       | Chole Gilligan|Astrangia + Histology| 20210602 |          |                    |                     |
@@ -41,8 +41,8 @@
 |        36       |    Lauren Zane      |       CNT          |    20210920        |          |                    |                     |
 |        37       |               |                   |            |          |                    |                     |
 |        38       |               |                   |            |          |                    |                     |
-|        39       |  Danielle Becker  |  Moorea Gameotogenesis   |            |          |  [Notebook 39](https://drive.google.com/drive/u/1/folders/1RFvGxOfpmNIYO8jbi0eywAKb15d3kSCx)                  |                     |
-|        40       | Danielle Becker  | Moorea Gameot0genesis |            |          | [Notebook 40](https://drive.google.com/drive/u/1/folders/1-0eFSTW5194KzacfUk74LzKNGgnbdtUL)                   |                     |
+|        39       |  Danielle Becker  |  Moorea Gameotogenesis   |            |          |  [Notebook 39 pages 1 - 166](https://drive.google.com/drive/u/1/folders/1RFvGxOfpmNIYO8jbi0eywAKb15d3kSCx)                  |                     |
+|        40       | Danielle Becker  | Moorea Gameot0genesis |            |          | [Notebook 40 pages 1 - 154](https://drive.google.com/drive/u/1/folders/1-0eFSTW5194KzacfUk74LzKNGgnbdtUL)                   |                     |
 |        41       | Ariana Huffmyer & Jill Ashey | Symbiont Integration 2021 | 20220404 | |           [notebook 41 pages 1-63](https://drive.google.com/drive/u/2/folders/1dfVltn3Zv8fm_e_p3G8XRhedGzl817eY)         |                     |
 |        42       |               |                   |            |          |                    |                     |
 |        43       | Ariana Huffmyer | Symbiont Integration 2021 | 20220405| 20220411         |                    |                     |
