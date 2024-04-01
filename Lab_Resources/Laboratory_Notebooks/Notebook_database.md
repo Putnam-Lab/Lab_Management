@@ -32,7 +32,7 @@
 |        27       | Danielle Becker |URI Labwork: E5 + Gametogenesis | 20210125 |          |      [Notebook 27 pages 1 - 89](https://drive.google.com/drive/u/2/folders/1LL8oF1fFLrY6pfJWSK0knYeZG7gHGXAr)              |                     |
 |        28       |    Maggie Schedl|General Lab Notebook| 20210301|          |                    |                     |
 |        29       |               |                   |            |          |                    |                     |
-|        30       | Chloé Gilligan|Astrangia + POC Histology| 20210602 |          |                    |      [Notebook 30](https://drive.google.com/drive/u/0/folders/1_rUgg9J-hJgmS5apk39LdlNODILBLsQ0)               |
+|        30       | Chloé Gilligan|Astrangia + POC Histology| 20210602 |          |       [Notebook 30](https://drive.google.com/drive/u/0/folders/1_rUgg9J-hJgmS5apk39LdlNODILBLsQ0)              |                    |
 |        31       |  Ariana Huffmyer  | Symbiont Integration 2021 + Moorea Pacuta 2021 | 20210601 | 20211209 |   [Notebook 31](https://drive.google.com/drive/u/2/folders/1cb47iv4PPycyX8NHinCC-gohd-422B0U)                 |                     |
 |        32       |  Jill Ashey   |Astrangia + HIMB 2022| 20210722 | 20230118 |                    |                     |
 |        33       |               |                   |            |          |                    |                     |
@@ -60,7 +60,7 @@
 |        55       | Hollie Putnam  | COTS Pocillopora RAPID           | 20231001     |    |  [Notebook 55](https://drive.google.com/drive/u/1/folders/1E6YqB_r7Mmc1G0HQLTGKNMszTFlSDZvV)        |                    | 
 |        56       |  |            |         |          |                    | 
 |        57       |  |            |         |          |                    | 
-|        58       | Chloé Gilligan | COTS POC RAPID            |         |          |                    | [Notebook 58] (https://drive.google.com/drive/u/0/folders/1JLQZPcFibXXdVEsVP8C47XHY_krW2ed8)
+|        58       | Chloé Gilligan | COTS POC RAPID            |         |          |     [Notebook 58](https://drive.google.com/drive/u/0/folders/1JLQZPcFibXXdVEsVP8C47XHY_krW2ed8)               | 
 |        59       | Ariana Huffmyer | March 2024 URI Labwork     |  20240325       |          |      [Notebook 59](https://drive.google.com/drive/u/2/folders/1xIQI4vaf7FRWdMCSGtNAXpWpAge0TxO0)              |  
 |        60       |  |            |         |          |                    | 
 |        61       |  |            |         |          |                    | 
