@@ -50,7 +50,7 @@
 |        45       | Ariana Huffmyer | Moorea Larval Temp 2022 | 20221020 | 20221028 |    [Notebook 45](https://drive.google.com/drive/u/2/folders/1o2JnTk62BX9FhFMAWTg6rsJR4C_aLgtA)                |                     |
 |        46       |               |                   |            |          |                    |                     |
 |        47       |               |                   |            |          |                    |                     |
-|        48       | Zoe Dellaert  |    ENCORE, E5, IntBio, CELS ST  | 20221001   |          |     [Notebook 48](https://drive.google.com/drive/folders/16R43HTOhWb1Ts8Qltwb7FzymeyHVnUNT?usp=drive_link               |                     |
+|        48       | Zoe Dellaert  | ENCORE, E5, IntBio, CELS ST  | 20221001 |   |  [Notebook 48](https://drive.google.com/drive/folders/16R43HTOhWb1Ts8Qltwb7FzymeyHVnUNT?usp=drive_link)    |   |
 |        49       | Florence Fields |General Lab Notebook| 20230413|          |                    |                     |
 |        50       | Hollie Putnam | BSF Climate SOlutions | 20230503  |          |                    |                     |
 |        51       | Chloe Gilligan | COTS Pocillopora RAPID            |        | |  [Notebook 51](https://drive.google.com/drive/u/1/folders/1EYyFF8hKeZxYx5_gXWJiGwxXpYO6nRaV)        |                    | 
