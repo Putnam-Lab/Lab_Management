@@ -52,7 +52,7 @@
 |        47       |               |                   |            |          |                    |                     |
 |        48       | Zoe Dellaert  |    ENCORE + E5    | 20221001   |          |                    |                     |
 |        49       | Florence Fields |General Lab Notebook| 20230413|          |                    |                     |
-|        50       | Hollie Putnam | BSF Climate SOlutions | 20230503  |          |                    |                     |
+|        50       | Hollie Putnam | BSF Climate Solutions | 20230503  |          |                    |                     |
 |        51       | Chloe Gilligan | COTS Pocillopora RAPID            |        | |  [Notebook 51](https://drive.google.com/drive/u/1/folders/1EYyFF8hKeZxYx5_gXWJiGwxXpYO6nRaV)        |                    | 
 |        52       |  |            |         |          |                    | 
 |        53       |  |            |         |          |                    |
