@@ -40,7 +40,7 @@
 |        35       |               |                   |            |          |                    |                     |
 |        36       |    Lauren Zane      |       CNT          |    20210920        |          |                    |                     |
 |        37       |               |                   |            |          |                    |                     |
-|        38       |  Putnam Lab            |   CBLS Wetlab             |            |          |           [Notebook 38](https://drive.google.com/drive/u/0/folders/1-yPG6LRvf_3I7PVfI1CmGuxYdbr_hcrA)      |                     |
+|        38       |  Putnam Lab            |   CBLS Wetlab             |   20220106         |          |           [Notebook 38](https://drive.google.com/drive/u/0/folders/1-yPG6LRvf_3I7PVfI1CmGuxYdbr_hcrA)      |                     |
 |        39       |  Danielle Becker  |  Moorea Gametogenesis   |            |          |  [Notebook 39 pages 1 - 166](https://drive.google.com/drive/u/1/folders/1RFvGxOfpmNIYO8jbi0eywAKb15d3kSCx)                  |                     |
 |        40       | Danielle Becker  | Moorea Gametogenesis |            |          | [Notebook 40 pages 1 - 154](https://drive.google.com/drive/u/1/folders/1-0eFSTW5194KzacfUk74LzKNGgnbdtUL)                   |                     |
 |        41       | Ariana Huffmyer & Jill Ashey | Symbiont Integration 2021 | 20220404 | |           [notebook 41 pages 1-63](https://drive.google.com/drive/u/2/folders/1dfVltn3Zv8fm_e_p3G8XRhedGzl817eY)         |                     |
@@ -52,15 +52,15 @@
 |        47       | Jill Ashey              |   HIMB 2023 + AST processing               | 20230123           |          |                    |                     |
 |        48       | Zoe Dellaert  | ENCORE, E5, IntBio, CELS ST  | 20221001 |   |  [Notebook 48](https://drive.google.com/drive/folders/16R43HTOhWb1Ts8Qltwb7FzymeyHVnUNT?usp=drive_link)    |   |
 |        49       | Florence Fields |General Lab Notebook| 20230413|          |                    |                     |
-|        50       | Hollie Putnam | BSF Climate SOlutions | 20230503  |          |                    |                     |
-|        51       | Chloé Gilligan | COTS Pocillopora RAPID            |        | |  [Notebook 51](https://drive.google.com/drive/u/1/folders/1EYyFF8hKeZxYx5_gXWJiGwxXpYO6nRaV)        |                    | 
+|        50       | Hollie Putnam | BSF Climate Solutions | 20230503  |          |                    |                     |
+|        51       | Chloé Gilligan | COTS Pocillopora RAPID  Moorea          |        20240112| |  [Notebook 51](https://drive.google.com/drive/u/1/folders/1EYyFF8hKeZxYx5_gXWJiGwxXpYO6nRaV)        |                    | 
 |        52       |  |            |         |          |                    | 
 |        53       |  |            |         |          |                    |
 |        54       |  |            |         |          |                    |
 |        55       | Hollie Putnam  | COTS Pocillopora RAPID           | 20231001     |    |  [Notebook 55](https://drive.google.com/drive/u/1/folders/1E6YqB_r7Mmc1G0HQLTGKNMszTFlSDZvV)        |                    | 
 |        56       |  |            |         |          |                    | 
 |        57       |  |            |         |          |                    | 
-|        58       | Chloé Gilligan | COTS POC RAPID            |         |          |     [Notebook 58](https://drive.google.com/drive/u/0/folders/1JLQZPcFibXXdVEsVP8C47XHY_krW2ed8)               | 
+|        58       | Chloé Gilligan | COTS POC RAPID  URI labwork        |         20231208|          |     [Notebook 58](https://drive.google.com/drive/u/0/folders/1JLQZPcFibXXdVEsVP8C47XHY_krW2ed8)               | 
 |        59       | Ariana Huffmyer | March 2024 URI Labwork     |  20240325       |          |      [Notebook 59](https://drive.google.com/drive/u/2/folders/1xIQI4vaf7FRWdMCSGtNAXpWpAge0TxO0)              |  
 |        60       |  |            |         |          |                    | 
 |        61       |  |            |         |          |                    | 
