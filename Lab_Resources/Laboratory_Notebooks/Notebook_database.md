@@ -51,11 +51,11 @@
 |        46       | Pierrick Harnay   |  Pocillopora ID RA Transect  Moorea |  20230228          |          |                    |                     |
 |        47       | Jill Ashey              |   HIMB 2023 + AST processing               | 20230123           |          |                    |                     |
 |        48       | Zoe Dellaert  | ENCORE, E5, IntBio, CELS ST  | 20221001 |   |  [Notebook 48](https://drive.google.com/drive/folders/16R43HTOhWb1Ts8Qltwb7FzymeyHVnUNT?usp=drive_link)    |   |
-|        49       | Florence Fields |General Lab Notebook| 20230413|          |                    |                     |
+|        49       | Florence Fields |General Lab Notebook| 20230413|          |   [Notebook 49](https://drive.google.com/drive/folders/1GKsZdpzJqkfZudHTK638vZdE9qRy23wH?usp=drive_link) |                     |
 |        50       | Hollie Putnam | BSF Climate Solutions | 20230503  |          |                    |                     |
 |        51       | Chloé Gilligan | COTS Pocillopora RAPID  Moorea          |        20240112| |  [Notebook 51](https://drive.google.com/drive/u/1/folders/1EYyFF8hKeZxYx5_gXWJiGwxXpYO6nRaV)        |                    |
 |        52       |  |            |         |          |                    |
-|        53       |  |            |         |          |                    |
+|        53       | Florence Fields| ENCORE | 20230526 |          | [Notebook 53](https://drive.google.com/drive/folders/1iGhtulpmuf7jSJLjQkAVVJ-ysGaz3HkG?usp=drive_link)  |  |
 |        54       |  |            |         |          |                    |
 |        55       | Hollie Putnam  | COTS Pocillopora RAPID           | 20231001     |    |  [Notebook 55](https://drive.google.com/drive/u/1/folders/1E6YqB_r7Mmc1G0HQLTGKNMszTFlSDZvV)        |                    |
 |        56       |  |            |         |          |                    |
