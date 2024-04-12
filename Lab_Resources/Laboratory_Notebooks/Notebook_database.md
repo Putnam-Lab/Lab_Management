@@ -4,18 +4,18 @@
 | Notebook Number |  Personnel    |  Project Contents | Start Date | End Date | Electronic Archive | Notes |
 |:---------------:|:-------------:|:-----------------:|:----------:|:--------:|:------------------:| :------------------:|
 |        1        | Kevin Wong    |      BIOS2017     |  20170813  |          |  [Notebook 1](https://drive.google.com/drive/u/1/folders/1yOBbBNgjXLsc_Z6ds8fEQX8ylrs_suGU)                  |                     |  
-|        2        | Andrew Petlock|       Embryos     |  20170908  |          |                    |                     |
+|        2        | Andrew Petlock|       Embryos     |  20170908  |      |   [Notebook 2](https://drive.google.com/drive/u/1/folders/1OwDex_5MJDfDzoL1xGQ2VtJoF5g-AG0T)                     |                     |
 |        3        | Max Zavell    | Biomineralization |  20170908  |          |                    |                     |
-|        4        | Erin Bowman   |      BIOS2017     |  20170912  |          |                    |                     |
-|        5        | Hollie Putnam |   Coral TPC       |  20180930  |          |                    |                     |
-|        6        | Erin Chille   |                   | 20180201   |          |                    |                     |
-|        7        | Hollie Putnam |  Moorea Connect   |  20180308  |          |                    |                     |
-|        8        | Hollie Putnam |Holobiont Integration| 20180901 | 20190112 |                    |                     |
+|        4        | Erin Bowman   |      BIOS2017     |  20170912  |          |                    [Notebook 4] (https://drive.google.com/drive/u/1/folders/1DeJLr8B78c-X8VbxsPBujuW9PhrO1M8E) |                    |
+|        5        | Hollie Putnam |   Coral TPC       |  20180930  |          |                    [Notebook 5](https://drive.google.com/drive/u/1/folders/1Og4Nqg2NWHyeyIVbUdOyLubql8p2qSPu)|                     |
+|        6        | Erin Chille   |                   | 20180201   |          |                    [Notebook 6](https://drive.google.com/drive/u/1/folders/1Em4xVIvxeQfonQptgVBp33TjcfDjBSke)|                     |
+|        7        | Hollie Putnam |  Moorea Connect   |  20180308  |          |                    [Notebook 7](https://drive.google.com/drive/u/1/folders/1CY5REdsLifyatL_wEVBfmV4QzdPI9d_6)|                     |
+|        8        | Hollie Putnam |Holobiont Integration| 20180901 | 20190112 |                    [Notebook 8](https://drive.google.com/drive/u/1/folders/1PO0rfEiZFJnLT4x3TGvRudtuFmHBzOGm)|                     |
 |        9        |               |                   |            |          |                    |                     |
 |        10       |  Sam Gurr     |  Geoduck FFAR     |  20191009  | 20210303   |  [Notebook10](https://drive.google.com/drive/u/1/folders/1tkBTEnRiyPSfmHNIgHLrGgkIWGKBu4sI)                  |                     |
 |        11       |   Sam Gurr |  Geoduck FFAR  |  20190330  | 20190419 |  [Notebook11](https://drive.google.com/drive/u/1/folders/1g2DRze4RcN3m9fvqFdcE0aAFz3yZf13n)                   |                     |
 |        12       | Sam Gurr |  Geoduck FFAR   |  20190115          | 20190329 |   [Notebook12](https://drive.google.com/drive/u/1/folders/1NPFgAmrhc5NcplBgkrbC5MLAbAJLpR7N)                   |                     |
-|        13       | Maggie Schedl |General Lab Notebook|20181201   |          |                    |                     |
+|        13       | Maggie Schedl |General Lab Notebook|20181201   |          |                    [Notebook 13](https://drive.google.com/drive/u/1/folders/1JhjKmaSok6s70O5-qwmVPwPhq7KZBuF1)|                    |
 |        14       |               |                   |            |          |                    |                     |
 |        15       |               |                   |            |          |                    |                     |
 |        16       |               |                   |            |          |                    |                     |
@@ -30,7 +30,7 @@
 |        25       |               |                   |            |          |                    |                     |
 |        26       |  Jill Ashey   | Astrangia 2021    | 20201121   | 20210721 | [Notebook 26](https://drive.google.com/drive/u/1/folders/1_akGNve0qaMWLWnCkhTAWbmJpoJIHFKd)                   |                     |
 |        27       | Danielle Becker |URI Labwork: E5 + Gametogenesis | 20210125 |          |      [Notebook 27 pages 1 - 89](https://drive.google.com/drive/u/2/folders/1LL8oF1fFLrY6pfJWSK0knYeZG7gHGXAr)              |                     |
-|        28       |    Maggie Schedl|General Lab Notebook| 20210301|          |                    |                     |
+|        28       |    Maggie Schedl|General Lab Notebook| 20210301|          |  [Notebook 28](https://drive.google.com/drive/u/1/folders/1SDLEMg6K0zZi8VbdkP-4n520ZJfThPzw)                  |                     |
 |        29       |               |                   |            |          |                    |                     |
 |        30       | Chloé Gilligan|Astrangia + POC Histology| 20210602 |          |       [Notebook 30](https://drive.google.com/drive/u/0/folders/1_rUgg9J-hJgmS5apk39LdlNODILBLsQ0)              |                    |
 |        31       |  Ariana Huffmyer  | Symbiont Integration 2021 + Moorea Pacuta 2021 + Australia 2024 Lipids | 20210601 | 20211209 |   [Notebook 31](https://drive.google.com/drive/u/2/folders/1cb47iv4PPycyX8NHinCC-gohd-422B0U)                 |                     |
