@@ -19,7 +19,7 @@ Information on Sanger sequencing at the URI GSC is [here](https://web.uri.edu/gs
 - [Multichannel and regular micropipettes](https://www.shoprainin.com/Products/Pipettes-and-Tips/Pipettes/Single-Channel-Manual-Pipettes/c/MTMP001)
 - [Filter pipette tips](https://www.shoprainin.com/Products/Pipettes-and-Tips/Pipette-Tips/LTS-Pipette-Tips/c/MTBLTSTP001)
 - Ethanol
-- [Magnetic DNA binding beads](https://sequencing.roche.com/en-us/products-solutions/by-category/library-preparation/library-preparation-accessories/kapa-pure-beads/ordering.html)
+- [KAPAPure Magnetic DNA binding beads](https://sequencing.roche.com/en-us/products-solutions/by-category/library-preparation/library-preparation-accessories/kapa-pure-beads/ordering.html)
 - [Magnetic plate for 96 well plates](https://www.thermofisher.com/order/catalog/product/12331D#/12331D)
 - Materials for gel electrophoresis ([agarose](https://www.fishersci.com/shop/products/agarose-electrophoresis-grade-12/AAJ6650118#?keyword=agarose), [TAE buffer](https://www.fishersci.com/shop/products/tris-acetate-edta-50x-solution-electrophoresis-fisher-bioreagents-4/bp13324#?keyword=TAE+buffer), gel box, [gelgreen](https://biotium.com/product/gelgreen-nucleic-acid-gel-stain/), [1KB plus DNA ladder](https://www.thermofisher.com/order/catalog/product/SM1331#/SM1331), [loading dye](https://www.thermofisher.com/order/catalog/product/R1161?SID=srch-srp-R1161#/R1161?SID=srch-srp-R1161))
 - [Broad range dsDNA Qubit assay](https://www.thermofisher.com/order/catalog/product/Q32850#/Q32850) and [tubes for Qubit use](https://www.fishersci.com/shop/products/axygen-pcr-tubes-0-5ml-flat-cap-10/p-4909458)
@@ -36,13 +36,10 @@ Information on Sanger sequencing at the URI GSC is [here](https://web.uri.edu/gs
 
 #### Primer Working Stock Dilution
 
-1. Primers are resuspended to 200uM stock solution (they come dried) with low TE buffer
+1. Primers are resuspended to 100uM stock solution (they come dried) with low TE buffer
 2. Primers should be added at 10uM concentration for each, and thus need to be diluted into workin stock aliquots
-3. For working stocks of 500ul in 1.5mL tubes:
-  - 25ul of 200uM Stock Primer
-  - 475ul of UltraPure water
-4. Vortex to mix for 15 seconds then spin down
-5. Store in -20 degree C freezer
+3. Vortex to mix for 15 seconds then spin down
+4. Store in -20 degree C freezer
 
 #### DNA Dilution
 
@@ -59,31 +56,27 @@ Information on Sanger sequencing at the URI GSC is [here](https://web.uri.edu/gs
 
 #### mtORF Amplification
 
-1. Each sample will be amplified in triplicate (3 reactions), each reaction being 33ul total volume. Meaning that 100ul of reaction master mix and sample are needed for each sample
+1. Each sample will be amplified in 25µl reaction volume
 2. Calculate the amount of master mix is needed: add number of samples and negative controls plus a % error (5-10%) to get the _n_ number
 3. Make master mix in 1.5mL or 5mL tube with these components scaled up to your _n_ number:
-  - 50ul Phusion PCR master mix * _n_ =
-  - 44ul UltraPure water * _n_ =
-  - 1.3ul 10uM working stock FatP6.1 primer * _n_ =
-  - 1.3ul 10uM working stock RORF primer * _n_ =
+  - 12.5µl Takara bio Emerald Amp master mix * _n_ =
+  - 10.9µl UltraPure water * _n_ =
+  - 0.3µl 10µM working stock FatP6.1 primer * _n_ =
+  - 0.3µl 10µM working stock RORF primer * _n_ =
 4. Vortex and spin down master mix and keep on ice
-5. Use a new 96 well plate and add 97ul of master mix to as many wells as samples you have + the number of negative controls planned (usually 1 per row). For ease of pipetting, this is the same layout of the dilution plate you already made
-6. Using a p20 multichannel pipette, add 3ul of DNA sample to their respective well in the plate where the master mix is added, making 1 well with 100ul of mix and DNA per sample. Be careful to keep orientation of plates the same and of the multichannel the same when transferring between the two plates. If you don't already have aliquots for negative controls, add 3ul of water in the wells for those reactions
+5. Use a new 96 well plate and add 24ul of master mix to as many wells as samples you have + the number of negative controls planned (usually 1 per row). For ease of pipetting, this is the same layout of the dilution plate you already made
+6. Add 1µl of DNA sample to their respective well in the plate where the master mix is added. Be careful to keep orientation of plates the same and of the multichannel the same when transferring between the two plates. If you don't already have aliquots for negative controls, add 1µl of water in the wells for those reactions
 7. Cover plate with foil seal and vortex to mix. Centrifuge down to remove bubbles
-8. Set up two other 96 well plates (or if you used half of the first plate you can use the other wells on it)
-9. Use the multichannel p200 to remove 33ul from each well in the first plate and replicate that plate in one of the other plates, change pipette tips, and again take 33ul from the first plate and replicate that row in the remaining empty 96 well plate. Repeat 33ul separation for all rows in the initial plate. After this you should have 3 identical plates (or partial plates) each will 33ul of mix and DNA in each
-10. Cover plates with foil seal and spin down to remove bubbles
-11. If you have 3 plates you will need 3 thermocyclers
-12. Turn on thermocyler and login to PUTNAM (1,2,3,4) and navigate to the FATP RORF program
-13. Run that program for however many plates you have
-14. Program, bold fields are cycled 30 times:
+8. Turn on thermocyler and login to PUTNAM (1,2,3,4) and navigate to the FATP RORF program
+9. Run that program for however many plates you have
+10. Program, bold fields are cycled 30 times:
   - 60 seconds 94 degrees C
   - **30 seconds 94 degrees C**
   - **30 seconds 53 degrees C**
   - **75 seconds 72 degrees C**
   - 5 minutes 72 degrees C
-15. The program runs for about 1 hour and 40 minutes
-16. Take plates out and store at 4 degrees C if not cleaning up immediately
+11. The program runs for about 1 hour and 40 minutes
+12. Take plates out and store at 4 degrees C if not cleaning up immediately
 
 #### 1X Bead Cleanup (post PCR bench)
 
