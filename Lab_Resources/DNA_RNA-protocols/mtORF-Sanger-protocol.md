@@ -7,7 +7,7 @@ Information on Sanger sequencing at the URI GSC is [here](https://web.uri.edu/gs
 
 #### Materials and Equipment:
 
-- Primers (oderable from IDT):
+- Primers (ordered from IDT):
   - FatP6.1 **5′-TTTGGGSATTCGTTTAGCAG-3'**
   - RORF **5′-SCCAATATGTTAAACASCATGTCA-3′**
 - [Phusion High-Fidelity PCR Master Mix with HF Buffer](https://www.thermofisher.com/order/catalog/product/F531S#/F531S)
