@@ -4,9 +4,9 @@
 | Notebook Number |  Personnel    |  Project Contents | Start Date | End Date | Electronic Archive | Notes |
 |:---------------:|:-------------:|:-----------------:|:----------:|:--------:|:------------------:| :------------------:|
 |        1        | Kevin Wong    |      BIOS2017     |  20170813  |          |  [Notebook 1](https://drive.google.com/drive/u/1/folders/1yOBbBNgjXLsc_Z6ds8fEQX8ylrs_suGU)                  |                     |  
-|        2        | Andrew Petlock|       Embryos     |  20170908  |      |   [Notebook 2](https://drive.google.com/drive/u/1/folders/1OwDex_5MJDfDzoL1xGQ2VtJoF5g-AG0T)                     |                     |
+|        2        | Andrew Petlock|       Embryos     |  20170908  |      |   [Notebook 2](https://drive.google.com/drive/u/1/folders/1OwDex_5MJDfDzoL1xGQ2VtJoF5g-AG0T)                     |                     |``
 |        3        | Max Zavell    | Biomineralization |  20170908  |          |                    |                     |
-|        4        | Erin Bowman   |      BIOS2017     |  20170912  |          |                    [Notebook 4] (https://drive.google.com/drive/u/1/folders/1DeJLr8B78c-X8VbxsPBujuW9PhrO1M8E) |                    |
+|        4        | Erin Bowman   |      BIOS2017     |  20170912  |          |                    [Notebook 4](https://drive.google.com/drive/u/1/folders/1DeJLr8B78c-X8VbxsPBujuW9PhrO1M8E) |                    |
 |        5        | Hollie Putnam |   Coral TPC       |  20180930  |          |                    [Notebook 5](https://drive.google.com/drive/u/1/folders/1Og4Nqg2NWHyeyIVbUdOyLubql8p2qSPu)|                     |
 |        6        | Erin Chille   |                   | 20180201   |          |                    [Notebook 6](https://drive.google.com/drive/u/1/folders/1Em4xVIvxeQfonQptgVBp33TjcfDjBSke)|                     |
 |        7        | Hollie Putnam |  Moorea Connect   |  20180308  |          |                    [Notebook 7](https://drive.google.com/drive/u/1/folders/1CY5REdsLifyatL_wEVBfmV4QzdPI9d_6)|                     |
@@ -21,7 +21,7 @@
 |        16       |               |                   |            |          |                    |                     |
 |        17       |       E5      |  Moorea E5        | 20201231   |          | [Notebook 17](https://drive.google.com/drive/u/1/folders/11dWjEpwpiTMu7EzVegkFU8gnxio-5mOW)                   |                     |
 |        18       |               |                   |            |          |                    |                     |
-|        19       | Emma Strand | Holobiont Integration | 20190501 |          |  [Notebook 19](https://drive.google.com/drive/u/1/folders/1mrI1G9jDXOQflhzSOGVXPZ_x6sxeflTE)                  |                     |
+|        19       | Emma Strand | Holobiont Integration | 20190501 |          |  [Notebook 19](https://drive.google.com/drive/u/1/folders/1oFkZh9Kr2VU9JRLI-gKOuxP9FVG0omm0)                 |                     |
 |        20       |               |                   |            |          |                    |                     |
 |        21       |       E5      |  Moorea E5        | 20201231   |          | [Notebook 21](https://drive.google.com/drive/u/1/folders/1LMvI56nj-jg01niKBVTu0n53zidkBciG)                   |                     |
 |        22       |       E5      |  Moorea E5        | 20201231   |          | [Notebook 22](https://drive.google.com/drive/u/1/folders/1ctpnqX0g5ZHRpiZ3aB4bwiaIXMdaaJgz)                   |                     |
