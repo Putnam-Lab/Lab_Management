@@ -25,7 +25,7 @@
 |        20       |               |                   |            |          |                    |                     |
 |        21       |       E5      |  Moorea E5        | 20201231   |          | [Notebook 21](https://drive.google.com/drive/u/1/folders/1LMvI56nj-jg01niKBVTu0n53zidkBciG)                   |                     |
 |        22       |       E5      |  Moorea E5        | 20201231   |          | [Notebook 22](https://drive.google.com/drive/u/1/folders/1ctpnqX0g5ZHRpiZ3aB4bwiaIXMdaaJgz)                   |                     |
-|        23       | Emma Strand | Holobiont Integration | 20191125 |          |                    |                     |
+|        23       | Emma Strand | Holobiont Integration | 20191125 |          |  [Notebook 23](https://drive.google.com/drive/u/1/folders/1Ayn8sDQTodsC4eWe8clsrDW4-tCZEscW)                  |                     |
 |        24       |               |                   |            |          |                    |                     |
 |        25       |               |                   |            |          |                    |                     |
 |        26       |  Jill Ashey   | Astrangia 2021    | 20201121   | 20210721 | [Notebook 26](https://drive.google.com/drive/u/1/folders/1_akGNve0qaMWLWnCkhTAWbmJpoJIHFKd)                   |                     |
@@ -36,7 +36,7 @@
 |        31       |  Ariana Huffmyer  | Symbiont Integration 2021 + Moorea Pacuta 2021 + Australia 2024 Lipids | 20210601 | 20211209 |   [Notebook 31](https://drive.google.com/drive/u/2/folders/1cb47iv4PPycyX8NHinCC-gohd-422B0U)                 |                     |
 |        32       |  Jill Ashey   |Astrangia + HIMB 2022| 20210722 | 20230118 | [Notebook 32](https://drive.google.com/drive/u/1/folders/11XtVmvMP5D0GS6yhnDIewTM2lM8QKEuJ)                   |                     |
 |        33       |               |                   |            |          |                    |                     |
-|        34       |   Emma Strand       |   Holobiont Int. / KBay    |   20210802    |   20221018   |                    |   Only half full   |
+|        34       |   Emma Strand       |   Holobiont Int. / KBay    |   20210802    |   20221018   |                    [Notebook 34](https://drive.google.com/drive/u/1/folders/1ITCoIUnkMwD5fbcOelcu8fcSmnE-5mfn)|   Only half full   |
 |        35       |               |                   |            |          |                    |                     |
 |        36       |    Lauren Zane      |       CNT/Early Summer          |    20210920        |    20240530      |       [Notebook 36](https://drive.google.com/drive/u/0/folders/1RjsEolYitBFLkmSdFq4869Q1OxoQNbWF)             |                     |
 |        37       |               |                   |            |          |                    |                     |
