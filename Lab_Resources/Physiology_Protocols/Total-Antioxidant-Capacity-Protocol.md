@@ -10,7 +10,7 @@ projects: E5, Putnam Lab
 # Total Antioxidant Capacity Protocol
 
 Original: 220200101   
-Last Revised: 20220916   
+Last Revised: 20240425
 
 
 [Cell BioLabs OxiSelect Total Antioxidant Capacity (TAC) Assay Kit](https://www.cellbiolabs.com/total-antioxidant-capacity-tac-assay?gclid=EAIaIQobChMIiI6EtZK15QIVBKSzCh0uSw7pEAAYAyAAEgID-_D_BwE).
