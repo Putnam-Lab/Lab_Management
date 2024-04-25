@@ -10,7 +10,7 @@ projects: E5, Putnam Lab
 # Quantifying Chl-a and Chl-c2 Concentration in Symbiodiniaceae from coral tissues
 
 Original: 20200101 E5 Protocol
-Last Revised: 20220719 DMBP
+Last Revised: 20240425 CG
 
 Contents  
 - [**Materials**](#Materials)   

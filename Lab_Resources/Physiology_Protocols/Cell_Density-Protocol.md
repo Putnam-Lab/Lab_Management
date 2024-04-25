@@ -10,7 +10,7 @@ projects: E5, Putnam Lab
 # Symbiont Cell Density Counting Protocol
 
 Original: 220200101   
-Last Revised: 20220916
+Last Revised: 20240425
 
 Contents  
 - [**Materials**](#Materials)    
