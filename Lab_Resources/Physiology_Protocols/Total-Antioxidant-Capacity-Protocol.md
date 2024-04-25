@@ -19,7 +19,7 @@ Last Revised: 20220916
 
 Contents  
 - [**Materials**](#Materials)   
-- [**Reagent Prep**](#Reagent Prep)    
+- [**Reagent Prep**](#ReagentPrep)    
 - [**Protocol**](#Protocol)  
 - [**References**](#References)
 
@@ -73,6 +73,8 @@ Contents
 5. Incubate 5 minutes on an orbital shaker.  
 6. Add 50 μL of 1X Stop Solution to each well. This terminates the reaction.  
 7. Measure the absorbance for each well at 490 nm.
+
+![Spectrophotometer](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Spectrophotometer.HEIC)
 
 4. <a name="References"></a> **References**
 
