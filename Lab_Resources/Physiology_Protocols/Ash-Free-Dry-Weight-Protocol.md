@@ -30,28 +30,35 @@ Contents
 2. <a name="Protocol"></a> **Protocol**
 
     1.  Obtain aluminum weigh pans to be used in AFDW determination
-    1.  Label each pan with an ID number. May use a spatula to scrape a # into bottom of pan, or use pencil. Careful not to puncture a hole in the pan.  Marker WILL burn off! Numbers written on the bottom of the pan will appear backwards and/or upside down when recording pan ID later on in protocol.  
-    1.  After labeling, burn in the muffle furnace at 450°C for 4-6 h (some papers use 500°C for 4 or 6). After, remove from the muffle furnace, place in a glass desiccator for storage.    
-	*Take care after this point that pans are not touched without gloves on, and that pans are ALWAYS sat on burned aluminum foil on tabletops and in ovens/furnaces/scales*
-    1.  Record weight of burned pans on 4-decimal place scale (= “C” in Table 1.) Make sure you are using clean gloves or tweezers to weight the pans.
-    1.  Keep pans in desiccator until used
-    2. Remove frozen tissue homogenate from freezer and thaw.
-    3. Vortex tissue homogenate and pipet 5 mL (use 5mL pipet) into a 15-mL falcon tube.
-    4. Centrifuge the 15-mL tubes for 3 min at 3,500 xg.  
-    5. Line cafeteria trays with aluminum foil and fill with empty pre-burned pans, using tweezers to transfer pans.
-    6. After centrifuging 15-mL tubes, pipet 4 mL of supernatant (host fraction) into a pre-burned pan. Record the pan number used for each sample, and indicate in notebook that this is the host fraction for that sample.  
-    7. Discard (pour out) the remaining <1 mL of supernatant, being careful not to lose the pellet.
-    8. Resuspend the symbiont pellets in 15-mL tubes with 1 mL 1xPBS. Use 5-mL pipet to break up symbiont pellet and transfer **all** of the liquid into another pre-burned pan. Record pan number and sample ID in notebook, indicating that this is the symbiont fraction.
-    9. Transfer trays of filled pans to drying oven at 60°C for at least 24 h.  
-    10. Weigh dried pans (using tweezers when transferring). Should be “at constant weight”. Preliminary steps may be needed to ensure samples have reached a constant weight. Leaving samples in drying oven longer than 24 h may be necessary, and is likely not detrimental.
-    11. After samples have reached a constant weight, weigh pan + dried samples on a 4- decimal scale and record weight (= “D” in Table 1.)
-    12. After recording the weight of the burned pan + dry tissue (and salts), place in the muffle furnace at 450°C for 4-6 h. Turn on the muffle furnace and click the 'up' arrow to set the temperature to 450 C. Once set, the muffle furnace will begin to heat up. After the 4-6 h time period, turn off the muffle furnace. This needs time (could be hours) for the muffle furnace to cool down. *Budget for this in lab time. You cannot take the pans out right away.* 
+
+    2.  Label each pan with an ID number. May use a spatula to scrape a # into bottom of pan, or use pencil. Careful not to puncture a hole in the pan.  Marker WILL burn off! Numbers written on the bottom of the pan will appear backwards and/or upside down when recording pan ID later on in protocol. 
+     
+    3.  After labeling, burn in the muffle furnace at 450°C for 4-6 h (some papers use 500°C for 4 or 6). After, remove from the muffle furnace, place in a glass desiccator for storage.    
+	*Take care after this point that pans are not touched without gloves on, and that pans are ALWAYS sat on burned aluminum foil on tabletops and in ovens/furnaces/scales*	
+	![Drying oven and muffle furnace](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/dryingoven_muffle%20furnace.HEIC)
+	
+    4.  Record weight of burned pans on 4-decimal place scale (= “C” in Table 1.) Make sure you are using clean gloves or tweezers to weight the pans. ![Dryingoven](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/mufflefurnace.HEIC)
+
+    5.  Keep pans in desiccator until used ![Desiccator](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Dessicator.HEIC)
+    6. Remove frozen tissue homogenate from freezer and thaw.
+    7. Vortex tissue homogenate and pipet 5 mL (use 5mL pipet) into a 15-mL falcon tube.
+    8. Centrifuge the 15-mL tubes for 3 min at 3,500 xg.  
+     ![Centrifuge](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/centrifuge.HEIC)
+    
+    9. Line cafeteria trays with aluminum foil and fill with empty pre-burned pans, using tweezers to transfer pans.
+    10. After centrifuging 15-mL tubes, pipet 4 mL of supernatant (host fraction) into a pre-burned pan. Record the pan number used for each sample, and indicate in notebook that this is the host fraction for that sample.  
+    11. Discard (pour out) the remaining <1 mL of supernatant, being careful not to lose the pellet.
+    12. Resuspend the symbiont pellets in 15-mL tubes with 1 mL 1xPBS. Use 5-mL pipet to break up symbiont pellet and transfer **all** of the liquid into another pre-burned pan. Record pan number and sample ID in notebook, indicating that this is the symbiont fraction.
+    13. Transfer trays of filled pans to drying oven at 60°C for at least 24 h.  
+    14. Weigh dried pans (using tweezers when transferring). Should be “at constant weight”. Preliminary steps may be needed to ensure samples have reached a constant weight. Leaving samples in drying oven longer than 24 h may be necessary, and is likely not detrimental.
+    15. After samples have reached a constant weight, weigh pan + dried samples on a 4- decimal scale and record weight (= “D” in Table 1.)
+    16. After recording the weight of the burned pan + dry tissue (and salts), place in the muffle furnace at 450°C for 4-6 h. Turn on the muffle furnace and click the 'up' arrow to set the temperature to 450 C. Once set, the muffle furnace will begin to heat up. After the 4-6 h time period, turn off the muffle furnace. This needs time (could be hours) for the muffle furnace to cool down. *Budget for this in lab time. You cannot take the pans out right away.* 
 Most literature uses a 6h burn period, but in preliminary tests of blastate 4h is sufficient to burn off the well dispersed (high SA of blastate in pans) residue. Oven also stays hot after turning off, so even at 4h (30 ramp up, 30 min ramp down + residual heat in oven…) the oven will be hot for some time.
 	*NOTE: The organic fraction will burn off at 450°C leaving only salt and inorganics behind. The difference between the dry weight and burned weight is the organic fraction of biomass.*
-    1.  Let pans cool and place in desiccator and transport to the scale room. Avoid transporting when warm, it will cause water to adhere to pans.
-    2.  Measure weight of burned pan + burned tissue (“D” – “F” in Table 1.). This is the AFDW of the organic fraction
-    3.  The AFDW will be biomass (g) for each mL of tissue added, which will then be normalized by the total homogenate volume and skeletal surface area.    
-1. <a name="Table"></a> **Table**
+    17.  Let pans cool and place in desiccator and transport to the scale room. Avoid transporting when warm, it will cause water to adhere to pans.
+    18.  Measure weight of burned pan + burned tissue (“D” – “F” in Table 1.). This is the AFDW of the organic fraction
+ 19.  The AFDW will be biomass (g) for each mL of tissue added, which will then be normalized by the total homogenate volume and skeletal surface area.    
+20. <a name="Table"></a> **Table**
 
 	Table 1. Example calculations:
 	
