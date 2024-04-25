@@ -49,7 +49,7 @@ Contents
     10. After centrifuging 15-mL tubes, pipet 4 mL of supernatant (host fraction) into a pre-burned pan. Record the pan number used for each sample, and indicate in notebook that this is the host fraction for that sample.  
     11. Discard (pour out) the remaining <1 mL of supernatant, being careful not to lose the pellet.
     12. Resuspend the symbiont pellets in 15-mL tubes with 1 mL 1xPBS. Use 5-mL pipet to break up symbiont pellet and transfer **all** of the liquid into another pre-burned pan. Record pan number and sample ID in notebook, indicating that this is the symbiont fraction.
-    13. Transfer trays of filled pans to drying oven at 60°C for at least 24 h.  
+    13. Transfer trays of filled pans to drying oven at 60°C for at least 24 h. ![Drying oven](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Drying%20oven.HEIC) 
     14. Weigh dried pans (using tweezers when transferring). Should be “at constant weight”. Preliminary steps may be needed to ensure samples have reached a constant weight. Leaving samples in drying oven longer than 24 h may be necessary, and is likely not detrimental.
     15. After samples have reached a constant weight, weigh pan + dried samples on a 4- decimal scale and record weight (= “D” in Table 1.)
     16. After recording the weight of the burned pan + dry tissue (and salts), place in the muffle furnace at 450°C for 4-6 h. Turn on the muffle furnace and click the 'up' arrow to set the temperature to 450 C. Once set, the muffle furnace will begin to heat up. After the 4-6 h time period, turn off the muffle furnace. This needs time (could be hours) for the muffle furnace to cool down. *Budget for this in lab time. You cannot take the pans out right away.* 
