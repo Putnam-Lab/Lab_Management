@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Total Protein Protocol
-date: '2020-01-01'
+date: '2024-04-25'
 categories: Protocols
 tags: protein, coral, physiology
 projects: E5, Putnam Lab

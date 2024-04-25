@@ -1,9 +1,9 @@
 ---
 layout: post
-title: XXXXXXXXX
-date: '2020-01-01'
+title: Symbiont Cell Density counts
+date: '2024-04-25'
 categories: Protocols
-tags: XXXX, coral, physiology
+tags: Symbionts, coral, physiology
 projects: E5, Putnam Lab
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Airbrushing
-date: '2020-01-01'
+date: '2024-04-25'
 categories: Protocols
 tags: AFDW, coral, physiology
 projects: E5, Putnam Lab
@@ -51,6 +51,9 @@ Contents
     12. Resuspend the symbiont pellets in 15-mL tubes with 1 mL 1xPBS. Use 5-mL pipet to break up symbiont pellet and transfer **all** of the liquid into another pre-burned pan. Record pan number and sample ID in notebook, indicating that this is the symbiont fraction.
     13. Transfer trays of filled pans to drying oven at 60°C for at least 24 h. ![Drying oven](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Drying%20oven.HEIC) 
     14. Weigh dried pans (using tweezers when transferring). Should be “at constant weight”. Preliminary steps may be needed to ensure samples have reached a constant weight. Leaving samples in drying oven longer than 24 h may be necessary, and is likely not detrimental.
+
+    ![scale images](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/scale.HEIC)
+    
     15. After samples have reached a constant weight, weigh pan + dried samples on a 4- decimal scale and record weight (= “D” in Table 1.)
     16. After recording the weight of the burned pan + dry tissue (and salts), place in the muffle furnace at 450°C for 4-6 h. Turn on the muffle furnace and click the 'up' arrow to set the temperature to 450 C. Once set, the muffle furnace will begin to heat up. After the 4-6 h time period, turn off the muffle furnace. This needs time (could be hours) for the muffle furnace to cool down. *Budget for this in lab time. You cannot take the pans out right away.* 
 Most literature uses a 6h burn period, but in preliminary tests of blastate 4h is sufficient to burn off the well dispersed (high SA of blastate in pans) residue. Oven also stays hot after turning off, so even at 4h (30 ramp up, 30 min ramp down + residual heat in oven…) the oven will be hot for some time.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chlorophyll Protocol
-date: '2020-01-01'
+date: '2024-04-25'
 categories: Protocols
 tags: chlorophyll, physiology
 projects: E5, Putnam Lab
