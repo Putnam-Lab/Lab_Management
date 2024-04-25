@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Total Antioxidant Capacity Protocol
-date: '2020-01-02'
+date: '2024-04-25'
 categories: Protocols
 tags: antioxidant, physiology
 projects: E5, Putnam Lab
