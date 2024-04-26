@@ -39,7 +39,7 @@ Contents
 	
     4.  Record weight of burned pans on 4-decimal place scale (= “C” in Table 1.) Make sure you are using clean gloves or tweezers to weight the pans. ![Dryingoven](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/mufflefurnace.HEIC)
 
-    5.  Keep pans in desiccator until used ![Desiccator](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Dessicator.HEIC)
+    5.  Keep pans in desiccator until used. Dry the desiccant pack over night in the drying oven at 60ºC ![Desiccator](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Dessicator.HEIC)
     6. Remove frozen tissue homogenate from freezer and thaw.
     7. Vortex tissue homogenate and pipet 5 mL (use 5mL pipet) into a 15-mL falcon tube.
     8. Centrifuge the 15-mL tubes for 3 min at 3,500 xg.  
