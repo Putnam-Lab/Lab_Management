@@ -90,11 +90,6 @@ For this project, we will use 9 standards and 200 μL of WR is required for each
 1. Pipette 25 μL of each standard or unknown sample into microplate wells in duplicate.  
 2. Add 200 μL of the working reagent (WR) to each well and mix the plate thoroughly on a plate shaker for 30 seconds.  
 3. Cover the plate and incubate at 37&deg;C for 30 minutes.  
-4. Cool plate to RT. Measure the absorbance at or near 562 nm on a plate reader Spectrophotometer. Wavelengths from 540–590 nm have been used successfully with this method.
-
-
-![Spectrophotometer](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Spectrophotometer.HEIC)
-
-
+4. Cool plate to RT. Measure the absorbance at or near 562 nm on a plate reader Spectrophotometer. Wavelengths from 540–590 nm have been used successfully with this method. ![Spectrophotometer](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Spectrophotometer.HEIC)
 5. Subtract the average 562 nm absorbance measurement of the Blank standard replicates from the 562 nm measurements of all other individual standard and unknown sample replicates.  
 6. Pepare a standard curve by plotting the average Blank-corrected 562nm measurement for each BSA standard vs. its concentration in μg/mL. Use the standard curve to determine the protein concentration of each unknown sample.  
