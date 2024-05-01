@@ -26,7 +26,12 @@ Materials:
 
 
 ##Metadata information
+On metadata this info is mandatory. If information not avialble please put NA and try to find information annd fill in once aquired.
 
+- The freezer or fridge sample is located including temperature
+- Shelf/metal rack sample is in
+- Box number sample is in
+- Notes about the location and status of sample box
 
 
 ##Box Labelling
@@ -34,10 +39,31 @@ Materials:
 - Most importantly label the top and the side with your sample label.
 - Print a QR code and place in bottom right corner of box lid and bottom box front
 - Mandatory information on box:
-	- 
+	- Name of owner
+	- Project name
+	- Box number of project
+	- QR code linking to metadata
 
 
 ##Putnam Lab Cold Storage Inventory
+
+Please fill out information on the sheet of the fridge that samples are placed in. 
+#### Scan QR code on fridge/freezer that will bring you directly to that fridge/freezer inventory"
+
+- Name/description Ex- POC symbionts in 4% Formalin in DI
+- 	Shelf: Ex-2
+-  	Location on shelf: Ex-Right
+-  Container: Freezer box
+-  Contents: POC symbionts in 4% Formalin in DI
+-  Species: Pocillopora
+-  Project: POC Rapid
+-  Person: Chloé
+-  Date on container: 20240426
+-  Date added/edited on sheet: 20240426
+-  Flag: Chloé Gilligan
+-  Notes: No notes
+-  Link to sample metadata: (insert link)
+-  QR code: that links to sample metadata
 
 ##Generating QR codes directly in google sheets
 
@@ -72,4 +98,13 @@ Google docs QR code encoding info was derived from [this site](https://www.benlc
 
 ###Workflow when creating a new box
 
-- 
+- Enter sample information into project metadata
+- Enter one project metadata on what fridge/freezer samples will go into and additionally, what shelf/metal rack samples are in.
+- Place samples in box and write necessary information on box correlating to sample metadata
+- Scan QR code of freezer/fridge and enter box into master cold storage inventory
+- On master cold storage inventory, enter sample metadata link
+- Make a QR code with this link directly onto the master cold storage inventory
+- Print QR code and place onto sample boxes
+
+
+
