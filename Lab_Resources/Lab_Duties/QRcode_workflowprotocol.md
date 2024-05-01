@@ -25,7 +25,7 @@ Materials:
 6. You will also be able to update the inventory by scanning them as you use resources or restock anything!
 
 
-##Metadata information
+## Metadata information
 On metadata this info is mandatory. If information not avialble please put NA and try to find information annd fill in once aquired.
 
 - The freezer or fridge sample is located including temperature
@@ -34,7 +34,7 @@ On metadata this info is mandatory. If information not avialble please put NA an
 - Notes about the location and status of sample box
 
 
-##Box Labelling
+## Box Labelling
 
 - Most importantly label the top and the side with your sample label.
 - Print a QR code and place in bottom right corner of box lid and bottom box front
@@ -45,7 +45,7 @@ On metadata this info is mandatory. If information not avialble please put NA an
 	- QR code linking to metadata
 
 
-##Putnam Lab Cold Storage Inventory
+## Putnam Lab Cold Storage Inventory
 
 Please fill out information on the sheet of the fridge that samples are placed in. 
 #### Scan QR code on fridge/freezer that will bring you directly to that fridge/freezer inventory"
@@ -65,7 +65,7 @@ Please fill out information on the sheet of the fridge that samples are placed i
 -  Link to sample metadata: (insert link)
 -  QR code: that links to sample metadata
 
-##Generating QR codes directly in google sheets
+## Generating QR codes directly in google sheets
 
 - Using [Putnam Lab Master Cold Storage Inventory](https://docs.google.com/spreadsheets/d/1IMYmnNsN4D9cFbgLVdGKz67Albb3LxEyBh2GMtREMPU/edit#gid=2010168651) there will be a column on the top right that states "Link to sample metadata"
 - You will add the link for the metadata of the project that correlates with the samples in the box to this column
@@ -96,7 +96,7 @@ Google docs QR code encoding info was derived from [this site](https://www.benlc
 
 
 
-###Workflow when creating a new box
+### Workflow when creating a new box
 
 - Enter sample information into project metadata
 - Enter one project metadata on what fridge/freezer samples will go into and additionally, what shelf/metal rack samples are in.
