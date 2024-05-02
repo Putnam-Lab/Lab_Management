@@ -22,7 +22,7 @@ Contents
 ***
 
 <a name="Materials"></a> **Materials**
--  [Thermo Scientific Orion Star™ A221 Portable pH Meter](https://www.thermofisher.com/order/catalog/product/STARA2210#/STARA2210)
+-  [Thermo Scientific Orion Star™ A325 Portable pH Meter]([https://www.thermofisher.com/order/catalog/product/STARA2210#/STARA2210](https://www.thermofisher.com/order/catalog/product/STARA3250?gclid=CjwKCAjw88yxBhBWEiwA7cm6pdVLnGWo9eP1MDQc4Jge4UbTbgyciCFjwQ5cC0FM681GX_o8KIR3mBoCvg8QAvD_BwE&ef_id=CjwKCAjw88yxBhBWEiwA7cm6pdVLnGWo9eP1MDQc4Jge4UbTbgyciCFjwQ5cC0FM681GX_o8KIR3mBoCvg8QAvD_BwE:G:s&s_kwcid=AL!3652!3!655755389649!!!g!!!20014936264!153917602248&cid=lpd_wlp_wal_r02_co_cp1462_pjt7829_col00000_0se_gaw_dy_awa_portmet&gad_source=1))
         - measures pH, mV, ORP, conductivity, total dissolved solids (TDS), salinity, resistivity, and temperature
 -  3-point pH calibration solutions (4, 7, and 10 at 25 &deg; C)
 - Tris buffer 
