@@ -45,7 +45,7 @@
 |        40       | Danielle Becker  | Moorea Gametogenesis |    20211201        |   20221114       | [Notebook 40 pages 1 - 154](https://drive.google.com/drive/u/1/folders/1-0eFSTW5194KzacfUk74LzKNGgnbdtUL)                   |                     |
 |        41       | Ariana Huffmyer & Jill Ashey | Symbiont Integration 2021 | 20220404 | |           [notebook 41 pages 1-63](https://drive.google.com/drive/u/2/folders/1dfVltn3Zv8fm_e_p3G8XRhedGzl817eY)         |                     |
 |        42       |               |                   |            |          |                    |                     |
-|        43       | Ariana Huffmyer | Symbiont Integration 2021 & Shedd Research Cruise | 20220405| 20240903         |                    |                     |
+|        43       | Ariana Huffmyer | Symbiont Integration 2021 & Shedd Research Cruise | 20220405| 20240903         |  [notebook 43](https://drive.google.com/drive/u/2/folders/1XTpIJN_XWbaYdZVQmwlZUUQKH7J3ikqm)                  |                     |
 |        44       |               |                   |            |          |                    |                     |
 |        45       | Ariana Huffmyer | Moorea Larval Temp 2022 | 20221020 | 20221028 |    [Notebook 45](https://drive.google.com/drive/u/2/folders/1o2JnTk62BX9FhFMAWTg6rsJR4C_aLgtA)                |                     |
 |        46       | Pierrick Harnay   |  Pocillopora ID RA Transect  Moorea |  20230228          |          |                    |                     |
