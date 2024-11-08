@@ -1,5 +1,9 @@
 ### Setting up URI HPC Account
 
+As of November 2024, You can request an Andromeda account only if you need to access data there. The preferred cluster now is Unity, so you need to create an account there first (follow instructions [here](https://docs.unity.uri.edu/documentation/getting-access/)). Hollie's group is pi_hputnam_uri_edu.
+Hollie needs to approve this request on Unity. After approval, contact hpc@etal.uri.edu so that they can then transfer your SSH key from Unity to Andromeda.
+
+##### Steps to open an Andromeda account (before switching to Unity as preferred cluster)
 - First look on the [Andromeda help page](https://its.uri.edu/research-computing/using-andromeda/) to look at the different steps for either Windows or Mac users.
 
 1. Email 	hpc@etal.uri.edu from your URI email address and cc Hollie requesting an account on the URI HPC research cluster Andromeda. As simple as: Hello I work with Dr. Hollie Putnam as a ____ and I would like to request an Andromeda account. Thank you.
