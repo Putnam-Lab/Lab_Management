@@ -64,4 +64,4 @@
 |        59       | Ariana Huffmyer | March 2024 URI Labwork     |  20240325       |          |      [Notebook 59](https://drive.google.com/drive/u/2/folders/1xIQI4vaf7FRWdMCSGtNAXpWpAge0TxO0)              |  
 |        60       | Hollie Putnam |  COTS Pocillopora RAPID Molecular  | 20240411   |        |  [Notebook 60](https://drive.google.com/drive/u/0/folders/1YEAM39BLfUMQlgJpUMyBkpGlcH6JC7aJ)   |
 |        61       | Putnam Lab | CBLS Wetlab           | 20240506        |          |                    |
-|        62       | Federica Scucchia  |   PI-TPC Hawaii and Bermuda      |   20241110      |          |     [Notebook 62]               |
+|        62       | Federica Scucchia  |   PI-TPC Hawaii and Bermuda      |   20241110      |          |     [Notebook 62](https://drive.google.com/drive/folders/1DuUSGxtFnHROOA49gu-AhyM3zrJAppKk)               |
