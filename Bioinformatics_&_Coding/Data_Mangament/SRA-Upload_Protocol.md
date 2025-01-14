@@ -185,47 +185,19 @@ Once you have gathered those, the next thing to do is **login to the [submission
 - While on the SRA_data tab choose Save As in a **tab delimited format, such as .txt or .tsv**. This is the formatted required by the upload portal.
 - Then choose the tab-delimited version of the file for the metatdata upload in the SRA submission portal. It will check that everything is in the right format and flag you if something needs to be changed.
 - Next you go to upload your files. Choose the FTP command line preload option and click the button to request a pre-load folder.
-![32](/images/request-preload.png "32")
+
+![32](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Bioinformatics_%26_Coding/images/request-preload.png)
+
 - Then you have to choose what type of instructions to use. Click the FTP upload instructions and it will give you some command prompts that I will go into more detail with here.
 
-## **Instructions on how to connect to the NCBI SRA server using FTP**
+## **Instructions on how to connect to the NCBI SRA server using Andromeda**
 
-- First, in your terminal make sure you can access your files. Go to that directory. If there are other files not being uploaded, either remove them or create a new directory that **only** contains the sequence files you are going to upload.
-- FTP, or File Transfer Protocol, lets you access a folder for NCBI and your directory at the same time just for the purpose of transferring files.
-- While you are in the directory with your files, invoke the FTP process by typing:
-```
-ftp -i
-```
-- Notice that your command prompt now changes to `ftp>`
-- Now you want to login to NCBI using the address they give you. Right after you connect you will need to login. When it says name you copy and past the username given to you in the portal and press enter. Then do the same with the password. **They only give you 30 seconds to do this so make sure you are ready to C+P**.
-```
-open ftp-private.ncbi.nlm.nih.gov
-```
-- Once you are logged in, `cd` into the account folder given to you by NCBI
-- Create a new directory for your files with `mkdir` then `cd` into that new directory.
-![33](/images/select-folder.png "33")
-- Then you copy the files from your directory into the remote FTP NCBI directory. You could use the `put` command to choose one file at a time, but using the `mput` command along with the `.` to specify "all files in this directory" is much easier. Simply type in and enter to start copying all files:
-```
-mput *
-```
-- You will then see it start uploading the files. See example command line interface in the middle of uploading:
-- Create a new directory for your files with `mkdir` then `cd` into that new directory.
-![34](/images/ftp-commands.png "34")
-- This can take a while, depending on how many files you have and how large they are. When it is finished copying you will see the command line prompt go back to `ftp>`.
-![35](/images/ftp.png "35")
-- Once that's done, you can go back to the submission portal and **Select Preload folder**. If your folder hasn't shown up yet, wait another 10 minutes and keep refreshing the folders. It can take time. Then select your folder and click use selected folder.
-- Then, you review all your information, make sure all the files are there and submit!!
-
-**Note: It can take over a day for your sequences to show up on NCBI**
-
-## **Instructions on how to connect to the NCBI SRA server using Bluewaves**
-
-- First, in your terminal connect to your [Bluewaves account](https://github.com/Putnam-Lab/Lab_Management/tree/master/Bioinformatics_%26_Coding/Bluewaves). Go to the directory that contains your raw data (usually fastq.gz) files. If there are other files not being uploaded, either remove them or create a new directory that **only** contains the sequence files you are going to upload.
-- FTP, or [File Transfer Protocol](https://searchnetworking.techtarget.com/definition/File-Transfer-Protocol-FTP), lets you access a folder for NCBI and your directory at the same time just for the purpose of transferring files. I noticed that this FTP is not functional on Bluewaves so we will be using a different command called [NcFTP](https://www.tecmint.com/command-line-ftp-clients-for-linux/) which is an alternative to the standard FTP program to connect.
+- First, in your terminal connect to your [Andromeda account](https://github.com/Putnam-Lab/Lab_Management/tree/master/Bioinformatics_%26_Coding/Andromeda). Go to the directory that contains your raw data (usually fastq.gz) files. If there are other files not being uploaded, either remove them or create a new directory that **only** contains the sequence files you are going to upload.
+- FTP, or [File Transfer Protocol](https://searchnetworking.techtarget.com/definition/File-Transfer-Protocol-FTP), lets you access a folder for NCBI and your directory at the same time just for the purpose of transferring files. I noticed that this FTP is not functional on Andromeda so we will be using a different command called [NcFTP](https://www.tecmint.com/command-line-ftp-clients-for-linux/) which is an alternative to the standard FTP program to connect.
 
 ![33](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Bioinformatics_%26_Coding/images/select-folder.png)
 
-- While you are in the Bluewaves directory with your files, invoke the NcFTP command instead of FTP. To start the process by type:
+- While you are in the Andromeda directory with your files, invoke the NcFTP command instead of FTP. To start the process by type:
 
 ```
 ncftp -u 'username provided through NCBI for you' ftp-private.ncbi.nlm.nih.gov
@@ -261,29 +233,28 @@ mput *
 
 **Note: It can take over a day for your sequences to show up on NCBI**
 
-
 ### What Everything Will Look Like on NCBI
 
 [**BioProject**](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA616341) Under NCBI BioProject. All information on the project is here, as well as the links to the BioSamples and the SRA sequences. Those links are the little 48 numbers.
-![36](/images/finished-project.png "36")
+![36](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Bioinformatics_%26_Coding/images/finished-project.png)
 
 If you click on the [**48**](https://www.ncbi.nlm.nih.gov/biosample?Db=biosample&DbFrom=bioproject&Cmd=Link&LinkName=bioproject_biosample&LinkReadableName=BioSample&ordinalpos=1&IdsFromResult=616341) next to BioSamples, it will list all BioSamples associated with the BioProject.
-![37](/images/finished-biosamples.png "37")
+![37](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Bioinformatics_%26_Coding/images/finished-biosamples.png)
 
 If you click on [one sample](https://www.ncbi.nlm.nih.gov/biosample/14486809) it will take you to the page for that specific sample. Here all the attributes are listed, every associated accession number, and links back to the BioProject and to the SRA submission for this sample.
-![38](/images/individ-biosamp.png "38")
+![38](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Bioinformatics_%26_Coding/images/individ-biosamp.png)
 
 If you click on the [tiny link that says SRA](https://www.ncbi.nlm.nih.gov/sra?LinkName=biosample_sra&from_uid=14486809) at the bottom of the BioSample page it will take you to the SRA page for this sample. It will tell you all the library and sequencing information, as well as how much data you have.
-![39](/images/ncbi-sra.png "39")
+![39](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Bioinformatics_%26_Coding/images/ncbi-sra.png)
 
 From here you can go back to the BioProject by clicking it's accession number, or see a list of all the sequences by clicking the [SRP number](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP254626).
-![40](/images/srp.png "40")
+![40](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Bioinformatics_%26_Coding/images/srp.png)
 
 If you wanted to look at just the sequences that are linked to that BioSample, click on the [Run SRR number](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR11452221) that's in the table with the sequence size information. Here is all of the information about these sequences, you can actually look at some of the reads, and there is a tab for accessing the data.
-![41](/images/samp-sra.png "41")
+![41](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Bioinformatics_%26_Coding/images/samp-sra.png)
 
 Additionally, you can get a list of the SRA sequences by clicking the [little 48 next to SRA](https://www.ncbi.nlm.nih.gov/sra?linkname=bioproject_sra_all&from_uid=616341) on the main BioProject page.
-![42](/images/sra-list.png "42")
+![42](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Bioinformatics_%26_Coding/images/sra-list.png)
 
 
 #### Links to NCBI pages that try to tell you how to do this but aren't very helpful. They also aren't well linked together. A lot of the information about BioProjects and BioSamples come from pages about SRA information.
