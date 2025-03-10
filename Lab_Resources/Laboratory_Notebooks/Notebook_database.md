@@ -66,7 +66,7 @@
 |        61       | Putnam Lab | CBLS Wetlab           | 20240506        |          |                    |
 |        62       | Federica Scucchia  |   PI-TPC Hawaii and Bermuda      |   20241110      |          |     [Notebook 62](https://drive.google.com/drive/folders/1DuUSGxtFnHROOA49gu-AhyM3zrJAppKk)               |
 |        63       |   |       |      |          |                   |
-|        64       | Hollie Putnam  |  Sept 2024     |   To'a Aroha - Coral Care   | [Notebook 64](https://drive.google.com/drive/u/0/folders/1h3-ROBdekZdI8XLYNY-P4Ln6njR70pI2)         |                   |
+|        64       | Hollie Putnam  |      To'a Aroha - Coral Care | Sept 2024    | |[Notebook 64](https://drive.google.com/drive/u/0/folders/1h3-ROBdekZdI8XLYNY-P4Ln6njR70pI2)         |                   |
 |        65       |   |       |      |          |                   |
 |        66       |   |       |      |          |                   |
 |        67       |   |       |      |          |                   |
