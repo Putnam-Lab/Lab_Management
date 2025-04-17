@@ -147,7 +147,7 @@ Detailed instructions here: https://zdellaert.github.io/ZD_Putnam_Lab_Notebook/G
 1. https://docs.unity.uri.edu/documentation/help/faq/#software-and-tools
 2. https://docs.unity.uri.edu/documentation/software/modules/
    1. URI Specific modules
-      1. More modules can be found by using module load uri/main. The modules under the heading /modules/uri_modules/all should closely match the naming scheme used on Andromeda. Note that these modules will not run on the login nodes because they are optimized for the compute nodes. If you receive a message like Illegal Instruction, then this is likely the issue.
+      1. More modules can be found by using `module load uri/main`. The modules under the heading `/modules/uri_modules/all` should closely match the naming scheme used on Andromeda. Note that these modules will not run on the login nodes because they are optimized for the compute nodes. If you receive a message like Illegal Instruction, then this is likely the issue.
       2. https://its.uri.edu/research-computing/unity-software-and-modules/
 
 #### What if the software I want to use is not available as module on unity?
