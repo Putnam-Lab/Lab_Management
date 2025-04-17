@@ -31,43 +31,54 @@ We have three main places to store data, scripts, github repositories, output fi
 
 1. /work/pi_hputnam_uri_edu/ (3 TB capacity as of April 2025)
 2. /project/pi_hputnam_uri_ed/ (44 TB capacity as of April 2025)
-3. /scratch/
+3. Scratch directories
 
 What should go in each place:
 
-1. /work/pi_hputnam_uri_edu/
+1. **/work/pi_hputnam_uri_edu/**
    1. Make your own directory here (`mkdir username`) to store active working files, such as scripts, github repositories, 
    2. Conda environments can be created in the `/conda` directory, follow the guidance here: https://docs.unity.rc.umass.edu/documentation/software/conda/
    3. Programs you install yourself that would be useful to others in the lab can go in the `pgrams` directory
-2. /project/pi_hputnam_uri_ed/
+2. **/project/pi_hputnam_uri_ed/**
    1. Store any raw sequencing data in the `raw_sequencing_data` directory.
       1. **IMPORTANT** This data should be backed up, on NCBI SRA (documentation: ) and in the OSN Bucket (documentation to come)
       2. Also, when working with this data, you should copy it into scratch or create symbolic links (symlinks, `ln -s`) to this data instead of running code on it directly from this location to minimize the risk of overwriting or modifying the raw data in this location.
          1. Important guidance for using symlinks:
              1. **NEVER use `rm -r` to delete a symlink or directory containting symlinks, as it will *recursively delete the file the link points to***
     2. Make your own directory here (`mkdir username`) to store any large files created during analysis that you need to keep longer than /scratch/ allows (ones too large to keep in `/work/pi_hputnam_uri_edu/`). This can include compressed trimmed reads, bam files, assembled transcriptomes/genomes, annotation files, etc.
-3. Scratch (see below)
+3. **Scratch (see below)**
    1. Everyone can make scratch directories to which they can output temporary processing files to (eg, trimmed reads, bam files, nextflow /work and /cache direcotories, etc)
        1. Depending on your preference, you may want to treat this like the directory in /work/pi_hputnam_uri_edu/ and do all your work from /scratch/ including writing scripts, etc, but make sure to regularly back up scripts and any files you need to keep to /work/pi_hputnam_uri_edu/ and github.
 
 ## Guidelines on scratch directories
-   1. Follow the guidelines here: https://docs.unity.rc.umass.edu/documentation/managing-files/hpc-workspace/
-   2. Making a scratch directory:
-      1. `ws_allocate myscratch 30`
-      2. This command will tell you the path of your new directory, which you can output files to or navigate to using `cd /path/to/scratch`
-      3. If you want the directory to be shared:
-         1. `ws_allocate -G pi_pi-username shared`
+
+My simple guidelines below are based on the guidelines here: https://docs.unity.rc.umass.edu/documentation/managing-files/hpc-workspace/. I recommend reading that page for more info about creating shared scratch directories, getting email alerts, and more.
+
+You only need one scratch directory (or if you want one per project that's okay too), you do not need a new one for each job. I believe every user can have up to 15 TB in scratch total
+
+   1. Making a scratch directory:
+      1. Run this command from the terminal in Unity:
+         1. `ws_allocate myscratch 30`
+      2. This command will tell you the path of your new directory (if you forget it, see `ws_list` below)
+         1. To navigat to your directory, use  `cd /path/to/scratch`
+         2. To output files to this direcotry in scripts, use this path
+      3. You only need to do this once.
       4. For more options: `man ws_allocate`
-   3. Getting a list of your active scratch directories:
-      1. `ws_list`
-   4. Extending a scratch directory:
-      1. `ws_extend myscratch 30`
-   5. Releasing a scratch directory when done:
+   2. Getting a list of your active scratch directories:
+      1. `ws_list` will tell you all scratch direcotries you have active, how many days are left, and their paths
+   3. Extending the time limit of a scratch directory:
+      1. You can extend a scratch directory 5 times, for a total of 150 days. 
+      2. `ws_extend myscratch 30`
+   4. Releasing a scratch directory when done:
       1. `ws_release myscratch`
 
 ## How to move files from one location in Unity to another
 
+Use globus to copy large amounts of files from /scratch/ to /project/ or vice versa. It can run without Unity being open on your computer, and checks the fidelity of all the files that are copied.
+
 ## How to move files from your computer to Unity and Vice Versa
+
+`scp /Users/yourcomputer/Desktop/Data/sequencefileA.fq.gz zdellaert_uri_edu@unity.rc.umass.edu:/project/pi_hputnam_uri_ed/`
 
 ## How to move files from Andromeda to Unity
 
