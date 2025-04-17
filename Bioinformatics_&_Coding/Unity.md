@@ -116,9 +116,7 @@ You only need one scratch directory (or if you want one per project that's okay 
 
 ### How to move files from one location in Unity to another
 
-I recommend using globus to copy large amounts of files from /scratch/ to /project/ or vice versa. It can run without Unity being open on your computer, and checks the fidelity of all the files that are copied.
-
-Unity documentation on globus: https://docs.unity.uri.edu/documentation/managing-files/globus/
+I recommend using [globus (info here)](https://docs.unity.uri.edu/documentation/managing-files/globus/) to copy large amounts of files from /scratch/ to /project/ or vice versa. It can run without Unity being open on your computer, and checks the fidelity of all the files that are copied. `mv` command also works, but will take a long time between /scratch/ to /project/ or vice versa because they are stored on different physical drives.
 
 ### How to move files from your computer to Unity and Vice Versa
 
