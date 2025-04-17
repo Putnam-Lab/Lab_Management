@@ -20,6 +20,8 @@
 
 The [Unity docs are super helpful](https://docs.unity.rc.umass.edu/documentation/). They give advice on how to use Unity, but also best practices for using high performance computing in general. I will reference these docs a lot below.
 
+Intro to Unity [Powerpoint](https://its.uri.edu/wp-content/uploads/Intro-to-Bioinformatics-on-Unity-I.pdf) from URI HPC
+
 We also have URI-specific Unity docs [here](https://its.uri.edu/research-computing/using-unity/)
 
 > [Unity FAQs](https://docs.unity.uri.edu/documentation/help/faq/)
