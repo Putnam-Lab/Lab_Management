@@ -43,9 +43,11 @@ What should go in each place:
 2. **/project/pi_hputnam_uri_ed/**
    1. Store any raw sequencing data in the `raw_sequencing_data` directory.
       1. **IMPORTANT** This data should be backed up, on NCBI SRA (documentation: [here](https://github.com/Putnam-Lab/Lab_Management/blob/f9615063146a65b8e4213aafe857917454406cc8/Bioinformatics_%26_Coding/Data_Mangament/SRA-Upload_Protocol.md)) and in the OSN Bucket (documentation to come)
-      2. Also, when working with this data, you should copy it into scratch or create symbolic links (symlinks, `ln -s`) to this data instead of running code on it directly from this location to minimize the risk of overwriting or modifying the raw data in this location.
-         1. Important guidance for using symlinks:
-             1. **NEVER use `rm -r` to delete a symlink or directory containting symlinks, as it will *recursively delete the file the link points to***
+      2. Also, when working with this data, you should either:
+         1. copy it into scratch
+         2. or create symbolic links (symlinks, `ln -s`) to this data instead of running code on it directly from this location to minimize the risk of overwriting or modifying the raw data in this location.
+            1. Important guidance for using symlinks:
+                1. **NEVER use `rm -r` to delete a symlink or directory containting symlinks, as it will *recursively delete the file the link points to***. Go into the directory containig the symlinks, and delete them using `rm`, just don't use `rm -r`. 
     2. Make your own directory here (`mkdir username`) to store any large files created during analysis that you need to keep longer than /scratch/ allows (ones too large to keep in `/work/pi_hputnam_uri_edu/`). This can include compressed trimmed reads, bam files, assembled transcriptomes/genomes, annotation files, etc.
 3. **Scratch (see below)**
    1. Everyone can make scratch directories to which they can output temporary processing files (eg, trimmed reads, bam files, nextflow /work and /cache direcotories, etc)
