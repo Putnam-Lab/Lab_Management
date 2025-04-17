@@ -1,10 +1,27 @@
 # Best Practices for using Unity
 
+1. [Best Practices for using Unity](#best-practices-for-using-unity)
+   1. [Read the docs!](#read-the-docs)
+   2. [Setting Up an Account](#setting-up-an-account)
+   3. [Connecting to Unity](#connecting-to-unity)
+   4. [What should go where](#what-should-go-where)
+   5. [Guidelines on scratch directories](#guidelines-on-scratch-directories)
+   6. [Moving files within, to, and from Unity](#moving-files-within-to-and-from-unity)
+      1. [How to move files from one location in Unity to another](#how-to-move-files-from-one-location-in-unity-to-another)
+      2. [How to move files from your computer to Unity and Vice Versa](#how-to-move-files-from-your-computer-to-unity-and-vice-versa)
+      3. [How to move files from Andromeda to Unity](#how-to-move-files-from-andromeda-to-unity)
+   7. [Actually using unity to do bioinformatics](#actually-using-unity-to-do-bioinformatics)
+      1. [Where can I find software to use on Unity?](#where-can-i-find-software-to-use-on-unity)
+      2. [How do I run analyses?](#how-do-i-run-analyses)
+      3. [How do I run interactive jobs?](#how-do-i-run-interactive-jobs)
+      4. [How do I run Rstudio?](#how-do-i-run-rstudio)
+
 ## Read the docs!
 
 The [Unity docs are super helpful](https://docs.unity.rc.umass.edu/documentation/). They give advice on how to use Unity, but also best practices for using high performance computing in general. I will reference these docs a lot below.
 
 > [Unity FAQs](https://docs.unity.uri.edu/documentation/help/faq/)
+
 > [Unity Troubleshooting](https://docs.unity.uri.edu/documentation/help/troubleshooting/)
 
 ## Setting Up an Account
@@ -84,7 +101,7 @@ You only need one scratch directory (or if you want one per project that's okay 
           md5sum "${fastq}" >> raw-fastq-checksums.md5
         done
         ```
-2. Move the files including the md5 hasg files (see below)
+2. Move the files including the md5 hash files (see below)
 3. In the new location, generate new md5 hash files for the transferred data and verify these are the same as the original md5s.
    1. Alternatively, use md5sum --check to check the md5 of the transferred files against the original md5 without having to create new md5 files:
 
