@@ -159,6 +159,15 @@ Detailed instructions here: https://zdellaert.github.io/ZD_Putnam_Lab_Notebook/G
 
 1. Use `sbatch` to submit jobs, very similar to andromeda
    1. https://docs.unity.uri.edu/documentation/jobs/sbatch/
+   2. “Selecting a appropriate partition for your job:
+       - A list of partitions available on Unity is available [here](https://docs.unity.uri.edu/documentation/cluster_specs/partitions/).
+       - Use `unity-slurm-partition-usage` to see how busy partitions are.
+       - Short: For jobs which are 2 days or less, specify `--partition=cpu` (or `--partition=gpu` if requesting a GPU)
+       - Long: For jobs which are more than 2 days, specify `-q long` as well
+       - Preempt: For jobs which require less than 2 hours, specify `--partition=cpu-preempt` (or `--partition=gpu-preempt` if requesting a GPU).
+          - If your jobs run longer than two hours, higher priority job may preempt (terminate and requeue) it after two hours.
+       - QoS: For jobs shorter than 4 hours, you can boost the job priority for one small job by adding the parameter `--qos=short` to your job batch script or `salloc` / `sbatch` command. See [this page](https://docs.unity.rc.umass.edu/news/2023/07/feature-announcements/#new-short-qos) for details.
+       - Note that not all GPU types are available in every partition. Modify the suggestions for partitions as needed.”
 2. Check the status of your job: `squeue --me`
 
 ### How do I run interactive jobs?
