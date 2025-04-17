@@ -55,7 +55,7 @@ What should go in each place:
 
 1. **/work/pi_hputnam_uri_edu/**
    1. Make your own directory here (`mkdir username`) to store active working files, such as scripts, github repositories, output files (that aren't large)
-   2. Conda environments can be created in the `/conda` directory, follow the guidance here: https://docs.unity.rc.umass.edu/documentation/software/conda/
+   2. Conda environments can be created in the `conda` directory, follow the guidance here: https://docs.unity.rc.umass.edu/documentation/software/conda/
    3. Programs you install yourself that would be useful to others in the lab can go in the `pgrams` directory
 2. **/project/pi_hputnam_uri_ed/**
    1. Store any raw sequencing data in the `raw_sequencing_data` directory.
