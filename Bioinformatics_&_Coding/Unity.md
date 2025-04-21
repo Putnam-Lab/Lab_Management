@@ -52,7 +52,7 @@ To create an account as a staff member, student, or collaborator, you must work 
 We have three main places to store data, scripts, github repositories, output files, and more.
 
 1. /work/pi_hputnam_uri_edu/ (3 TB capacity as of April 2025)
-2. /project/pi_hputnam_uri_ed/ (44 TB capacity as of April 2025)
+2. /project/pi_hputnam_uri_edu/ (44 TB capacity as of April 2025)
 3. Scratch directories
 
 What should go in each place:
@@ -61,7 +61,7 @@ What should go in each place:
    1. Make your own directory here (`mkdir username`) to store active working files, such as scripts, github repositories, output files (that aren't large)
    2. Conda environments can be created in the `conda` directory, follow the guidance here: https://docs.unity.rc.umass.edu/documentation/software/conda/
    3. Programs you install yourself that would be useful to others in the lab can go in the `pgrams` directory
-2. **/project/pi_hputnam_uri_ed/**
+2. **/project/pi_hputnam_uri_edu/**
    1. Store any raw sequencing data in the `raw_sequencing_data` directory.
       1. **IMPORTANT** This data should be backed up, on NCBI SRA (documentation: [here](https://github.com/Putnam-Lab/Lab_Management/blob/f9615063146a65b8e4213aafe857917454406cc8/Bioinformatics_%26_Coding/Data_Mangament/SRA-Upload_Protocol.md)) and in the OSN Bucket (documentation to come)
       2. Also, when working with this data, you should either:
@@ -124,8 +124,8 @@ I recommend using [globus (info here)](https://docs.unity.uri.edu/documentation/
 
 This page explains how to successfully use scp and rsync with Unity: https://docs.unity.uri.edu/documentation/managing-files/cli/
 
-- `scp /Users/yourcomputer/Desktop/Data/sequencefileA.fq.gz username_uri_edu@unity.rc.umass.edu:/project/pi_hputnam_uri_ed/`
-- `rsync -tlp /Users/yourcomputer/Desktop/Data/sequencefileA.fq.gz username_uri_edu@unity.rc.umass.edu:/project/pi_hputnam_uri_ed/`
+- `scp /Users/yourcomputer/Desktop/Data/sequencefileA.fq.gz username_uri_edu@unity.rc.umass.edu:/project/pi_hputnam_uri_edu/`
+- `rsync -tlp /Users/yourcomputer/Desktop/Data/sequencefileA.fq.gz username_uri_edu@unity.rc.umass.edu:/project/pi_hputnam_uri_edu/`
 
 Alternatively, there is handy graphical user interface available to download, upload, and view files: https://docs.unity.uri.edu/documentation/managing-files/ondemand/
 
