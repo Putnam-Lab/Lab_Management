@@ -131,10 +131,16 @@ Alternatively, there is handy graphical user interface available to download, up
 
 ### How to move files from Andromeda to Unity
 
-Detailed instructions here: https://zdellaert.github.io/ZD_Putnam_Lab_Notebook/Globus-Andromeda-Unity/
+Detailed instructions here: https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/blob/master/_posts/2025-02-19-Globus-Andromeda-Unity.md
 
-1. You first need to activate the endpoint from Andromeda (see notebook post)
-2. On Globus Connect in your browser (https://www.globus.org):
+1. You first need to set up globus authentication from Andromeda and link it to your URI SSO account (see notebook post)
+2. Activate the endpoint from Andromeda
+   1. ```
+      interactive
+      module load GlobusConnectPersonal/3.2.0
+      globusconnectpersonal -start &
+      ```
+3. On Globus Connect in your browser (https://www.globus.org):
    1. Login
    2. Go to the File Manager and in the Collection field on the left, enter the personal endpoint string that was spit out by the globus setup above 
    3. Select acda5457-9c06-4564-8375-260ba428f22a (exact address of Unity) in the collection field on the right
