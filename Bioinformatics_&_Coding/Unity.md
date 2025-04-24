@@ -150,8 +150,11 @@ Detailed instructions here: https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/
 
 ### Where can I find software to use on Unity?
 
-1. https://docs.unity.uri.edu/documentation/help/faq/#software-and-tools
-2. https://docs.unity.uri.edu/documentation/software/modules/
+1. Use Unity onDemand for a really quick GUI to find Modules that are installed
+   1. https://ood.unity.rc.umass.edu/pun/sys/module-explorer
+   2. ![ModuleExplore.png](ModuleExplore.png)
+3. https://docs.unity.uri.edu/documentation/help/faq/#software-and-tools
+4. https://docs.unity.uri.edu/documentation/software/modules/
    1. URI Specific modules
       1. More modules can be found by using `module load uri/main`. The modules under the heading `/modules/uri_modules/all` should closely match the naming scheme used on Andromeda. Note that these modules will not run on the login nodes because they are optimized for the compute nodes. If you receive a message like Illegal Instruction, then this is likely the issue.
       2. https://its.uri.edu/research-computing/unity-software-and-modules/
