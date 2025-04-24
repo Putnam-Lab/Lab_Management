@@ -152,7 +152,7 @@ Detailed instructions here: https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/
 
 1. Use Unity onDemand for a really quick GUI to find Modules that are installed
    1. https://ood.unity.rc.umass.edu/pun/sys/module-explorer
-   2. ![ModuleExplore.png](ModuleExplore.png)
+   2. ![ModuleExplore.png]([ModuleExplore.png](https://github.com/Putnam-Lab/Lab_Management/blob/master/Bioinformatics_%26_Coding/images/ModuleExplore.png))
 3. https://docs.unity.uri.edu/documentation/help/faq/#software-and-tools
 4. https://docs.unity.uri.edu/documentation/software/modules/
    1. URI Specific modules
