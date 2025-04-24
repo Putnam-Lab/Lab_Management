@@ -11,10 +11,11 @@
       2. [How to move files from your computer to Unity and Vice Versa](#how-to-move-files-from-your-computer-to-unity-and-vice-versa)
       3. [How to move files from Andromeda to Unity](#how-to-move-files-from-andromeda-to-unity)
    7. [Actually using unity to do bioinformatics](#actually-using-unity-to-do-bioinformatics)
-      1. [Where can I find software to use on Unity?](#where-can-i-find-software-to-use-on-unity)
-      2. [How do I run analyses?](#how-do-i-run-analyses)
-      3. [How do I run interactive jobs?](#how-do-i-run-interactive-jobs)
-      4. [How do I run Rstudio?](#how-do-i-run-rstudio)
+      1. [1. Here's a Handy reference for bash commands](#1-heres-a-handy-reference-for-bash-commands)
+      2. [2. Where can I find software to use on Unity?](#2-where-can-i-find-software-to-use-on-unity)
+      3. [4. How do I run analyses?](#4-how-do-i-run-analyses)
+      4. [5. How do I run interactive jobs?](#5-how-do-i-run-interactive-jobs)
+      5. [6. How do I run Rstudio?](#6-how-do-i-run-rstudio)
 
 ## Read the docs!
 
@@ -148,7 +149,9 @@ Detailed instructions here: https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/
 
 ## Actually using unity to do bioinformatics
 
-### Where can I find software to use on Unity?
+### 1. [Here's](https://github.com/Putnam-Lab/Lab_Management/blob/master/Bioinformatics_%26_Coding/Bash_Commands.md) a Handy reference for bash commands
+
+### 2. Where can I find software to use on Unity?
 
 1. Use Unity onDemand for a really quick GUI to find Modules that are installed
    1. https://ood.unity.rc.umass.edu/pun/sys/module-explorer
@@ -159,14 +162,16 @@ Detailed instructions here: https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/
       1. More modules can be found by using `module load uri/main`. The modules under the heading `/modules/uri_modules/all` should closely match the naming scheme used on Andromeda. Note that these modules will not run on the login nodes because they are optimized for the compute nodes. If you receive a message like Illegal Instruction, then this is likely the issue.
       2. https://its.uri.edu/research-computing/unity-software-and-modules/
 
-#### What if the software I want to use is not available as module on unity?
+#### 3. What if the software I want to use is not available as module on unity?
 
 1. You can ask the Unity team via email or [slack](https://docs.unity.uri.edu/contact/community/) to install a module or update an existing module
    1. [How to ask for help](https://docs.unity.uri.edu/documentation/help/asking-questions/)
-2. Read this documentation on software management:
+2. If you're comfortable, you can try installing it yourself.
+   1. Conda environments can be created in the `/work/pi_hputnam_uri/conda` directory, follow the guidance here: https://docs.unity.rc.umass.edu/documentation/software/conda/
+3. Read this documentation on software management:
    1. https://docs.unity.uri.edu/documentation/software/
 
-### How do I run analyses?
+### 4. How do I run analyses?
 
 1. Use `sbatch` to submit jobs, very similar to andromeda
    1. https://docs.unity.uri.edu/documentation/jobs/sbatch/
@@ -181,12 +186,12 @@ Detailed instructions here: https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/
        - Note that not all GPU types are available in every partition. Modify the suggestions for partitions as needed.”
 2. Check the status of your job: `squeue --me`
 
-### How do I run interactive jobs?
+### 5. How do I run interactive jobs?
 
 1. Use `salloc` to start interactive jobs, similar to the `interactive` command on andromeda
    1. https://docs.unity.uri.edu/documentation/jobs/salloc/
 
-### How do I run Rstudio?
+### 6. How do I run Rstudio?
 
 1. https://docs.unity.uri.edu/documentation/tools/r/
 2. https://docs.unity.uri.edu/documentation/software/ondemand/
