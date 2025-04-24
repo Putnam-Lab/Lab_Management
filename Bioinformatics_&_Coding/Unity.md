@@ -166,10 +166,36 @@ Detailed instructions here: https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/
 
 1. You can ask the Unity team via email or [slack](https://docs.unity.uri.edu/contact/community/) to install a module or update an existing module
    1. [How to ask for help](https://docs.unity.uri.edu/documentation/help/asking-questions/)
-2. If you're comfortable, you can try installing it yourself.
-   1. Conda environments can be created in the `/work/pi_hputnam_uri/conda` directory, follow the guidance here: https://docs.unity.rc.umass.edu/documentation/software/conda/
-3. Read this documentation on software management:
+2. Read this documentation on software management:
    1. https://docs.unity.uri.edu/documentation/software/
+3. If you're comfortable, you can try installing it yourself.
+   1. Conda environments can be created in the `/work/pi_hputnam_uri/conda` directory, follow the guidance here: https://docs.unity.rc.umass.edu/documentation/software/conda/
+   2. Example of creating a conda environment:
+   3. ```
+      # enter interactive session
+      salloc
+
+      # load conda
+      module load conda/latest
+
+      # create and activate environment
+      conda create --prefix /work/pi_hputnam_uri_edu/conda/envs/env-broccoli python=3.8 ete3
+      conda activate /work/pi_hputnam_uri_edu/conda/envs/env-broccoli
+
+      # clone broccoli repo into environment
+      cd /work/pi_hputnam_uri_edu/conda/envs/env-broccoli
+      git clone https://github.com/rderelle/Broccoli.git
+      cd Broccoli
+
+      # check that the install is sucessful by running the help command
+      python broccoli.py -help
+
+      # Make a symlink (shortcut) to home directory
+      ln -s /work/pi_hputnam_uri_edu/conda/envs/env-broccoli/Broccoli/broccoli.py ~/broccoli.py
+
+      # now it can run in any directory via
+      python ~/broccoli.py -help
+      ```
 
 ### 4. How do I run analyses?
 
