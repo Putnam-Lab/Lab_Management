@@ -13,9 +13,9 @@
    7. [Actually using unity to do bioinformatics](#actually-using-unity-to-do-bioinformatics)
       1. [1. Here's a Handy reference for bash commands](#1-heres-a-handy-reference-for-bash-commands)
       2. [2. Where can I find software to use on Unity?](#2-where-can-i-find-software-to-use-on-unity)
-      3. [4. How do I run analyses?](#4-how-do-i-run-analyses)
-      4. [5. How do I run interactive jobs?](#5-how-do-i-run-interactive-jobs)
-      5. [6. How do I run Rstudio?](#6-how-do-i-run-rstudio)
+      3. [3. How do I run analyses?](#3-how-do-i-run-analyses)
+      4. [4. How do I run interactive jobs?](#4-how-do-i-run-interactive-jobs)
+      5. [5. How do I run Rstudio?](#5-how-do-i-run-rstudio)
 
 ## Read the docs!
 
@@ -162,7 +162,7 @@ Detailed instructions here: https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/
       1. More modules can be found by using `module load uri/main`. The modules under the heading `/modules/uri_modules/all` should closely match the naming scheme used on Andromeda. Note that these modules will not run on the login nodes because they are optimized for the compute nodes. If you receive a message like Illegal Instruction, then this is likely the issue.
       2. https://its.uri.edu/research-computing/unity-software-and-modules/
 
-#### 3. What if the software I want to use is not available as module on unity?
+#### 2.5 What if the software I want to use is not available as module on unity?
 
 1. You can ask the Unity team via email or [slack](https://docs.unity.uri.edu/contact/community/) to install a module or update an existing module
    1. [How to ask for help](https://docs.unity.uri.edu/documentation/help/asking-questions/)
@@ -197,7 +197,7 @@ Detailed instructions here: https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/
       python ~/broccoli.py -help
       ```
 
-### 4. How do I run analyses?
+### 3. How do I run analyses?
 
 1. Use `sbatch` to submit jobs, very similar to andromeda
    1. https://docs.unity.uri.edu/documentation/jobs/sbatch/
@@ -212,12 +212,12 @@ Detailed instructions here: https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/
        - Note that not all GPU types are available in every partition. Modify the suggestions for partitions as needed.”
 2. Check the status of your job: `squeue --me`
 
-### 5. How do I run interactive jobs?
+### 4. How do I run interactive jobs?
 
 1. Use `salloc` to start interactive jobs, similar to the `interactive` command on andromeda
    1. https://docs.unity.uri.edu/documentation/jobs/salloc/
 
-### 6. How do I run Rstudio?
+### 5. How do I run Rstudio?
 
 1. https://docs.unity.uri.edu/documentation/tools/r/
 2. https://docs.unity.uri.edu/documentation/software/ondemand/
