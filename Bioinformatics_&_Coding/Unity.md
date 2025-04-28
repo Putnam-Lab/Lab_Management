@@ -137,9 +137,11 @@ Detailed instructions here: https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/
 1. You first need to set up globus authentication from Andromeda and link it to your URI SSO account (see notebook post)
 2. Activate the endpoint from Andromeda
    1. ```
+      screen #start screen session so that you can continue to use Globus if your VPN disconnects
       interactive
       module load GlobusConnectPersonal/3.2.0
       globusconnectpersonal -start &
+      # Detach from screen by doing the keystroke "Ctrl-a + d", this will allow Globus to keep running if andromeda gets disconnected
       ```
 3. On Globus Connect in your browser (https://www.globus.org):
    1. Login
