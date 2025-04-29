@@ -138,7 +138,7 @@ Detailed instructions here: https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/
 2. Activate the endpoint from Andromeda
    1. ```
       screen #start screen session so that you can continue to use Globus if your VPN disconnects
-      interactive
+      interactive #this has a limit of 8 hours, FYI
       module load GlobusConnectPersonal/3.2.0
       globusconnectpersonal -start &
       # Detach from screen by doing the keystroke "Ctrl-a + d", this will allow Globus to keep running if andromeda gets disconnected
