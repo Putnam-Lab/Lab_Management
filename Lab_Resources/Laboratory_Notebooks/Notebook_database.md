@@ -68,7 +68,7 @@
 |        63       |   |       |      |          |                   |
 |        64       | Hollie Putnam  |      To'a Aroha - Coral Care | Sept 2024    | |[Notebook 64](https://drive.google.com/drive/u/0/folders/1h3-ROBdekZdI8XLYNY-P4Ln6njR70pI2)         |                   |
 |        65       |   |       |      |          |                   |
-|        66       | Zoe Dellaert  |  Spatial Gene Expression Time Series | Summer 2025 | [Notebook 66](https://drive.google.com/drive/folders/1gG0gzYWPyWYgEgFP1cWNjod15tXFpT9E?usp=drive_link) |                   |
+|        66       | Zoe Dellaert  |  Spatial Gene Expression Time Series | 20250519 |  | [Notebook 66](https://drive.google.com/drive/folders/1gG0gzYWPyWYgEgFP1cWNjod15tXFpT9E?usp=drive_link)    |
 |        67       | Thatcher Johnstone-Wright   | Coral Bailout      | May 2025     |          |  [Notebook 67](https://drive.google.com/drive/u/0/folders/1ImWbeXnYJUqvaLpdYRCae2X8zsLwqSCY)                 |
 |        68       |   |       |      |          |                   |
 |        69       |   |       |      |          |                   |
