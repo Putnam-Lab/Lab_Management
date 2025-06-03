@@ -6,6 +6,8 @@ _Center for Environmental and Life Sciences, Department of Biological Sciences_
 
 _University of Rhode Island, Kingston_
 
+__testing github with ZOE__
+
 
 **Important Links:**
 
@@ -23,7 +25,7 @@ _University of Rhode Island, Kingston_
 _What is a Laboratory Notebook?_
 
 - It provides a permanent written record of procedures, reagents, data, calculations, thoughts, explanations, and results of experiments. 
-- The records helps to intepret, evaluate and analyze data from the experiments which creates foundation of thesis and publications. 
+- The records helps to interpret, evaluate and analyze data from the experiments which creates foundation of thesis and publications. 
 - The key to having a good notebook is having clear layout, descriptions and being specific with your writing.
 
 
