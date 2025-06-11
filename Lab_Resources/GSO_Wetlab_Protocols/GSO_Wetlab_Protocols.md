@@ -54,8 +54,8 @@ About: This post is adapted from an [Point Whitney OA chemistry protocol](https:
 | Fisherbrand Traceable Platinum Ultra-Accurate Digital Thermometer | **temperature** (Celcius) | CBLS | [SETUP/USAGE](https://github.com/Putnam-Lab/Lab_Management/blob/2d8e63b6eb1cfdc3ef5a73a031869d1f13daf932/Lab_Resources/Equipment_Protocols/2018-4-9-thermometer%20protocol.md). resolution; 0.001°C; accuracy: ± 0.05 °C) |
 | Orion 013010MD Conductivity Cell | **conductivity** (ppm, µS, etc.) | CBLS | range 1 μS/cm - 200 mS/cm; accuracy: ± 0.01 psu) |
 | **Continuous measurements - pH-stat system**  | -------------  | -------------  | ------------- |
-| Neptune Systems pH probe  | **pH** (NBS scale) |  CBLS, set-up at GSO | [CALIBRATION](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Apex-Calibration-Protocols.md). accuracy: ± 0.01 pH units, resolution: ± 0.1°C; compatible with APEX.  |
-| Neptune Systems temperature probe  | **temperature** (Celcius)  |  CBLS, set-up at GSO | [CALIBRATION](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Apex-Calibration-Protocols.md). accuracy: ± 0.1°C, resolution: ± 0.1°C; compatible with APEX  |
+| Neptune Systems pH probe  | **pH** (NBS scale) |  CBLS, set-up at GSO | [CALIBRATION](https://github.com/Putnam-Lab/Lab_Management/blob/ce424952e5ce067e9eef7d667f19362c403e7a52/Lab_Resources/Equipment_Protocols/Apex-Calibration-Protocols.md). accuracy: ± 0.01 pH units, resolution: ± 0.1°C; compatible with APEX.  |
+| Neptune Systems temperature probe  | **temperature** (Celcius)  |  CBLS, set-up at GSO | [CALIBRATION](https://github.com/Putnam-Lab/Lab_Management/blob/ce424952e5ce067e9eef7d667f19362c403e7a52/Lab_Resources/Equipment_Protocols/Apex-Calibration-Protocols.md). accuracy: ± 0.1°C, resolution: ± 0.1°C; compatible with APEX  |
 |  **Titration equipment** | -------------  | -------------  | -------------  |
 | Mettler Toledo titrator | **total alkalinity** | CBLS Organismal lab bench | |
 | *Reference materials and standards;* [about](https://www.ncei.noaa.gov/access/ocean-carbon-data-system/oceans/Handbook_2007.html) |  |  |  |
