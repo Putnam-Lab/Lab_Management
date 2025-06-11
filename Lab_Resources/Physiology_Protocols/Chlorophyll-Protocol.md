@@ -47,7 +47,7 @@ Contents
 9. Pipette 200µl of acetone blank to duplicate wells.  
 10. Cover the plate with silicone pad every 5th sample or so to reduce evaporate as samples are added.  
 11. Remove silicon pad.   
-12. Follow steps below to measure the extract Absorbance on the [Synergy HTX Multi-Mode Microplate Reader](https://www.biotek.com/products/detection-multi-mode-microplate-readers/synergy-htx-multi-mode-reader/) at 630, 663, and 750 nm in a 96-well quartz plate.
+12. Follow steps below to measure the extract Absorbance on the [Synergy HTX Multi-Mode Microplate Reader](https://www.agilent.com/en/product/microplate-instrumentation/microplate-readers) at 630, 663, and 750 nm in a 96-well quartz plate.
 13. Standardize for path length in 200µl of sample in 96-well quartz plate.
 
 **Make a Platemap in your Notebook**
@@ -58,7 +58,7 @@ Contents
 
 Follow the [Synergy HTX Operating Manual](https://github.com/urol-e5/protocols/blob/master/synergy_htx_manual.pdf) and [Gen5 Software Manual](https://github.com/urol-e5/protocols/blob/master/Gen5_software_manual.pdf) to install the software on your host computer and general operating instructions.
 
-![Platereader](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Spectrophotometer.HEIC)
+![Platereader](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Spectrophotometer.HEIC)](https://github.com/Putnam-Lab/Lab_Management/blob/910582ea00414f98f8d17d73a2ac4d60126a1141/images/Spectrophotometer.jpeg)
 
 1. Open the Gen5 software on your computer.
 2. Whenever you start Gen5, the Task Manager opens. In Mo'orea, protocols (including chlorophyll) have been created on the Gen5 software on the HP Putnam Lab computer, so you can select the pre-made protocols from the dropdown menu.
