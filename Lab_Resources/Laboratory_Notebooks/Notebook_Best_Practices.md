@@ -1,4 +1,13 @@
- #  LAB NOTEBOOK BEST PRACTICES
+---
+layout: post
+title: Tutorial for Lab Notebook Best Practices
+date: '2025-28-05 13:00:00'
+categories: Protocols
+author: Pooja Pednekar
+tags: [Protocols, GitHub, Lab Notebook]
+---
+
+#  LAB NOTEBOOK BEST PRACTICES
  ### This tutorial outlines the recommended approach for maintaining a written laboratory notebook, helping ensure data organization and integrity throughout the research process.
 _Created by Putnam Lab_
 
