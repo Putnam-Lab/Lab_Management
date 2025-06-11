@@ -58,7 +58,7 @@ Contents
 
 Follow the [Synergy HTX Operating Manual](https://github.com/urol-e5/protocols/blob/master/synergy_htx_manual.pdf) and [Gen5 Software Manual](https://github.com/urol-e5/protocols/blob/master/Gen5_software_manual.pdf) to install the software on your host computer and general operating instructions.
 
-![Platereader](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Spectrophotometer.HEIC)](https://github.com/Putnam-Lab/Lab_Management/blob/910582ea00414f98f8d17d73a2ac4d60126a1141/images/Spectrophotometer.jpeg)
+![Platereader](https://github.com/Putnam-Lab/Lab_Management/blob/910582ea00414f98f8d17d73a2ac4d60126a1141/images/Spectrophotometer.jpeg)
 
 1. Open the Gen5 software on your computer.
 2. Whenever you start Gen5, the Task Manager opens. In Mo'orea, protocols (including chlorophyll) have been created on the Gen5 software on the HP Putnam Lab computer, so you can select the pre-made protocols from the dropdown menu.
