@@ -29,7 +29,7 @@ Contents
 -   Plastic funnel
 -   Qtips
 -   Labeling tape
--   [Synergy HTX Multi-Mode Microplate Reader](https://www.biotek.com/products/detection-multi-mode-microplate-readers/synergy-htx-multi-mode-reader/)
+-   [Synergy HTX Multi-Mode Microplate Reader](https://www.agilent.com/en/product/microplate-instrumentation/microplate-readers)
 -   [Gen5 Software](https://www.biotek.com/products/software-robotics-software/gen5-microplate-reader-and-imager-software/)
 
 
