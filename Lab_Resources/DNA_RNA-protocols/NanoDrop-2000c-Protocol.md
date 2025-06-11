@@ -42,7 +42,7 @@ Use the Jenkins lab NanoDrop at URI to measure the nucleic acid concentration an
 
 6. After wiping the pedestals, you will see the software has loaded to a homepage that has a range of selections from Nucleic Acid to Protein BCA to Cell Cultures protocol options.
 
-![mainscreen](https://github.com/daniellembecker/DanielleBecker_Lab_Notebook/blob/0a55d211b1aad84e984ee1bed3cdec7540d0882b/images/NanoDrop/mainscreen.PNG)
+![mainscreen](https://github.com/daniellembecker/DanielleBecker_Lab_Notebook/blob/master/images/NanoDrop/mainscreen.png)
 
 7. For my goals, I selected the Nucleic Acid protocol. Once you select this, it will ask you if you want to load the last workbook but you will select no so that you do not overwrite other work or save your work to someones workbook.
 
