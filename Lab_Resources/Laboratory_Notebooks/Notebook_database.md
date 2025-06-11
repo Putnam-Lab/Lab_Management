@@ -71,6 +71,6 @@
 |        66       | Zoe Dellaert  |  Spatial Gene Expression Time Series | 20250519 |  | [Notebook 66](https://drive.google.com/drive/folders/1gG0gzYWPyWYgEgFP1cWNjod15tXFpT9E?usp=drive_link)    |
 |        67       | Thatcher Johnstone-Wright   | Coral Bailout      | May 2025     |          |  [Notebook 67](https://drive.google.com/drive/u/0/folders/1ImWbeXnYJUqvaLpdYRCae2X8zsLwqSCY)                 |
 |        68       | Natalie Champney | DNA/RNA Extractions - ENCORE and Spatial Gene Expression Time Series | 20250527  |          |                   |
-|        69       |   |       |      |          |                   |
+|        69       | Pooja Pednekar  |  Lab Tasks     |   June 2025   |          |      [Notebook 69](https://drive.google.com/drive/folders/1yWtO9-MgBgIP64x6b7o3ITpSSzBDpKJ0?usp=sharing)             |
 |        70       |   |       |      |          |                   |
 |        71       |   |       |      |          |                   |

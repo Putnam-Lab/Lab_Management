@@ -9,8 +9,8 @@ The following protocol can be used for setting up and using the Apogee light sen
 
 Contents
 
-- [**Setup/Usage**](#Setup/Usage) 
-- [**Functions**](#Functions) 
+- [**Setup/Usage**](#Setup/Usage)
+- [**Functions**](#Functions)
 
 
 1. <a name="Setup/Usage"></a> **Setup/Usage**

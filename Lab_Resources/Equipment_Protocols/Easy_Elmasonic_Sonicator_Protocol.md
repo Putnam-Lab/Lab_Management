@@ -7,14 +7,14 @@ Last Revised: Putnam Lab - DM Becker - 20210329
 
 **Materials:**  
 
-- [Easy Elmasonic Sonicator](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Lab_Resourses/Equipment_Protocols/Equip_Images/Sonicator.jpg)
-- [Transformer](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Lab_Resourses/Equipment_Protocols/Equip_Images/Simran_Transformer.jpg)
+- [Easy Elmasonic Sonicator](https://github.com/Putnam-Lab/Lab_Management/blob/44ac13151b0981740158e9ffe74489acade21692/Lab_Resources/Equipment_Protocols/Equip_Images/Sonicator.jpg)
+- [Transformer](https://github.com/Putnam-Lab/Lab_Management/blob/44ac13151b0981740158e9ffe74489acade21692/Lab_Resources/Equipment_Protocols/Equip_Images/Simran_Transformer.jpg)
  
 
 **Protocol Steps**
 1. The Easy Elmasonic Sonicator has a 220V outlet intended for use in Mo'orea, have to use a transformer to convert the voltage from 110V to 220V safely.
 
-***Follow the [transformer protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Simran_Transformer_Protocol.md) carefully and make sure there is no liquid around the transformer***
+***Follow the [transformer protocol](https://github.com/Putnam-Lab/Lab_Management/blob/f3f00e5e0fedf8fbb0813b55df9a57ddaa9bf925/Lab_Resources/Equipment_Protocols/Simran_Transformer_Protocol.md) carefully and make sure there is no liquid around the transformer***
 
 2. Plug the transformer into a 110V outlet and read the instructions carefully. Change the INPUT to the transformer to 110V (this step is extremely important, make sure the voltage you plug the transfromer into matches the INPUT tab located in the back of the transformer).
 

@@ -22,7 +22,6 @@
   2. Go to safari on your phone
     1. Type in:
       1. apex.local
-
     2. Choose wifi 
       1. Enter password
   3. Allow the Apex to connect to the "home" wifi

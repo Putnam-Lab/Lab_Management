@@ -23,17 +23,17 @@ Centrifuge (for 1.5ml tubes, 0.2ml single or strip tubes, or 96 well plate)
 ## Protocol Steps
 
 
-###Chelex Preparation
+### Chelex Preparation
 Prepare 5% Chelex  
 - Make in small batches of ~45 mL (2.25 g chelex in 45mL of MilliQ H2O)
 
-Pre-heat 5% Chelex solution to 95˚C prior to use for extraction
+- Pre-heat 5% Chelex solution to 95˚C prior to use for extraction
 
 ----------------
 
-###Microcentrifuge tube (1.5mL) protocol   
-	- Make sure Chelex is well-mixed and each tube receives chelex resin (the pipet tip should look a little cloudy with Chelex solution)    
--	Always include a negative control tube with no sample
+### Microcentrifuge tube (1.5mL) protocol   
+- Make sure Chelex is well-mixed and each tube receives chelex resin (the pipet tip should look a little cloudy with Chelex solution)    
+- Always include a negative control tube with no sample
 
 1.	Add sample of tissue to 1.5mL tube
 2.	Add 200 µL of pre-heated (95˚C) 5% Chelex
@@ -49,8 +49,8 @@ a.	This is the final tube of extracted DNA so label with sample name on the lid 
 b.	Store at 4˚C for immediate use, otherwise store at -20˚C 
 
 ----------------
-###0.2ml Strip tube protocol
-	- Make sure Chelex is well-mixed and each tube receives chelex resin (the pipet tip should look a little cloudy with Chelex solution)       
+### 0.2ml Strip tube protocol
+- Make sure Chelex is well-mixed and each tube receives chelex resin (the pipet tip should look a little cloudy with Chelex solution)       
 
 1.	Aliquot 100ul of 10% Chelex into 200ul strip tubes (or whatever tubes you’ll be collecting tissue for extraction in). The percent of Chelex doesn’t have to be exactly 10%. It’s difficult to keep it in a homogenous solution while aliquoting, so don’t worry. For very small amounts of tissue 100ul of Chelex solution has worked nicely. If samples are larger, 150uL works well.
 
@@ -67,7 +67,7 @@ b.	Store at 4˚C for immediate use, otherwise store at -20˚C
 7.	Store in freezer at -20°C. I don’t know how long this will remain good, but sources say anywhere from 3 months to 3 years. So far, we’ve been able to run PCRs on samples when the supernatant was kept with resin at -20°C for >2.5 years.
 
 ----------------
-###Plate (96-well PCR plate) protocol
+### Plate (96-well PCR plate) protocol
 -	Make sure Chelex is well-mixed and each tube receives chelex resin (the pipet tip should look a little cloudy with Chelex solution)
 -	Always include a negative control well with no sample
 

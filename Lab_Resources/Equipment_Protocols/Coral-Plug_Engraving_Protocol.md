@@ -16,7 +16,7 @@
 
 # <center> Open Up the Column File (Pathway) </center>
 
-[Link to Corel File](https://github.com/Putnam-Lab/Lab_Management/blob/master/Engraver_Files/ColumnFull.cdr)
+[Link to Corel File](https://github.com/Putnam-Lab/Lab_Management/blob/2c656372e64f777dd6e8004b35f0eefd706ae47e/Lab_Resources/Equipment_Protocols/Engraver_Files/ColumnFull.cdr)
 
 1. Desktop
 2. Documents

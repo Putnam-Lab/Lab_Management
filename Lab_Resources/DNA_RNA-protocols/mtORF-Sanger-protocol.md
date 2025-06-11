@@ -19,7 +19,7 @@ Information on Sanger sequencing at the URI GSC is [here](https://web.uri.edu/gs
 - [Multichannel and regular micropipettes](https://www.shoprainin.com/Products/Pipettes-and-Tips/Pipettes/Single-Channel-Manual-Pipettes/c/MTMP001)
 - [Filter pipette tips](https://www.shoprainin.com/Products/Pipettes-and-Tips/Pipette-Tips/LTS-Pipette-Tips/c/MTBLTSTP001)
 - Ethanol
-- [KAPAPure Magnetic DNA binding beads](https://sequencing.roche.com/en-us/products-solutions/by-category/library-preparation/library-preparation-accessories/kapa-pure-beads/ordering.html)
+- [KAPAPure Magnetic DNA binding beads](https://rochesequencingstore.com/catalog/kapa-pure-beads/)
 - [Magnetic plate for 96 well plates](https://www.thermofisher.com/order/catalog/product/12331D#/12331D)
 - Materials for gel electrophoresis ([agarose](https://www.fishersci.com/shop/products/agarose-electrophoresis-grade-12/AAJ6650118#?keyword=agarose), [TAE buffer](https://www.fishersci.com/shop/products/tris-acetate-edta-50x-solution-electrophoresis-fisher-bioreagents-4/bp13324#?keyword=TAE+buffer), gel box, [gelgreen](https://biotium.com/product/gelgreen-nucleic-acid-gel-stain/), [1KB plus DNA ladder](https://www.thermofisher.com/order/catalog/product/SM1331#/SM1331), [loading dye](https://www.thermofisher.com/order/catalog/product/R1161?SID=srch-srp-R1161#/R1161?SID=srch-srp-R1161))
 - [Broad range dsDNA Qubit assay](https://www.thermofisher.com/order/catalog/product/Q32850#/Q32850) and [tubes for Qubit use](https://www.fishersci.com/shop/products/axygen-pcr-tubes-0-5ml-flat-cap-10/p-4909458)

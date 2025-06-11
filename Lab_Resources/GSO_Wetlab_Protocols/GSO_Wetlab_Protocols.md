@@ -1,8 +1,8 @@
-*last update SJG 20200105*
+*last update PP 06112025*
 
 # URI GSO Daily Wet Lab Protocol (OA experiments)
 
-About: This post is adapted from an [Point Whitney OA chemistry protocol](https://github.com/SamGurr/SamJGurr_Lab_Notebook/blob/master/_posts/2018-08-10-Daily-Wet-Lab-OA-at-Point-Whitney.md) written by SJG and [CBLS aquarium Room chemistry](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/CBLS_Wetlab_Protocols/20201110_CBLS_WaterQuality_Checklist.Md) written by HG.
+About: This post is adapted from an [Point Whitney OA chemistry protocol](https://github.com/SamGurr/SamGurr.github.io/blob/ca9c83b582fa0f72bddc2f0d52d62489358a94ba/_posts/2018-08-10-Daily-Wet-Lab-OA-at-Point-Whitney.md) written by SJG and [CBLS aquarium Room chemistry](https://github.com/Putnam-Lab/CBLS_Wetlab/blob/2a27937ac61becd51724cef426203fdf7322b8ed/CBLS_Wetlab_Protocols/DailyWetlabChecklist_Protocols.md) written by HG.
 
 **Important:** tasks outlined here are catered for a pH + TA approach to calculate full carbonate chemistry.
 
@@ -36,7 +36,7 @@ About: This post is adapted from an [Point Whitney OA chemistry protocol](https:
 ---------
 
 ### Some materials to review...
-- [Point Whitney OA chemistry post](https://github.com/SamGurr/SamJGurr_Lab_Notebook/blob/master/_posts/2018-08-10-Daily-Wet-Lab-OA-at-Point-Whitney.md) This protocol is adapted from a protocol used for acdification experiements in 2018-2019.
+- [Point Whitney OA chemistry post](https://github.com/SamGurr/SamGurr.github.io/blob/ca9c83b582fa0f72bddc2f0d52d62489358a94ba/_posts/2018-08-10-Daily-Wet-Lab-OA-at-Point-Whitney.md) This protocol is adapted from a protocol used for acdification experiements in 2018-2019.
 - [Guide to Best Practices for Ocean CO2 Measurements](https://www.ncei.noaa.gov/access/ocean-carbon-data-system/oceans/Handbook_2007.html) Dickson et al. 2007. All our reference materials and standards are purchased from the Dickson lab - this book clearly explains the data and equations to lead you from discrete measurements to full (publishable!) carbonate chemistry
 - ['seacarb' R package](https://cran.r-project.org/web/packages/seacarb/seacarb.pdf)
 - 2020 Putnam lab OA training - good examples of tables, equipment lists, R scripts, and a short presentation [here](https://drive.google.com/drive/u/1/folders/1shIgK1TSOCtfqIHWtH0ITrjRgsEAKbMO); likely need access as a Putnam Lab student..
@@ -50,18 +50,18 @@ About: This post is adapted from an [Point Whitney OA chemistry protocol](https:
 | **Discrete measurements**  | -------------  | -------------  | -------------  |
 | Orion Star A325 Thermoscientific pH/conductivity meter  |  NA |  CBLS |  this is the portable meter compatable with the pH and conductivity probes used in discrete measurments  |
 | Mettler Toledo pH probe  |  **pH** (mV) | CBLS Organismal lab bench  |  resolution: 1 mV, 0.01 pH ; accuracy: ± 1 mV, ± 0.01 pH |
-| Orion Star A221 pH probe  | **pH** (mV)  | CBLS | [SETUP/USAGE and CALIBRATION](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/2018-4-9-pH%20probe%20protocol.md) |
-| Fisherbrand Traceable Platinum Ultra-Accurate Digital Thermometer | **temperature** (Celcius) | CBLS | [SETUP/USAGE](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/2018-4-9-thermometer%20protocol.md). resolution; 0.001°C; accuracy: ± 0.05 °C) |
+| Orion Star A221 pH probe  | **pH** (mV)  | CBLS | [SETUP/USAGE and CALIBRATION](https://github.com/Putnam-Lab/Lab_Management/blob/efc28a639b402eaae292bbb8dafb0516e7ac6a44/Lab_Resources/Equipment_Protocols/Orion_MultiParameter_Sensor_Protocol.md) |
+| Fisherbrand Traceable Platinum Ultra-Accurate Digital Thermometer | **temperature** (Celcius) | CBLS | [SETUP/USAGE](https://github.com/Putnam-Lab/Lab_Management/blob/2d8e63b6eb1cfdc3ef5a73a031869d1f13daf932/Lab_Resources/Equipment_Protocols/2018-4-9-thermometer%20protocol.md). resolution; 0.001°C; accuracy: ± 0.05 °C) |
 | Orion 013010MD Conductivity Cell | **conductivity** (ppm, µS, etc.) | CBLS | range 1 μS/cm - 200 mS/cm; accuracy: ± 0.01 psu) |
 | **Continuous measurements - pH-stat system**  | -------------  | -------------  | ------------- |
-| Neptune Systems pH probe  | **pH** (NBS scale) |  CBLS, set-up at GSO | [CALIBRATION](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Apex-Calibration-Protocols.md). accuracy: ± 0.01 pH units, resolution: ± 0.1°C; compatible with APEX.  |
-| Neptune Systems temperature probe  | **temperature** (Celcius)  |  CBLS, set-up at GSO | [CALIBRATION](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Apex-Calibration-Protocols.md). accuracy: ± 0.1°C, resolution: ± 0.1°C; compatible with APEX  |
+| Neptune Systems pH probe  | **pH** (NBS scale) |  CBLS, set-up at GSO | [CALIBRATION](https://github.com/Putnam-Lab/Lab_Management/blob/ce424952e5ce067e9eef7d667f19362c403e7a52/Lab_Resources/Equipment_Protocols/Apex-Calibration-Protocols.md). accuracy: ± 0.01 pH units, resolution: ± 0.1°C; compatible with APEX.  |
+| Neptune Systems temperature probe  | **temperature** (Celcius)  |  CBLS, set-up at GSO | [CALIBRATION](https://github.com/Putnam-Lab/Lab_Management/blob/ce424952e5ce067e9eef7d667f19362c403e7a52/Lab_Resources/Equipment_Protocols/Apex-Calibration-Protocols.md). accuracy: ± 0.1°C, resolution: ± 0.1°C; compatible with APEX  |
 |  **Titration equipment** | -------------  | -------------  | -------------  |
 | Mettler Toledo titrator | **total alkalinity** | CBLS Organismal lab bench | |
 | *Reference materials and standards;* [about](https://www.ncei.noaa.gov/access/ocean-carbon-data-system/oceans/Handbook_2007.html) |  |  |  |
 | Dickson Lab Tris Standard  | standard with known pH | CBLS Organismal lab bench | record your batch number (i.e. Batch T27) |
 | Dickson Lab Certified HCl titrant   | ∼0.1 mol kg−1, ∼0.6 mol kg−1 NaCl | CBLS Organismal lab bench  |  record your batch number (i.e. Batch A15) |
-| Dickson Lab Certified Reference Materials (CRMs) | seawater standard **with mercuric chloride! use caution [MSDS here](https://beta-static.fishersci.com/content/dam/fishersci/en_US/documents/programs/education/regulatory-documents/sds/chemicals/chemicals-m/S25423.pdf)**  |  CBLS Organismal lab bench |  record your batch number (i.e. Batch 180); **information on batches [here](https://www.ncei.noaa.gov/access/ocean-carbon-data-system/oceans/Dickson_CRM/batches.html)** |
+| Dickson Lab Certified Reference Materials (CRMs) | seawater standard **with mercuric chloride! use caution [MSDS here](https://www.fishersci.com/store/msds?partNumber=S25423&productDescription=MERCURIC+CHLORIDE+100G+ACS&vendorId=VN00115888&countryCode=US&language=en)**  |  CBLS Organismal lab bench |  record your batch number (i.e. Batch 180); **information on batches [here](https://www.ncei.noaa.gov/access/ocean-carbon-data-system/oceans/Dickson_CRM/batches.html)** |
 
 ---------
 
