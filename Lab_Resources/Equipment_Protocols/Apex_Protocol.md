@@ -227,7 +227,7 @@ Once the above settings are preset for the computer and apex, any future connect
 
 <a name="references"></a> **References:**  
 - https://www.neptunesystems.com/getstarted/apex-el/
-- https://www.neptunesystems.com/getstarted/apexng/apex-wifi/pc-wifi-el/
+- https://help.neptunesystems.com/getstarted/apexel/pc-wifi-el/
 - Help Service: Neptune Systems Contact Number:
   - (408) 779-4090 (press 1, then press 1 again to be transferred to a Tech Representative)
 - [Apex Jr. Get Started Guide](https://www.neptunesystems.com/getstarted/apexjr/)
