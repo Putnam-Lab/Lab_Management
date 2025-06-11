@@ -41,7 +41,7 @@ Prep Workflow Diagram from Zymo:
 - Thermocylers (Eppendorf Mastercycler Pro)
 - [Microcentrifuge tubes](https://geneseesci.com/shop-online/product-details/24-281/olympus-1.7ml-microtubes-clear)
 - Ethanol
-- [Magnetic DNA binding beads](https://sequencing.roche.com/en-us/products-solutions/by-category/library-preparation/library-preparation-accessories/kapa-pure-beads/ordering.html)
+- [Magnetic DNA binding beads](https://rochesequencingstore.com/catalog/kapa-pure-beads/)
 - [Magnetic plate for 96 well plates](https://www.thermofisher.com/order/catalog/product/12331D#/12331D)
 - [Multichannel and regular micropipettes](https://www.shoprainin.com/Products/Pipettes-and-Tips/Pipettes/Single-Channel-Manual-Pipettes/c/MTMP001)
 - [Filter pipette tips](https://www.shoprainin.com/Products/Pipettes-and-Tips/Pipette-Tips/LTS-Pipette-Tips/c/MTBLTSTP001)
