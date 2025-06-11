@@ -7,8 +7,8 @@ Last Revised: Putnam Lab - DM Becker - 20210329
 
 **Materials:**  
 
-- [Easy Elmasonic Sonicator](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Lab_Resourses/Equipment_Protocols/Equip_Images/Sonicator.jpg)
-- [Transformer](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Lab_Resourses/Equipment_Protocols/Equip_Images/Simran_Transformer.jpg)
+- [Easy Elmasonic Sonicator](https://github.com/Putnam-Lab/Lab_Management/blob/44ac13151b0981740158e9ffe74489acade21692/Lab_Resources/Equipment_Protocols/Equip_Images/Sonicator.jpg)
+- [Transformer](https://github.com/Putnam-Lab/Lab_Management/blob/44ac13151b0981740158e9ffe74489acade21692/Lab_Resources/Equipment_Protocols/Equip_Images/Simran_Transformer.jpg)
  
 
 **Protocol Steps**
