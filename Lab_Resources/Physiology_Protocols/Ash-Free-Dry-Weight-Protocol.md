@@ -35,7 +35,7 @@ Contents
      
     3.  After labeling, burn in the muffle furnace at 450°C for 4-6 h (some papers use 500°C for 4 or 6). After, remove from the muffle furnace, place in a glass desiccator for storage.    
 	*Take care after this point that pans are not touched without gloves on, and that pans are ALWAYS sat on burned aluminum foil on tabletops and in ovens/furnaces/scales*	
-	![Drying oven and muffle furnace](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/dryingoven_muffle%20furnace.HEIC)
+	![Drying oven and muffle furnace](https://github.com/Putnam-Lab/Lab_Management/blob/723715483f82cfbf533406e5ab17a3f45f25da53/images/dryingoven_muffle%20furnace.HEIC)
 	
     4.  Record weight of burned pans on 4-decimal place scale (= “C” in Table 1.) Make sure you are using clean gloves or tweezers to weight the pans. ![Dryingoven](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/mufflefurnace.HEIC)
 
