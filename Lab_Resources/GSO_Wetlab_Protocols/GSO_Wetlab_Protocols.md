@@ -51,7 +51,7 @@ About: This post is adapted from an [Point Whitney OA chemistry protocol](https:
 | Orion Star A325 Thermoscientific pH/conductivity meter  |  NA |  CBLS |  this is the portable meter compatable with the pH and conductivity probes used in discrete measurments  |
 | Mettler Toledo pH probe  |  **pH** (mV) | CBLS Organismal lab bench  |  resolution: 1 mV, 0.01 pH ; accuracy: ± 1 mV, ± 0.01 pH |
 | Orion Star A221 pH probe  | **pH** (mV)  | CBLS | [SETUP/USAGE and CALIBRATION](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/2018-4-9-pH%20probe%20protocol.md) |
-| Fisherbrand Traceable Platinum Ultra-Accurate Digital Thermometer | **temperature** (Celcius) | CBLS | [SETUP/USAGE](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/2018-4-9-thermometer%20protocol.md). resolution; 0.001°C; accuracy: ± 0.05 °C) |
+| Fisherbrand Traceable Platinum Ultra-Accurate Digital Thermometer | **temperature** (Celcius) | CBLS | [SETUP/USAGE](https://github.com/Putnam-Lab/Lab_Management/blob/2d8e63b6eb1cfdc3ef5a73a031869d1f13daf932/Lab_Resources/Equipment_Protocols/2018-4-9-thermometer%20protocol.md). resolution; 0.001°C; accuracy: ± 0.05 °C) |
 | Orion 013010MD Conductivity Cell | **conductivity** (ppm, µS, etc.) | CBLS | range 1 μS/cm - 200 mS/cm; accuracy: ± 0.01 psu) |
 | **Continuous measurements - pH-stat system**  | -------------  | -------------  | ------------- |
 | Neptune Systems pH probe  | **pH** (NBS scale) |  CBLS, set-up at GSO | [CALIBRATION](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Apex-Calibration-Protocols.md). accuracy: ± 0.01 pH units, resolution: ± 0.1°C; compatible with APEX.  |
