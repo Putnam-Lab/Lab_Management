@@ -37,7 +37,7 @@ Contents
 	*Take care after this point that pans are not touched without gloves on, and that pans are ALWAYS sat on burned aluminum foil on tabletops and in ovens/furnaces/scales*	
 	![Drying oven and muffle furnace](https://github.com/Putnam-Lab/Lab_Management/blob/86bad7c527834a2dbf73d6c675c1b8b3f0a8844a/images/dryingoven_muffle%20furnace.jpeg)
 	
-    4.  Record weight of burned pans on 4-decimal place scale (= “C” in Table 1.) Make sure you are using clean gloves or tweezers to weight the pans. ![Dryingoven](https://github.com/Putnam-Lab/Lab_Management/blob/86bad7c527834a2dbf73d6c675c1b8b3f0a8844a/images/dryingoven_muffle%20furnace.jpeg)
+    4.  Record weight of burned pans on 4-decimal place scale (= “C” in Table 1.) Make sure you are using clean gloves or tweezers to weight the pans. ![Dryingoven](https://github.com/Putnam-Lab/Lab_Management/blob/cc02f969b5ecfbd0621e512dacf001dbec941ff9/images/Drying%20oven.jpeg)
 
     5.  Keep pans in desiccator until used. Dry the desiccant pack over night in the drying oven at 60ºC ![Desiccator](https://github.com/Putnam-Lab/Lab_Management/blob/76c87978e98eb3644cbbbfa2dcb54ab9716113a6/images/Dessicator.jpeg)
     6. Remove frozen tissue homogenate from freezer and thaw.
@@ -52,7 +52,7 @@ Contents
     13. Transfer trays of filled pans to drying oven at 60°C for at least 24 h. ![Drying oven]((https://github.com/Putnam-Lab/Lab_Management/blob/86bad7c527834a2dbf73d6c675c1b8b3f0a8844a/images/dryingoven_muffle%20furnace.jpeg)
     14. Weigh dried pans (using tweezers when transferring). Should be “at constant weight”. Preliminary steps may be needed to ensure samples have reached a constant weight. Leaving samples in drying oven longer than 24 h may be necessary, and is likely not detrimental.
 
-    ![scale images]()
+    ![scale images](https://github.com/Putnam-Lab/Lab_Management/blob/cc02f969b5ecfbd0621e512dacf001dbec941ff9/images/scale.jpeg)
     
     15. After samples have reached a constant weight, weigh pan + dried samples on a 4- decimal scale and record weight (= “D” in Table 1.)
     16. After recording the weight of the burned pan + dry tissue (and salts), place in the muffle furnace at 450°C for 4-6 h. Turn on the muffle furnace and click the 'up' arrow to set the temperature to 450 C. Once set, the muffle furnace will begin to heat up. After the 4-6 h time period, turn off the muffle furnace. This needs time (could be hours) for the muffle furnace to cool down. *Budget for this in lab time. You cannot take the pans out right away.* 
