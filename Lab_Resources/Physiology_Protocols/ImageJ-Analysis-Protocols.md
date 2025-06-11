@@ -36,9 +36,7 @@ Limit the amount of shadow and atypical light reflection by placing a piece of w
 6. Select each of the three color standards and record the mean value given by the histogram.  
   1. Hover the mouse over a corner of the blue tape, right click to drag and select as much of the blue square as possible.  
   2. On the histogram window, click through the "RGB" options: "Intensity (unweighted), Intensity (weighted), "R+G+B", "Red", "Green", and stop at "Blue". Record the Mean value in "Bleaching ImageJ" spreadsheet under "Blue.Standard".
-![image](https://github.com/emmastrand/EmmaStrand_Notebook/blob/8cbb3a598e769d25816f0f8b0f19d4ca741e1115/images/ImageJ_4_blue.png)
-
-  4. Repeat steps previous steps for both the red and green tape squares. Stop at the "Red" histogram when analyzing the red square, stop at the "Green" histogram when analyzing the green square, and record the mean values under the respective Color.Standard column.  
+  3. Repeat steps previous steps for both the red and green tape squares. Stop at the "Red" histogram when analyzing the red square, stop at the "Green" histogram when analyzing the green square, and record the mean values under the respective Color.Standard column.  
 
 ![example](https://github.com/emmastrand/EmmaStrand_Notebook/blob/master/images/ImageJ_5.png?raw=true)
 
