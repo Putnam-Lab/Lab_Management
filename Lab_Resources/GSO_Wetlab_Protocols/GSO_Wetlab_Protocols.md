@@ -61,7 +61,7 @@ About: This post is adapted from an [Point Whitney OA chemistry protocol](https:
 | *Reference materials and standards;* [about](https://www.ncei.noaa.gov/access/ocean-carbon-data-system/oceans/Handbook_2007.html) |  |  |  |
 | Dickson Lab Tris Standard  | standard with known pH | CBLS Organismal lab bench | record your batch number (i.e. Batch T27) |
 | Dickson Lab Certified HCl titrant   | ∼0.1 mol kg−1, ∼0.6 mol kg−1 NaCl | CBLS Organismal lab bench  |  record your batch number (i.e. Batch A15) |
-| Dickson Lab Certified Reference Materials (CRMs) | seawater standard **with mercuric chloride! use caution [MSDS here](https://beta-static.fishersci.com/content/dam/fishersci/en_US/documents/programs/education/regulatory-documents/sds/chemicals/chemicals-m/S25423.pdf)**  |  CBLS Organismal lab bench |  record your batch number (i.e. Batch 180); **information on batches [here](https://www.ncei.noaa.gov/access/ocean-carbon-data-system/oceans/Dickson_CRM/batches.html)** |
+| Dickson Lab Certified Reference Materials (CRMs) | seawater standard **with mercuric chloride! use caution [MSDS here](https://www.fishersci.com/store/msds?partNumber=S25423&productDescription=MERCURIC+CHLORIDE+100G+ACS&vendorId=VN00115888&countryCode=US&language=en)**  |  CBLS Organismal lab bench |  record your batch number (i.e. Batch 180); **information on batches [here](https://www.ncei.noaa.gov/access/ocean-carbon-data-system/oceans/Dickson_CRM/batches.html)** |
 
 ---------
 
