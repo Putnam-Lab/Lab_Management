@@ -18,7 +18,7 @@ Prep Workflow Diagram from Zymo:
 - **Post-Conversion Column Cleanup**
   - Sodium bisulfite is a harsh chemical that needs to be cleaned out of the DNA. This is why the DNA is treated with a Desulphonation Buffer in this step.
 - **Amplification with Prep-Amp Primers**
-  - Here, the converted DNA is randomly primed with PCR primers that have [degenerate bases](https://www.idtdna.com/pages/support/faqs/what-are-the-base-degeneracy-codes-that-you-use-(eg.-r-w-k-v-s)-)so that amplification takes place all across the genome. Random priming and PCR of the fragmented DNA results in pieces of DNA 150-600bp long. The polymerase in this step is able to recognize Uracil and thus is more sensitive than other polymerases used in PCRs. This is why it needs to be added in twice, after the 98 degree step, because it would break down at that temperature.
+  - Here, the converted DNA is randomly primed with PCR primers that have [degenerate bases](https://www.idtdna.com/pages/support/faqs/what-are-the-base-degeneracy-codes-that-you-use-(eg.-r-w-k-v-s)-) so that amplification takes place all across the genome. Random priming and PCR of the fragmented DNA results in pieces of DNA 150-600bp long. The polymerase in this step is able to recognize Uracil and thus is more sensitive than other polymerases used in PCRs. This is why it needs to be added in twice, after the 98 degree step, because it would break down at that temperature.
 - **DNA Clean and Concentrator Cleanup**
   - This step removes leftover enzymes and buffers from the solution that would inhibit the next reaction.
 - **1st Amplification**
