@@ -24,7 +24,7 @@ Limit the amount of shadow and atypical light reflection by placing a piece of w
 2. Open "Bleaching ImageJ" google spreadsheet.    
 3. In ImageJ: "File" > "Open" > Choose the desired photo.
 
-![imageJ](https://github.com/emmastrand/EmmaStrand_Notebook/blob/master/images/ImageJ_1.png?raw=true)
+![imageJ](https://imagej.net/ij/download.html)
 
 4. Open the histogram analysis option: "Analyze" > Histogram.  
 5. Click "Live" and "RGB". Once in live, selecting different regions of the photo, the histogram will change intensity levels.  
