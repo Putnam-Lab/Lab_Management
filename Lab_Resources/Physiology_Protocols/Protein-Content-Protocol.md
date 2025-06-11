@@ -35,10 +35,10 @@ Contents
 
 2. <a name="Protocol"></a> **Protocol** 
 
-[Pierce BCA Protein Assay Kit](/Users/hputnam/MyProjects/urol-e5/protocols/images/Pierce_BCA_Protein_Assay_UG.pdf). 
+[Pierce BCA Protein Assay Kit](https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0011430_Pierce_BCA_Protein_Asy_UG.pdf). 
 
 
-![Protein kits](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/BCAproteinkit.HEIC)
+![Protein kits](https://github.com/Putnam-Lab/Lab_Management/blob/955dbd4daf92e925984e5c05b7074753498bb378/images/BCAproteinkit.jpeg)
 
 **Total Protein (Soluble and Insoluble) Adult Tissue Sample Preparation**  
 1. Thaw the 500 μL homogenate aliquot.  
