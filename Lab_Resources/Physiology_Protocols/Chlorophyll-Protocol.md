@@ -73,7 +73,7 @@ Follow the [Synergy HTX Operating Manual](https://github.com/urol-e5/protocols/b
 
 **3. <a name="Calc"></a> Calculating Chlorophyll Concentration**
 
-- Chlorophyll a and c2 concentrations are calculated from the equations in [Jeffrey and Humphrey 1975](https://reader.elsevier.com/reader/sd/pii/S0015379617307783?token=0937035D38C07F29ADF00F1F2A21F20F221219B1CC11A444A4F84D16B98EC3A6AD941D191BA2135A68C98BA62A0B69FE) after substracting A750nm from all measurements.  
+- Chlorophyll a and c2 concentrations are calculated from the equations in [Jeffrey and Humphrey 1975](https://www.robtheoceanographer.com/docs/jeffreyhumphrey1975.pdf) after substracting A750nm from all measurements.  
 
 ![Equations for Dinos in 100% acetone](https://github.com/urol-e5/protocols/blob/master/images/JH_EQ.png)
 
