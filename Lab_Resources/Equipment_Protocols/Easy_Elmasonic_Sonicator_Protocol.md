@@ -14,7 +14,7 @@ Last Revised: Putnam Lab - DM Becker - 20210329
 **Protocol Steps**
 1. The Easy Elmasonic Sonicator has a 220V outlet intended for use in Mo'orea, have to use a transformer to convert the voltage from 110V to 220V safely.
 
-***Follow the [transformer protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/Equipment_Protocols/Simran_Transformer_Protocol.md) carefully and make sure there is no liquid around the transformer***
+***Follow the [transformer protocol](https://github.com/Putnam-Lab/Lab_Management/blob/95221a5fc11fb76e0ae3c1f9c8e409c2effd46bf/Lab_Resources/Equipment_Protocols/Simran_Transformer_Protocol.md) carefully and make sure there is no liquid around the transformer***
 
 2. Plug the transformer into a 110V outlet and read the instructions carefully. Change the INPUT to the transformer to 110V (this step is extremely important, make sure the voltage you plug the transfromer into matches the INPUT tab located in the back of the transformer).
 
