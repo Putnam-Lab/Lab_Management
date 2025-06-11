@@ -36,7 +36,7 @@ About: This post is adapted from an [Point Whitney OA chemistry protocol](https:
 ---------
 
 ### Some materials to review...
-- [Point Whitney OA chemistry post](https://github.com/SamGurr/SamJGurr_Lab_Notebook/blob/master/_posts/2018-08-10-Daily-Wet-Lab-OA-at-Point-Whitney.md) This protocol is adapted from a protocol used for acdification experiements in 2018-2019.
+- [Point Whitney OA chemistry post](https://github.com/SamGurr/SamGurr.github.io/blob/ca9c83b582fa0f72bddc2f0d52d62489358a94ba/_posts/2018-08-10-Daily-Wet-Lab-OA-at-Point-Whitney.md) This protocol is adapted from a protocol used for acdification experiements in 2018-2019.
 - [Guide to Best Practices for Ocean CO2 Measurements](https://www.ncei.noaa.gov/access/ocean-carbon-data-system/oceans/Handbook_2007.html) Dickson et al. 2007. All our reference materials and standards are purchased from the Dickson lab - this book clearly explains the data and equations to lead you from discrete measurements to full (publishable!) carbonate chemistry
 - ['seacarb' R package](https://cran.r-project.org/web/packages/seacarb/seacarb.pdf)
 - 2020 Putnam lab OA training - good examples of tables, equipment lists, R scripts, and a short presentation [here](https://drive.google.com/drive/u/1/folders/1shIgK1TSOCtfqIHWtH0ITrjRgsEAKbMO); likely need access as a Putnam Lab student..
