@@ -30,7 +30,7 @@ Contents
 -   Qtips
 -   Labeling tape
 -   [Synergy HTX Multi-Mode Microplate Reader](https://www.agilent.com/en/product/microplate-instrumentation/microplate-readers)
--   [Gen5 Software](https://www.biotek.com/products/software-robotics-software/gen5-microplate-reader-and-imager-software/)
+-   [Gen5 Software](https://www.agilent.com/en/product/cell-analysis/cell-imaging-microscopy/cell-imaging-microscopy-software/biotek-gen5-software-for-imaging-microscopy-1623226?Product_Interest_Source=Marketing%20Campaign&source=Marketing%20Campaign&Lead_Campaign_Source=7011O000002TCTZQA4&Campaign_Source=7011O000002TCTZQA4&gad_source=1&gad_campaignid=22570282527&gbraid=0AAAAADSHcWdiHb0-j7rTAaawWF-JBrZDK&gclid=Cj0KCQjw0qTCBhCmARIsAAj8C4Y7c50J8KlmplcOJP-InzBlfHR9v82dVR-vI_KoqDE-w8zg2qtrgssaAlzmEALw_wcB&gclsrc=aw.ds)
 
 
 **2. <a name="Protocol"></a> Protocol**
