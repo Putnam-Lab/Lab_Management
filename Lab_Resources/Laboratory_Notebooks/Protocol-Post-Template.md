@@ -14,7 +14,7 @@ Example 2: Air brushing and homogenization technique for _Montipora_ coral fragm
 
 ## Materials and Equipment  
 List ALL the materials and equipment you need for the protocol.  
-- For reagents/kits provide a [link]() to the company website **and** the catalog number.  
+- For reagents/kits provide a [link](https://github.com/Putnam-Lab/Lab_Management/tree/4d2a6f1c11c33f75be301dd7fbb7239ed2ca5a67/Lab_Resources/Lab_Chemicals) to the company website **and** the catalog number.  
 - If it is a really basic lab material (ie. sterile 1.5mL tube), then just say that without a link.  
 - For equipment, list the equipment, specifications (like centrifuge that can go to 4 degrees, air brusher with however much psi), and company that made the equipment and model number we have in the lab.
 
