@@ -266,7 +266,7 @@ Prep Workflow Diagram from Zymo:
 
 ### Broad Range dsDNA Qubit Assay
 
-- Use the [protocol for the Qubit Assay](https://github.com/meschedl/PPP-Lab-Resources/blob/master/Protocols/Qubit-Assay-Protocol.md)
+- Use the [protocol for the Qubit Assay](https://github.com/Putnam-Lab/Lab_Management/blob/b4e96ed4edc966db52b291f07d6820b48f1cbaa3/Lab_Resources/DNA_RNA-protocols/Qubit-Protocol.md)
 - Make sure to read each sample twice and use the average as the DNA library concentration
 
 ### D5000 TapeStation Analysis
