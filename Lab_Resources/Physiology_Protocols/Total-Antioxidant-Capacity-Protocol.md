@@ -15,7 +15,7 @@ Last Revised: 20240425
 
 [Cell BioLabs OxiSelect Total Antioxidant Capacity (TAC) Assay Kit](https://www.cellbiolabs.com/total-antioxidant-capacity-tac-assay?gclid=EAIaIQobChMIiI6EtZK15QIVBKSzCh0uSw7pEAAYAyAAEgID-_D_BwE).
 
-[Manufacturers Protocol Cell BioLabs OxiSelect Total Antioxidant Capacity (TAC) Assay Kit](/Users/hputnam/MyProjects/urol-e5/protocols/images/STA-360-total-antioxidant-capacity-assay-kit_0.pdf).
+[Manufacturers Protocol Cell BioLabs OxiSelect Total Antioxidant Capacity (TAC) Assay Kit](https://www.cellbiolabs.com/sites/default/files/STA-360-total-antioxidant-capacity-assay-kit.pdf)
 
 Contents  
 - [**Materials**](#Materials)   
