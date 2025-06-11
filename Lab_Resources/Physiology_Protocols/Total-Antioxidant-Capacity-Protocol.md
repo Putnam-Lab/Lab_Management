@@ -74,7 +74,7 @@ Contents
 6. Add 50 μL of 1X Stop Solution to each well. This terminates the reaction.  
 7. Measure the absorbance for each well at 490 nm.
 
-![Spectrophotometer](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Spectrophotometer.HEIC)
+![Spectrophotometer](https://github.com/Putnam-Lab/Lab_Management/blob/4a55a6bc391a9e8fd64a02bfb565834f07d29038/images/Spectrophotometer.jpeg)
 
 4. <a name="References"></a> **References**
 
