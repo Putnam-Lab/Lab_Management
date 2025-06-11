@@ -2,7 +2,7 @@
 
 # URI GSO Daily Wet Lab Protocol (OA experiments)
 
-About: This post is adapted from an [Point Whitney OA chemistry protocol](https://github.com/SamGurr/SamGurr.github.io/blob/ca9c83b582fa0f72bddc2f0d52d62489358a94ba/_posts/2018-08-10-Daily-Wet-Lab-OA-at-Point-Whitney.md) written by SJG and [CBLS aquarium Room chemistry](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/CBLS_Wetlab_Protocols/20201110_CBLS_WaterQuality_Checklist.Md) written by HG.
+About: This post is adapted from an [Point Whitney OA chemistry protocol](https://github.com/SamGurr/SamGurr.github.io/blob/ca9c83b582fa0f72bddc2f0d52d62489358a94ba/_posts/2018-08-10-Daily-Wet-Lab-OA-at-Point-Whitney.md) written by SJG and [CBLS aquarium Room chemistry](https://github.com/Putnam-Lab/CBLS_Wetlab/blob/2a27937ac61becd51724cef426203fdf7322b8ed/CBLS_Wetlab_Protocols/DailyWetlabChecklist_Protocols.md) written by HG.
 
 **Important:** tasks outlined here are catered for a pH + TA approach to calculate full carbonate chemistry.
 
