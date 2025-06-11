@@ -48,7 +48,7 @@ Prep Workflow Diagram from Zymo:
 - [Broad range dsDNA Qubit assay](https://www.thermofisher.com/order/catalog/product/Q32850#/Q32850) and [tubes for Qubit use](https://www.fishersci.com/shop/products/axygen-pcr-tubes-0-5ml-flat-cap-10/p-4909458)
 - [TapeStation4200](https://www.agilent.com/en/product/automated-electrophoresis/tapestation-systems/tapestation-instruments/4200-tapestation-system-228263) or other fragment analyzer
 - [D5000 Tapestation Supplies](https://www.agilent.com/en/product/automated-electrophoresis/tapestation-systems/tapestation-dna-screentape-reagents/dna-screentape-analysis-228260)
-- UDI Index primers: [see spreadsheet](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/DNA_RNA-protocols/Indexes_and_Barcodes/UDI_Index_Primer_Pairs_for_Pico_WGBS.csv)
+- UDI Index primers: [see spreadsheet](https://github.com/Putnam-Lab/Lab_Management/blob/2c75ae3288f392a54b034842e0bd229fc10ef470/Lab_Resources/DNA_RNA-protocols/Indexes_and_Barcodes/UDI_Index_Primer_Pairs_for_Pico_WGBS.csv)
 
 
 **Note about Thermocycler Programs**
@@ -63,7 +63,7 @@ Prep Workflow Diagram from Zymo:
 
 - Calculate how much DNA you're going to use before you start the prep, ideally for all samples, getting the volumes ready before you start
 - Plan how you will index your samples before starting the preps. We have paired i5 and i7 indexes that go from 1-60. These indexes are combined into single tubes at 10uM concentration, where i7 1 is paired with i5 1 and so on. This is to help mitigate index hopping on patterned flow-cells, however rare it might be.
-- The list of primer/indexes we have are [here](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/DNA_RNA-protocols/Indexes_and_Barcodes/UDI_Index_Primer_Pairs_for_Pico_WGBS.csv). Right now there are 1-60
+- The list of primer/indexes we have are [here](https://github.com/Putnam-Lab/Lab_Management/blob/2c75ae3288f392a54b034842e0bd229fc10ef470/Lab_Resources/DNA_RNA-protocols/Indexes_and_Barcodes/UDI_Index_Primer_Pairs_for_Pico_WGBS.csv). Right now there are 1-60
 - It can make things easier on you do the prep over 1.5 days: start the prep in the afternoon by doing the DNA dilution and bisulfite conversion. The BS converted DNA can be stable at 4 degrees C for 20 hours. So you can take it out of the thermocycler after the conversion program and store it in the fridge for the next day
 - It will probably take you the entire second day if you do 10 or more samples (including the QC)
 - While things are in the thermocycler, it can be helpful to start making the mixes for the next step and keep them on the ice bucket
