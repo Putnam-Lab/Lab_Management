@@ -10,6 +10,10 @@ Last Revised: Putnam Lab - DM Becker - 20211005
 
 **Make sure to take your time for each step of the titration process to ensure accuracy and precision of measurements. While this protocol is tedious, all steps and specifications are necessary to ensure confident titration measurements.**
 
+**NEVER PROCEED BEYOND CRM TITRATION STEP UNTIL THE CALCULATED CRM IS ONLY OFF BY <1%  OF THE REPORTED CRM CERTIFICATE------------**
+
+**Make sure you change the script of Total_Alkanity_wParsing.R if a new acid titrant batch is used by you. Steps for changing the values in the script are given below**
+
 Contents
 - [**Materials**](#Materials)
 - [**Pre-Setup**](#Pre-Setup)
@@ -160,6 +164,8 @@ Contents
     1. Run step 4, but only use a CRM (or a junk and CRM sample if needed). Find the TA and salinity information for your specific CRM batch number [here](https://www.ncei.noaa.gov/access/ocean-carbon-data-system/oceans/Dickson_CRM/batches.html)
     2. Skip to [**Data_Analysis**](#Data_Analysis) to calculate total alkalinity of the CRM. Then check the accuracy of the data.
     3. **In every CRM Titration, it is necessary to report the accuracy in the “CRMAccuracyData” file to test the accuracy.  If must never be more than 1% off. Accuracy must be tested before running any samples for the day.**
+  
+**--------NEVER PROCEED BEYOND THIS STEP UNTIL THE CALCULATED CRM IS ONLY OFF BY <1%  OF THE REPORTED CRM CERTIFICATE------------**
 
 
 6. <a name="SAMPLE_Titration"></a> **SAMPLE_Titration**
@@ -175,6 +181,23 @@ Contents
 
 
 8. <a name="Data_Analysis"></a> **Data_Analysis**
+   
+**NOTE: If you changed to a different bottle/ new acid titrant batch# make sure you report your changes in the titrator log as well as in the Total_Alkanity_wParsing.R file. Look below for the values to be altered and updated in the script and where you can find them.
+If you are doing the above mentioned step, make changes in line # 205 and 215 of the Total_Alkanity_wParsing.R file script.** 
+
+↓↓↓↓↓↓CHANGE ONLY WHEN NEW BOTTLE OF ACID IS USED-↓↓↓↓↓↓↓↓
+  -To obtain this information use the Certificate of Analysis from the Andrew Dickson's Labs for respective acid titrant batches. The certifications could be found in the Titrator manuals folder located in BD11 drawer of the physiological bench or else you can ask the PI for the same.
+  
+  1. For the density of the titrant, you will need three values highlighted in blue (in the script from data analysis). In the density section of the certificate, the formula with calculated values have all the values which are required. 
+  -Formula from the certificate: Density= **xa- xb-xc**, look below for comparing & inputing the values in the script. 
+ Line 205 from script: d <- (**xc***mean(Data$Temperature[mV], na.rm=T)^2-**xb***mean(Data$Temperature[mV], na.rm=T)+**xa**)
+  
+2. The concentration of the acid is obtained from HCl conc.= xxxxxxx ±0.000 006 mol kg^-1."xxxxx" is your value for HCl concentrations. If confused, look at the protocol for detailed explanation.
+ Line 215 from script:c<-xxxxxxx
+
+
+↑↑↑↑↑CHANGE ONLY WHEN NEW BOTTLE OF ACID IS USED↑↑↑↑↑↑
+
 
      1. After the titration is complete, you must gather the data and export it to the current folder. Make a file called "Mass_date" Ex: Mass_20210221 in your *folder of the day* that includes "Sample ID1", "Weight", and "Salinity". fill in your corresponding label IDs, weights, and salinities into this file. **Keep all labeling consistent from titration to analysis**
       2. Open RStudio.
@@ -190,7 +213,7 @@ Contents
       12. After each Source of the TotalAlkCalc_wParsing.R script, the new TA file will overwrite the previous file in the folder if a new name is not given to the previous file.
       13. For multiple titrations after the CRM run, use a label for these three files to distinguish between the multiple titrations.
 
-9. <a name="Pushing Titrator Data to GitHub"></a> **Github**
+10. <a name="Pushing Titrator Data to GitHub"></a> **Github**
 
     1. After completing titratoion for the day, you will need to push all your updated data to the GitHub Titrator repository.
     2. If you have never used GitHub or command line before, contact a lab manager or someone that has used it prior for instuctions.
@@ -217,7 +240,7 @@ Contents
     13. After following these commands, make sure to login to your GitHub account on an internet browser and check that the changes have been made on the [Putnam Lab Titrator Repository](https://github.com/Putnam-Lab/Titrator).
 
 
-10. <a name="Clean_Up"></a> **Clean_Up**
+11. <a name="Clean_Up"></a> **Clean_Up**
 
       1. When the titrations are complete, remove the cups from the Autosampler, and dispose the samples into their corresponding labeled waste containers in the cabinet to the left of the laptop and titrator table. *[note: all CRMs and nearly all samples in this lab have HgCl2]*.
       2. Clean the cups using Type I DI water. Then, dry them on KimWipes and drying pads nect to the titrator
@@ -229,7 +252,7 @@ Contents
       2. To shut off the Titrator, use the tablet to make it offline then tap shut down.
       6. Wipe down Sample Changer carefully with DI water.
 
-11. <a name="Waste_Processing"></a> **Waste_Processing**
+12. <a name="Waste_Processing"></a> **Waste_Processing**
 
 **For details on waste processing and lab safety with waste, see this [GitHub Post](https://github.com/meschedl/PPP-Lab-Resources/blob/master/Lab_Safety_and_Training/Chemical-and-Waste-Lab-Training-Info.md)**
 
