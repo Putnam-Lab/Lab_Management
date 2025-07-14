@@ -194,8 +194,6 @@ If you are doing the above mentioned step, make changes in line # 205 and 215 of
   
 2. The concentration of the acid is obtained from HCl conc.= xxxxxxx ±0.000 006 mol kg^-1."xxxxx" is your value for HCl concentrations. If confused, look at the protocol for detailed explanation.
  Line 215 from script:c<-xxxxxxx
-
-
 ↑↑↑↑↑CHANGE ONLY WHEN NEW BOTTLE OF ACID IS USED↑↑↑↑↑↑
 
 
