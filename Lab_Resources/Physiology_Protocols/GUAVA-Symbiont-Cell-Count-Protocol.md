@@ -6,7 +6,7 @@ category: [ Physiology ]
 tags: [ Coral, Chlorophyll]
 ---
 
-The protocol was created by Federica Scucchia on 2025-03-25.
+The protocol was written by Federica Scucchia on 2025-03-25.
 
 #### Measuring concentration of Symbiodiniaceae cells using the GUAVA instrument
 
