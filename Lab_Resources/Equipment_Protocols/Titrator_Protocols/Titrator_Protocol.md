@@ -186,7 +186,7 @@ Contents
 If you are doing the above mentioned step, make changes in line # 205 and 215 of the Total_Alkanity_wParsing.R file script.** 
 
 ↓↓↓↓↓↓CHANGE ONLY WHEN NEW BOTTLE OF ACID IS USED-↓↓↓↓↓↓↓↓
-  -To obtain this information use the Certificate of Analysis from the Andrew Dickson's Labs for respective acid titrant batches. The certifications could be found in the Titrator manuals folder located in BD11 drawer of the physiological bench or else you can ask the PI for the same.
+  - To obtain this information use the Certificate of Analysis from the Andrew Dickson's Labs for respective acid titrant batches. The certifications could be found in the Titrator manuals folder located in BD11 drawer of the physiological bench or else you can ask the PI for the same.
   
   1. For the density of the titrant, you will need three values highlighted in blue (in the script from data analysis). In the density section of the certificate, the formula with calculated values have all the values which are required. 
   -Formula from the certificate: Density= **xa- xb-xc**, look below for comparing & inputing the values in the script. 
