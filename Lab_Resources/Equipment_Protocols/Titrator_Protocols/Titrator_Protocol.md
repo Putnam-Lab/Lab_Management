@@ -202,22 +202,23 @@ If you are doing the above mentioned step, make changes in line # 205 and 215 of
 ↑↑↑↑↑CHANGE ONLY WHEN NEW BOTTLE OF ACID IS USED↑↑↑↑↑↑
 ![](https://github.com/Putnam-Lab/Lab_Management/blob/7dc92a6addb986d651d6dcfe3c220d8cad07a45a/images/calculation%20example%20for%20titrator.jpg)
 
+  ##### After completing titration
+  
+1. After the titration is complete, you must gather the data and export it to the current folder. Make a file called "Mass_date" Ex: Mass_20210221 in your *folder of the day* that includes "Sample ID1", "Weight", and "Salinity". fill in your corresponding label IDs, weights, and salinities into this file. **Keep all labeling consistent from titration to analysis**
+2. Open RStudio.
+3. Open the R script named Total_Alkalinity_wParsing.R, scroll down to find "setwd", “path” , “massfile”, “TitratorFiles” and “Date”
+4. Modify “date” to the current day.
+5. Modify “path” to the name of the folder of the day from step [2.ii] (Case Sensitive) and change "setwd" to "C:/Users/PPP Lab/Documents/Titrator/Data/*folder of the day*"
+6. “TitratorFiles”  is the name of the .csv file with all the titrations that was automatically exported.
+7. Modify “massfile” to the name of the current file from step [8.i] (Case Sensitive).
+8. Click on Source to completely transfer the data.
+9. A csv file will be automatically exported to the folder of the day with the calculated TA data. If this is a CRM run, here is where you will be the TA value of the CRM to enter it into the CRMAccuracyData file (see 5b).
+10. After the CRM run, edit the file names for Mass, the raw Titrator File, and the new TA file to include "_CRM_".
+11. After each titration, the raw Titrator File and Mass File will overwrite the previous files in the folder if a new name is not given to the previous files.
+12. After each Source of the TotalAlkCalc_wParsing.R script, the new TA file will overwrite the previous file in the folder if a new name is not given to the previous file.
+13. For multiple titrations after the CRM run, use a label for these three files to distinguish between the multiple titrations.
 
-     1. After the titration is complete, you must gather the data and export it to the current folder. Make a file called "Mass_date" Ex: Mass_20210221 in your *folder of the day* that includes "Sample ID1", "Weight", and "Salinity". fill in your corresponding label IDs, weights, and salinities into this file. **Keep all labeling consistent from titration to analysis**
-      2. Open RStudio.
-      3. Open the R script named Total_Alkalinity_wParsing.R, scroll down to find "setwd", “path” , “massfile”, “TitratorFiles” and “Date”
-      4. Modify “date” to the current day.
-      5. Modify “path” to the name of the folder of the day from step [2.ii] (Case Sensitive) and change "setwd" to "C:/Users/PPP Lab/Documents/Titrator/Data/*folder of the day*"
-      6. “TitratorFiles”  is the name of the .csv file with all the titrations that was automatically exported.
-      7. Modify “massfile” to the name of the current file from step [8.i] (Case Sensitive)
-      8. Click on Source to completely transfer the data
-      9. A csv file will be automatically exported to the folder of the day with the calculated TA data. If this is a CRM run, here is where you will be the TA value of the CRM to enter it into the CRMAccuracyData file (see 5b).
-      10. After the CRM run, edit the file names for Mass, the raw Titrator File, and the new TA file to include "_CRM_".
-      11. After each titration, the raw Titrator File and Mass File will overwrite the previous files in the folder if a new name is not given to the previous files.
-      12. After each Source of the TotalAlkCalc_wParsing.R script, the new TA file will overwrite the previous file in the folder if a new name is not given to the previous file.
-      13. For multiple titrations after the CRM run, use a label for these three files to distinguish between the multiple titrations.
-
-10. <a name="Pushing Titrator Data to GitHub"></a> **Github**
+14. <a name="Pushing Titrator Data to GitHub"></a> **Github**
 
     1. After completing titratoion for the day, you will need to push all your updated data to the GitHub Titrator repository.
     2. If you have never used GitHub or command line before, contact a lab manager or someone that has used it prior for instuctions.
@@ -244,7 +245,7 @@ If you are doing the above mentioned step, make changes in line # 205 and 215 of
     13. After following these commands, make sure to login to your GitHub account on an internet browser and check that the changes have been made on the [Putnam Lab Titrator Repository](https://github.com/Putnam-Lab/Titrator).
 
 
-11. <a name="Clean_Up"></a> **Clean_Up**
+15. <a name="Clean_Up"></a> **Clean_Up**
 
       1. When the titrations are complete, remove the cups from the Autosampler, and dispose the samples into their corresponding labeled waste containers in the cabinet to the left of the laptop and titrator table. *[note: all CRMs and nearly all samples in this lab have HgCl2]*.
       2. Clean the cups using Type I DI water. Then, dry them on KimWipes and drying pads nect to the titrator
@@ -256,7 +257,7 @@ If you are doing the above mentioned step, make changes in line # 205 and 215 of
       2. To shut off the Titrator, use the tablet to make it offline then tap shut down.
       6. Wipe down Sample Changer carefully with DI water.
 
-12. <a name="Waste_Processing"></a> **Waste_Processing**
+16. <a name="Waste_Processing"></a> **Waste_Processing**
 
 **For details on waste processing and lab safety with waste, see this [GitHub Post](https://github.com/meschedl/PPP-Lab-Resources/blob/master/Lab_Safety_and_Training/Chemical-and-Waste-Lab-Training-Info.md)**
 
