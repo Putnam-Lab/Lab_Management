@@ -201,6 +201,8 @@ If you are doing the above mentioned step, make changes in line # 205 and 215 of
 
 ↑↑↑↑↑CHANGE ONLY WHEN NEW BOTTLE OF ACID IS USED↑↑↑↑↑↑
 ![](https://github.com/Putnam-Lab/Lab_Management/blob/7dc92a6addb986d651d6dcfe3c220d8cad07a45a/images/calculation%20example%20for%20titrator.jpg)
+
+
      1. After the titration is complete, you must gather the data and export it to the current folder. Make a file called "Mass_date" Ex: Mass_20210221 in your *folder of the day* that includes "Sample ID1", "Weight", and "Salinity". fill in your corresponding label IDs, weights, and salinities into this file. **Keep all labeling consistent from titration to analysis**
       2. Open RStudio.
       3. Open the R script named Total_Alkalinity_wParsing.R, scroll down to find "setwd", “path” , “massfile”, “TitratorFiles” and “Date”
