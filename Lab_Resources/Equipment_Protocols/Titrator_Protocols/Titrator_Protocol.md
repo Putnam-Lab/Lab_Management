@@ -188,12 +188,17 @@ If you are doing the above mentioned step, make changes in line # 205 and 215 of
 ↓↓↓↓↓↓CHANGE ONLY WHEN NEW BOTTLE OF ACID IS USED-↓↓↓↓↓↓↓↓
   - To obtain this information use the Certificate of Analysis from the Andrew Dickson's Labs for respective acid titrant batches. The certifications could be found in the Titrator manuals folder located in BD11 drawer of the physiological bench or else you can ask the PI for the same.
   
-  1. For the density of the titrant, you will need three values highlighted in blue (in the script from data analysis). In the density section of the certificate, the formula with calculated values have all the values which are required. 
-  -Formula from the certificate: Density= **xa- xb-xc**, look below for comparing & inputing the values in the script. 
+  1. For the density of the titrant, you will need three values highlighted in blue (in the script from data analysis). In the density section of the certificate, the formula with calculated values have all the values which are required.
+     
+  - Formula from the certificate: Density= **xa- xb-xc**, look below for comparing & inputing the values in the script.
+
  Line 205 from script: d <- (**xc***mean(Data$Temperature[mV], na.rm=T)^2-**xb***mean(Data$Temperature[mV], na.rm=T)+**xa**)
   
-2. The concentration of the acid is obtained from HCl conc.= xxxxxxx ±0.000 006 mol kg^-1."xxxxx" is your value for HCl concentrations. If confused, look at the protocol for detailed explanation.
+3. The concentration of the acid is obtained from HCl conc.= xxxxxxx ±0.000 006 mol kg^-1."xxxxx" is your value for HCl concentrations. If confused, look at the protocol for detailed explanation.
+   
  Line 215 from script:c<-xxxxxxx
+
+
 ↑↑↑↑↑CHANGE ONLY WHEN NEW BOTTLE OF ACID IS USED↑↑↑↑↑↑
 ![](https://github.com/Putnam-Lab/Lab_Management/blob/7dc92a6addb986d651d6dcfe3c220d8cad07a45a/images/calculation%20example%20for%20titrator.jpg)
      1. After the titration is complete, you must gather the data and export it to the current folder. Make a file called "Mass_date" Ex: Mass_20210221 in your *folder of the day* that includes "Sample ID1", "Weight", and "Salinity". fill in your corresponding label IDs, weights, and salinities into this file. **Keep all labeling consistent from titration to analysis**
