@@ -32,6 +32,9 @@ Large dry shippers (Putnam Lab). Used for shipping when charged and LN2 is poure
 Large cooler, used **only** for pouring off small amounts of excess LN2. It is not pressurized/made for storage.
 ![](https://raw.githubusercontent.com/meschedl/PPP-Lab-Resources/master/images/IMG_4568.jpg)
 
+Air/O₂ Sensor on the wall to detect potential leaks and prevent oxygen depletion in the working space. 
+![](https://github.com/Putnam-Lab/Lab_Management/blob/a2a9ab1108d30ef969ca46ef34d1fd4dea6e39ad/images/Oxygen_sensor.JPG)
+
 ### Things to know about our LN2 cylinder/LN2 in our lab
 - It has a pressure relief valve, if it is making a soft hiss sound, that is normal and it is releasing some pressure. Potentially LN2 tanks loose ~2% of their contents per day just by releasing pressure. This is usually where the pressure gauge is, with a metal valve next to it, however each new tank we get can be different
 - Some tanks do not constantly hiss lightly, and instead release a lot of pressure in a loud hiss/pshhh once every hour or few hours. It will last ~5 seconds or so and it should not cause alarm
