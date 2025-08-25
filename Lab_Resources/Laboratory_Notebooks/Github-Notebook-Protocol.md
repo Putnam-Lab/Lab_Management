@@ -8,94 +8,146 @@ tags: [Protocols, Github]
 
   #  <center> Protocol to make an Online Github Notebook
 
-This protocol will guide you through making your own online notebook forked from Jekyll-now. For more information about the original webside layout, click [here](https://github.com/barryclark/jekyll-now). To set up your online notebook, you will need to have the following programs on your computer:
-  - Gitbash (for PCs, Macs have Terminal already installed)
-  - A Markdown editor (e.g. Atom or MOU)
+Adapted by Zoe Dellaert in August 2025, based on previous protocol written by Maggie Schedl
 
-# <center> Steps:
+This protocol will guide you through making your own online notebook forked from Jekyll-now. For more information about the original webside layout, click [here](https://github.com/barryclark/jekyll-now). Steps are written primarily for the terminal (Mac) or Gitbash (PC). 
 
-## 1. Fork The Repository from [Putnam_Lab_Notebook](https://github.com/hputnam/Putnam_Lab_Notebook) or [Jekyll-now](https://github.com/barryclark/jekyll-now)
+**Prerequisites:**
+- Download Gitbash if you have a PC (Macs have Terminal preinstalled)
+- A Markdown editor (e.g., **Visual Studio Code**, Atom, MOU)
+- A GitHub account
 
-* Fork the repository to **yourgithubusername**.github.io
-* Make sure you have a directory on your computer
+**Helpful Links:**  
+- [Hollie's Notebook](https://github.com/hputnam/Putnam_Lab_Notebook)  
+- [Original Jekyll Blog (jekyll-now)](https://github.com/barryclark/jekyll-now)  
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)  
+- [Markdown Tutorial](https://www.markdowntutorial.com/)
 
-## 2. Edit config.yml file
+---
 
-* Name of your site (displayed in the header)
-name: **Fill in here**
-* Short bio or description (displayed in the header)
-description: **Fill in here**
-* URL of your avatar or profile pic
-avatar: **Add File Link Here**
-* Edit the following lines appropriately: **6, 9, 12, 20 - 32**
+# Step-by-Step Instructions
 
-** If you are unsure what to change, compare other notebook config.yml files and determine what is different**
+> **Optional: Using GitHub Desktop instead of Terminal**  (recommended for PCs or poeople not comfortable using command line (yet :) )
+> - Download [GitHub Desktop](https://desktop.github.com/) and sign in.  
+> - On your Hollie's repository page, click **Code → Open with GitHub Desktop** to clone it locally.  
+> - Make edits in your text editor as usual.  
+> - In GitHub Desktop, you’ll see changes listed automatically.  
+> - Add a commit message and click **Commit to master**, then **Push origin** to upload.  
+> This replaces `git add`, `git commit`, and `git push` commands in the terminal.
 
-## 3.  Add config.yml to site
+## 1. Fork The Repository
 
-Download Gitbash (PC) or Open Terminal (Mac)
+"Forking" a repository means you are making a copy of someone else's repository. When you make changes to your forked repository, these will not change the original repository.
 
-```
-cd Desktop/Notebook/XXXXXX_Lab_Notebook
-git add config.yml
-git commit -m "adding new config file"
-git push origin master
-```
+1. Log in to [GitHub](https://github.com/).
+2. Navigate to [Putnam_Lab_Notebook](https://github.com/hputnam/Putnam_Lab_Notebook) (or [jekyll-now](https://github.com/barryclark/jekyll-now)).  
+3. Click **Fork** (top-right) to copy it to your account as `yourgithubusername`/`Repository name` 
+   1. you will be asked to change the repository name, change it to whatever you'd like without spaces
 
-## 4. Add New Admin Link:
+## 2. Create a Local Copy of your Notebook Repository 
 
-In your computer folder (XXXXXX_Lab_Notebook):
-- Open **_layouts**
-- Edit **default.html**
-  * Change **line 45** to your Github notebook link
-- Save and push file to origin master:
+To "clone" a repository means to download all the files in it so you have a local copy on your computer at the time of cloning. If you make changes to those files on your computer (or on the remote [online] repository), those changes will not be reflected in the other unless you explicitly sync them ("Push", see below).
 
-```
-cd Desktop/Notebook/XXXXXX_Lab_Notebook
-cd _layouts
-git add default.html
-git commit -m "adding new admin link"
-git push origin master
-```
+1. Open Terminal (Mac) or Gitbash (PC).  
+2. Navigate to or create a directory for your notebook:
+   ```bash
+   cd Desktop
+   mkdir Notebook-Directory
+   cd Notebook-Directory
+   git init
+   ```
+   > If you get an error like *invalid active developer path*, run `xcode-select --install`.
 
-## 5. Edit about.md page
+3. Clone your forked repository:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/YOUR-NOTEBOOK-REPO.git
+   ```
+4. Use `pwd` to confirm you’re in the correct directory.
 
-In your computer folder (XXXXXX_Lab_Notebook):
-* Open and edit **about.md**
-  * Change all information to your personal information
-  * Add a CV
-* Save and Push to origin master
+## 3. Enable GitHub Pages
 
-```
-cd Desktop/Notebook/XXXXXX_Lab_Notebook
-git add about.md
-git commit -m "adding new about page"
-git push origin master
-```
+1. In your repository on GitHub, go to **Settings → Pages**.  
+2. Under *Source*, select **Deploy from a branch**. If it asks for a branch, choose master or main.
+3. Copy the site URL provided (e.g., `https://yourusername.github.io/YourNotebook/`).  
+4. In your repo’s **<> Code** tab, edit the description and paste your site link there.
 
-## 6. Edit READMe.md file
 
-In your computer folder (XXXXXX_Lab_Notebook):
-* Open and edit ReadMe.md
-  * Edit all information
-* Save and push to origin master
+## 4. Customize `_config.yml`
 
-```
-cd Desktop/Notebook/XXXXXX_Lab_Notebook
-git add READMe.md
-git commit -m "adding new READMe"
-git push origin master
-```
+1. Open `_config.yml` in your text editor. Change:
+   - **name**: Name of your site (displayed in the header)
+   - **description**: short tagline or description (displayed in the header)
+   - **avatar**: URL to your image or profile pic
+   - **social media handles**: optional links
+   - Compare to other notebooks to see which lines differ (esp. lines 6, 9, 12, 20–32).
+   - Delete all info that is Hollie's personal contact info/website.
 
-## 7. How to add a post
+2. Save the file and **push** it (basically sync/upload changes) to GitHub:
+   ```bash
+   git add _config.yml
+   git commit -m "adding new config file"
+   git push origin master
+   ```
 
-* Make a new post in a markdown editor using the **post_template.sh**
-* Save new post in **_posts folder**
-* Push to origin master
+## 5. Update Navigation Links
 
-```
-cd Desktop/Notebook/XXXXXX_Lab_Notebook/_posts
-git add New_Post.md
-git commit -m "adding new post"
-git push origin master
-```
+1. Open `_layouts/default.html` in your text editor and edit **line 45** to link to your GitHub repo.
+   1. `https://yourusername.github.io/YourNotebook/`
+2. Save and push:
+   ```bash
+   git add _layouts
+   git commit -m "adding new admin link"
+   git push origin master
+   ```
+
+## 6. Edit About and README Pages
+
+Same steps as above, different files:
+
+1. **about.md** – Update with your bio or CV. Remove Hollie's CV.
+   ```bash
+   git add about.md
+   git commit -m "adding new about page"
+   git push origin master
+   ```
+
+2. **README.md** – Update with personal info or project details.
+   ```bash
+   git add README.md
+   git commit -m "adding new README"
+   git push origin master
+   ```
+
+## 7. Cleaning Up Posts
+
+- Your site comes with posts from the original fork.  
+- In `_posts` folder, delete unwanted posts  
+- Do the same for the `images` and `protocols` folders
+
+   ```bash
+   git add *
+   git commit -m "deleting old posts"
+   git push origin master
+   ```
+
+## 8. How to add a post
+
+1. Create a new Markdown (.md) file in `_posts/`:
+   - **Use Jekyll naming convention:** `YYYY-MM-DD-Post-Name.md`
+   - Add a YAML header:
+     ```markdown
+     ---
+     layout: post
+     title: "Your Post Title"
+     tags: [tag1, tag2]
+     ---
+     ```
+2. Write your content in Markdown (links, tables, images) in Markdown editor (e.g., **Visual Studio Code**, Atom, MOU)
+3. Save and push:
+   ```bash
+   git add _posts/New_Post.md
+   git commit -m "adding new post"
+   git push origin master
+   ```
+
+**Your post will appear on your github.io site in ~10 minutes.** But you can see it rendered in markdown format anytime, instantaneously updated, at the repository online (not on github pages) https://github.com/YOUR-USERNAME/_posts/New_Post.md
