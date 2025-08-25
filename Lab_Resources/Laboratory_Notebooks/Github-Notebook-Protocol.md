@@ -45,7 +45,14 @@ This protocol will guide you through making your own online notebook forked from
 3. Click **Fork** (top-right) to copy it to your account as `yourgithubusername`/`Repository name` 
    1. you will be asked to change the repository name, change it to whatever you'd like without spaces
 
-## 2. Create a Local Copy of your Notebook Repository 
+## 2. Enable GitHub Pages
+
+1. In your repository on GitHub.com, go to **Settings → Pages**.  
+2. Under *Source*, select **Deploy from a branch**. If it asks for a branch, choose **main** or **master**.
+3. Copy the site URL provided (e.g., `https://yourusername.github.io/YourNotebook/`).  
+4. In your repo’s **Code** tab, edit the repository description and paste your site link there.
+
+## 3. Create a Local Copy of your Notebook Repository 
 
 To "clone" a repository means to download all the files in it so you have a local copy on your computer at the time of cloning. If you make changes to those files on your computer (or on the remote [online] repository), those changes will not be reflected in the other unless you explicitly sync them ("Push", see below).
 
@@ -64,13 +71,6 @@ You will end up with a folder titled `Your_Repository_Name` in whatever folder y
    git clone https://github.com/YOUR-USERNAME/YOUR-NOTEBOOK-REPO.git
    ```
 4. Use `pwd` to confirm you’re in the correct directory.
-
-## 3. Enable GitHub Pages
-
-1. In your repository on GitHub.com, go to **Settings → Pages**.  
-2. Under *Source*, select **Deploy from a branch**. If it asks for a branch, choose **main** or **master**.
-3. Copy the site URL provided (e.g., `https://yourusername.github.io/YourNotebook/`).  
-4. In your repo’s **Code** tab, edit the repository description and paste your site link there.
 
 ## 4. Customize `_config.yml`
 
@@ -152,7 +152,9 @@ Same steps as above, different files:
 
 **Your post will appear on your github.io site in ~10 minutes.** But you can see it rendered in markdown format anytime, instantaneously updated, at the repository online (not on github pages) https://github.com/YOUR-USERNAME/_posts/New_Post.md
 
-## Alternative workflow, using Github Desktop
+---
+
+## Alternative workflow, using Github Desktop (steps 1-2 are the same)
 
 ## 1. Fork The Repository
 
@@ -163,7 +165,14 @@ Same steps as above, different files:
 3. Click **Fork** (top-right) to copy it to your account as `yourgithubusername`/`Repository name` 
    1. you will be asked to change the repository name, change it to whatever you'd like without spaces
 
-## 2. Create a Local Copy of Your Notebook Repository *with GitHub Desktop*
+## 2. Enable GitHub Pages
+
+1. In your repository on GitHub.com, go to **Settings → Pages**.  
+2. Under *Source*, select **Deploy from a branch**. If it asks for a branch, choose **main** or **master**.
+3. Copy the site URL provided (e.g., `https://yourusername.github.io/YourNotebook/`).  
+4. In your repo’s **Code** tab, edit the repository description and paste your site link there.
+
+## 3. Create a Local Copy of Your Notebook Repository *with GitHub Desktop*
 
 To "clone" a repository means to download all the files in it so you have a local copy on your computer at the time of cloning. If you make changes to those files on your computer (or on the remote [online] repository), those changes will not be reflected in the other unless you explicitly sync them ("Push", see below).
 
@@ -176,13 +185,6 @@ You will end up with a folder titled `Your_Repository_Name` in whatever folder y
    - Select a local path (folder) on your computer where you want the repository to live.
    - Click **Clone**.
 4. Once cloned, you now have a local copy of your repository on your computer.
-
-## 3. Enable GitHub Pages
-
-1. In your repository on GitHub.com, go to **Settings → Pages**.  
-2. Under *Source*, select **Deploy from a branch**. If it asks for a branch, choose **main** or **master**.
-3. Copy the site URL provided (e.g., `https://yourusername.github.io/YourNotebook/`).  
-4. In your repo’s **Code** tab, edit the repository description and paste your site link there.
 
 ## 4. Customize `_config.yml` Using GitHub Desktop
 
