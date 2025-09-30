@@ -10,7 +10,7 @@ tags: SEM, Coral Morphology, Coral
 
 Created by: Putnam Lab 2025-09-26
 
-A detailed training video for this protocol can be found here. It will ask you to request access from a member of the Putnam Lab.
+A detailed training video for this protocol can be found [here](add video file ). It will ask you to request access from a member of the Putnam Lab.
 
 Scanning Electron Microscopy (SEM) allows us to provide topographical visualization and distribution of structures we are interested in higher resolution than a regular light micrscope. This protocol is based on the SEM located at the URI Center for Atmospheric Chemistry Studies at GSO Narragansett Bay Campus. 
 
