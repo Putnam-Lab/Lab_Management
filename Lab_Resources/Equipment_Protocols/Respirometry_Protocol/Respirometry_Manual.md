@@ -240,7 +240,7 @@ Perform instructions in the correct order!!
 8. Leave Lot Nr blank.
 9.    Select the appropriate OXY_CH# probe and Channel #, then click “Assign to” to link the coupled O2 and Temp probes to each Channel.
 
-##To manually calibrate the probes for 100% saturated and 0% O2, follow page 13 - 18 in the detailed [PreSens Oxygen Calibration Protocol](https://www.presens.de/index.php?eID=dumpFile&t=f&f=1082&token=26a98c0985a772ed2db5c7801adf8ff454c29979)
+## To manually calibrate the probes for 100% saturated and 0% O2, follow page 13 - 18 in the detailed [Presens_DippingSpot_Manual](https://github.com/Putnam-Lab/Lab_Management/blob/20d4a9a6ae5bbbdf08060b9643e1ad8df639c324/images/Presens_DippingSpot_Manual_IM_DP-PSt3_PSt6_PSt9_dv3.pdf)
 
 
 
