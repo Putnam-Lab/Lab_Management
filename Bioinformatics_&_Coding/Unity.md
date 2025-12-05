@@ -64,7 +64,7 @@ What should go in each place:
    3. Programs you install yourself that would be useful to others in the lab can go in the `pgrams` directory
 2. **/project/pi_hputnam_uri_edu/**
    1. Store any raw sequencing data in the `raw_sequencing_data` directory.
-      1. **IMPORTANT** This data should be backed up, on NCBI SRA (documentation: [here](https://github.com/Putnam-Lab/Lab_Management/blob/f9615063146a65b8e4213aafe857917454406cc8/Bioinformatics_%26_Coding/Data_Mangament/SRA-Upload_Protocol.md)) and in the OSN Bucket (documentation to come, see Zoe's post [here](https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/blob/master/_posts/2025-05-06-Unity-OSN.md)
+      1. **IMPORTANT** This data should be backed up, on NCBI SRA (documentation: [here](https://github.com/Putnam-Lab/Lab_Management/blob/f9615063146a65b8e4213aafe857917454406cc8/Bioinformatics_%26_Coding/Data_Mangament/SRA-Upload_Protocol.md)) and in the OSN Bucket (documentation: [here](https://github.com/Putnam-Lab/Lab_Management/blob/master/Bioinformatics_%26_Coding/Unity_OSN_Bucket.md))
       2. Also, when working with this data, you should either:
          1. copy it into scratch
          2. or create symbolic links (symlinks, `ln -s`) to this data instead of running code on it directly from this location to minimize the risk of overwriting or modifying the raw data in this location.
