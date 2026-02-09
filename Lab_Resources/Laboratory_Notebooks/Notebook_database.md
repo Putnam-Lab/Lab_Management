@@ -43,39 +43,39 @@
 |        38       |  Putnam Lab            |   CBLS Wetlab             |   20220106         | 20240506         |           [Notebook 38](https://drive.google.com/drive/u/0/folders/1-yPG6LRvf_3I7PVfI1CmGuxYdbr_hcrA)      |                     |
 |        39       |  Danielle Becker  |  Moorea Gametogenesis   |  20211201          |   20221114       |  [Notebook 39 pages 1 - 166](https://drive.google.com/drive/u/1/folders/1RFvGxOfpmNIYO8jbi0eywAKb15d3kSCx)                  |                     |
 |        40       | Danielle Becker  | Moorea Gametogenesis |    20211201        |   20221114       | [Notebook 40 pages 1 - 154](https://drive.google.com/drive/u/1/folders/1-0eFSTW5194KzacfUk74LzKNGgnbdtUL)                   |                     |
-|        41       | Ariana Huffmyer & Jill Ashey | Symbiont Integration 2021 | 20220404 | |           [notebook 41 pages 1-63](https://drive.google.com/drive/u/2/folders/1dfVltn3Zv8fm_e_p3G8XRhedGzl817eY)         |                     |
+|        41       | Ariana Huffmyer & Jill Ashey | Symbiont Integration 2021 | 20220404 | |           [notebook 41 pages 1-63](https://drive.google.com/drive/u/2/folders/1dfVltn3Zv8fm_e_p3G8XRhedGzl817eY) |    |
 |        42       |               |                   |            |          |                    |                     |
-|        43       | Ariana Huffmyer | Symbiont Integration 2021 & Shedd Research Cruise | 20220405| 20240903 |  [notebook 43](https://drive.google.com/drive/u/2/folders/1XTpIJN_XWbaYdZVQmwlZUUQKH7J3ikqm)                  |    |
+|        43       | Ariana Huffmyer | Symbiont Integration 2021 & Shedd Research Cruise | 20220405| 20240903 |  [notebook 43](https://drive.google.com/drive/u/2/folders/1XTpIJN_XWbaYdZVQmwlZUUQKH7J3ikqm)  |    |
 |        44       |               |                   |            |          |                    |                     |
 |        45       | Ariana Huffmyer | Moorea Larval Temp 2022 | 20221020 | 20221028 |    [Notebook 45](https://drive.google.com/drive/u/2/folders/1o2JnTk62BX9FhFMAWTg6rsJR4C_aLgtA)    |                     |
-|        46       | Pierrick Harnay   |  Pocillopora ID RA Transect  Moorea |  20230228          |          |                    |                     |
-|        47       | Jill Ashey              |   HIMB 2023 + AST processing               | 20230123           |          |                    |                     |
+|        46       | Pierrick Harnay   |  Pocillopora ID RA Transect  Moorea |  20230228          |          |[Notebook 46](https://drive.google.com/drive/folders/1szAX288VkFoUv_gaWEZArQvq7fa_I-rj) |       |
+|        47       | Jill Ashey              |   HIMB 2023 + AST processing               | 20230123  |      |[Notebook 47](https://drive.google.com/drive/folders/13jmgYhjHw8LqJJbWh-GUG-HVwg1CewCW)     |     |
 |        48       | Zoe Dellaert  | ENCORE, E5, IntBio, CELS ST  | 20221001 |   |  [Notebook 48](https://drive.google.com/drive/folders/16R43HTOhWb1Ts8Qltwb7FzymeyHVnUNT?usp=drive_link)    |   |
 |        49       | Florence Fields |General Lab Notebook| 20230413|          |   [Notebook 49](https://drive.google.com/drive/folders/1GKsZdpzJqkfZudHTK638vZdE9qRy23wH?usp=drive_link) |                     |
-|        50       | Hollie Putnam | BSF Climate Solutions | 20230503  |          |                    |                     |
+|        50       | Hollie Putnam | BSF Climate Solutions | 20230503  |          |[Notebook 50](https://drive.google.com/drive/folders/1B2crd48pgrwQl4H9z6HxAmkzyFQp_Afd) |   |
 |        51       | Chloé Gilligan | COTS Pocillopora RAPID  Moorea          | 20240112| |  [Notebook 51](https://drive.google.com/drive/u/1/folders/1EYyFF8hKeZxYx5_gXWJiGwxXpYO6nRaV)        |       |
 |        52       |  |            |         |          |                    |
-|        53       | Florence Fields| ENCORE | 20230526 |          | [Notebook 53](https://drive.google.com/drive/folders/1iGhtulpmuf7jSJLjQkAVVJ-ysGaz3HkG?usp=drive_link)  |  |
+|        53       | Florence Fields| ENCORE | 20230526 |          | [Notebook 53](https://drive.google.com/drive/folders/1TCTIOVxNqafK2h1mqdrxlqBbRj7hS1re) |  |
 |        54       |  |            |         |          |                    |
 |        55       | Hollie Putnam  | COTS Pocillopora RAPID           | 20231001     |    |  [Notebook 55](https://drive.google.com/drive/u/1/folders/1E6YqB_r7Mmc1G0HQLTGKNMszTFlSDZvV)        |                    |
 |        56       |  |            |         |          |                    |
 |        57       |  |            |         |          |                    |
-|        58       | Chloé Gilligan | COTS POC RAPID  URI labwork        |         20231208|          |     [Notebook 58](https://drive.google.com/drive/u/0/folders/1JLQZPcFibXXdVEsVP8C47XHY_krW2ed8)               |
+|        58       | Chloé Gilligan | COTS POC RAPID  URI labwork        |  20231208 |          |     [Notebook 58](https://drive.google.com/drive/u/0/folders/1JLQZPcFibXXdVEsVP8C47XHY_krW2ed8) ||
 |        59       | Ariana Huffmyer | March 2024 URI Labwork     |  20240325       |          |      [Notebook 59](https://drive.google.com/drive/u/2/folders/1xIQI4vaf7FRWdMCSGtNAXpWpAge0TxO0)              |  
 |        60       | Hollie Putnam |  COTS Pocillopora RAPID Molecular  | 20240411   |        |  [Notebook 60](https://drive.google.com/drive/u/0/folders/1YEAM39BLfUMQlgJpUMyBkpGlcH6JC7aJ)   |
-|        61       | Putnam Lab | CBLS Wetlab           | 20240506        |          |                    |
+|        61       | Putnam Lab | CBLS Wetlab           | 20240506        |          | [Notebook 61](https://drive.google.com/drive/folders/1aSNqgZF-Z3muw-DDCRKonukUA69rmfss) ||
 |        62       | Federica Scucchia  |   PI-TPC Hawaii and Bermuda      |   20241110      |          |     [Notebook 62](https://drive.google.com/drive/folders/1DuUSGxtFnHROOA49gu-AhyM3zrJAppKk)               |
 |        63       |   |       |      |          |                   |
 |        64       | Hollie Putnam  |      To'a Aroha - Coral Care | Sept 2024    | |[Notebook 64](https://drive.google.com/drive/u/0/folders/1h3-ROBdekZdI8XLYNY-P4Ln6njR70pI2)         |                   |
 |        65       |   |       |      |          |                   |
 |        66       | Zoe Dellaert  |  Spatial Gene Expression Time Series | 20250519 |  | [Notebook 66](https://drive.google.com/drive/folders/1gG0gzYWPyWYgEgFP1cWNjod15tXFpT9E?usp=drive_link)    |
 |        67       | Thatcher Johnstone-Wright   | Coral Bailout      | May 2025     |          |  [Notebook 67](https://drive.google.com/drive/u/0/folders/1ImWbeXnYJUqvaLpdYRCae2X8zsLwqSCY)                 |
-|        68       | Natalie Champney | DNA/RNA Extractions - ENCORE and Spatial Gene Expression Time Series | 20250527  |          |                   |
+|        68       | Natalie Champney | DNA/RNA Extractions - ENCORE and Spatial Gene Expression Time Series | 20250527  |  | |[Notebook 68](https://drive.google.com/drive/folders/1jvtPMFPMtrO-UxByL_4_ZEbrDAu9Tdx4)  ||
 |        69       | Pooja Pednekar  | General Laboratory Notebook |  20250601  |          |      [Notebook 69](https://drive.google.com/drive/folders/1yWtO9-MgBgIP64x6b7o3ITpSSzBDpKJ0?usp=sharing)             |
 |        70       | Joel Hartery  |  Lab Notebook      | June 2025     |          |[Notebook 70](https://drive.google.com/drive/folders/1eMsHfhBYnQlJx8mF-kuul0o1xzI5MQs4) ||
 |        71       | Jessica Mongeau  |  Lab Tasks     | September 2025     |          | [Notebook 71](https://drive.google.com/drive/folders/1SfqdGIsaEQZ_RpgIc-EzeWR0ohQz6hI_) ||
 |        72       | Klara Sobotikova  |   Lab Notebook    | November 2025     |          |[Notebook 72](https://drive.google.com/drive/folders/1DFSw2Jor0HPR_ItfwvxNwadMYlzEqTNg)                   ||
-|        73       | Hollie Putnam  | Moorea Pocillopora and Porites larvae      | October 2025   |  | [Notebook 73](https://drive.google.com/drive/u/0/folders/1MKLKGDNljc2ss_aFSfVPgjeTaMroUnuU)                  |
+|        73       | Hollie Putnam  | Moorea Pocillopora and Porites larvae      | October 2025   |  | [Notebook 73](https://drive.google.com/drive/u/0/folders/1MKLKGDNljc2ss_aFSfVPgjeTaMroUnuU) ||
 |        74       |   |       |      |          |                   |
 |        75       |   |       |      |          |                   |
 |        76       |   |       |      |          |                   |
