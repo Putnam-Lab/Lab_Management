@@ -22,7 +22,7 @@
 |        17       |       E5      |  Moorea E5        | 20201231   |          | [Notebook 17](https://drive.google.com/drive/u/1/folders/11dWjEpwpiTMu7EzVegkFU8gnxio-5mOW)                   |                     |
 |        18       | Kevin Wong | BIOS 2019 |            |          |[Notebook 18](https://drive.google.com/drive/folders/1E2q5XXZTTT_CeMz5s-po-GdNbPZ5U3RB) |                     |
 |        19       | Emma Strand | Holobiont Integration | 20190501 |          |  [Notebook 19](https://drive.google.com/drive/u/1/folders/1oFkZh9Kr2VU9JRLI-gKOuxP9FVG0omm0)                 |                     |
-|        20       | EC (confirm name)|     |     |          | [Notebook 20](https://drive.google.com/drive/folders/1kKDoFKQqOaUOsYBsrpVXDcoqHB9XfQBK)  |                     |
+|        20       | Erin Chille |     |     |          | [Notebook 20](https://drive.google.com/drive/folders/1kKDoFKQqOaUOsYBsrpVXDcoqHB9XfQBK)  |                     |
 |        21       |       E5      |  Moorea E5        | 20201231   |          | [Notebook 21](https://drive.google.com/drive/u/1/folders/1LMvI56nj-jg01niKBVTu0n53zidkBciG)                   |                     |
 |        22       |       E5      |  Moorea E5        | 20201231   |          | [Notebook 22](https://drive.google.com/drive/u/1/folders/1ctpnqX0g5ZHRpiZ3aB4bwiaIXMdaaJgz)                   |                     |
 |        23       | Emma Strand | Holobiont Integration | 20191125 |          |  [Notebook 23](https://drive.google.com/drive/u/1/folders/1Ayn8sDQTodsC4eWe8clsrDW4-tCZEscW)                  |                     |
