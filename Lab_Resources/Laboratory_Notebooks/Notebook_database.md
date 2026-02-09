@@ -54,12 +54,12 @@
 |        49       | Florence Fields |General Lab Notebook| 20230413|          |   [Notebook 49](https://drive.google.com/drive/folders/1GKsZdpzJqkfZudHTK638vZdE9qRy23wH?usp=drive_link) |                     |
 |        50       | Hollie Putnam | BSF Climate Solutions | 20230503  |          |[Notebook 50](https://drive.google.com/drive/folders/1B2crd48pgrwQl4H9z6HxAmkzyFQp_Afd) |   |
 |        51       | Chloé Gilligan | COTS Pocillopora RAPID  Moorea          | 20240112| |  [Notebook 51](https://drive.google.com/drive/u/1/folders/1EYyFF8hKeZxYx5_gXWJiGwxXpYO6nRaV)        |       |
-|        52       |  |            |         |          | No physical notebook in the lab                   |
+|        52       |  |            |         |          |                  | No physical notebook in the lab 
 |        53       | Florence Fields| ENCORE | 20230526 |          | [Notebook 53](https://drive.google.com/drive/folders/1TCTIOVxNqafK2h1mqdrxlqBbRj7hS1re) |  |
-|        54       |  |            |         |          |      No physical notebook in the lab              |
+|        54       |  |            |         |          |                  | No physical notebook in the lab 
 |        55       | Hollie Putnam  | COTS Pocillopora RAPID           | 20231001     |    |  [Notebook 55](https://drive.google.com/drive/u/1/folders/1E6YqB_r7Mmc1G0HQLTGKNMszTFlSDZvV)        |                    |
-|        56       |  |            |         |          |      No physical notebook in the lab              |
-|        57       |  |            |         |          |      No physical notebook in the lab              |
+|        56       |  |            |         |          |                   | No physical notebook in the lab
+|        57       |  |            |         |          |                  | No physical notebook in the lab 
 |        58       | Chloé Gilligan | COTS POC RAPID  URI labwork        |  20231208 |          |     [Notebook 58](https://drive.google.com/drive/u/0/folders/1JLQZPcFibXXdVEsVP8C47XHY_krW2ed8) ||
 |        59       | Ariana Huffmyer | March 2024 URI Labwork     |  20240325       |          |      [Notebook 59](https://drive.google.com/drive/u/2/folders/1xIQI4vaf7FRWdMCSGtNAXpWpAge0TxO0)              |  
 |        60       | Hollie Putnam |  COTS Pocillopora RAPID Molecular  | 20240411   |        |  [Notebook 60](https://drive.google.com/drive/u/0/folders/1YEAM39BLfUMQlgJpUMyBkpGlcH6JC7aJ)   |
