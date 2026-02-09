@@ -65,9 +65,9 @@
 |        60       | Hollie Putnam |  COTS Pocillopora RAPID Molecular  | 20240411   |        |  [Notebook 60](https://drive.google.com/drive/u/0/folders/1YEAM39BLfUMQlgJpUMyBkpGlcH6JC7aJ)   |
 |        61       | Putnam Lab | CBLS Wetlab           | 20240506        |          | [Notebook 61](https://drive.google.com/drive/folders/1aSNqgZF-Z3muw-DDCRKonukUA69rmfss) ||
 |        62       | Federica Scucchia  |   PI-TPC Hawaii and Bermuda      |   20241110      |          |     [Notebook 62](https://drive.google.com/drive/folders/1DuUSGxtFnHROOA49gu-AhyM3zrJAppKk)               |
-|        63       |   |       |      |          |  No physical notebook in the lab                 |
+|        63       |   |       |      |          |                  |No physical notebook in the lab 
 |        64       | Hollie Putnam  |      To'a Aroha - Coral Care | Sept 2024    | |[Notebook 64](https://drive.google.com/drive/u/0/folders/1h3-ROBdekZdI8XLYNY-P4Ln6njR70pI2)         |                   |
-|        65       |   |       |      |          |No physical notebook in the lab                   |
+|        65       |   |       |      |          |                   |No physical notebook in the lab
 |        66       | Zoe Dellaert  |  Spatial Gene Expression Time Series | 20250519 |  | [Notebook 66](https://drive.google.com/drive/folders/1gG0gzYWPyWYgEgFP1cWNjod15tXFpT9E?usp=drive_link)    |
 |        67       | Thatcher Johnstone-Wright   | Coral Bailout      | May 2025     |          |  [Notebook 67](https://drive.google.com/drive/u/0/folders/1ImWbeXnYJUqvaLpdYRCae2X8zsLwqSCY)                 |
 |        68       | Natalie Champney | DNA/RNA Extractions - ENCORE and Spatial Gene Expression Time Series | 20250527  |  | [Notebook 68](https://drive.google.com/drive/folders/1jvtPMFPMtrO-UxByL_4_ZEbrDAu9Tdx4) ||
