@@ -70,7 +70,7 @@
 |        65       |   |       |      |          |                   |
 |        66       | Zoe Dellaert  |  Spatial Gene Expression Time Series | 20250519 |  | [Notebook 66](https://drive.google.com/drive/folders/1gG0gzYWPyWYgEgFP1cWNjod15tXFpT9E?usp=drive_link)    |
 |        67       | Thatcher Johnstone-Wright   | Coral Bailout      | May 2025     |          |  [Notebook 67](https://drive.google.com/drive/u/0/folders/1ImWbeXnYJUqvaLpdYRCae2X8zsLwqSCY)                 |
-|        68       | Natalie Champney | DNA/RNA Extractions - ENCORE and Spatial Gene Expression Time Series | 20250527  |  | |[Notebook 68](https://drive.google.com/drive/folders/1jvtPMFPMtrO-UxByL_4_ZEbrDAu9Tdx4)  ||
+|        68       | Natalie Champney | DNA/RNA Extractions - ENCORE and Spatial Gene Expression Time Series | 20250527  |  | [Notebook 68](https://drive.google.com/drive/folders/1jvtPMFPMtrO-UxByL_4_ZEbrDAu9Tdx4) ||
 |        69       | Pooja Pednekar  | General Laboratory Notebook |  20250601  |          |      [Notebook 69](https://drive.google.com/drive/folders/1yWtO9-MgBgIP64x6b7o3ITpSSzBDpKJ0?usp=sharing)             |
 |        70       | Joel Hartery  |  Lab Notebook      | June 2025     |          |[Notebook 70](https://drive.google.com/drive/folders/1eMsHfhBYnQlJx8mF-kuul0o1xzI5MQs4) ||
 |        71       | Jessica Mongeau  |  Lab Tasks     | September 2025     |          | [Notebook 71](https://drive.google.com/drive/folders/1SfqdGIsaEQZ_RpgIc-EzeWR0ohQz6hI_) ||
