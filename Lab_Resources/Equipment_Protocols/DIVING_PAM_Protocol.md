@@ -13,7 +13,7 @@ This protocol is used to measure the flourescence of the coral polyps in order t
 
 The equipment used in this protocol is called the Underwater Fluorometer Diving-PAM (Pluse Amplitude Modulated). The manual of this equipment could be accessed [here](https://www.walz.com/files/downloads/diving3eb.pdf). 
 
-![](diving pam pic)
+![](https://github.com/ppednekar25/Pednekar_Putnam_Lab_Notebook/blob/23a2ee14eb797f65a83d32d29176acac016e6ea9/images/DIVING-PAM.jpg?raw=TRUE)
 
 ### General Overview of the steps for using PAM
 1. Tagging the corals you want to measure the PAM data from
@@ -22,12 +22,13 @@ The equipment used in this protocol is called the Underwater Fluorometer Diving-
 4. Measuring fluorescence using diving PAM after dark adaptation period ends
 5. Equipment care and storage
 6. Obtaining remaining PAM data from Memory
+7. Turn back the lights in the aquarium room
 
 Make sure you are timing the entire PAM process or schedule based on the availability of the lab members as well as how much time you have in the wetlab. Ideally, atleast two individuals should be present while following this protocol for a ideal and effective completion.
 
-**Please note: Before scheduling for any PAM measurements, make sure the Diving PAM has been charged for use. The process of charging it could be referred from the manual attached above.**
+**Please note: Before scheduling for any PAM measurements, make sure the Diving PAM has been charged for use. The process of charging it could be referred from the manual attached above on [Page 31-32](https://www.walz.com/files/downloads/diving3eb.pdf) under the section 8.1.3 Rechargeable Battery. A fully charged battery would display voltage between 12.5-12.9 V. Charge the battery whenever the voltage shows to be 11.2 V or below.**
 
-# BATTERY SETTINGS 
+
 ### STEP 1: Tagging the corals
 
 Tag a desired number of corals from both the sides of the blue tanks using zip ties avaliable with us. Make sure you select the right color of the zip tie as you should be able to see the zip ties in darkness while PAMing.  
@@ -43,9 +44,11 @@ In order to effectively PAM the corals, make sure you have this three components
 2. The Underwater Cable
 3. Plastic connector piece/spacer
 
-![](Parts photo)
+![](https://github.com/ppednekar25/Pednekar_Putnam_Lab_Notebook/blob/23a2ee14eb797f65a83d32d29176acac016e6ea9/images/DIVING-PAM-parts.jpg?raw=TRUE)
 
-![](Connector Piece)
+![Connector Piece](https://github.com/ppednekar25/Pednekar_Putnam_Lab_Notebook/blob/23a2ee14eb797f65a83d32d29176acac016e6ea9/images/Connector_piece.jpeg?raw=TRUE)
+
+![](https://github.com/ppednekar25/Pednekar_Putnam_Lab_Notebook/blob/23a2ee14eb797f65a83d32d29176acac016e6ea9/images/PAM_Parts.jpg?raw=TRUE)
 
 Follow the steps to assemble the Diving PAM equipment for measuring fluorescence: 
 
@@ -62,7 +65,6 @@ Follow the steps to assemble the Diving PAM equipment for measuring fluorescence
 4. Check if the DIVING-PAM is turning on. In order to check, click on the ON-switch (Number 1 in the diagram above). If everything you have done so far is proper, the display will illuminate and you would be able to see the menu. Now you can proceed with the next steps.
 
 5. **Choose the follow setting for PAMing different corals species in the tank present in Mode-Menu 50 (Measuring Light Intensity) & 49 (Gain).**
-  
   Using the decreasing arrow on the PAM from position 1, go to the respective menus mentioned above to select the settings shown below-
 
      i. For Pocillopora acuta and Montipora capitata,
@@ -139,7 +141,7 @@ Follow these steps for obtaining PAM data:
 
    vii. L: Light intensity in units of PAR (Photosynthetic Active Radiation)
 
-![](PAM DATA picture)
+![](https://github.com/ppednekar25/Pednekar_Putnam_Lab_Notebook/blob/23a2ee14eb797f65a83d32d29176acac016e6ea9/images/PAM_display.JPG?raw=TRUE)
 
 7. **Note down the value in front of the Y (Yeild measurement) and M for example., 693 and 392 respectively from this picture above for that coral fragment entry in the datasheet you have created. You will go back to the memory to extract the other values later at the end.**
 
@@ -148,7 +150,9 @@ Follow these steps for obtaining PAM data:
 
 ### STEP 5: Equipment care and storage 
 
-After the completion of all the coral frags, carefully take out the underwater cable out of the water and dettach it from the DIVING-PAM by unscrewing it. Transport the DIVING-PAM onto the table and wash the underwater cable as well as the spacer with freshwater and keep it for drying on a cloth.
+**Now that you have completed all the coral frags, turn on all the lights using the switch or the myAI app.**
+
+Now, carefully take out the underwater cable out of the water and dettach it from the DIVING-PAM by unscrewing it. Transport the DIVING-PAM onto the table and wash the underwater cable as well as the spacer with freshwater and keep it for drying on a cloth.
 
 **DO NOT wash the DIVING-PAM with water. Even though the equipment is safe to use underwater, it is ideal to have it in a case if using it in water**. You can simply wipe any water droplets, if there are any on the DIVING-PAM.
 
@@ -165,5 +169,6 @@ Tap MEM > Use arrow keys (∧ or ∨) > See previously recorded data > Look for 
 
 
 
-
 Update the datasheet with the data and note down any observations from the day. Report to your supervisor about the day and any details.
+
+
