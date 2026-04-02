@@ -77,7 +77,7 @@
 |        72       | Klara Sobotikova  |   Lab Notebook    | November 2025     |          |[Notebook 72](https://drive.google.com/drive/folders/1DFSw2Jor0HPR_ItfwvxNwadMYlzEqTNg)                   ||
 |        73       | Hollie Putnam  | Moorea Pocillopora and Porites larvae      | October 2025   |  | [Notebook 73](https://drive.google.com/drive/u/0/folders/1MKLKGDNljc2ss_aFSfVPgjeTaMroUnuU) ||
 |        74       |   |       |      |          |                   |
-|        75       |   |       |      |          |                   |
+|        75       | Putnam Lab   |  CBLS Wetlab     |  20260402    |          |                   | [Notebook 75](https://drive.google.com/drive/folders/13Macek3PKkzaLcnOM7DMUnQBH4qtBSwr?usp=sharing) ||
 |        76       |   |       |      |          |                   |
 |        77       |   |       |      |          |                   |
 |        78       |   |       |      |          |                   |
