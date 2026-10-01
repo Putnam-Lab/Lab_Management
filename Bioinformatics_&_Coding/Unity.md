@@ -60,8 +60,9 @@ What should go in each place:
 
 1. **/work/pi_hputnam_uri_edu/**
    1. Make your own directory here (`mkdir username`) to store active working files, such as scripts, github repositories, output files (that aren't large)
-   2. Conda environments can be created in the `conda` directory, follow the guidance here: https://docs.unity.rc.umass.edu/documentation/software/conda/
-   3. Programs you install yourself that would be useful to others in the lab can go in the `pgrams` directory
+         1. All active writing of files (e.g., script outputs , logs, etc) should go here or in scratch, not /project/
+   3. Conda environments can be created in the `conda` directory, follow the guidance here: https://docs.unity.rc.umass.edu/documentation/software/conda/
+   4. Programs you install yourself that would be useful to others in the lab can go in the `pgrams` directory
 2. **/project/pi_hputnam_uri_edu/**
    1. Store any raw sequencing data in the `raw_sequencing_data` directory.
       1. **IMPORTANT** This data should be backed up, on NCBI SRA (documentation: [here](https://github.com/Putnam-Lab/Lab_Management/blob/f9615063146a65b8e4213aafe857917454406cc8/Bioinformatics_%26_Coding/Data_Mangament/SRA-Upload_Protocol.md)) and in the OSN Bucket (documentation: [here](https://github.com/Putnam-Lab/Lab_Management/blob/master/Bioinformatics_%26_Coding/Unity_OSN_Bucket.md))
@@ -69,8 +70,10 @@ What should go in each place:
          1. copy it into scratch
          2. or create symbolic links (symlinks, `ln -s`) to this data instead of running code on it directly from this location to minimize the risk of overwriting or modifying the raw data in this location.
             1. Important guidance for using symlinks:
-                1. **NEVER use `rm -r` to delete a symlink or directory containting symlinks, as it will *recursively delete the file the link points to***. Go into the directory containig the symlinks, and delete them using `rm`, just don't use `rm -r`. 
+                1. **NEVER use `rm -r` to delete a symlink or directory containting symlinks, as it will *recursively delete the file the link points to***. Go into the directory containig the symlinks, and delete them using `rm`, just don't use `rm -r`.
+                      1. This is something I (Zoe) have learned the hard way :(
     2. Make your own directory here (`mkdir username`) to store any large files created during analysis that you need to keep longer than /scratch/ allows (ones too large to keep in `/work/pi_hputnam_uri_edu/`). This can include compressed trimmed reads, bam files, assembled transcriptomes/genomes, annotation files, etc.
+    3. Unity staff are urging us to not use `/project/` as a place to have programs outputting files to or any virtual environments, often updated git repos, etc. It should be a long-term storage space, and slows down a lot when many people try to use it at the same time.
 3. **Scratch (see below)**
    1. Everyone can make scratch directories to which they can output temporary processing files (eg, trimmed reads, bam files, nextflow /work and /cache direcotories, etc)
    2. Depending on your preference, you may want to treat this like the directory in /work/pi_hputnam_uri_edu/ and do all your work from /scratch/ including writing scripts, etc, but make sure to regularly back up scripts and any files you need to keep to /work/pi_hputnam_uri_edu/ and github.
@@ -120,6 +123,8 @@ You only need one scratch directory (or if you want one per project that's okay 
 ### How to move files from one location in Unity to another
 
 I recommend using [globus (info here)](https://docs.unity.uri.edu/documentation/managing-files/globus/) to copy large amounts of files from /scratch/ to /project/ or vice versa. It can run without Unity being open on your computer, and checks the fidelity of all the files that are copied. `mv` command also works, but will take a long time between /scratch/ to /project/ or vice versa because they are stored on different physical drives.
+
+New note: Sometimes the /project/ filesystem is incredibly slow due to high demand and when this happens it sometimes will not show up on globus for me. Rsync should still work but will be slow.
 
 ### How to move files from your computer to Unity and Vice Versa
 
