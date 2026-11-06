@@ -79,7 +79,7 @@
 |        74       |   |       |      |          |                   |
 |        75       | Putnam Lab   |  CBLS Wetlab     |  20260402    |          |                   | [Notebook 75](https://drive.google.com/drive/folders/13Macek3PKkzaLcnOM7DMUnQBH4qtBSwr?usp=sharing) ||
 |        76       |   |       |      |          |                   |
-|        77       |   |       |      |          |                   |
+|        77       | Sofi Mendez  |  Early Life History URI, Moorea, To'a Nu'uroa     |  2025    |   [Notebook 77](https://drive.google.com/drive/folders/1OaPY8QvRnKumZiOxrob5OGy7_4bZIQ1O?usp=drive_link)       |                   |
 |        78       |   |       |      |          |                   |
 |        79       |   |       |      |          |                   |
 |        80       |   |       |      |          |                   |
