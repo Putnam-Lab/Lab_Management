@@ -58,7 +58,7 @@
 |        53       | Florence Fields| ENCORE | 20230526 |          | [Notebook 53](https://drive.google.com/drive/folders/1TCTIOVxNqafK2h1mqdrxlqBbRj7hS1re) |  |
 |        54       |  |            |         |          |                  | No physical notebook in the lab 
 |        55       | Hollie Putnam  | COTS Pocillopora RAPID           | 20231001     |    |  [Notebook 55](https://drive.google.com/drive/u/1/folders/1E6YqB_r7Mmc1G0HQLTGKNMszTFlSDZvV)        |                    |
-|        56       |  |            |         |          |                   | No physical notebook in the lab
+|        56       |  Moorea |            |         |          |                   | [Notebook 56](https://drive.google.com/drive/folders/1DdpMa6lw3mmLA71BqVCJ-8p2VlndibNQ?usp=drive_link)
 |        57       |  |            |         |          |                  | No physical notebook in the lab 
 |        58       | Chloé Gilligan | COTS POC RAPID  URI labwork        |  20231208 |          |     [Notebook 58](https://drive.google.com/drive/u/0/folders/1JLQZPcFibXXdVEsVP8C47XHY_krW2ed8) ||
 |        59       | Ariana Huffmyer | March 2024 URI Labwork     |  20240325       |          |      [Notebook 59](https://drive.google.com/drive/u/2/folders/1xIQI4vaf7FRWdMCSGtNAXpWpAge0TxO0)              |  
