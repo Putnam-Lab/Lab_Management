@@ -18,7 +18,7 @@
 |        13       | Maggie Schedl |General Lab Notebook|20181201   |          |  [Notebook 13](https://drive.google.com/drive/u/1/folders/1JhjKmaSok6s70O5-qwmVPwPhq7KZBuF1)|                    |
 |        14       |Kevin Wong | Astrangia Nutrition 2019 |            |          |[Notebook 14](https://drive.google.com/drive/folders/1TK7sLe4XUWh581e0WaxGna5614ufZK4-)|                     |
 |        15       |Kevin Wong | Porites asteroides Genome|            |          |[Notebook 15](https://drive.google.com/drive/folders/1mSX3N0QBR5Koo4hvp4E5K555CoBZEOec)|                     |
-|        16       | Name NA   |                |            |          |[Notebook 16](https://drive.google.com/drive/folders/1cbpEl7gER9q7eaTt01AXKRfWDRyYepCb?usp=sharing)|                     |
+|        16       | Emma Strand   |   Holobiont Integration | 20190502      |          |[Notebook 16](https://drive.google.com/drive/folders/1cbpEl7gER9q7eaTt01AXKRfWDRyYepCb?usp=sharing)|                     |
 |        17       |       E5      |  Moorea E5        | 20201231   |          | [Notebook 17](https://drive.google.com/drive/u/1/folders/11dWjEpwpiTMu7EzVegkFU8gnxio-5mOW)                   | No physical notebook in the lab                    |
 |        18       | Kevin Wong | BIOS 2019 |            |          |[Notebook 18](https://drive.google.com/drive/folders/1E2q5XXZTTT_CeMz5s-po-GdNbPZ5U3RB) |                     |
 |        19       | Emma Strand | Holobiont Integration | 20190501 |          |  [Notebook 19](https://drive.google.com/drive/u/1/folders/1oFkZh9Kr2VU9JRLI-gKOuxP9FVG0omm0)                 |                     |
