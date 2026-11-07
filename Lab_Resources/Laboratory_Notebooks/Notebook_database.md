@@ -58,7 +58,7 @@
 |        53       | Florence Fields| ENCORE | 20230526 |          | [Notebook 53](https://drive.google.com/drive/folders/1TCTIOVxNqafK2h1mqdrxlqBbRj7hS1re) |  |
 |        54       |  |            |         |          |                  | No physical notebook in the lab 
 |        55       | Hollie Putnam  | COTS Pocillopora RAPID           | 20231001     |    |  [Notebook 55](https://drive.google.com/drive/u/1/folders/1E6YqB_r7Mmc1G0HQLTGKNMszTFlSDZvV)        |                    |
-|        56       |  Moorea |            |         |          |                   | [Notebook 56](https://drive.google.com/drive/folders/1DdpMa6lw3mmLA71BqVCJ-8p2VlndibNQ?usp=drive_link)
+|        56       |  Moorea |            |         |          |                    [Notebook 56](https://drive.google.com/drive/folders/1DdpMa6lw3mmLA71BqVCJ-8p2VlndibNQ?usp=drive_link)|
 |        57       |  |            |         |          |                  | No physical notebook in the lab 
 |        58       | Chloé Gilligan | COTS POC RAPID  URI labwork        |  20231208 |          |     [Notebook 58](https://drive.google.com/drive/u/0/folders/1JLQZPcFibXXdVEsVP8C47XHY_krW2ed8) ||
 |        59       | Ariana Huffmyer | March 2024 URI Labwork     |  20240325       |          |      [Notebook 59](https://drive.google.com/drive/u/2/folders/1xIQI4vaf7FRWdMCSGtNAXpWpAge0TxO0)              |  
@@ -77,7 +77,7 @@
 |        72       | Klara Sobotikova  |   Lab Notebook    | November 2025     |          |[Notebook 72](https://drive.google.com/drive/folders/1DFSw2Jor0HPR_ItfwvxNwadMYlzEqTNg)                   ||
 |        73       | Hollie Putnam  | Moorea Pocillopora and Porites larvae      | October 2025   |  | [Notebook 73](https://drive.google.com/drive/u/0/folders/1MKLKGDNljc2ss_aFSfVPgjeTaMroUnuU) ||
 |        74       |   |       |      |          |  No physical notebook in the lab                  |
-|        75       | Putnam Lab   |  CBLS Wetlab     |  20260402    |          |                   | [Notebook 75](https://drive.google.com/drive/folders/13Macek3PKkzaLcnOM7DMUnQBH4qtBSwr?usp=sharing) ||
+|        75       | Putnam Lab   |  CBLS Wetlab     |  20260402    |                     | [Notebook 75](https://drive.google.com/drive/folders/13Macek3PKkzaLcnOM7DMUnQBH4qtBSwr?usp=sharing) ||
 |        76       |   |       |      |          |                   |
 |        77       | Sofi Mendez  |  Early Life History URI, Moorea, To'a Nu'uroa     |  2025    |   [Notebook 77](https://drive.google.com/drive/folders/1OaPY8QvRnKumZiOxrob5OGy7_4bZIQ1O?usp=drive_link)       |                   |
 |        78       | Moorea   |    TBD   |  TBD    |     TBD     |   [Notebook 78]()                |
