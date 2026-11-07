@@ -26,7 +26,7 @@
 |        21       |       E5      |  Moorea E5        | 20201231   |          | [Notebook 21](https://drive.google.com/drive/u/1/folders/1LMvI56nj-jg01niKBVTu0n53zidkBciG)                   |  No physical notebook in the lab                   |
 |        22       |       E5      |  Moorea E5        | 20201231   |          | [Notebook 22](https://drive.google.com/drive/u/1/folders/1ctpnqX0g5ZHRpiZ3aB4bwiaIXMdaaJgz)                   | No physical notebook in the lab                    |
 |        23       | Emma Strand | Holobiont Integration | 20191125 |          |  [Notebook 23](https://drive.google.com/drive/u/1/folders/1Ayn8sDQTodsC4eWe8clsrDW4-tCZEscW)                  |                     |
-|        24       | HR (confirm name)|                   |            |          |[Notebook 24](https://drive.google.com/drive/folders/1RmmCKZ2NIFn755aW5-JoNmBg8fwsvC1y)|                     |
+|        24       | Hannah Reich |  Syn Coral  |  20200811          |          |[Notebook 24](https://drive.google.com/drive/folders/1RmmCKZ2NIFn755aW5-JoNmBg8fwsvC1y)|                     |
 |        25       |        E5       |     Moorea E5       |  20201016          |             |   [Notebook 25](https://drive.google.com/drive/folders/1SHnCNgxqi6OsHp8NFXRCfpae3jGuF9lm?usp=drive_link)                  |
 |        26       |  Jill Ashey   | Astrangia 2021    | 20201121   | 20210721 | [Notebook 26](https://drive.google.com/drive/folders/1GJrh4dUy79-8LLfCmJkPY19dNTYPLrO9)                  |                     |
 |        27       | Danielle Becker |URI Labwork: E5 + Gametogenesis | 20210125 |          |      [Notebook 27 pages 1 - 89](https://drive.google.com/drive/u/2/folders/1LL8oF1fFLrY6pfJWSK0knYeZG7gHGXAr)              |                     |
