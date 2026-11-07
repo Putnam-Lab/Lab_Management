@@ -82,5 +82,4 @@
 |        77       | Sofi Mendez  |  Early Life History URI, Moorea, To'a Nu'uroa     |  2025    |   [Notebook 77](https://drive.google.com/drive/folders/1OaPY8QvRnKumZiOxrob5OGy7_4bZIQ1O?usp=drive_link)       |                   |
 |        78       | Moorea   |    TBD   |  TBD    |     TBD     |   [Notebook 78]()                |
 |        79       | Moorea   |    TBD   |  TBD    |     TBD     |   [Notebook 79]()                |
-|        80       |   |       |      |          |                   |
-|        81       |   |       |      |          |                   |
+
