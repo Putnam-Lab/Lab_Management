@@ -76,11 +76,11 @@
 |        71       | Jessica Mongeau  |  Lab Tasks     | September 2025     |          | [Notebook 71](https://drive.google.com/drive/folders/1SfqdGIsaEQZ_RpgIc-EzeWR0ohQz6hI_) ||
 |        72       | Klara Sobotikova  |   Lab Notebook    | November 2025     |          |[Notebook 72](https://drive.google.com/drive/folders/1DFSw2Jor0HPR_ItfwvxNwadMYlzEqTNg)                   ||
 |        73       | Hollie Putnam  | Moorea Pocillopora and Porites larvae      | October 2025   |  | [Notebook 73](https://drive.google.com/drive/u/0/folders/1MKLKGDNljc2ss_aFSfVPgjeTaMroUnuU) ||
-|        74       |   |       |      |          |                   |
+|        74       |   |       |      |          |  No physical notebook in the lab                  |
 |        75       | Putnam Lab   |  CBLS Wetlab     |  20260402    |          |                   | [Notebook 75](https://drive.google.com/drive/folders/13Macek3PKkzaLcnOM7DMUnQBH4qtBSwr?usp=sharing) ||
 |        76       |   |       |      |          |                   |
 |        77       | Sofi Mendez  |  Early Life History URI, Moorea, To'a Nu'uroa     |  2025    |   [Notebook 77](https://drive.google.com/drive/folders/1OaPY8QvRnKumZiOxrob5OGy7_4bZIQ1O?usp=drive_link)       |                   |
-|        78       |   |       |      |          |                   |
-|        79       |   |       |      |          |                   |
+|        78       | Moorea   |    TBD   |  TBD    |     TBD     |   [Notebook 78]()                |
+|        79       | Moorea   |    TBD   |  TBD    |     TBD     |   [Notebook 79]()                |
 |        80       |   |       |      |          |                   |
 |        81       |   |       |      |          |                   |
