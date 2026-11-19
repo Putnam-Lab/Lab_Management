@@ -78,7 +78,7 @@
 |        73       | Hollie Putnam  | Moorea Pocillopora and Porites larvae      | October 2025   |  | [Notebook 73](https://drive.google.com/drive/u/0/folders/1MKLKGDNljc2ss_aFSfVPgjeTaMroUnuU) ||
 |        74       |   |       |      |          |  No physical notebook in the lab                  |
 |        75       | Putnam Lab   |  CBLS Wetlab     |  20260402    |                     | [Notebook 75](https://drive.google.com/drive/folders/13Macek3PKkzaLcnOM7DMUnQBH4qtBSwr?usp=sharing) ||
-|        76       |   |       |      |          |                   |
+|        76       | Hollie Putnam  | Isoseq, 5Base, methods testing  |  2026    |       |   [Notebook 76]()                  |
 |        77       | Sofi Mendez  |  Early Life History URI, Moorea, To'a Nu'uroa     |  2025    | |  [Notebook 77](https://drive.google.com/drive/folders/1OaPY8QvRnKumZiOxrob5OGy7_4bZIQ1O?usp=drive_link)       |                   |
 |        78       | Moorea   |    TBD   |  TBD    |     TBD     |   [Notebook 78]()                |
 |        79       | Moorea   |    TBD   |  TBD    |     TBD     |   [Notebook 79]()                |
